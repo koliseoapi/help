@@ -1,0 +1,25 @@
+.breadcrumbs {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: .4rem;
+  margin-left: 0 !important;
+}
+.breadcrumb-a {
+  color: $gray;
+  text-decoration: none;
+  font-size: .875rem;
+}
+.breadcrumb-li {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb-li:not(:first-child):before {
+  display: block;
+  content: " ";
+  width: $chevron-width;
+  height: $chevron-width;
+  background-image: url('/img/chevron-right.svg');
+  background-size: contain;
+  margin: 0 .3rem;
+  opacity: .5;
+}

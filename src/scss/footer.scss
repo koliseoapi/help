@@ -1,0 +1,74 @@
+$footer-link-color: #707577;
+$footer-link-hover-color: #2E3C43;
+$footer-padding: 40px;
+$footer-logo-width: 40px;
+
+footer {
+//  margin-top: $footer-padding;
+  background: $body-background;
+  width: 100%;
+}
+
+footer dd {
+  margin-bottom: 0;
+}
+.footer-row {
+  border-top: 1px solid #eee;
+  padding-bottom: $footer-padding;
+
+  & > .content {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+}
+.footer-column {
+  padding-top: $footer-padding;
+  margin-bottom: 0;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.footer-column-title {
+  text-transform: uppercase;
+  font-family: $headingFontFamily;
+  color: $footer-link-hover-color;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.footer-link {
+  color: $footer-link-color;
+  transition: color .2s ease;
+  font-size: 14px;
+  &:hover, &:focus, &:active {
+    color: $footer-link-hover-color;
+    text-decoration: none;
+  }
+  &[class*='icon-']:before {
+    margin-right: 0.9em;
+    font-size: 16px;
+  }
+}
+.footer-column.logo-container {
+  display: flex;
+  display-flow: row;
+}
+.logo-footer {
+  width: $footer-logo-width;
+  height: $footer-logo-width;
+  text-indent: -1000px;
+  overflow: hidden;
+  display: block;
+  background: url('/img/k.svg') no-repeat;
+  background-size: contain;
+  margin-right: 20px;
+}
+.footer-credits {
+  color: $footer-link-color;
+  font-size: 12px;
+  flex-grow: 1;
+  &> .title {
+    color: $footer-link-hover-color;
+  }
+}

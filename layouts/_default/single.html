@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="help-content">
+    {{ partial "toc.html" . }}
+    <main class="help-content-main">
+      {{ partial "breadcrumbs.html" . }}
+      <h1>{{ .Title }}</h1>
+      {{ partial "toc.html" . }}
+      {{ .Content }}
+    </main>
+  </div>
+{{ end }}

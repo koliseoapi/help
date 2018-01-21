@@ -1,0 +1,75 @@
+// screen sizes
+//$landscape: "only screen and (orientation: landscape)" !default;
+//$portrait: "only screen and (orientation: portrait)" !default;
+//$medium-up: "only screen and (min-width:640px)" !default;
+//$large-up: "only screen and (min-width:980px)" !default;
+
+// desktop
+@media only screen and (min-width:720px) {
+
+  h1 { font-size: 40px; }
+  h2 { font-size: 30px; }
+  h3 { font-size: 25px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 16px; }
+  h6 { font-size: 14px; }
+
+  .help-and-nav {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .sidebar-nav {
+    // display sidebar-nav
+    display: block;
+    // fixed width with flex
+    flex: 0 0 15rem;
+    margin-bottom: 0;
+    border-right: 2px solid $border-color;
+    border-bottom: none;
+  }
+
+  .sidebar-nav-a2.selected {
+    position: relative;
+    right: -2px;
+    margin-left: -2px;
+    padding-left: 36px;
+  }
+
+}
+
+// big desktop
+@media only screen and (min-width:1200px) {
+
+  .content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .help-content {
+    display: flex;
+  }
+
+  .toc {
+    // fixed width with flex
+    flex: 0 0 15rem;
+    order: 1;
+    padding-left: 1.5rem;
+  }
+
+  .toc-contents {
+    position: fixed;
+    z-index: 1;
+  }
+
+  // hide toc embedded with content
+  .help-content-main > .toc {
+    display: none;
+  }
+  
+  // show toc in parent
+  .help-content > .toc {
+    display: block;
+  }
+
+}

@@ -1,0 +1,23 @@
+<nav class="sidebar-nav" role="navigation">
+  {{ $currentPage := . }} 
+  {{ range .Site.Menus.main }}
+    <a 
+      class="sidebar-nav-a {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}selected{{end}}" 
+      href="{{.URL}}"
+    >
+      {{ .Name }}
+    </a>
+    {{ if .HasChildren }}
+      <div class="submenu {{if not ( or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) ) }}collapsed{{end}}">
+      {{ range .Children }}
+        <a 
+          class="sidebar-nav-a2 {{if $currentPage.IsMenuCurrent "main" . }}selected{{end}}" 
+          href="{{.URL}}"
+        > 
+          {{ .Name }} 
+        </a> 
+      {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</nav>

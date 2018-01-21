@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <nav class="topbar top-bar-section" role="navigation">
+  <div class="content">
+    <a href="/" class="topbar-logo" aria-label="Homepage">
+      <img aria-hidden="true" class="topbar-logo-img" src="/img/wlogo.svg">
+    </a>
+    <div class="topbar-separator"></div>
+    <a class="topbar-link" href="https://www.koliseo.com/create">Create event</a>
+  </div>
+</nav>
+  <div class="help-and-nav content">
+    <nav class="sidebar-nav" role="navigation">
+   
+  
+    <a 
+      class="sidebar-nav-a selected" 
+      href="/events/"
+    >
+      Events
+    </a>
+    
+      <div class="submenu ">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/create/"
+        > 
+          Create event 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/dates/"
+        > 
+          Date and Location 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/ticket-types/"
+        > 
+          Ticket Types 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/sales/"
+        > 
+          Ticket sales 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/discounts/"
+        > 
+          Discounts 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 selected" 
+          href="/events/forms/"
+        > 
+          Attendee Forms 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/invitations/"
+        > 
+          Invitations 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/clone/"
+        > 
+          Cloning your event 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/tickets/"
+    >
+      Tickets
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/pricing/"
+        > 
+          Pricing 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/validation/"
+        > 
+          Validate tickets 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/invoices/"
+        > 
+          Automatic invoices 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/talks/"
+    >
+      Talks
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/r4p/"
+        > 
+          Request for proposals 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/categories/"
+        > 
+          Categories 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/talk-selection/"
+        > 
+          Talk Selection 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/agenda/"
+        > 
+          Agenda 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/feedback/"
+        > 
+          Feedback 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/users/"
+    >
+      Users
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/users/authentication/"
+        > 
+          User authentication 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/users/edit/"
+        > 
+          Edit user 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/developers/"
+    >
+      Developers
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/agenda/"
+        > 
+          Integrating the agenda component in your web page 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/mailchimp/"
+        > 
+          Mailchimp 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/applications/"
+        > 
+          Applications 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/share/"
+        > 
+          Share your event 
+        </a> 
+      
+      </div>
+    
+  
+</nav>
+    
+  <div class="help-content">
+    <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#defining-a-form">Defining a form</a></li>
+<li><a href="#filling-out-the-form">Filling out the form</a></li>
+<li><a href="#collecting-the-form-input">Collecting the form input</a></li>
+<li><a href="#what-s-next">What&rsquo;s next</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</aside>
+    <main class="help-content-main">
+      <nav aria-label="breadcrumbs">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href="/">home</a>
+    </li>
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href='/events'>events</a>
+    </li>
+  </ul>
+</nav>
+      <h1>Attendee Forms</h1>
+      <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#defining-a-form">Defining a form</a></li>
+<li><a href="#filling-out-the-form">Filling out the form</a></li>
+<li><a href="#collecting-the-form-input">Collecting the form input</a></li>
+<li><a href="#what-s-next">What&rsquo;s next</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</aside>
+      
+
+<p>This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company.</p>
+
+<h2 id="defining-a-form">Defining a form</h2>
+
+<p>As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:</p>
+
+<ol>
+<li>Go to the edit page of your event.</li>
+<li>Select the <strong>Features</strong> &raquo; <strong>Form</strong> tab.</li>
+<li>Click the <strong>Add field</strong> button.</li>
+<li>Introduce &ldquo;Role in your organization&rdquo; into the <strong>Field name</strong> input.</li>
+<li>Select &ldquo;text&rdquo; into the <strong>Type</strong> drop-down.</li>
+<li>Select <strong>Required</strong>.</li>
+<li>Add other fields as needed. When you are done, click <strong>Save</strong></li>
+</ol>
+
+<p>The following field types are supported:</p>
+
+<ul>
+<li><strong>Text</strong> and <strong>Text Area</strong> for single-line or multiline free text.</li>
+<li><strong>Select</strong> to choose from a comma-separated range of values.</li>
+<li><strong>Number</strong> for an integer number greater or equal to zero.</li>
+<li><strong>Telephone</strong>.</li>
+<li><strong>Date</strong>.</li>
+<li><strong>E-mail</strong>.</li>
+<li><strong>Checkbox</strong>.</li>
+</ul>
+
+<p>You can sort or delete fields using the buttons below each field. To save your changes, click the <strong>Save</strong> button on the top of the page.</p>
+
+<h2 id="filling-out-the-form">Filling out the form</h2>
+
+<p>When an event includes a form, the ticket purchase page page displays a set of input fields for each attendee. The attendees must fill out all fields marked as required to get their tickets.</p>
+
+<h2 id="collecting-the-form-input">Collecting the form input</h2>
+
+<p>To get the list of form values introduced by attendees, <a href="https://help.koliseo.com/tickets/validation/#list-of-tickets">download the list of tickets</a> and open the downloaded file with a spreadsheet application. The values are in the columns to the right of the spreadsheet.</p>
+
+<h2 id="what-s-next">What&rsquo;s next</h2>
+
+<ul>
+<li><a href="https://help.koliseo.com/tickets/validation/">Download the list of tickets sold</a></li>
+<li><a href="https://help.koliseo.com/events/discounts/">Create discount codes for your event</a></li>
+<li><a href="https://help.koliseo.com/events/invitations/">Create restricted events that require an invitation</a></li>
+</ul>
+
+    </main>
+  </div>
+ 
+  </div>
+  <footer class="hide-for-print">
+  <div class="footer-row">
+    <div class="content">
+      <dl class="footer-column">
+        <dt class="footer-column-title">Product</dt>
+        <dd>
+          <a class="footer-link" href="/events/create/">Getting started</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="http://www.koliseo.com/create">Create Event</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="http://www.koliseo.com/legal#cookies">Cookies</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="/tickets/pricing/">Pricing</a>
+        </dd>
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">Developers</dt>
+        <dd>
+          <a class="footer-link" href="">Agenda</a>
+        </dd>
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">About Us</dt>
+        <dd>
+          <a class="footer-link icon-globe" href="http://blog.koliseo.com">Our Blog</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="mailto:support@koliseo.com">Contact Support</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="mailto:sales@koliseo.com">Request a Demo</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="footer-row">
+    <div class="content">
+      <div class="footer-column logo-container">
+        <a href="/" class="logo-footer"></a>
+        <div class="footer-credits">
+          <b class="title">Koliseo</b>
+          <div>Events can be awesome</div>
+        </div>
+      </div>
+      <div class="footer-column text-right">
+        <a class="footer-link" href="/">crafted with love</a> &middot;
+        <a class="footer-link" href="http://www.koliseo.com/legal">Terms and conditions</a> &middot;
+        <a class="footer-link" href="http://www.koliseo.com/legal">Privacy policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9562146-8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-9562146-8');
+  </script>
+
+</body>
+</html>

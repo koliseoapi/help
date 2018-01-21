@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on </title>
+    <link>https://help.koliseo.com/developers/</link>
+    <description>Recent content in Developers on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://help.koliseo.com/developers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating the agenda component in your web page</title>
+      <link>https://help.koliseo.com/developers/agenda/</link>
+      <pubDate>Fri, 19 Jan 2018 00:11:40 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/agenda/</guid>
+      <description>This page explains how to integrate the agenda component into your own web page. Some JavaScript knowledge is required.
+Before you start To integrate koliseo-agenda with your web page you first need to:
+ Create the r4p and select the talks to be part of your agenda. Create the agenda and integrate it into your web page. Optionally, create an Application and copy the Client ID into your component configuration (see an example).</description>
+    </item>
+    
+    <item>
+      <title>Mailchimp</title>
+      <link>https://help.koliseo.com/developers/mailchimp/</link>
+      <pubDate>Mon, 15 Jan 2018 23:07:43 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/mailchimp/</guid>
+      <description>This page explains how to integrate Koliseo with Mailchimp.
+Integrating Mailchimp Mailchimp is an e-mail marketing service that can be used to send communications to customers. You can register your attendees automatically into your Mailchimp list:
+ Open the edit page of your event. Select the Features &amp;raquo; Plugins tab. Switch the Off button to enable the integration with Mailchimp. In the form, fill in your Mailchimp API key and List ID, and click the Save button.</description>
+    </item>
+    
+    <item>
+      <title>Applications</title>
+      <link>https://help.koliseo.com/developers/applications/</link>
+      <pubDate>Fri, 19 Jan 2018 10:15:47 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/applications/</guid>
+      <description>This page explains how to integrate third-party applications using the Koliseo API.
+Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your own application with the Koliseo API, you will need to create a set of credentials:
+ Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.</description>
+    </item>
+    
+    <item>
+      <title>Share your event</title>
+      <link>https://help.koliseo.com/developers/share/</link>
+      <pubDate>Tue, 09 Jan 2018 20:32:35 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/share/</guid>
+      <description>This page explains how to share your event in social networks and enable Google Analytics from your event page.
+Schema.org The server includes in the event page the HTML tags required by the Event schema to make them easily indexed by search engines. A similar Ticket schema is used in e-mail confirmations so that your smartphone can process and index your tickets.
+If you are concerned about privacy, you may [mark your event as unlisted](https://help.</description>
+    </item>
+    
+  </channel>
+</rss>

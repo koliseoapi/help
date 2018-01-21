@@ -1,0 +1,29 @@
+// table of contents is only visible in big displays
+.toc {
+  margin: $help-vertical-margin 0;
+}
+
+.toc-contents {
+  border-left: 4px solid $linkColor;
+  padding-left: $help-horizontal-margin;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & ul {
+    margin-left: 0;
+    list-style-type: none;
+  }
+}
+
+
+// show toc embedded with content
+.help-content-main > .toc {
+  display: block;
+}
+
+// hide toc in parent
+.help-content > .toc {
+  display: none;
+}

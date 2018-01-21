@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <nav class="topbar top-bar-section" role="navigation">
+  <div class="content">
+    <a href="/" class="topbar-logo" aria-label="Homepage">
+      <img aria-hidden="true" class="topbar-logo-img" src="/img/wlogo.svg">
+    </a>
+    <div class="topbar-separator"></div>
+    <a class="topbar-link" href="https://www.koliseo.com/create">Create event</a>
+  </div>
+</nav>
+  <div class="help-and-nav content">
+    <nav class="sidebar-nav" role="navigation">
+   
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/events/"
+    >
+      Events
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/create/"
+        > 
+          Create event 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/dates/"
+        > 
+          Date and Location 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/ticket-types/"
+        > 
+          Ticket Types 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/sales/"
+        > 
+          Ticket sales 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/discounts/"
+        > 
+          Discounts 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/forms/"
+        > 
+          Attendee Forms 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/invitations/"
+        > 
+          Invitations 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/events/clone/"
+        > 
+          Cloning your event 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/tickets/"
+    >
+      Tickets
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/pricing/"
+        > 
+          Pricing 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/validation/"
+        > 
+          Validate tickets 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/tickets/invoices/"
+        > 
+          Automatic invoices 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a selected" 
+      href="/talks/"
+    >
+      Talks
+    </a>
+    
+      <div class="submenu ">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/r4p/"
+        > 
+          Request for proposals 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/categories/"
+        > 
+          Categories 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/talk-selection/"
+        > 
+          Talk Selection 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 selected" 
+          href="/talks/agenda/"
+        > 
+          Agenda 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/talks/feedback/"
+        > 
+          Feedback 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/users/"
+    >
+      Users
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/users/authentication/"
+        > 
+          User authentication 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/users/edit/"
+        > 
+          Edit user 
+        </a> 
+      
+      </div>
+    
+  
+    <a 
+      class="sidebar-nav-a " 
+      href="/developers/"
+    >
+      Developers
+    </a>
+    
+      <div class="submenu collapsed">
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/agenda/"
+        > 
+          Integrating the agenda component in your web page 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/mailchimp/"
+        > 
+          Mailchimp 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/applications/"
+        > 
+          Applications 
+        </a> 
+      
+        <a 
+          class="sidebar-nav-a2 " 
+          href="/developers/share/"
+        > 
+          Share your event 
+        </a> 
+      
+      </div>
+    
+  
+</nav>
+    
+  <div class="help-content">
+    <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#agenda-structure">Agenda structure</a></li>
+<li><a href="#slot-types">Slot types</a></li>
+<li><a href="#creating-a-random-assignment-of-talks">Creating a random assignment of talks</a></li>
+<li><a href="#publish">Publish</a></li>
+<li><a href="#updates">Updates</a></li>
+<li><a href="#what-s-next">What&rsquo;s next</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</aside>
+    <main class="help-content-main">
+      <nav aria-label="breadcrumbs">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href="/">home</a>
+    </li>
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href='/talks'>talks</a>
+    </li>
+  </ul>
+</nav>
+      <h1>Agenda</h1>
+      <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#agenda-structure">Agenda structure</a></li>
+<li><a href="#slot-types">Slot types</a></li>
+<li><a href="#creating-a-random-assignment-of-talks">Creating a random assignment of talks</a></li>
+<li><a href="#publish">Publish</a></li>
+<li><a href="#updates">Updates</a></li>
+<li><a href="#what-s-next">What&rsquo;s next</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</aside>
+      
+
+<p>This page explains how to configure and publish an agenda after the selection of talks is complete.</p>
+
+<h2 id="agenda-structure">Agenda structure</h2>
+
+<p>The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &ldquo;Friday&rdquo; or &ldquo;November 12th&rdquo;, tracks (like &ldquo;Track A&rdquo; or &ldquo;Cloud Track&rdquo;) and slots (like &ldquo;09:00-09:45&rdquo;). Once they are defined, the <a href="https://help.koliseo.com/developers/agenda/">JavaScript agenda component</a> will format the slots as a table.</p>
+
+<p>For example, to create an event with one day and two tracks:</p>
+
+<ol>
+<li>Go to the page of your Request for proposals and select the <strong>Agenda</strong> tab.</li>
+<li>Click the <strong>Add new day</strong> link, and then click on the created day.</li>
+<li>Click the <strong>Add new track</strong> link, and then click on the created track.</li>
+<li>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</li>
+<li>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;, and click the <strong>Create</strong> button.</li>
+<li>Repeat the process until the track is complete.</li>
+<li>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</li>
+<li>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</li>
+</ol>
+
+<p>You can see a preview of the current status of the agenda by selecting the <strong>Preview</strong> tab.</p>
+
+<h2 id="slot-types">Slot types</h2>
+
+<p>Slots can have one of four types:</p>
+
+<ul>
+<li><strong>Undefined</strong>: This is the default status of a slot. These slots are not displayed in the agenda.</li>
+<li><strong>Talk</strong>: A slot reserved for a talk.</li>
+<li><strong>Break</strong>: A slot reserved for coffee, lunch break, inscription, etc.</li>
+<li><strong>Extend track</strong>: When a track will be extended horizontally over other tracks at one particular time, like keynotes.</li>
+</ul>
+
+<p>To assign a talk to a slot, set the <strong>Slot type</strong> to &ldquo;Talk&rdquo; and start introducing the talk name in the <strong>Talk</strong> input field. The page will autocomplete the talk name and offer you a list of options to choose from.</p>
+
+<aside class="note">
+If you don't see a talk in the autocomplete list, make sure that it's marked as selected and is not already part of the agenda.
+</aside>
+
+<h2 id="creating-a-random-assignment-of-talks">Creating a random assignment of talks</h2>
+
+<p>Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the <strong>Actions</strong> tab and click the <strong>Assign empty slots</strong> button. This will randomly assign a talk to every empty slot.</p>
+
+<p>Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can modify the results later manually.</p>
+
+<h2 id="publish">Publish</h2>
+
+<p>Once the agenda is final, to publish it:</p>
+
+<ol>
+<li>Go to the edit page of your agenda.</li>
+<li>Select the <strong>Settings</strong> tab and mark the <strong>Public</strong> checkbox.</li>
+<li>Configure the <a href="https://help.koliseo.com/developers/agenda/">JavaScript agenda component</a> in your web page.</li>
+</ol>
+
+<aside class="note">
+To accept feedback in your agenda, make sure that the <b>Feedback</b> checkbox is also selected.
+</aside>
+
+<h2 id="updates">Updates</h2>
+
+<p>As speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the <strong>Slide deck</strong> and <strong>Video recording</strong> before or after the event has taken place.</p>
+
+<p>To modify your presentation, access the page of the Request for Proposals or open <a href="https://www.koliseo.com/me">your user profile page</a> and select the tab <strong>Talks</strong>.</p>
+
+<h2 id="what-s-next">What&rsquo;s next</h2>
+
+<ul>
+<li><a href="https://help.koliseo.com/developers/agenda/">Embed your agenda in a web page</a></li>
+<li><a href="https://help.koliseo.com/talks/talk-selection/">Learn more about the talk selection process</a></li>
+<li><a href="https://help.koliseo.com/talks/feedback/">Get feedback about your talks</a></li>
+</ul>
+
+    </main>
+  </div>
+ 
+  </div>
+  <footer class="hide-for-print">
+  <div class="footer-row">
+    <div class="content">
+      <dl class="footer-column">
+        <dt class="footer-column-title">Product</dt>
+        <dd>
+          <a class="footer-link" href="/events/create/">Getting started</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="http://www.koliseo.com/create">Create Event</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="http://www.koliseo.com/legal#cookies">Cookies</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="/tickets/pricing/">Pricing</a>
+        </dd>
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">Developers</dt>
+        <dd>
+          <a class="footer-link" href="">Agenda</a>
+        </dd>
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">About Us</dt>
+        <dd>
+          <a class="footer-link icon-globe" href="http://blog.koliseo.com">Our Blog</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="mailto:support@koliseo.com">Contact Support</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="mailto:sales@koliseo.com">Request a Demo</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="footer-row">
+    <div class="content">
+      <div class="footer-column logo-container">
+        <a href="/" class="logo-footer"></a>
+        <div class="footer-credits">
+          <b class="title">Koliseo</b>
+          <div>Events can be awesome</div>
+        </div>
+      </div>
+      <div class="footer-column text-right">
+        <a class="footer-link" href="/">crafted with love</a> &middot;
+        <a class="footer-link" href="http://www.koliseo.com/legal">Terms and conditions</a> &middot;
+        <a class="footer-link" href="http://www.koliseo.com/legal">Privacy policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9562146-8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-9562146-8');
+  </script>
+
+</body>
+</html>

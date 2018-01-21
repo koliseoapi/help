@@ -1,0 +1,55 @@
+$sidebar-a-color: #1E394C;
+$sidebar-border-color: #dedede;
+
+.sidebar-nav {
+  margin-bottom: 1.5rem;
+  background: #F0F4F7;
+  display: none;
+}
+
+$chevron-width: .7rem;
+.sidebar-nav-a {
+  padding: 1rem;
+  position: relative;
+  color: $sidebar-a-color;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-top: 1px solid $sidebar-border-color;
+
+  &:focus,
+  &:hover {
+    color: $sidebar-a-color;
+  }
+
+  &:before {
+    display: block;
+    content: " ";
+    width: $chevron-width;
+    height: $chevron-width;
+    background-image: url('/img/chevron-right.svg');
+    background-size: contain;
+    margin-right: .5rem;
+  }
+  
+  &.selected {
+    &:before {
+      background-image: url('/img/chevron-down.svg');
+    }
+  }
+}
+
+.sidebar-nav-a2 {
+  padding: .7rem 1rem;
+  display: block;
+  padding-left: $chevron-width + 1.5rem;
+  text-decoration: none;
+  &.selected {
+    background: $white;
+    font-weight: bold;
+  }
+}
+
+.submenu.collapsed {
+  display: none;
+}

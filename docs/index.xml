@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koliseo Help Center on </title>
+    <link>https://help.koliseo.com/</link>
+    <description>Recent content in Koliseo Help Center on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://help.koliseo.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating the agenda component in your web page</title>
+      <link>https://help.koliseo.com/developers/agenda/</link>
+      <pubDate>Fri, 19 Jan 2018 00:11:40 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/agenda/</guid>
+      <description>This page explains how to integrate the agenda component into your own web page. Some JavaScript knowledge is required.
+Before you start To integrate koliseo-agenda with your web page you first need to:
+ Create the r4p and select the talks to be part of your agenda. Create the agenda and integrate it into your web page. Optionally, create an Application and copy the Client ID into your component configuration (see an example).</description>
+    </item>
+    
+    <item>
+      <title>Request for proposals</title>
+      <link>https://help.koliseo.com/talks/r4p/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/r4p/</guid>
+      <description>This page explains how to create and manage a R4P (Request for Proposals) for your event. To create an agenda with talks, you need to first create a R4P where speakers can submit their talks.
+Creating a Request for Proposals To create a Request for Proposals:
+ Go to the edit page for your event. Select the Request for Proposals tab. Click the Create R4P button. Fill out the form and click the Save button to create the R4P.</description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://help.koliseo.com/tickets/pricing/</link>
+      <pubDate>Tue, 09 Jan 2018 21:55:43 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/tickets/pricing/</guid>
+      <description>This page introduces the pricing model used by Koliseo.
+Our pricing model Koliseo charges a service fee of €1 + 4% of the ticket price for ticket types that are not free. Free tickets are exempt from this fee: if you don&amp;rsquo;t get income from your event, neither do we. The service fee includes the cost of the payment gateway.
+You can choose if you want the ticket buyer or the event organizer to pay the ticket fee.</description>
+    </item>
+    
+    <item>
+      <title>Create event</title>
+      <link>https://help.koliseo.com/events/create/</link>
+      <pubDate>Mon, 08 Jan 2018 20:16:31 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/create/</guid>
+      <description>This page explains how to create events in Koliseo. In Koliseo everything is bound to an event: ticket sales, talk proposals and feedback, all require a parent event first.
+Create your first event To create an event:
+ Log into the system Click the Create new event button in your dashboard. Introduce a Name and Description and click the Save button.  There are some optional fields in this form to customize the behavior of the event:</description>
+    </item>
+    
+    <item>
+      <title>User authentication</title>
+      <link>https://help.koliseo.com/users/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.koliseo.com/users/authentication/</guid>
+      <description>This page explains how the authentication and user management system works in Koliseo.
+Authentication providers Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform you agree to our terms and conditions, including our use of Cookies.
+During the authentication process Koliseo will get access to the following information about your user profile:</description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>https://help.koliseo.com/talks/categories/</link>
+      <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/categories/</guid>
+      <description>This page explains how to configure the list of categories and tags that can be associated to each talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:
+ Go to the edit page of your event.</description>
+    </item>
+    
+    <item>
+      <title>Mailchimp</title>
+      <link>https://help.koliseo.com/developers/mailchimp/</link>
+      <pubDate>Mon, 15 Jan 2018 23:07:43 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/mailchimp/</guid>
+      <description>This page explains how to integrate Koliseo with Mailchimp.
+Integrating Mailchimp Mailchimp is an e-mail marketing service that can be used to send communications to customers. You can register your attendees automatically into your Mailchimp list:
+ Open the edit page of your event. Select the Features &amp;raquo; Plugins tab. Switch the Off button to enable the integration with Mailchimp. In the form, fill in your Mailchimp API key and List ID, and click the Save button.</description>
+    </item>
+    
+    <item>
+      <title>Validate tickets</title>
+      <link>https://help.koliseo.com/tickets/validation/</link>
+      <pubDate>Mon, 15 Jan 2018 13:15:23 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/tickets/validation/</guid>
+      <description>This page explains how to retrieve the list of tickets sold and validate tickets at the venue.
+Downloading the list of tickets The list of tickets sold is available under the Attendees tab of your event. To download the list:
+ Go to the edit page for your event and select the tab Attendees. Click the Download as CSV button. Open the file with any spreadsheet application selecting Format CSV, Separator: commas and Encoding: UTF-8.</description>
+    </item>
+    
+    <item>
+      <title>Edit user</title>
+      <link>https://help.koliseo.com/users/edit/</link>
+      <pubDate>Tue, 09 Jan 2018 22:34:05 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/users/edit/</guid>
+      <description>This page explains how to edit your user profile.
+Accessing your user profile To access your user profile:
+ Click on your picture on the top right corner of the screen and select the menu option with your user name. Click the Edit button to the right of your name. Select the Data tab. Fill out your changes in the form and click the Save button.  The form includes the following fields:</description>
+    </item>
+    
+    <item>
+      <title>Date and Location</title>
+      <link>https://help.koliseo.com/events/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.koliseo.com/events/dates/</guid>
+      <description>This page explains how to set up the date and location of an event.
+Setting the date and location You can specify multiple dates, locations, and ticket prices for an event:
+ Access your user dashboard and select the event in the Events tab. For instructions on how to create your first event, click here Select the Date and Time tab. Click the Add new date button. Introduce a Date, Time and Location for the event.</description>
+    </item>
+    
+    <item>
+      <title>Talk Selection</title>
+      <link>https://help.koliseo.com/talks/talk-selection/</link>
+      <pubDate>Tue, 16 Jan 2018 23:24:21 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/talk-selection/</guid>
+      <description>The selection of the talks that will compose the final agenda can be decided by a selection comittee. This page explains how to compose the selection comittee and the mechanics of the selection process.
+Forming a selection comittee Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a comittee for this.</description>
+    </item>
+    
+    <item>
+      <title>Automatic invoices</title>
+      <link>https://help.koliseo.com/tickets/invoices/</link>
+      <pubDate>Sun, 14 Jan 2018 10:48:18 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/tickets/invoices/</guid>
+      <description>Koliseo supports automatic invoices for your events, where any attendee can create their invoice directly on the platform. This page explains how to use and configure automatic invoices.
+Get the invoice for a ticket As an attendee you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
+ Open the ticket page. You can do this by following the link in your ticket confirmation e-mail, or by going to your user profile and selecting the Tickets tab.</description>
+    </item>
+    
+    <item>
+      <title>Ticket Types</title>
+      <link>https://help.koliseo.com/events/ticket-types/</link>
+      <pubDate>Tue, 09 Jan 2018 18:09:40 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/ticket-types/</guid>
+      <description>This page explains how to set up multiple ticket prices and ticket availability periods for an event.
+Adding ticket types All events start with a single ticket type with a cost of 10€. To modify this:
+ Access your user dashboard and select your event under the Events tab. Select the Date and Time tab and click on the date where you want to apply a different ticket price. For instructions to create your first date and location, click here.</description>
+    </item>
+    
+    <item>
+      <title>Applications</title>
+      <link>https://help.koliseo.com/developers/applications/</link>
+      <pubDate>Fri, 19 Jan 2018 10:15:47 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/applications/</guid>
+      <description>This page explains how to integrate third-party applications using the Koliseo API.
+Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your own application with the Koliseo API, you will need to create a set of credentials:
+ Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://help.koliseo.com/talks/agenda/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:13 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/agenda/</guid>
+      <description>This page explains how to configure and publish an agenda after the selection of talks is complete.
+Agenda structure The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &amp;ldquo;Friday&amp;rdquo; or &amp;ldquo;November 12th&amp;rdquo;, tracks (like &amp;ldquo;Track A&amp;rdquo; or &amp;ldquo;Cloud Track&amp;rdquo;) and slots (like &amp;ldquo;09:00-09:45&amp;rdquo;). Once they are defined, the JavaScript agenda component will format the slots as a table.
+For example, to create an event with one day and two tracks:</description>
+    </item>
+    
+    <item>
+      <title>Share your event</title>
+      <link>https://help.koliseo.com/developers/share/</link>
+      <pubDate>Tue, 09 Jan 2018 20:32:35 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/developers/share/</guid>
+      <description>This page explains how to share your event in social networks and enable Google Analytics from your event page.
+Schema.org The server includes in the event page the HTML tags required by the Event schema to make them easily indexed by search engines. A similar Ticket schema is used in e-mail confirmations so that your smartphone can process and index your tickets.
+If you are concerned about privacy, you may [mark your event as unlisted](https://help.</description>
+    </item>
+    
+    <item>
+      <title>Ticket sales</title>
+      <link>https://help.koliseo.com/events/sales/</link>
+      <pubDate>Tue, 09 Jan 2018 20:21:09 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/sales/</guid>
+      <description>This page explains how to start selling tickets (free or not) for your event.
+Enabling ticket sales Once your event is ready, you can enable ticket sales to let users attend the event. To get started:
+ Go to your user dashboard. Select the Events tab and click on the event. For instructions to create your first event, click here. Select the Actions tab. Click on the Resume selling button.</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://help.koliseo.com/talks/feedback/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:29 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/feedback/</guid>
+      <description>This page explains how to collect feedback about the talks directly from the agenda.
+Before you start In order to accept feedback about your talks, you need:
+ A public agenda with feedback enabled. The agenda component integrated in your web page (read more). Once your users can log in from the agenda component, you are ready to start accepting feedback.  Feedback Users can provide feedback directly from the JavaScript agenda component.</description>
+    </item>
+    
+    <item>
+      <title>Discounts</title>
+      <link>https://help.koliseo.com/events/discounts/</link>
+      <pubDate>Sun, 14 Jan 2018 17:47:34 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/discounts/</guid>
+      <description>This page explains how to create and use discount codes that can be applied during the ticket purchase process.
+Creating discount codes To create discount codes for your events:
+ Go to the edit page of your event. Select the Features &amp;raquo; Discounts tab. Click the Add discount button. Fill the fields in the form and click the Save button.  You can configure the following fields for the discount:</description>
+    </item>
+    
+    <item>
+      <title>Attendee Forms</title>
+      <link>https://help.koliseo.com/events/forms/</link>
+      <pubDate>Mon, 15 Jan 2018 10:07:48 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/forms/</guid>
+      <description>This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company.
+Defining a form As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+ Go to the edit page of your event. Select the Features &amp;raquo; Form tab.</description>
+    </item>
+    
+    <item>
+      <title>Invitations</title>
+      <link>https://help.koliseo.com/events/invitations/</link>
+      <pubDate>Mon, 15 Jan 2018 11:23:43 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/invitations/</guid>
+      <description>This page explains how to create restricted events that require an invitation to attend.
+Restricting access to your event To modify an event to require invitations:
+ Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once the event is market as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
+    </item>
+    
+    <item>
+      <title>Cloning your event</title>
+      <link>https://help.koliseo.com/events/clone/</link>
+      <pubDate>Tue, 09 Jan 2018 20:14:03 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/clone/</guid>
+      <description>This page explains how to create a duplicate of your event for a different date, replicating ticket types and availability.
+Cloning your event To create a duplicate of your event:
+ Access your user dashboard and select the event in the Events tab. Select the Date and Time tab and click on the date that you would like to copy. Select the Actions tab Under the Clone section, choose the date and time where you would like to create the copy.</description>
+    </item>
+    
+  </channel>
+</rss>

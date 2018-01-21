@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on </title>
+    <link>https://help.koliseo.com/talks/</link>
+    <description>Recent content in Talks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://help.koliseo.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Request for proposals</title>
+      <link>https://help.koliseo.com/talks/r4p/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/r4p/</guid>
+      <description>This page explains how to create and manage a R4P (Request for Proposals) for your event. To create an agenda with talks, you need to first create a R4P where speakers can submit their talks.
+Creating a Request for Proposals To create a Request for Proposals:
+ Go to the edit page for your event. Select the Request for Proposals tab. Click the Create R4P button. Fill out the form and click the Save button to create the R4P.</description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>https://help.koliseo.com/talks/categories/</link>
+      <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/categories/</guid>
+      <description>This page explains how to configure the list of categories and tags that can be associated to each talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:
+ Go to the edit page of your event.</description>
+    </item>
+    
+    <item>
+      <title>Talk Selection</title>
+      <link>https://help.koliseo.com/talks/talk-selection/</link>
+      <pubDate>Tue, 16 Jan 2018 23:24:21 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/talk-selection/</guid>
+      <description>The selection of the talks that will compose the final agenda can be decided by a selection comittee. This page explains how to compose the selection comittee and the mechanics of the selection process.
+Forming a selection comittee Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a comittee for this.</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://help.koliseo.com/talks/agenda/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:13 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/agenda/</guid>
+      <description>This page explains how to configure and publish an agenda after the selection of talks is complete.
+Agenda structure The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &amp;ldquo;Friday&amp;rdquo; or &amp;ldquo;November 12th&amp;rdquo;, tracks (like &amp;ldquo;Track A&amp;rdquo; or &amp;ldquo;Cloud Track&amp;rdquo;) and slots (like &amp;ldquo;09:00-09:45&amp;rdquo;). Once they are defined, the JavaScript agenda component will format the slots as a table.
+For example, to create an event with one day and two tracks:</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://help.koliseo.com/talks/feedback/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:29 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/talks/feedback/</guid>
+      <description>This page explains how to collect feedback about the talks directly from the agenda.
+Before you start In order to accept feedback about your talks, you need:
+ A public agenda with feedback enabled. The agenda component integrated in your web page (read more). Once your users can log in from the agenda component, you are ready to start accepting feedback.  Feedback Users can provide feedback directly from the JavaScript agenda component.</description>
+    </item>
+    
+  </channel>
+</rss>

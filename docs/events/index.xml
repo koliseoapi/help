@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on </title>
+    <link>https://help.koliseo.com/events/</link>
+    <description>Recent content in Events on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://help.koliseo.com/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create event</title>
+      <link>https://help.koliseo.com/events/create/</link>
+      <pubDate>Mon, 08 Jan 2018 20:16:31 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/create/</guid>
+      <description>This page explains how to create events in Koliseo. In Koliseo everything is bound to an event: ticket sales, talk proposals and feedback, all require a parent event first.
+Create your first event To create an event:
+ Log into the system Click the Create new event button in your dashboard. Introduce a Name and Description and click the Save button.  There are some optional fields in this form to customize the behavior of the event:</description>
+    </item>
+    
+    <item>
+      <title>Date and Location</title>
+      <link>https://help.koliseo.com/events/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.koliseo.com/events/dates/</guid>
+      <description>This page explains how to set up the date and location of an event.
+Setting the date and location You can specify multiple dates, locations, and ticket prices for an event:
+ Access your user dashboard and select the event in the Events tab. For instructions on how to create your first event, click here Select the Date and Time tab. Click the Add new date button. Introduce a Date, Time and Location for the event.</description>
+    </item>
+    
+    <item>
+      <title>Ticket Types</title>
+      <link>https://help.koliseo.com/events/ticket-types/</link>
+      <pubDate>Tue, 09 Jan 2018 18:09:40 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/ticket-types/</guid>
+      <description>This page explains how to set up multiple ticket prices and ticket availability periods for an event.
+Adding ticket types All events start with a single ticket type with a cost of 10€. To modify this:
+ Access your user dashboard and select your event under the Events tab. Select the Date and Time tab and click on the date where you want to apply a different ticket price. For instructions to create your first date and location, click here.</description>
+    </item>
+    
+    <item>
+      <title>Ticket sales</title>
+      <link>https://help.koliseo.com/events/sales/</link>
+      <pubDate>Tue, 09 Jan 2018 20:21:09 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/sales/</guid>
+      <description>This page explains how to start selling tickets (free or not) for your event.
+Enabling ticket sales Once your event is ready, you can enable ticket sales to let users attend the event. To get started:
+ Go to your user dashboard. Select the Events tab and click on the event. For instructions to create your first event, click here. Select the Actions tab. Click on the Resume selling button.</description>
+    </item>
+    
+    <item>
+      <title>Discounts</title>
+      <link>https://help.koliseo.com/events/discounts/</link>
+      <pubDate>Sun, 14 Jan 2018 17:47:34 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/discounts/</guid>
+      <description>This page explains how to create and use discount codes that can be applied during the ticket purchase process.
+Creating discount codes To create discount codes for your events:
+ Go to the edit page of your event. Select the Features &amp;raquo; Discounts tab. Click the Add discount button. Fill the fields in the form and click the Save button.  You can configure the following fields for the discount:</description>
+    </item>
+    
+    <item>
+      <title>Attendee Forms</title>
+      <link>https://help.koliseo.com/events/forms/</link>
+      <pubDate>Mon, 15 Jan 2018 10:07:48 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/forms/</guid>
+      <description>This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company.
+Defining a form As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+ Go to the edit page of your event. Select the Features &amp;raquo; Form tab.</description>
+    </item>
+    
+    <item>
+      <title>Invitations</title>
+      <link>https://help.koliseo.com/events/invitations/</link>
+      <pubDate>Mon, 15 Jan 2018 11:23:43 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/invitations/</guid>
+      <description>This page explains how to create restricted events that require an invitation to attend.
+Restricting access to your event To modify an event to require invitations:
+ Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once the event is market as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
+    </item>
+    
+    <item>
+      <title>Cloning your event</title>
+      <link>https://help.koliseo.com/events/clone/</link>
+      <pubDate>Tue, 09 Jan 2018 20:14:03 +0100</pubDate>
+      
+      <guid>https://help.koliseo.com/events/clone/</guid>
+      <description>This page explains how to create a duplicate of your event for a different date, replicating ticket types and availability.
+Cloning your event To create a duplicate of your event:
+ Access your user dashboard and select the event in the Events tab. Select the Date and Time tab and click on the date that you would like to copy. Select the Actions tab Under the Clone section, choose the date and time where you would like to create the copy.</description>
+    </item>
+    
+  </channel>
+</rss>

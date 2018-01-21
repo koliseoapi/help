@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="help-content">
+  <main class="help-content-main">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <ul class="square">
+      {{ range .Site.Sections }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <p>{{ .Params.summary }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </main>
+</div>
+{{ end }}

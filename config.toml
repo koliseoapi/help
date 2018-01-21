@@ -1,0 +1,6 @@
+baseURL = "https://help.koliseo.com/"
+DefaultContentLanguage = "en"
+copyright = "Apache License 2.0"
+sectionPagesMenu = "main"
+pygmentsUseClasses=true
+# ignorefiles = [ "_build" ]

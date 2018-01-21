@@ -1,0 +1,28 @@
+{
+  "name": "@koliseo/help",
+  "version": "0.0.1",
+  "description": "The contents of help.kolisoe.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koliseoapi/help.git"
+  },
+  "authors": [
+    "Carlos Coloma <ccescribano@gmail.com>",
+    "Nacho Coloma <icoloma@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "broken-link-checker": "^0.7.7",
+    "concurrently": "^3.5.1",
+    "fs-promise": "^2.0.3",
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "test": "npm build && concurrently --kill-others --success first \"hugo server\" \"blc http://localhost:1313 -ro\"",
+    "watch:css": "inotifywait -m -r -e modify,create,delete ./src/scss/ | while read NEWFILE; do node-sass src/scss/main.scss static/css/main.css --output-style compressed; done",
+    "watch:js": "NODE_ENV=development webpack --watch --config webpack.config.js",
+    "watch": "concurrently \"npm run watch:js\" \"npm run watch:css\" \"hugo server --log\" \"xdg-open http://localhost:1313/\"",
+    "build": "node-sass src/scss/main.scss static/css/main.css --output-style compressed && hugo -d docs"
+  }
+}

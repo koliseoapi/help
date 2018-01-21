@@ -1,0 +1,43 @@
+---
+title: "Ticket sales"
+date: 2018-01-09T20:21:09+01:00
+summary: "Once your event is ready, you can enable the ticket sales to let users attend the event."
+weight: 40
+menu:
+  main:
+    parent: events
+---
+
+This page explains how to start selling tickets (free or not) for your event.
+
+## Enabling ticket sales
+
+Once your event is ready, you can enable ticket sales to let users attend the event. To get started:
+
+1. Go to your user dashboard.
+2. Select the **Events** tab and click on the event. For instructions to create your first event, [click here]({{< ref "/events/create.md" >}}).
+3. Select the **Actions** tab.
+4. Click on the **Resume selling** button.
+
+To pause the ticket sales, click again on the **Stop selling** button.
+
+## Receiving the payment from ticket sales
+
+We transfer the funds collected from your ticket sales one week after the event has taken place, and for this we need that you introduce your wire transfer information:
+
+1. [Log into the system]({{< ref "authentication.md" >}}).
+2. Click on your picture on the top right corner of the screen and select the menu option with your user name.
+3. Select the **Payment info** tab.
+4. Fill out the form with your payment details (**IBAN**, **VAT ID**, **Billing name** and **Billing address**) and click the **Save** button.
+
+Our accounting team will get in contact to transfer the funds (after subtracting our fee) to this IBAN account and send you our invoice via e-mail.
+
+Ticket refunds using the platform are not possible after this transfer has completed.
+
+## What's next
+
+* [Set up the ticket types and prices]({{< ref "ticket-types.md" >}})
+* [Share your event on social networks]({{< ref "share.md" >}})
+* [Download the list of tickets sold]({{< ref "validation.md" >}})
+* [Configure automatic invoices]({{< ref "invoices.md" >}})
+* [Create discount codes for your event]({{< ref "discounts.md" >}})

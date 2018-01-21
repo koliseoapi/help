@@ -1,0 +1,40 @@
+$topbar-bg: #2E3C43;
+$topbar-color: #fff;
+
+.topbar {
+  background-color: $topbar-bg;
+  color: $topbar-color;
+}
+.topbar > .content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  .popup-menu-contents {
+    top: 70px;
+    right: 10px;
+  }
+}
+$logo-margin: .8rem 1rem;
+.topbar-logo {
+  float: left;
+  display: block;
+  margin: $logo-margin;
+  margin-left: 0;
+} 
+.topbar-separator {
+  flex-grow: 1;
+}
+.topbar-link {
+  padding: $logo-margin;
+  color: $topbar-color;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    text-decoration: underline;
+    color: $topbar-color;
+  }
+}
+.topbar-logo-img {
+  height: 25px;
+  width: 97px;
+}

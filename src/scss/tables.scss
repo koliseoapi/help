@@ -1,0 +1,20 @@
+.help-content-main {
+  & td,
+  & th {
+    padding: .5rem .7rem;
+    border: 1px solid $border-color;
+    text-align: left;
+    vertical-align: top;
+  }
+  & td > ul {
+    margin-bottom: 0;
+  }
+  & th {
+    border-bottom-width: 3px;
+  }
+  & table {
+    margin-bottom: 2rem;
+  }
+  
+}
+
