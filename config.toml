@@ -1,4 +1,4 @@
-baseURL = "https://help.koliseo.com/"
+baseURL = "/"
 DefaultContentLanguage = "en"
 copyright = "Apache License 2.0"
 sectionPagesMenu = "main"

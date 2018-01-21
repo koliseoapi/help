@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tickets on </title>
-    <link>https://help.koliseo.com/tickets/</link>
+    <link>/tickets/</link>
     <description>Recent content in Tickets on </description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Apache License 2.0</copyright>
     <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
     
-	<atom:link href="https://help.koliseo.com/tickets/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tickets/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pricing</title>
-      <link>https://help.koliseo.com/tickets/pricing/</link>
+      <link>/tickets/pricing/</link>
       <pubDate>Tue, 09 Jan 2018 21:55:43 +0100</pubDate>
       
-      <guid>https://help.koliseo.com/tickets/pricing/</guid>
+      <guid>/tickets/pricing/</guid>
       <description>This page introduces the pricing model used by Koliseo.
 Our pricing model Koliseo charges a service fee of €1 + 4% of the ticket price for ticket types that are not free. Free tickets are exempt from this fee: if you don&amp;rsquo;t get income from your event, neither do we. The service fee includes the cost of the payment gateway.
 You can choose if you want the ticket buyer or the event organizer to pay the ticket fee.</description>
@@ -24,10 +24,10 @@ You can choose if you want the ticket buyer or the event organizer to pay the ti
     
     <item>
       <title>Validate tickets</title>
-      <link>https://help.koliseo.com/tickets/validation/</link>
+      <link>/tickets/validation/</link>
       <pubDate>Mon, 15 Jan 2018 13:15:23 +0100</pubDate>
       
-      <guid>https://help.koliseo.com/tickets/validation/</guid>
+      <guid>/tickets/validation/</guid>
       <description>This page explains how to retrieve the list of tickets sold and validate tickets at the venue.
 Downloading the list of tickets The list of tickets sold is available under the Attendees tab of your event. To download the list:
  Go to the edit page for your event and select the tab Attendees. Click the Download as CSV button. Open the file with any spreadsheet application selecting Format CSV, Separator: commas and Encoding: UTF-8.</description>
@@ -35,10 +35,10 @@ Downloading the list of tickets The list of tickets sold is available under the 
     
     <item>
       <title>Automatic invoices</title>
-      <link>https://help.koliseo.com/tickets/invoices/</link>
+      <link>/tickets/invoices/</link>
       <pubDate>Sun, 14 Jan 2018 10:48:18 +0100</pubDate>
       
-      <guid>https://help.koliseo.com/tickets/invoices/</guid>
+      <guid>/tickets/invoices/</guid>
       <description>Koliseo supports automatic invoices for your events, where any attendee can create their invoice directly on the platform. This page explains how to use and configure automatic invoices.
 Get the invoice for a ticket As an attendee you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
  Open the ticket page. You can do this by following the link in your ticket confirmation e-mail, or by going to your user profile and selecting the Tickets tab.</description>
