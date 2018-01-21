@@ -12,7 +12,7 @@ Koliseo supports automatic invoices for your events, where any attendee can crea
 
 ## Get the invoice for a ticket
 
-As an attendee you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
+As an attendee, you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
 
 1. Open the ticket page. You can do this by following the link in your ticket confirmation e-mail, or by going to your user profile and selecting the **Tickets** tab.
 2. Click the **Create invoice** button.
@@ -26,17 +26,17 @@ The event organizer must have enabled automatic invoices following the procedure
 
 ## Enabling automatic invoices
 
-To enable automatic invoices, fill out your invoice details:
+To activate automatic invoices, fill out your invoice details:
 
 1. Under the **Events** tab in your dashboard, select your event and click **Edit**. 
 2. Select the **Invoices** &raquo; **Invoicing info** tab.
 3. Fill out all the fields in the form and click **Save**.
 
-You can specify the concrete type and percentage of taxes according to your local legislation (VAT for the majority of Europe). This may only be applicable for local events where all attendees share the same tax policy. Please consult your legal counsel before enabling automatic invoices, or contact info@koliseo.com if you have questions.
+You can specify the concrete type and percentage of taxes according to your local legislation (VAT for the majority of Europe). This configuration may only be applicable for local events where all attendees share the same tax policy. Please consult your legal counsel before enabling automatic invoices, or contact info@koliseo.com if you have questions.
 
 ## List of invoices
 
-As event organizer, you can get the list of all invoices emitted under the **Invoices** tab in the edit page for your event.
+As the event organizer, you can get the list of all invoices emitted under the **Invoices** tab in the edit page for your event.
 
 ## What's next
 

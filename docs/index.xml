@@ -40,8 +40,8 @@ Creating a Request for Proposals To create a Request for Proposals:
       
       <guid>/tickets/pricing/</guid>
       <description>This page introduces the pricing model used by Koliseo.
-Our pricing model Koliseo charges a service fee of €1 + 4% of the ticket price for ticket types that are not free. Free tickets are exempt from this fee: if you don&amp;rsquo;t get income from your event, neither do we. The service fee includes the cost of the payment gateway.
-You can choose if you want the ticket buyer or the event organizer to pay the ticket fee.</description>
+Our pricing model Koliseo charges a service fee of €1 + 4% of the ticket price for ticket types that are not free. Free tickets are exempt from this fee: if you do not get income from your event, neither do we. The service fee includes the cost of the payment gateway.
+You can choose if you want the ticket buyer or the event organizer to assume the ticket fee.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@ During the authentication process Koliseo will get access to the following infor
       <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
       
       <guid>/talks/categories/</guid>
-      <description>This page explains how to configure the list of categories and tags that can be associated to each talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+      <description>This page explains how to configure the list of categories and tags that can be associated with a talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
 Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:
  Go to the edit page of your event.</description>
     </item>
@@ -95,7 +95,7 @@ Integrating Mailchimp Mailchimp is an e-mail marketing service that can be used 
       
       <guid>/tickets/validation/</guid>
       <description>This page explains how to retrieve the list of tickets sold and validate tickets at the venue.
-Downloading the list of tickets The list of tickets sold is available under the Attendees tab of your event. To download the list:
+Downloading the list of tickets The list of tickets sold is available under the Attendees tab of your event. To download the file:
  Go to the edit page for your event and select the tab Attendees. Click the Download as CSV button. Open the file with any spreadsheet application selecting Format CSV, Separator: commas and Encoding: UTF-8.</description>
     </item>
     
@@ -138,7 +138,7 @@ Forming a selection comittee Simple events with a small number of proposals typi
       
       <guid>/tickets/invoices/</guid>
       <description>Koliseo supports automatic invoices for your events, where any attendee can create their invoice directly on the platform. This page explains how to use and configure automatic invoices.
-Get the invoice for a ticket As an attendee you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
+Get the invoice for a ticket As an attendee, you can create an invoice directly from your ticket page. To do this, once you have purchased the ticket:
  Open the ticket page. You can do this by following the link in your ticket confirmation e-mail, or by going to your user profile and selecting the Tickets tab.</description>
     </item>
     
@@ -226,8 +226,8 @@ Creating discount codes To create discount codes for your events:
       <pubDate>Mon, 15 Jan 2018 10:07:48 +0100</pubDate>
       
       <guid>/events/forms/</guid>
-      <description>This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company.
-Defining a form As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+      <description>This page explains how to configure attendee forms. Forms can be used to collect information about the person purchasing the ticket, like T-shirt size or role in the company.
+Defining a form As the event organizer, you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
  Go to the edit page of your event. Select the Features &amp;raquo; Form tab.</description>
     </item>
     
@@ -239,7 +239,7 @@ Defining a form As event organizer you can define a form that attendees must fil
       <guid>/events/invitations/</guid>
       <description>This page explains how to create restricted events that require an invitation to attend.
 Restricting access to your event To modify an event to require invitations:
- Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once the event is market as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
+ Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once you mark the event as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
     </item>
     
     <item>

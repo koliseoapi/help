@@ -20,7 +20,7 @@ To create a duplicate of your event:
 4. Under the **Clone** section, choose the date and time where you would like to create the copy.
 5. Click the **Clone** button.
 
-The created copy reproduces all ticket types from the original date, including sales restrictions associated to ticket types. 
+The created copy reproduces all ticket types from the original date, including sales restrictions associated with its ticket types. 
 
 ## What's next
 

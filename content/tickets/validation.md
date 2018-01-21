@@ -12,7 +12,7 @@ This page explains how to retrieve the list of tickets sold and validate tickets
 
 ## Downloading the list of tickets
 
-The list of tickets sold is available under the **Attendees** tab of your event. To download the list:
+The list of tickets sold is available under the **Attendees** tab of your event. To download the file:
 
 1. Go to the edit page for your event and select the tab **Attendees**. 
 2. Click the **Download as CSV** button.
@@ -22,7 +22,7 @@ The list of tickets sold is available under the **Attendees** tab of your event.
 
 You can validate tickets at the entrance of the event using our [Koliseo Access Control Application for Android](https://play.google.com/store/apps/details?id=com.koliseo). To validate tickets:
 
-1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo) in one or more Android devices (cell phone or tablet).
+1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo) on one or more Android devices (cell phone or tablet).
 2. In the browser, open your event edition page.
 3. Select the **Attendees** &raquo; **Access control** tab. The page shows a QR code that can be used to authenticate the Android app.
 4. Open the Android application.
@@ -30,7 +30,7 @@ You can validate tickets at the entrance of the event using our [Koliseo Access 
 6. Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.
 
 <aside class="note">
-The access control application can be operated by anyone with a valid Android account, not just the event organizer.
+Anyone with a valid Google account can operate the access control application, not just the event organizer.
 </aside>
 
 Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.
@@ -38,7 +38,7 @@ Once logged in, the Android application does not require a connection to the Int
 Tickets do not have to be printed to be recognized by the app, but you may need to adjust the brightness of the device displaying it.
 
 <aside class="note">
-Remember to open the application while online at least once before the event takes place so that the list of tickets can be downloaded. 
+Remember to open the application while online at least once before the event takes place so that the application can download the list of tickets. 
 </aside>
 
 ## What's next

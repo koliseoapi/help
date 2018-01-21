@@ -28,7 +28,7 @@ Creating a Request for Proposals To create a Request for Proposals:
       <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
       
       <guid>/talks/categories/</guid>
-      <description>This page explains how to configure the list of categories and tags that can be associated to each talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+      <description>This page explains how to configure the list of categories and tags that can be associated with a talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
 Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:
  Go to the edit page of your event.</description>
     </item>

@@ -31,7 +31,7 @@ To track the performance of your event, you can configure your Google Analytics 
 3. Select the **Advanced** tab.
 4. Introduce your **Google Analytics ID** and click the **Save** button.
 
-After doing this you can start tracking metrics associated to your events in Google Analytics.
+After doing this you can start tracking metrics associated with your events in Google Analytics.
 
 ## What's next
 

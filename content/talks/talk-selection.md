@@ -56,7 +56,7 @@ You can use notifications at any point in the lifecycle of the R4P, for example 
 
 Parameter | Attributes | Description
 ---|---|---
-`event` | `name`, `uuid` | The information of the event associated to this R4P.
+`event` | `name`, `uuid` | The information of the event associated with this R4P.
 `talk` | `title`, `description`, `state` | The information of the talk.
 `day`, `track`, `slot` | `name` | The assigned day, track and slot (for talks already in the agenda)
 

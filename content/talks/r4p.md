@@ -32,7 +32,7 @@ After saving the Request for Proposals, you can start accepting talk proposals u
 
 ## Sending a talk proposal
 
-As speaker, you can submit your talk from the R4P page:
+As a speaker, you can submit your talk from the R4P page:
 
 1. Click the **Send your proposal** link.
 2. Fill the **Title** and **Description** of your talk. 
@@ -46,7 +46,7 @@ If you have something that you want to discuss privately with the organizers, yo
 
 Once the event has taken place, both the speakers and event organizer can:
 
-* **Review the feedback** (for events with feedback enabled): As speaker, you can learn from the feedback to improve yoour presentations. As event organizer, you can use the feedback to better understand the interests and expectations of the audience.
+* **Review the feedback** (for events with feedback enabled): As a speaker, you can learn from the feedback to improve yoour presentations. As the event organizer, you can use the feedback to better understand the interests and expectations of the audience.
 * **Add the slide deck and video recording of the talk**. Go to the edit page of the talk and fill out the **Slide deck** and **Video** to see them embedded in the agenda. The **Video** value must be a Youtube URL.   
 
 ## What's next

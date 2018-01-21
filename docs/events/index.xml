@@ -73,8 +73,8 @@ Creating discount codes To create discount codes for your events:
       <pubDate>Mon, 15 Jan 2018 10:07:48 +0100</pubDate>
       
       <guid>/events/forms/</guid>
-      <description>This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company.
-Defining a form As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+      <description>This page explains how to configure attendee forms. Forms can be used to collect information about the person purchasing the ticket, like T-shirt size or role in the company.
+Defining a form As the event organizer, you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
  Go to the edit page of your event. Select the Features &amp;raquo; Form tab.</description>
     </item>
     
@@ -86,7 +86,7 @@ Defining a form As event organizer you can define a form that attendees must fil
       <guid>/events/invitations/</guid>
       <description>This page explains how to create restricted events that require an invitation to attend.
 Restricting access to your event To modify an event to require invitations:
- Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once the event is market as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
+ Open the edit page of your event. Select the Features &amp;raquo; Invitations tab. Mark the This event is by invitation only checkbox.  Once you mark the event as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed.</description>
     </item>
     
     <item>

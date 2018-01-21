@@ -39,7 +39,7 @@ Slots can have one of four types:
 To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options to choose from.
 
 <aside class="note">
-If you don't see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
+If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
 </aside>
 
 ## Creating a random assignment of talks
@@ -62,7 +62,7 @@ To accept feedback in your agenda, make sure that the <b>Feedback</b> checkbox i
 
 ## Updates
 
-As speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place. 
+As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place. 
 
 To modify your presentation, access the page of the Request for Proposals or open [your user profile page](https://www.koliseo.com/me) and select the tab **Talks**.
 

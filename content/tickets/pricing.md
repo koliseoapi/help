@@ -12,9 +12,9 @@ This page introduces the pricing model used by Koliseo.
 
 ## Our pricing model
 
-Koliseo charges a service fee of **€1 + 4% of the ticket price** for ticket types that are not free. Free tickets are exempt from this fee: if you don't get income from your event, neither do we. The service fee includes the cost of the payment gateway.
+Koliseo charges a service fee of **€1 + 4% of the ticket price** for ticket types that are not free. Free tickets are exempt from this fee: if you do not get income from your event, neither do we. The service fee includes the cost of the payment gateway.
 
-You can choose if you want the ticket buyer or the event organizer to pay the ticket fee. In the first case the fee will be added to the ticket price before paying, otherwise it will be deducted from the ticket price before transferring the funds to the event organizer. 
+You can choose if you want the ticket buyer or the event organizer to assume the ticket fee. In the first case the fee will be added to the ticket price before paying; otherwise it will be deducted from the ticket price before transferring the funds to the event organizer. 
 
 An example for a ticket price of 10€:
 

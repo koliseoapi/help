@@ -1,14 +1,14 @@
 ---
 title: "Categories"
 date: 2018-01-16T22:10:23+01:00
-summary: "The categories associated to a talk can be used later to filter the agenda."
+summary: "The categories associated with a talk can be used later to filter the agenda."
 weight: 20
 menu:
   main:
     parent: talks
 ---
 
-This page explains how to configure the list of categories and tags that can be associated to each talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+This page explains how to configure the list of categories and tags that can be associated with a talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
 
 ## Creating categories
 

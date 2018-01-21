@@ -8,11 +8,11 @@ menu:
     parent: events
 ---
 
-This page explains how to configure attendee forms. Forms can be used to collect information with the ticket, like T-shirt size or role in the company. 
+This page explains how to configure attendee forms. Forms can be used to collect information about the person purchasing the ticket, like T-shirt size or role in the company. 
 
 ## Defining a form
 
-As event organizer you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+As the event organizer, you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
 
 1. Go to the edit page of your event.
 2. Select the **Features** &raquo; **Form** tab.
@@ -22,7 +22,7 @@ As event organizer you can define a form that attendees must fill out to get the
 6. Select **Required**.
 7. Add other fields as needed. When you are done, click **Save**
 
-The following field types are supported: 
+Koliseo supports the following field types: 
 
 * **Text** and **Text Area** for single-line or multiline free text.
 * **Select** to choose from a comma-separated range of values.
@@ -36,7 +36,7 @@ You can sort or delete fields using the buttons below each field. To save your c
 
 ## Filling out the form
 
-When an event includes a form, the ticket purchase page page displays a set of input fields for each attendee. The attendees must fill out all fields marked as required to get their tickets. 
+When an event includes a form, the ticket purchase page displays a set of input fields for each attendee. The attendees must fill out all fields marked as required to get their tickets. 
 
 ## Collecting the form input
 
