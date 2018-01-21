@@ -14,7 +14,7 @@ This page explains how to edit your user profile.
 
 To access your user profile:
 
-1. Click on your picture on the top right corner of the screen and select the menu option with your user name.
+1. Click on your picture in the top right corner of the screen and select the menu option with your name.
 2. Click the **Edit** button to the right of your name.
 3. Select the **Data** tab. 
 4. Fill out your changes in the form and click the **Save** button.
@@ -22,7 +22,7 @@ To access your user profile:
 The form includes the following fields:
 
 * **Avatar**: Click the **Choose a file** button next to your picture. Your user profile picture will be extracted from the authentication provider chosen during your first user session, and every time that you log in the server update it. By specifying a custom picture, this behavior will be disabled and you will have to change the picture manually from now on.
-* **Name**: Your user name, to be displayed in listings.
+* **Name**: Your name, to be displayed in listings.
 * **URL**: The URL of your user profile. You can change it by modifying your [uuid]({{< ref "#uuid" >}}).
 * **Description**: A short (140 characters) description to display in your profile page.
 * **Language**: The language that will be used when logged in. The platform supports English and Spanish.
@@ -42,7 +42,7 @@ After deleting your user:
 
 ## Merge of user information
 
-The merge of data from multiple user accounts that share the same e-mail address is not supported yet. That means that it's possible to log in with a Google account or a Linkedin account with the same e-mail address, but those would be two different users. To help with this, the login page shows which provider you used the last time.
+The merge of data from multiple user accounts that share the same e-mail address is not supported yet. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help with this, the login page shows which provider you used the last time.
 
 ## UUID
 

@@ -40,8 +40,8 @@ Integrating Mailchimp Mailchimp is an e-mail marketing service that can be used 
       
       <guid>/developers/applications/</guid>
       <description>This page explains how to integrate third-party applications using the Koliseo API.
-Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your own application with the Koliseo API, you will need to create a set of credentials:
- Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.</description>
+Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your application with the Koliseo API, you will need to create a set of credentials:
+ Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.  The form includes the following fields:</description>
     </item>
     
     <item>

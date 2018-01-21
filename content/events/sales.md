@@ -12,7 +12,7 @@ This page explains how to start selling tickets (free or not) for your event.
 
 ## Enabling ticket sales
 
-Once your event is ready, you can enable ticket sales to let users attend the event. To get started:
+Once your event is ready, you can activate ticket sales to let users attend the event. To get started:
 
 1. Go to your user dashboard.
 2. Select the **Events** tab and click on the event. For instructions to create your first event, [click here]({{< ref "/events/create.md" >}}).
@@ -26,7 +26,7 @@ To pause the ticket sales, click again on the **Stop selling** button.
 We transfer the funds collected from your ticket sales one week after the event has taken place, and for this we need that you introduce your wire transfer information:
 
 1. [Log into the system]({{< ref "authentication.md" >}}).
-2. Click on your picture on the top right corner of the screen and select the menu option with your user name.
+2. Click on your picture in the top right corner of the screen and select the menu option with your name.
 3. Select the **Payment info** tab.
 4. Fill out the form with your payment details (**IBAN**, **VAT ID**, **Billing name** and **Billing address**) and click the **Save** button.
 

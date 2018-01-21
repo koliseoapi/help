@@ -107,7 +107,7 @@ Downloading the list of tickets The list of tickets sold is available under the 
       <guid>/users/edit/</guid>
       <description>This page explains how to edit your user profile.
 Accessing your user profile To access your user profile:
- Click on your picture on the top right corner of the screen and select the menu option with your user name. Click the Edit button to the right of your name. Select the Data tab. Fill out your changes in the form and click the Save button.  The form includes the following fields:</description>
+ Click on your picture in the top right corner of the screen and select the menu option with your name. Click the Edit button to the right of your name. Select the Data tab. Fill out your changes in the form and click the Save button.  The form includes the following fields:</description>
     </item>
     
     <item>
@@ -160,8 +160,8 @@ Adding ticket types All events start with a single ticket type with a cost of 10
       
       <guid>/developers/applications/</guid>
       <description>This page explains how to integrate third-party applications using the Koliseo API.
-Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your own application with the Koliseo API, you will need to create a set of credentials:
- Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.</description>
+Generating credentials Koliseo uses OAuth 2 to secure its API. In order to connect your application with the Koliseo API, you will need to create a set of credentials:
+ Go to your user page. Select the Applications tab and click the Add Application button. Fill the form and click the Save button to create your application.  The form includes the following fields:</description>
     </item>
     
     <item>
@@ -193,7 +193,7 @@ If you are concerned about privacy, you may [mark your event as unlisted](/event
       
       <guid>/events/sales/</guid>
       <description>This page explains how to start selling tickets (free or not) for your event.
-Enabling ticket sales Once your event is ready, you can enable ticket sales to let users attend the event. To get started:
+Enabling ticket sales Once your event is ready, you can activate ticket sales to let users attend the event. To get started:
  Go to your user dashboard. Select the Events tab and click on the event. For instructions to create your first event, click here. Select the Actions tab. Click on the Resume selling button.</description>
     </item>
     
@@ -214,9 +214,10 @@ Before you start In order to accept feedback about your talks, you need:
       <pubDate>Sun, 14 Jan 2018 17:47:34 +0100</pubDate>
       
       <guid>/events/discounts/</guid>
-      <description>This page explains how to create and use discount codes that can be applied during the ticket purchase process.
+      <description>This page explains how to create and use discount codes that can be applied to ticket purchases.
 Creating discount codes To create discount codes for your events:
- Go to the edit page of your event. Select the Features &amp;raquo; Discounts tab. Click the Add discount button. Fill the fields in the form and click the Save button.  You can configure the following fields for the discount:</description>
+ Go to the edit page of your event. Select the Features &amp;raquo; Discounts tab. Click the Add discount button. Fill the fields in the form and click the Save button.  You can configure the following fields for the discount:
+ Name: The code that must be introduced during the ticket purchase to apply the discount.</description>
     </item>
     
     <item>

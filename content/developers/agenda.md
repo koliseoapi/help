@@ -18,7 +18,7 @@ To integrate [koliseo-agenda](https://github.com/koliseoapi/koliseo-agenda) with
 2. Create the [agenda]({{< ref "talks/agenda.md" >}}) and [integrate it into your web page]({{< ref "developers/agenda.md" >}}).
 3. Optionally, create an [Application]({{< ref "applications.md" >}}) and copy the **Client ID** into your component configuration ([see an example](https://github.com/koliseoapi/koliseo-agenda/#usage)). This task is required to enable the write operations in the agenda (**add bookmark** and **submit feedback**).
 
-Once this is done you are ready to integrate the JavaScript component for the agenda in your own web page.
+Once this is done you are ready to integrate the JavaScript component.
 
 ## Using the component
 

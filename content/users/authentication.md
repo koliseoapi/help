@@ -24,7 +24,7 @@ Koliseo will not get access to your contacts or get permissions to do actions on
 
 ## Custom usernames and passwords
 
-Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication into third-party OAuth providers because we believe it's the most secure option for managing user credentials. To use the platform, you need an account with one of these providers.
+Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication into third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.
 
 ## What's next
 

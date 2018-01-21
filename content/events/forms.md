@@ -32,7 +32,7 @@ The following field types are supported:
 * **E-mail**. 
 * **Checkbox**. 
 
-You can sort or delete fields using the buttons below each field. To save your changes, click the **Save** button on the top of the page.
+You can sort or delete fields using the buttons below each field. To save your changes, click the **Save** button at the top of the page.
 
 ## Filling out the form
 

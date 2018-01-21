@@ -39,7 +39,7 @@ Slots can have one of four types:
 To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options to choose from.
 
 <aside class="note">
-If you don't see a talk in the autocomplete list, make sure that it's marked as selected and is not already part of the agenda.
+If you don't see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
 </aside>
 
 ## Creating a random assignment of talks
