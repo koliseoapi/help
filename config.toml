@@ -3,4 +3,5 @@ DefaultContentLanguage = "en"
 copyright = "Apache License 2.0"
 sectionPagesMenu = "main"
 pygmentsUseClasses=true
-# ignorefiles = [ "_build" ]
+DisableRSS=true
+DisableSitemap=true
