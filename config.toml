@@ -3,5 +3,4 @@ DefaultContentLanguage = "en"
 copyright = "Apache License 2.0"
 sectionPagesMenu = "main"
 pygmentsUseClasses=true
-DisableRSS=true
-DisableSitemap=true
+disableKinds=["RSS","sitemap"]
