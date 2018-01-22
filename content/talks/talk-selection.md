@@ -1,36 +1,36 @@
 ---
 title: "Talk Selection"
 date: 2018-01-16T23:24:21+01:00
-summary: "The selection of the talks that will compose the final agenda can be decided by a selection comittee. This page explains how to compose the comittee and the mechanics of the selection process."
+summary: "The selection of the talks that will compose the final agenda can be decided by a selection committee. This page explains how to compose the committee and the mechanics of the selection process."
 weight: 30
 menu:
   main:
     parent: talks
 ---
 
-The selection of the talks that will compose the final agenda can be decided by a selection comittee. This page explains how to compose the selection comittee and the mechanics of the selection process.
+The selection of the talks that will compose the final agenda can be decided by a selection committee. This page explains how to compose the selection committee and the mechanics of the selection process.
 
-## Forming a selection comittee
+## Forming a selection committee
 
-Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a comittee for this.  
+Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee for this.  
 
-To invite a set of users to the selection comittee of a request for proposals:
+To invite a set of users to the selection committee of a request for proposals:
 
 1. Go to the edit page of your event.
 2. Select the **Request for proposals** tab and click on the R4P.
-3. Select the **Edit** &raquo; **Selection comittee** tab.
-4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the comittee. You can add as many members as you want.
+3. Select the **Edit** &raquo; **Selection committee** tab.
+4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as you want.
 5. To save your changes, click the **Save** button.
 
 The new members will receive an e-mail with instructions to participate in the talk selection process.
 
 ## Selecting talks
 
-Every member of the selection comittee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click the number of total votes.
+Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click the number of total votes.
 
 At the top of this page there is a form that can be used to filter by free text (searching by talk title, description, or username/bio) or by [state](#talk-state). You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
 
-Once the comittee can finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with higher number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
+Once the committee can finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with higher number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
 
 ## Talk state
 

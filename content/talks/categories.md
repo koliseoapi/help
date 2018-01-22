@@ -1,14 +1,14 @@
 ---
 title: "Categories"
 date: 2018-01-16T22:10:23+01:00
-summary: "The categories associated with a talk can be used later to filter the agenda."
+summary: "The categories associated with a talk can be used later to filter talks in the agenda."
 weight: 20
 menu:
   main:
     parent: talks
 ---
 
-This page explains how to configure the list of categories and tags that can be associated with a talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
+This page explains how to configure the list of categories and tags that the speakers can associate with their talks in a Request for proposals. These categories can be used later to filter talks in the agenda.
 
 ## Creating categories
 
@@ -28,7 +28,7 @@ For categories that may accept multiple choices, mark the **Multiple choice** ch
 
 ## Using categories in the agenda
 
-In the final agenda there is a form where your users can filter talks by categories.
+There is a form in the final agenda where your users can filter talks by categories.
 
 ## What's next
 
