@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "stable"
+  - "7"
 
 # The debian (or snap) package for Hugo are not included in this distro
 before_install:
