@@ -4,7 +4,7 @@ language: node_js
 # The debian (or snap) package for Hugo are not included in this distro
 before_install:
   - uname -i
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.33/hugo_0.33_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - rm hugo*.deb
   - hugo version
