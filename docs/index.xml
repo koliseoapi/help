@@ -72,9 +72,8 @@ During the authentication process Koliseo will get access to the following infor
       <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
       
       <guid>/talks/categories/</guid>
-      <description>This page explains how to configure the list of categories and tags that can be associated with a talk in a Request for proposals. These categories can be used later to filter talks in the agenda.
-Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:
- Go to the edit page of your event.</description>
+      <description>This page explains how to configure the list of categories and tags that the speakers can associate with their talks in a Request for proposals. These categories can be used later to filter talks in the agenda.
+Creating categories As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:</description>
     </item>
     
     <item>
@@ -127,8 +126,8 @@ Setting the date and location You can specify multiple dates, locations, and tic
       <pubDate>Tue, 16 Jan 2018 23:24:21 +0100</pubDate>
       
       <guid>/talks/talk-selection/</guid>
-      <description>The selection of the talks that will compose the final agenda can be decided by a selection comittee. This page explains how to compose the selection comittee and the mechanics of the selection process.
-Forming a selection comittee Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a comittee for this.</description>
+      <description>The selection of the talks that will compose the final agenda can be decided by a selection committee. This page explains how to compose the selection committee and the mechanics of the selection process.
+Forming a selection committee Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee for this.</description>
     </item>
     
     <item>
