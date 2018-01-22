@@ -18,4 +18,5 @@ npm run test
 npm run build
 ```
 
-We have configured /docs on master as the location of the gh-pages contents. If you want to publish changes, commit them to master and the CI/CD environment will automatically test and publish them.
+/docs on master is the location of the gh-pages contents. To publish changes, run `bin/deploy.sh`.
+
