@@ -11,11 +11,11 @@ npm i
 # Run the server. This does not write the hugo output to disk. 
 npm run watch
 
-# Launch the tests (build, run server and execute a broken link search)
+# Launch the tests (build, run server and search for broken links)
 npm run test
 
-# Build the documentation and save into /docs
+# Build the documentation and save the generated HTML and CSS into /docs
 npm run build
 ```
 
-The project has configured /docs on master as the location of the gh-pages contents.
+We have configured /docs on master as the location of the gh-pages contents. If you want to publish changes, commit them to master and the CI/CD environment will automatically test and publish them.
