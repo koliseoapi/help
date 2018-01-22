@@ -1,25 +1,25 @@
 ---
 title: "Talk Selection"
 date: 2018-01-16T23:24:21+01:00
-summary: "The selection of the talks that will compose the final agenda can be decided by a selection committee. This page explains how to compose the committee and the mechanics of the selection process."
+summary: "You can create a selection committee that will decide the final agenda. This page explains how to compose the committee and the mechanics of the selection process."
 weight: 30
 menu:
   main:
     parent: talks
 ---
 
-The selection of the talks that will compose the final agenda can be decided by a selection committee. This page explains how to compose the selection committee and the mechanics of the selection process.
+You can create a selection committee that will decide the final agenda. This page explains how to compose the selection committee and the mechanics of the selection process.
 
 ## Forming a selection committee
 
-Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee for this.  
+Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.  
 
 To invite a set of users to the selection committee of a request for proposals:
 
 1. Go to the edit page of your event.
 2. Select the **Request for proposals** tab and click on the R4P.
 3. Select the **Edit** &raquo; **Selection committee** tab.
-4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as you want.
+4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as needed.
 5. To save your changes, click the **Save** button.
 
 The new members will receive an e-mail with instructions to participate in the talk selection process.
@@ -28,9 +28,9 @@ The new members will receive an e-mail with instructions to participate in the t
 
 Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click the number of total votes.
 
-At the top of this page there is a form that can be used to filter by free text (searching by talk title, description, or username/bio) or by [state](#talk-state). You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
+There is a form at the top of this page that can be used to filter by free text (searching by talk title, description, or username/bio) or by [state](#talk-state). You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
 
-Once the committee can finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with higher number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
+Once the committee has finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with the highest number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
 
 ## Talk state
 
@@ -38,7 +38,7 @@ Each talk can be in one of three states:
 
 * **Not selected**: This is the default state of a talk that has just been submitted. 
 * **Selected**: Talks with this state are available when defining the final agenda. To toggle the **Selected** state of a talk, click the **Selected** / **Not selected** link in the talk.
-* **Assigned**: These are talks that have been asigned a slot in [the agenda]({{< ref "agenda.md" >}}).
+* **Assigned**: These are talks that have been assigned a slot in [the agenda]({{< ref "agenda.md" >}}).
 
 ## Sending E-mail
 
@@ -52,7 +52,7 @@ You can send communications from the R4P page. For example, to send a notificati
 
 The form displays the number of users that will receive this e-mail when sent. For talks with multiple speakers, each one will receive a copy of the message.
 
-You can use notifications at any point in the lifecycle of the R4P, for example to send notifications about the assigned track and time. To this purpose, you can use the following variables in the subject and body of the message:
+You can use notifications at any point in the lifecycle of the R4P, like to send notifications about the assigned track and time, for example. To this purpose, you can use the following variables in the subject and body of the message:
 
 Parameter | Attributes | Description
 ---|---|---

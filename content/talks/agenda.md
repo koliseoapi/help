@@ -36,7 +36,7 @@ Slots can have one of four types:
 * **Break**: A slot reserved for coffee, lunch break, inscription, etc.
 * **Extend track**: When a track will be extended horizontally over other tracks at one particular time, like keynotes.
 
-To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options to choose from.
+To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options.
 
 <aside class="note">
 If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
@@ -44,9 +44,9 @@ If you do not see a talk in the autocomplete list, make sure that it is selected
 
 ## Creating a random assignment of talks
 
-Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the **Actions** tab and click the **Assign empty slots** button. This will randomly assign a talk to every empty slot. 
+Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the **Actions** tab and click the **Assign empty slots** button to randomly assign a talk to every empty slot. 
 
-Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can modify the results later manually.
+Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can adjust the results later manually.
 
 ## Publish
 
@@ -57,14 +57,14 @@ Once the agenda is final, to publish it:
 3. Configure the [JavaScript agenda component]({{< ref "developers/agenda.md" >}}) in your web page.
 
 <aside class="note">
-To accept feedback in your agenda, make sure that the <b>Feedback</b> checkbox is also selected.
+If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
 </aside>
 
 ## Updates
 
 As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place. 
 
-To modify your presentation, access the page of the Request for Proposals or open [your user profile page](https://www.koliseo.com/me) and select the tab **Talks**.
+To modify your presentation, access the page of the Request for Proposals or open [your user profile](https://www.koliseo.com/me) and select the tab **Talks**.
 
 ## What's next
 

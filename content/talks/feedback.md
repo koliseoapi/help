@@ -12,20 +12,20 @@ This page explains how to collect feedback about the talks directly from the age
 
 ## Before you start
 
-In order to accept feedback about your talks, you need:
+To accept feedback about your talks, you need:
 
 1. <a href="{{< ref "talks/agenda.md#publish" >}}">A public agenda</a> with feedback enabled.
-2. The agenda component integrated in your web page ([read more]({{< ref "developers/agenda.md" >}})). Once your users can log in from the agenda component, you are ready to start accepting feedback.
+2. The agenda component integrated into your web page ([read more]({{< ref "developers/agenda.md" >}})). Once your users can log in from the agenda component, you are ready to start accepting feedback.
 
 ## Feedback
 
 Users can provide feedback directly from the JavaScript agenda component. To leave feedback, you must first click the **Log in** button to open a user session.
 
-To make feedback valuable, the page will warn if the **Comment** field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available in their profile page in Koliseo.
+To make your feedback valuable, the page will warn if the **Comment** field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available on their user profile.
 
 ## Bookmarks
 
-After logging in, users can bookmark talks in the agenda before the event by clicking the **Bookmark** button. As organizer, you can later use this information to assign the talks with most people interested in to the biggest tracks.
+After logging in, users can bookmark talks before the event by clicking the **Bookmark** button. As the organizer, you can later use this information to put the talks with the most interest in tracks with higher capacity.
 
 ## What's next
 

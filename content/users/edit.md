@@ -21,13 +21,13 @@ To access your user profile:
 
 The form includes the following fields:
 
-* **Avatar**: Click the **Choose a file** button next to your picture. Your user profile picture will be extracted from the authentication provider chosen during your first user session, and every time that you log in the server update it. By specifying a custom picture, this behavior will be disabled and you will have to change the picture manually from now on.
+* **Avatar**: Click the **Choose a file** button next to your picture. Koliseo will extract your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it. When you upload a custom picture, this behavior will be disabled.
 * **Name**: Your name, to be displayed in listings.
 * **URL**: The URL of your user profile. You can change it by modifying your [uuid]({{< ref "#uuid" >}}).
-* **Description**: A short (140 characters) description to display in your profile page.
-* **Language**: The language that will be used when logged in. The platform supports English and Spanish.
+* **Description**: A short (140 characters) description to display on your user profile.
+* **Language**: The language that the page will show when you are logged in. The supprted languages are English and Spanish.
 * **Twitter account**: If set, your Twitter handle will be visible in your user profile and in any talks where you are a speaker.
-* Select the **Subscribed** checkbox to get registered into the mailing list where we announce new features in the platform.
+* Select the **Subscribed** checkbox to get registered on the mailing list where we announce our new features.
 
 When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a `hl=en` or `hl=es` GET parameter to any URL. 
 
@@ -37,12 +37,12 @@ To delete your user information, contact us at info@koliseo.com and we will proc
 
 After deleting your user:
 
-* All your talks, feedback or likes will be removed from the server.
-* We will reassign any existing tickets or events with sold tickets to a different user. They will be kept for accounting purposes.
+* We will remove all your talks, feedback or bookmarks.
+* We will reassign any existing tickets or events with sold tickets to a different user. We will keep them for accounting purposes.
 
 ## Merge of user information
 
-The merge of data from multiple user accounts that share the same e-mail address is not supported yet. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help with this, the login page shows which provider you used the last time.
+Koliseo does not support the merge of data from multiple user accounts that share the same e-mail address. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help avoid confusion, the login page shows which provider you used the last time.
 
 ## UUID
 

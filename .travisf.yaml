@@ -1,0 +1,6 @@
+sudo: false
+language: node_js
+script: npm run test
+after_script: git add docs/* && git commit -m 'Automatic deployment from Travis' && git push origin master
+node_js:
+  - "stable"

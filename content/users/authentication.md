@@ -11,9 +11,9 @@ This page explains how the authentication and user management system works in Ko
 
 ## Authentication providers
 
-Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform you agree to our [terms and conditions](https://www.koliseo.com/legal), including our use of Cookies.
+Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our [terms and conditions](https://www.koliseo.com/legal) including our use of Cookies.
 
-During the authentication process Koliseo will get access to the following information about your user profile:
+During the authentication process Koliseo will gain access to the following information about your user profile:
 
 * OAuth id
 * Name
@@ -24,7 +24,7 @@ Koliseo will not get access to your contacts or get permissions to do actions on
 
 ## Custom usernames and passwords
 
-Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication into third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.
+Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.
 
 ## What's next
 
