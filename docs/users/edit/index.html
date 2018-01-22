@@ -216,7 +216,7 @@
           class="sidebar-nav-a2 " 
           href="/developers/mailchimp/"
         > 
-          Mailchimp 
+          MailChimp 
         </a> 
       
         <a 
@@ -303,13 +303,13 @@
 <p>The form includes the following fields:</p>
 
 <ul>
-<li><strong>Avatar</strong>: Click the <strong>Choose a file</strong> button next to your picture. Your user profile picture will be extracted from the authentication provider chosen during your first user session, and every time that you log in the server update it. By specifying a custom picture, this behavior will be disabled and you will have to change the picture manually from now on.</li>
+<li><strong>Avatar</strong>: Click the <strong>Choose a file</strong> button next to your picture. Koliseo will extract your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it. When you upload a custom picture, this behavior will be disabled.</li>
 <li><strong>Name</strong>: Your name, to be displayed in listings.</li>
 <li><strong>URL</strong>: The URL of your user profile. You can change it by modifying your <a href="#uuid">uuid</a>.</li>
-<li><strong>Description</strong>: A short (140 characters) description to display in your profile page.</li>
-<li><strong>Language</strong>: The language that will be used when logged in. The platform supports English and Spanish.</li>
+<li><strong>Description</strong>: A short (140 characters) description to display on your user profile.</li>
+<li><strong>Language</strong>: The language that the page will show when you are logged in. The supprted languages are English and Spanish.</li>
 <li><strong>Twitter account</strong>: If set, your Twitter handle will be visible in your user profile and in any talks where you are a speaker.</li>
-<li>Select the <strong>Subscribed</strong> checkbox to get registered into the mailing list where we announce new features in the platform.</li>
+<li>Select the <strong>Subscribed</strong> checkbox to get registered on the mailing list where we announce our new features.</li>
 </ul>
 
 <p>When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a <code>hl=en</code> or <code>hl=es</code> GET parameter to any URL.</p>
@@ -321,13 +321,13 @@
 <p>After deleting your user:</p>
 
 <ul>
-<li>All your talks, feedback or likes will be removed from the server.</li>
-<li>We will reassign any existing tickets or events with sold tickets to a different user. They will be kept for accounting purposes.</li>
+<li>We will remove all your talks, feedback or bookmarks.</li>
+<li>We will reassign any existing tickets or events with sold tickets to a different user. We will keep them for accounting purposes.</li>
 </ul>
 
 <h2 id="merge-of-user-information">Merge of user information</h2>
 
-<p>The merge of data from multiple user accounts that share the same e-mail address is not supported yet. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help with this, the login page shows which provider you used the last time.</p>
+<p>Koliseo does not support the merge of data from multiple user accounts that share the same e-mail address. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help avoid confusion, the login page shows which provider you used the last time.</p>
 
 <h2 id="uuid">UUID</h2>
 
