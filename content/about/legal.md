@@ -31,11 +31,11 @@ Extrema Sistemas reserves the right to change without prior notice the design, l
 
 The acceptance of this disclaimer entails the creation of a Legal Agreement with binding effects between Extrema Sistemas and the User. By using Koliseo, the User accepts the User Terms and Conditions (hereinafter the Terms and Conditions) set out below, and agree that the User has the legal capacity to enter and respond by this Agreement.
 
-## Goal
+## Purpose of the website
 
 <div class="layman-terms">In which we explain that our goal is to sell tickets and promote interaction among users.</div>
 
-Our goal is to provide our Users with the best possible experience in the purchase of tickets for their events. This experience comes along with event management tools and features to share opinions with other Users.
+The purpose of Koliseo is to provide our Users with the best possible experience in the purchase of tickets for their events. This experience comes along with event management tools and features to share opinions with other Users.
 
 Extrema Sistemas acts as a ticketing agent authorized to sell tickets on behalf of the organizer (hereinafter Organizer) that organizes the event for which the User acquires a ticket. Extrema Sistemas may share with the Organizer personal information of the Users that have purchased tickets. Extrema Sistemas may use data from the User to contact him when necessary, concerning the transactions entered by the User in Koliseo.
 

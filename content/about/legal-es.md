@@ -10,7 +10,7 @@ menu:
 
 Esta página introduce los Términos y Condiciones de Koliseo, una plataforma que permite gestionar la agenda, feedback y entradas para tu eventos. [Ir a la versión en Inglés]({{< ref "legal.md" >}}).
 
-## Identificación de la empresa</h2>
+## Identificación de la empresa
 
 <div class="layman-terms">En la que explicamos quiénes somos, y dónde se nos puede encontrar</div>
 
@@ -18,20 +18,17 @@ Extrema Sistemas, S.L., titular del sitio web http://koliseo.com (en adelante Ko
 
 Las presentes condiciones regulan el acceso y el uso del servicio que Koliseo pone a disposición de los Usuarios de Internet. Cualquier consulta puede dirigirse a través de la dirección: info@koliseo.com
 
-## Aceptación de las condiciones de uso</h2>
+## Aceptación de las condiciones de uso
 
 <div class="layman-terms">En la que dejamos claro que para poder utilizar este sitio web primero deben aceptarse estas condiciones</div>
 
-Las personas que hagan uso de Koliseo (en adelante Usuarios) deberán leer las presentes Condiciones Generales de Uso. El uso o acceso a
-Koliseo implica el conocimiento y la plena aceptación de las advertencias legales y condiciones que a continuación se detallan. Extrema Sistemas
-se reserva el derecho a modificar las presentes Condiciones de Uso bajo iniciativa propia y sin necesidad de previo aviso al Usuario, entrando
-en vigor dichas condiciones desde el momento de su publicación en la web y de aplicación retroactiva.
+Las personas que hagan uso de Koliseo (en adelante Usuarios) deberán leer las presentes Condiciones Generales de Uso. El uso o acceso a Koliseo implica el conocimiento y la plena aceptación de las advertencias legales y condiciones que a continuación se detallan. Extrema Sistemas se reserva el derecho a modificar las presentes Condiciones de Uso bajo iniciativa propia y sin necesidad de previo aviso al Usuario, entrando en vigor dichas condiciones desde el momento de su publicación en la web y de aplicación retroactiva.
 
 Extrema Sistemas se reserva el derecho a modificar sin previo aviso el diseño, presentación y configuración del sitio web, así como los servicios nuevos o existentes. Asimismo, Extrema Sistemas se reserva el derecho de, en cualquier momento y sin necesidad de previo aviso, denegar el acceso a este sitio a aquellos Usuarios que incumplan cualesquiera de estas condiciones legales o de las particulares que les sean de aplicación.
 
 La aceptación del presente aviso legal supone la creación de un Acuerdo Legal con efectos vinculantes entre Extrema Sistemas y el Usuario. Al utilizar Koliseo, el Usuario acepta los Términos y Condiciones de Usuario (en adelante, Términos y Condiciones) que a continuación se establecen, y acepta que tiene capacidad legal para celebrar y responder por el presente Acuerdo.
 
-## Objetivo</h2>
+## Objetivo del website
 
 <div class="layman-terms">En la que se explica que nuestro objetivo es vender entradas y favorecer la interacción entre usuarios.</div>
 
@@ -39,7 +36,7 @@ Nuestro objetivo es ofrecer a los Usuarios de Koliseo la mejor experiencia posib
 
 Extrema Sistemas actúa como agente de venta de entradas autorizado, vendiendo entradas en nombre del promotor (en adelante Promotor) que organiza el evento para el que el Usuario adquiere una entrada. Extrema Sistemas puede compartir con el Promotor los datos personales de Usuarios que han adquirido entradas. Extrema Sistemas puede utilizar los datos del Usuario para ponerse en contacto con él cuando sea necesario en relación con las transacciones realizadas por el Usuario en Koliseo.
 
-## Obligaciones del Usuario</h2>
+## Obligaciones del Usuario
 
 <div class="layman-terms">En la que se especifica el límite de edad y los usos permitidos en Koliseo. No se permite enviar spam, difundir contenidos que atenten contra la moral ni realizar reventa de entradas. Ante la duda, el sentido común suele ir bien.</div>
 
@@ -59,9 +56,7 @@ Cuando El Usuario se registra para un evento está dando tu consentimiento para 
 
 ### Compra de entradas
 
-Para poder realizar la compra de entradas el Usuario declara ser mayor de edad (18 años o más, dependiendo de la legislación aplicable) y disponer de capacidad legal necesaria para la
-compra de entradas a través de Koliseo, manifestando asimismo que acepta la vinculación a este Acuerdo y entiende y acepta en su totalidad las condiciones
-aquí enunciadas para utilizar este website.
+Para poder realizar la compra de entradas el Usuario declara ser mayor de edad (18 años o más, dependiendo de la legislación aplicable) y disponer de capacidad legal necesaria para la compra de entradas a través de Koliseo, manifestando asimismo que acepta la vinculación a este Acuerdo y entiende y acepta en su totalidad las condiciones aquí enunciadas para utilizar este website.
 
 El recinto se reserva el derecho de admisión en caso de que el Usuario infrinja alguna norma del recinto. De forma puntual, el recinto podrá realizar inspecciones de seguridad para garantizar la seguridad de los clientes. Los Usuarios que lleguen con retraso serán acomodados durante un descanso apropiado del evento, pero la admisión no estará garantizada en este caso. La empresa no se hará responsable de ninguna pérdida o robo de entradas.
 
@@ -82,24 +77,19 @@ apuestas, publicidad, reventa de entradas, etc.
 * El Usuario entiende y acepta que sin aviso previo Extrema Sistemas puede interrumpir su acceso a Koliseo, cancelar sus entradas o eliminar cualquier contenido del Usuario si Extrema Sistemas entiende que dicho contenido ha infringido o no es coherente con
 estos Términos y Condiciones o constituye una infracción de los derechos de Extrema Sistemas, de otros Usuarios o de la ley.
 
-## Exclusión de responsabilidades</h2>
+## Exclusión de responsabilidades
 
 <div class="layman-terms">En la que dejamos claro que meteremos el cuezo porque este sistema está desarrollado por humanos. Pero seguimos trabajando para que nuestros errores se limiten a ser una anécdota graciosa.</div>
 
-El Usuario reconoce que técnicamente no es posible lograr disponibilidad de Koliseo al 100%. Extrema Sistemas no garantiza la disponibilidad y continuidad del
-servicio. Extrema Sistemas excluye cualquier tipo de responsabilidad por los daños y perjuicios de toda naturaleza que puedan deberse a la falta de disponibilidad
-o al uso fraudulento que los Usuarios hubieran podido hacer del website. Extrema Sistemas no asumirá ningún tipo de responsabilidad por los posibles fallos en el
-acceso a las páginas de Koliseo. No obstante, Extrema Sistemas se esforzará por mantener la disponibilidad de Koliseo de la forma más continua posible.
+El Usuario reconoce que técnicamente no es posible lograr disponibilidad de Koliseo al 100%. Extrema Sistemas no garantiza la disponibilidad y continuidad del servicio. Extrema Sistemas excluye cualquier tipo de responsabilidad por los daños y perjuicios de toda naturaleza que puedan deberse a la falta de disponibilidad o al uso fraudulento que los Usuarios hubieran podido hacer del website. Extrema Sistemas no asumirá ningún tipo de responsabilidad por los posibles fallos en el acceso a las páginas de Koliseo. No obstante, Extrema Sistemas se esforzará por mantener la disponibilidad de Koliseo de la forma más continua posible.
 
 Extrema Sistemas no puede asegurar que los archivos que descargue el Usuario no contengan virus o archivos maliciosos. Extrema Sistemas no se responsabilizará por los daños que puedan deberse al uso de Koliseo, incluidos sin limitación, daños directos, indirectos, incidentales, punitivos y consecuentes. Extrema Sistemas no es responsable de los productos, servicios, acciones o falta de acción de cualquier recinto, artista, promotor o tercero en relación con Koliseo o al que se haya hecho referencia.
 
-## Devoluciones</h2>
+## Devoluciones de entradas
 
 <div class="layman-terms">En la que se detallan las condiciones de devolución del importe de las entradas.</div>
 
-El Usuario debe estar seguro de sus intenciones antes de realizar una compra ya que no se permite la devolución de entradas adquiridas. La imposibilidad de
-asistir a una actuación o un error al realizar la adquisición de entradas no son motivos válidos de devolución. Sólo se pueden cancelar entradas por motivos
-técnicos u operativos.
+El Usuario debe estar seguro de sus intenciones antes de realizar una compra ya que no se permite la devolución de entradas adquiridas. La imposibilidad de asistir a una actuación o un error al realizar la adquisición de entradas no son motivos válidos de devolución. Sólo se pueden cancelar entradas por motivos técnicos u operativos.
 
 Es importante recalcar que Extrema Sistemas actúa en calidad agente y no de vendedor. En los casos de cancelación del evento, el Usuario deberá ponerse en contacto con el Promotor para obtener información acerca de si tiene derecho a recibir el reembolso. En caso de posponer o programar de nuevo el evento, el Promotor puede establecer limitaciones de reembolso. El importe máximo de reembolso será el valor nominal de la entrada en la fecha de adquisición.
 
@@ -107,7 +97,7 @@ Es responsabilidad del Usuario informarse de si se ha cancelado un evento o la f
 
 Las entradas compradas están sujetas a cargos por gestión de venta de entradas y a cargos por tramitación de pedidos que en ningún caso serán reembolsables. Se limitará un número máximo de entradas por evento a cada Usuario.
 
-## Duración y terminación</h2>
+## Duración y terminación
 
 <div class="layman-terms">En la que se mide la duración de estas condiciones legales así como el derecho de Extrema Sistemas a retirar contenidos que las infrinjan.</div>
 
@@ -115,7 +105,7 @@ La duración del presente Acuerdo Legal es indefinida. Extrema Sistemas podrá d
 
 Cualquiera de las cláusulas anteriores que sea nula o fuera contraria a La Ley, se tendrá como no puesta, quedando las demás en vigor y con plena eficacia para las partes.
 
-## Legislación aplicable</h2>
+## Legislación aplicable
 
 <div class="layman-terms">En la que se explica que somos razonables y estamos dispuestos a hablar, pero en Madrid.</div>
 
