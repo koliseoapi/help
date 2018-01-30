@@ -16,8 +16,8 @@ Koliseo supports four providers to authenticate users into the platform: Google,
 During the authentication process Koliseo will gain access to the following information about your user profile:
 
 * OAuth id
-* Name
-* E-mail
+* User Name
+* E-mail address
 * Photo
 
 Koliseo will not get access to your contacts or get permissions to do actions on your behalf. 

@@ -48,9 +48,9 @@ La edad mínima para poder hacer uso de Koliseo son los 14 años de edad. Los ni
 
 Extrema Sistemas no puede validar la veracidad de los datos introducidos y no se hace responsable de que posibles Usuarios falseen los datos. Extrema Sistemas bloqueará el acceso a todos aquellos Usuarios que se demuestre que no cumplen la edad mínima legal o que han falseado cualquier otro dato.
 
-### Información almacenada
+### Información personal
 
-Almacenamos información personal (nombre y dirección de correo electrónico) necesaria para el normal funcionamiento del website después de abrir sesión en la plataforma por primera vez. 
+Koliseo almacena datos personales necesarios para realizar nuestras funciones. Puedes leer más sobre [nuestra Política de Privacidad (en inglés)]({{< ref "privacy.md" >}}), incluyendo nuestro uso de Cookies.
 
 Cuando El Usuario se registra para un evento está dando tu consentimiento para proveer de sus datos personales al organizador del evento, que no está sujeto a las presentes Condiciones Legales. Extrema Sistemas no es responsable de las acciones de estos organizadores con respecto a tus datos personales.
 
@@ -111,3 +111,6 @@ Cualquiera de las cláusulas anteriores que sea nula o fuera contraria a La Ley,
 
 Este acuerdo se rige por la legislación de España. Serán competentes para conocer de las divergencias que se deriven de la interpretación o aplicación de estas condiciones los Jueces y Tribunales de la Comunidad de Madrid. En caso de litigio las partes acuerdan, con renuncia al fuero que pudiera corresponderles, que la competencia judicial corresponderá a los Jueces y Tribunales de La Comunidad de Madrid.
 
+## Recursos Adicionales
+
+* [Lee acerca de nuestra Política de Privacidad (en inglés)]({{< ref "privacy.md" >}})

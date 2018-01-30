@@ -53,7 +53,7 @@ Extrema Sistemas cannot validate the accuracy of data entered and is not respons
 
 ### Personal information
 
-Koliseo collects personal information (name and e-mail address) required for the normal operation of the site after the first successful sign-in. 
+Koliseo collects the personal information necessary to perform our functions. You can read more about [our Privacy Policy]({{< ref "privacy.md" >}}), including our use of Cookies.
 
 When a User registers for an event, they are giving consent to provide their personal data to the organizer of such event, which may not be bound to treat your personal data in accordance with this Privacy Policy. Extrema Sistemas is not responsible for the actions of these Organizers with respect to their personal data.
 
@@ -86,7 +86,7 @@ The User acknowledges that it is not technically possible to achieve 100% uptime
 
 Extrema Sistemas cannot guarantee that files downloaded by the User are free of viruses or malicious files. Extrema Sistemas will not be liable for any damages caused by using Koliseo, including without limitation direct, indirect, incidental, punitive and consequential damages. Extrema Sistemas is not responsible for the products, services, actions or inaction of any venue, artist, producer or third party related to the Web or to which reference has been made.
 
-## Refunds
+## Ticket Refunds
 
 <div class="layman-terms">In which the conditions governing the refund of tickets are detailed.</div>
 
@@ -112,3 +112,6 @@ If any of the clauses mentioned above are invalid or against Law, it will be con
 
 The User agrees that this Agreement is governed by the laws of Spain. The User agrees to submit to the jurisdiction of the courts located in Comunidad de Madrid, Spain for the purpose of litigating all such claims.
 
+## Additional Resources
+
+* [Learn more about our Privacy Policy]({{< ref "privacy.md" >}})
