@@ -18,5 +18,5 @@ npm run test
 npm run build
 ```
 
-/docs on master is the location of the gh-pages contents. To publish changes, run `bin/deploy.sh`.
+The gh-pages contents are located on `/docs` on the `master` branch. To publish changes, run `bin/deploy.sh`.
 
