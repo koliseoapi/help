@@ -8,7 +8,7 @@ menu:
     parent: talks
 ---
 
-This page explains how to collect feedback about the talks directly from the agenda.
+Users can provide feedback directly from the agenda component in your web page. This page explains how to collect this feedback.
 
 ## Before you start
 
@@ -19,7 +19,7 @@ To accept feedback about your talks, you need:
 
 ## Feedback
 
-Users can provide feedback directly from the JavaScript agenda component. To leave feedback, you must first click the **Log in** button to open a user session.
+Users can provide feedback directly from the JavaScript component for the agenda. To leave feedback, you must first click the **Log in** button to open a user session.
 
 To make your feedback valuable, the page will warn if the **Comment** field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available on their user profile.
 

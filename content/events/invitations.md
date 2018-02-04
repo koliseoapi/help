@@ -16,7 +16,7 @@ To modify an event to require invitations:
 
 1. Open the edit page of your event.
 2. Select the **Features** &raquo; **Invitations** tab.
-3. Mark the **This event is by invitation only** checkbox.
+3. Mark the **This event requires an invitation** checkbox.
 
 Once you mark the event as "invitation only", the ticket purchase page gets locked and will require an invitation to proceed. Uncheck this checkbox to remove the restriction and open the event again to the public.
 

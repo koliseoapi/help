@@ -1,7 +1,7 @@
 ---
 title: "Integrating the agenda component in your web page"
 date: 2018-01-19T00:11:40+01:00
-summary: "Incorporate the JavaScript agenda component in your own web page."
+summary: "Incorporate the JavaScript component for the agenda in your own web page."
 weight: 10
 menu:
   main:

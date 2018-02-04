@@ -8,7 +8,7 @@ menu:
     parent: "events" 
 ---
 
-This page explains how to create events in Koliseo. In Koliseo everything is bound to an event: ticket sales, talk proposals and feedback, all require a parent event first.
+This page explains how to create events. In Koliseo everything is bound to an event: ticket sales, talk proposals and feedback, all require to create a parent event first.
 
 ## Create your first event
 

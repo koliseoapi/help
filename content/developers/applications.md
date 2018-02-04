@@ -12,7 +12,7 @@ This page explains how to integrate third-party applications using the Koliseo A
 
 ## Generating credentials
 
-Koliseo uses OAuth 2 to secure its API. To connect your application with the Koliseo API, you will need to create a set of credentials:
+Koliseo uses OAuth 2 to secure its API. To connect your application with the platform, you first need to create a set of credentials:
 
 1. Go to [your user page](https://www.koliseo.com/me).
 2. Select the **Applications** tab and click the **Add Application** button.
