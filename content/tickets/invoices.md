@@ -8,7 +8,7 @@ menu:
     parent: tickets
 ---
 
-Koliseo supports automatic invoices for your events, where any attendee can create their invoice directly on the platform. This page explains how to use and configure automatic invoices.
+Koliseo supports automatic invoices, which enables your attendees to create their invoices directly from the ticket page. This document explains how to use and configure automatic invoices.
 
 ## Get the invoice for a ticket
 
@@ -26,7 +26,7 @@ The event organizer must have enabled automatic invoices following the procedure
 
 ## Enabling automatic invoices
 
-To activate automatic invoices, fill out your invoice details:
+To enable automatic invoices, fill out your invoice details:
 
 1. Under the **Events** tab in your dashboard, select your event and click **Edit**. 
 2. Select the **Invoices** &raquo; **Invoicing info** tab.
