@@ -30,7 +30,7 @@ You can validate tickets at the entrance of the event using our [Koliseo Access 
 6. Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.
 
 <aside class="note">
-Anyone with a valid Google account can operate the access control application, not just the event organizer.
+Anyone with an Android device can operate the access control application, not just the event organizer.
 </aside>
 
 Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.
