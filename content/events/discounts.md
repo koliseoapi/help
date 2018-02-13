@@ -38,7 +38,7 @@ To use a discount:
 3. Click the **Click here if you have a promotional code** link.
 4. Introduce the discount code in the input field that appears. Once introduced, the code is validated automatically.
 5. Once the validation passes, the page subtracts the discount from the amount to pay.
-6. Select the **I have read and accept the terms and conditions** checkbox and click the **Save** button.
+6. To complete the ticket purchase, click the **Check out** button.
 
 The discount is applied to the total amount before including [our service fee]({{< ref "pricing.md" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is not applied.
 
