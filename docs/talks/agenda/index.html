@@ -209,7 +209,7 @@
           class="sidebar-nav-a2 " 
           href="/developers/agenda/"
         > 
-          Integrating the agenda component in your web page 
+          The agenda component 
         </a> 
       
         <a 
@@ -334,12 +334,25 @@
 <li>Go to the page of your Request for proposals and select the <strong>Agenda</strong> tab.</li>
 <li>Click the <strong>Add new day</strong> link, and then click on the created day.</li>
 <li>Click the <strong>Add new track</strong> link, and then click on the created track.</li>
-<li>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</li>
-<li>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;, and click the <strong>Create</strong> button.</li>
-<li>Repeat the process until the track is complete.</li>
-<li>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</li>
-<li>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</li>
+
+<li><p>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</p>
+
+<p><img src="/img/screenshots/talks/agenda-track-edit.jpg" alt="The Track Edit UI" /></p></li>
+
+<li><p>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;.</p></li>
+
+<li><p>In the <strong>Talk</strong> text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the <strong>Create</strong> button.</p>
+
+<p><img src="/img/screenshots/talks/agenda-slot-edit.jpg" alt="The Slot Edit UI" /></p></li>
+
+<li><p>Repeat the process until the track is complete.</p></li>
+
+<li><p>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</p></li>
+
+<li><p>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</p></li>
 </ol>
+
+<p>While cloning, only the track structure is copied. You still have to assign talks to the newly created slots.</p>
 
 <p>You can see a preview of the current status of the agenda by selecting the <strong>Preview</strong> tab.</p>
 
@@ -364,6 +377,8 @@ If you do not see a talk in the autocomplete list, make sure that it is selected
 
 <p>Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the <strong>Actions</strong> tab and click the <strong>Assign empty slots</strong> button to randomly assign a talk to every empty slot.</p>
 
+<p><img src="/img/screenshots/talks/agenda-actions.jpg" alt="The actions tab of the agenda" /></p>
+
 <p>Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can adjust the results later manually.</p>
 
 <h2 id="publish">Publish</h2>
@@ -376,6 +391,8 @@ If you do not see a talk in the autocomplete list, make sure that it is selected
 <li>Configure the <a href="/developers/agenda/">JavaScript agenda component</a> in your web page.</li>
 </ol>
 
+<p><img src="/img/screenshots/talks/agenda-settings.jpg" alt="The settings tab of the agenda" /></p>
+
 <aside class="note">
 If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
 </aside>
@@ -384,7 +401,15 @@ If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is 
 
 <p>As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the <strong>Slide deck</strong> and <strong>Video recording</strong> before or after the event has taken place.</p>
 
-<p>To modify your presentation, access the page of the Request for Proposals or open <a href="https://www.koliseo.com/me">your user profile</a> and select the tab <strong>Talks</strong>.</p>
+<p><img src="/img/screenshots/talks/talk-slides.jpg" alt="The form fields to specify your slides and youtube URL" /></p>
+
+<p>The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.</p>
+
+<p>To modify your presentation, visit the Request for Proposals or open <a href="https://www.koliseo.com/me">your user profile</a> and select the tab <strong>Talks</strong>.</p>
+
+<aside class="note">
+The input fields for slides and video are only displayed for talks that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
+</aside>
 
 <h2 id="what-s-next">What&rsquo;s next</h2>
 
