@@ -17,6 +17,10 @@ To accept feedback about your talks, you need:
 1. <a href="{{< ref "talks/agenda.md#publish" >}}">A public agenda</a> with feedback enabled.
 2. The agenda component integrated into your web page ([read more]({{< ref "developers/agenda.md" >}})). Once your users can log in from the agenda component, you are ready to start accepting feedback.
 
+You can see an example of an agenda with feedback [here](https://2017.codemotion.es/agenda.html).
+
+![The feedback list](/img/screenshots/talks/feedback-list.jpg)
+
 ## Feedback
 
 Users can provide feedback directly from the JavaScript component for the agenda. To leave feedback, you must first click the **Log in** button to open a user session.

@@ -18,6 +18,8 @@ To create an event:
 2. Click the <b>Create new event</b> button in your dashboard. 
 3. Introduce a **Name** and **Description** and click the <b>Save</b> button.
 
+![The event creation page](/img/screenshots/events/create.jpg)
+
 There are some optional fields in this form to customize the behavior of the event:
 
 * **Max tickets per user** is the maximum number of tickets that can be purchased by a single user in one or multiple attempts.

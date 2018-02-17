@@ -16,15 +16,22 @@ All events start with a single ticket type with a cost of 10€. To modify this:
 
 1. Access your user dashboard and select your event under the **Events** tab.
 2. Select the **Date and Time** tab and click on the date where you want to apply a different ticket price. For instructions to create your first date and location, [click here]({{< ref "dates.md" >}}).
+
+    ![The ticket types list](/img/screenshots/events/ticket-types-list.jpg)
+
 3. Click the **Add Ticket Type** button.
-4. Select the newly created ticket type and enter a **Name**, **Description**, **Total tickets** and **Price**.
+4. Enter a **Name**, **Description**, **Total tickets** and **Price**.
 5. To save your changes, click the **Save** button.
+
+![The ticket type creation page](/img/screenshots/events/ticket-types-edit.jpg)
 
 ## Limited availability
 
 To select the dates in which this ticket type will be available, select the **Limited availability** checkbox and enter a date interval. You can leave the start or end date empty.
 
 To make this ticket type visible even when not available, select **Limit visibility** and change the value in the **Type** drop-down to either "Only when the ticket type is available" or "Between specified dates" to specify a date interval.
+
+![Limiting availability and visibility](/img/screenshots/events/ticket-types-availability.jpg)
 
 <aside class="note">
 Limited availability and limited visibility can be combined to hide or make visible your future ticket sale dates. 

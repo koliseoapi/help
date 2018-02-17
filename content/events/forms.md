@@ -18,6 +18,9 @@ As the event organizer, you can define a form that attendees must fill out to ge
 2. Select the **Features** &raquo; **Form** tab.
 3. Click the **Add field** button.
 4. Introduce "Role in your organization" into the **Field name** input.
+
+    ![The form edition page](/img/screenshots/events/form-edit.jpg)
+
 5. Select "text" into the **Type** drop-down.
 6. Select **Required**.
 7. Add other fields as needed. When you are done, click **Save**
@@ -38,9 +41,11 @@ You can sort or delete fields using the buttons below each field. To save your c
 
 When an event includes a form, the ticket purchase page displays a set of input fields for each attendee. The attendees must fill out all fields marked as required to get their tickets. 
 
+![Filling out a form](/img/screenshots/events/form-fill.jpg)
+
 ## Collecting the form input
 
-To get the list of form values introduced by attendees, [download the list of tickets]({{< ref "validation.md#list-of-tickets" >}}) and open the downloaded file with a spreadsheet application. The values are in the columns to the right of the spreadsheet.
+To get the list of form values introduced by attendees, [download the list of tickets]({{< ref "validation.md#list-of-tickets" >}}) and open the downloaded file with a spreadsheet application. The form values are in the last columns of the spreadsheet.
 
 ## What's next
  

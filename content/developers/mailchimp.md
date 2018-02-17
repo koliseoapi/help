@@ -19,7 +19,9 @@ MailChimp is an e-mail marketing service that can be used to send communications
 3. Switch the **Off** button to enable the integration with MailChimp.
 4. In the form, fill in your [MailChimp API key](https://kb.MailChimp.com/integrations/api-integrations/about-api-keys) and [List ID](https://kb.MailChimp.com/lists/manage-contacts/find-your-list-id), and click the **Save** button.
 
-Bear in mind that the MailChimp integration includes an opt-in checkbox. Your attendees will have to select a checkbox during the ticket purchase process indicating that they agree to get added to a list on MailChimp.
+![The MailChimp edition UI](/img/screenshots/developers/mailchimp-edit.jpg)
+
+Bear in mind that the MailChimp integration includes an opt-in checkbox. Your attendees can now select a checkbox during the ticket purchase process indicating that they agree to get added to a list on MailChimp.
 
 ## What's next
 

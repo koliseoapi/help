@@ -19,6 +19,8 @@ To create a Request for Proposals:
 3. Click the **Create R4P** button.
 4. Fill out the form and click the **Save** button to create the R4P. 
 
+![The edition page for R4P](/img/screenshots/talks/r4p-edit.jpg)
+
 You can introduce the following values in this form:
 
 * **Name**: Name of the R4P. You can have multiple R4P open for the same event.
@@ -28,18 +30,27 @@ You can introduce the following values in this form:
 * **Activate notifications**: select this checkbox to receive an e-mail with each talk submission.
 * **Private R4P**: select this checkbox to keep the list of proposals hidden until you publish the final agenda. When private is selected, only the author and the event organizer can see the content of each talk.
 
-After saving the Request for Proposals, you can start accepting talk proposals using the r4p link.
+## Get the link to submit proposals
+
+After saving the Request for Proposals, you can start accepting talks at the R4P page. To get the link to the page, click the **Get Link** button and then click the button with the clipboard icon.
+
+![The way to get the link to the R4P](/img/screenshots/talks/r4p-link.jpg)
 
 ## Sending a talk proposal
 
 As a speaker, you can submit your talk from the R4P page:
 
-1. Click the **Send your proposal** link.
+1. Click the **Send your proposal** button.
 2. Fill the **Title** and **Description** of your talk. 
+
+    ![The edition page for a talk proposal](/img/screenshots/talks/talk-edit.jpg)
+
 3. Select the **Speakers** tab, add the speaker details and click the **Save** button to save your proposal. 
 
+    ![The speaker edition page](/img/screenshots/talks/speaker-edit.jpg)
+
 <aside class="note">
-If you have something that you want to discuss privately with the organizers, you can use the <b>Comments</b> section. Any text introduced here will not be visible by the selection committee, just the event organizer.
+If you have something that you want to discuss privately with the organizers, you can use the <b>Comments</b> section. What you introduce here can only be seen by the event organizer, not the selection committee or the attendees.
 </aside>
 
 ## After the event

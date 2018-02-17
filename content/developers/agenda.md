@@ -1,14 +1,17 @@
 ---
-title: "Integrating the agenda component in your web page"
+title: "The agenda component"
 date: 2018-01-19T00:11:40+01:00
-summary: "Incorporate the JavaScript component for the agenda in your own web page."
+summary: "Integrate the JavaScript component for the agenda in your own web page."
 weight: 10
 menu:
   main:
     parent: developers
 ---
 
-This page explains how to incorporate the agenda component into your own web page. Some JavaScript knowledge is required.
+This page explains how to integrate the agenda component into your own web page. Some JavaScript knowledge is required.
+
+![The agenda embedded in a web page](/img/screenshots/developers/agenda-screenshot-desktop.jpg)
+
 
 ## Before you start 
 
@@ -41,6 +44,16 @@ To use the component, invoke its `render()` method:
   });
 </script>
 {{< /highlight >}}
+
+## Responsive design
+
+The agenda is a responsive component. In devices with small screens like smartphones the agenda will be displayed as a list instead of a table. You can customize this behavior using CSS.
+
+![The agenda on mobile](/img/screenshots/developers/agenda-screenshot-mobile.jpg)
+
+## Embed videos and slides
+
+Speakers and event organizers can add slides and youtube recordings to their talks at any time ([read more]({{< ref "talks/agenda#updates" >}})). You may choose to hide these videos on your website using CSS.
 
 ## What's next
 

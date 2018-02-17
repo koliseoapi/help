@@ -20,15 +20,23 @@ To invite a set of users to the selection committee of a request for proposals:
 2. Select the **Request for proposals** tab and click on the R4P.
 3. Select the **Edit** &raquo; **Selection committee** tab.
 4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as needed.
+
+    ![Edition UI of the selection committee](/img/screenshots/talks/selection-committee.jpg)
+
+
 5. To save your changes, click the **Save** button.
 
 The new members will receive an e-mail with instructions to participate in the talk selection process.
 
 ## Selecting talks
 
-Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click the number of total votes.
+Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click on the number of votes.
 
-There is a form at the top of this page that can be used to filter by free text (searching by talk title, description, or username/bio) or by [state](#talk-state). You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
+![The voting UI](/img/screenshots/talks/talks-vote.jpg)
+
+You can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by [state](#talk-state) or by any [category]({{< ref "categories.md" >}}) that you have created. You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
+
+![The talks filter](/img/screenshots/talks/talks-filter.jpg)
 
 Once the committee has finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with the highest number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
 
@@ -50,7 +58,9 @@ You can send communications from the R4P page. For example, to send a notificati
 4. Select "Accepted talk" in the **Template** drop-down to display a predefined template to send to the selected speakers.
 5. Modify the subject and body of the message as needed and click the **Send e-mails** button.
 
-The form displays the number of users that will receive this e-mail when sent. For talks with multiple speakers, each one will receive a copy of the message.
+![The mail form](/img/screenshots/talks/mail.jpg)
+
+The form displays the number of users that will receive this e-mail when sent. For talks with multiple speakers, each speaker will receive a copy of the message.
 
 You can use notifications at any point in the lifecycle of the R4P, like to send notifications about the assigned track and time, for example. To this purpose, you can use the following variables in the subject and body of the message:
 

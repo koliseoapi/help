@@ -15,7 +15,7 @@ This page explains how to share your event on social networks and enable Google 
 The server includes in the event page the HTML tags required by the [Event schema](http://schema.org/Event) to make them indexable by search engines. A similar [Ticket schema](http://schema.org/Ticket) is used in e-mail confirmations so that your smartphone can process and index your tickets.
 
 <aside class="note">
-If you are concerned about privacy, you may [mark your event as unlisted]({{<ref "events/create.md">}}) so that it does not show on public search engines. 
+If you are concerned about privacy, you may <a href="{{<ref "events/create.md">}}">mark your event as unlisted</a> so that it does not show on public search engines. 
 </aside>
 
 ## Twitter and Facebook
@@ -30,6 +30,8 @@ To track the performance of your event, you can configure your Google Analytics 
 2. Go to your user profile by clicking on your picture in the top right corner and selecting your name in the pop-up menu.
 3. Select the **Advanced** tab.
 4. Introduce your **Google Analytics ID** and click the **Save** button.
+
+![The advanced tab of the user profile](/img/screenshots/developers/analytics-edit.jpg)
 
 After doing this you can start tracking metrics associated with your events in Google Analytics.
 

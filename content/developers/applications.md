@@ -18,7 +18,7 @@ Koliseo uses OAuth 2 to secure its API. To connect your application with the pla
 2. Select the **Applications** tab and click the **Add Application** button.
 3. Fill the form and click the **Save** button to create your application.
 
-The form includes the following fields:
+The application includes the following fields:
 
 * **Name**: the name that you will use to identify this application.
 * **Type**: set this drop-down to "web" for web applications, "mobile" for mobile apps.

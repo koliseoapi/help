@@ -19,6 +19,8 @@ You can specify multiple dates, locations, and ticket prices for an event:
 4. Introduce a **Date**, **Time** and **Location** for the event.
 5. Click the **Save** button to add this date to the event.
 
+![The page to introduce date and location](/img/screenshots/events/dates.jpg)
+
 <aside class="note">You should be able to introduce the name of the venue directly as a location to get the address automatically resolved.</aside>
 
 To specify a different time zone or for events that span over multiple dates, click on **Advanced view**. 

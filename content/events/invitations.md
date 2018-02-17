@@ -12,11 +12,13 @@ This page explains how to create restricted events that require an invitation to
 
 ## Restricting access to your event
 
-To modify an event to require invitations:
+To enable invitations:
 
 1. Open the edit page of your event.
 2. Select the **Features** &raquo; **Invitations** tab.
 3. Mark the **This event requires an invitation** checkbox.
+
+![Enabling invitations for an event](/img/screenshots/events/invitations-enable.jpg)
 
 Once you mark the event as "invitation only", the ticket purchase page gets locked and will require an invitation to proceed. Uncheck this checkbox to remove the restriction and open the event again to the public.
 
@@ -29,6 +31,8 @@ To send invitations, click the **Add invitations** button and fill out the form:
 * **Discount code**: If specified, the ticket purchase link will automatically fill out the discount code.
 * **Expires**: Optional expiration date for this invitation.
 <aside class="note">It is considered good practice to associate an expiration date with all invitations because it helps to plan the event attendance.</aside>
+
+![The invitation edition page](/img/screenshots/events/invitations-edit.jpg)
 
 Click the **Send** button to send the invitations to the list of e-mail addresses. Each invitation includes a unique link to get tickets for this event. An invitation cannot be used more than once, and the server will mark it as consumed when the user completes the ticket purchase.
 

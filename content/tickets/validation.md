@@ -18,13 +18,21 @@ The list of tickets sold is available under the **Attendees** tab of your event.
 2. Click the **Download as CSV** button.
 3. Open the file with any spreadsheet application selecting **Format CSV**, **Separator: commas** and **Encoding: UTF-8**.
 
+![The list of tickets sold](/img/screenshots/tickets/list.jpg)
+
 ## Validating tickets 
 
 You can validate tickets at the entrance of the event using our [Koliseo Access Control Application for Android](https://play.google.com/store/apps/details?id=com.koliseo). To validate tickets:
 
 1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo) on one or more Android devices (cell phone or tablet).
+
+[![The app to validate tickets](/img/screenshots/tickets/access-control-app.jpg)](https://play.google.com/store/apps/details?id=com.koliseo)
+
 2. In the browser, open your event edition page.
 3. Select the **Attendees** &raquo; **Access control** tab. The page shows a QR code that can be used to authenticate the Android app.
+
+    ![The access control config page](/img/screenshots/tickets/access-control-qr.jpg)
+
 4. Open the Android application.
 5. Click the **Scan** button and aim the QR code with your camera. Once authenticated, the application is ready to start validating tickets.
 6. Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.

@@ -19,7 +19,9 @@ To access your user profile:
 3. Select the **Data** tab. 
 4. Fill out your changes in the form and click the **Save** button.
 
-The form includes the following fields:
+![The Edit User page](/img/screenshots/users/user-edit.jpg)
+
+The user information includes the following fields:
 
 * **Avatar**: Click the **Choose a file** button next to your picture. Koliseo will extract your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it. When you upload a custom picture, this behavior will be disabled.
 * **Name**: Your name, to be displayed in listings.
@@ -46,7 +48,7 @@ Koliseo does not support the merge of data from multiple user accounts that shar
 
 ## UUID
 
-Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after "koliseo.com". For example, for https://www.koliseo.com/icoloma the uuid is "icoloma".
+Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after "koliseo.com". For example, for https://www.koliseo.com/jdoe the uuid is "jdoe".
 
 ## What's next
 
