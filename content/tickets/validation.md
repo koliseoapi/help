@@ -26,7 +26,7 @@ You can validate tickets at the entrance of the event using our [Koliseo Access 
 
 1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo) on one or more Android devices (cell phone or tablet).
 
-[![The app to validate tickets](/img/screenshots/tickets/access-control-app.jpg)](https://play.google.com/store/apps/details?id=com.koliseo)
+    [![The app to validate tickets](/img/screenshots/tickets/access-control-app.jpg)](https://play.google.com/store/apps/details?id=com.koliseo)
 
 2. In the browser, open your event edition page.
 3. Select the **Attendees** &raquo; **Access control** tab. The page shows a QR code that can be used to authenticate the Android app.

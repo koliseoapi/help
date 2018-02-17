@@ -23,7 +23,7 @@ All events start with a single ticket type with a cost of 10€. To modify this:
 4. Enter a **Name**, **Description**, **Total tickets** and **Price**.
 5. To save your changes, click the **Save** button.
 
-![The ticket type creation page](/img/screenshots/events/ticket-types-edit.jpg)
+    ![The ticket type creation page](/img/screenshots/events/ticket-types-edit.jpg)
 
 ## Limited availability
 
