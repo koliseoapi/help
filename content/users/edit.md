@@ -48,7 +48,7 @@ Koliseo does not support the merge of data from multiple user accounts that shar
 
 ## UUID
 
-Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after "koliseo.com". For example, for https://www.koliseo.com/jdoe the uuid is "jdoe".
+Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after "koliseo.com". For example, for https://www.koliseo.com/ccoloma the uuid is "ccoloma".
 
 ## What's next
 
