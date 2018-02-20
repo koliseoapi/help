@@ -11,7 +11,7 @@ This page explains how the authentication and user management system works in Ko
 
 ## Authentication providers
 
-Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our [terms and conditions](https://www.koliseo.com/legal) including our use of Cookies.
+Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our [terms and conditions]({{< ref "legal.md" >}}) including our use of Cookies.
 
 ![The login page](/img/screenshots/users/login.jpg)
 
