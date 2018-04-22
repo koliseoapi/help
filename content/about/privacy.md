@@ -36,8 +36,8 @@ Specifically, we do not get access to this information:
 
 We do not share personal information with third parties unless one of the following circumstances applies:
 
-* **With your consent**. Some event organizers may ask to add the information of their attendees to a communications list. In such a case, we require opt-in consent during the ticket purchase process before sharing sensitive personal information.
-* **With our event organizers**. We may only share the amount of information required by event organizers to be able to contact you for updates about events that you are attending to.
+* **With your consent**. Some event organizers may ask to add their attendees to a communications list. In such a case, we require your opt-in consent during the ticket purchase process before sharing sensitive personal information.
+* **With our event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about events that you are attending to. We also display the gender of speakers in a talk proposal to the event organizer to help them reach a diverse agenda for their events. You may override the later in your [User Edit Page]({{< ref "users/edit.md" >}}). 
 * **Anonymized information**. We track anonymized data about visits to our website. We may share parts of this anonymized information with event organizers.
 * **For legal reasons**. We will share personal information if reasonably necessary to:
   * Meet any applicable law or legal process.
@@ -51,7 +51,7 @@ We work to protect your data from unauthorized access:
 * We encrypt our services using SSL.
 * We delegate to secure third-party providers your user credentials, so that Koliseo does not have access to your username and password.
 * We delegate the handling of your credit card details to secure, specialized third-party processing platforms.
-* We store our data in one of the most secure Cloud providers, which add extra layers of physical and logical protection.
+* We store our data in one of the most secure Cloud providers, which adds extra layers of physical and logical protection.
 
 ## Changes
 
