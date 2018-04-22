@@ -34,11 +34,19 @@ Every member of the selection committee can open the R4P page and vote on their 
 
 ![The voting UI](/img/screenshots/talks/talks-vote.jpg)
 
-You can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by [state](#talk-state) or by any [category]({{< ref "categories.md" >}}) that you have created. You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
+You can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by [state](#talk-state), speaker gender, or by any [category]({{< ref "categories.md" >}}) that you have created. You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
 
 ![The talks filter](/img/screenshots/talks/talks-filter.jpg)
 
 Once the committee has finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with the highest number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
+
+## Diversity
+
+For some events, composing a diverse agenda requires lots of effort. Koliseo can help by filtering proposals by gender of the speaker (male, female, other or non-disclosed). 
+
+To filter talks, pick a value from the **Gender** drop down. The filter will only display proposals with at least one speaker of the selected gender.
+
+The platform will deduce the gender of the speaker automatically from their first name, but the speaker can override it in their [User Edit Page]({{< ref "users/edit.md" >}}). 
 
 ## Talk state
 

@@ -29,6 +29,7 @@ The user information includes the following fields:
 * **Description**: A short (140 characters) description to display on your user profile.
 * **Language**: The language that the page will show when you are logged in. The supprted languages are English and Spanish.
 * **Twitter account**: If set, your Twitter handle will be visible in your user profile and in any talks where you are a speaker.
+* **Gender**: The gender of the user. Possible values are Male, Female, Other, or Non-Disclosed. The platform only includes this value with your talk proposals to help event organizers arrange a diverse agenda, and never on your public profile page. You can disable this by setting the value to "Non-Disclosed".
 * Select the **Subscribed** checkbox to get registered on the mailing list where we announce our new features.
 
 When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a `hl=en` or `hl=es` GET parameter to any URL. 
