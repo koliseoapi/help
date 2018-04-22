@@ -5,10 +5,10 @@ The source code of the Koliseo Help Center. This project contains the source cod
 snap install hugo
 sudo apt-get install hugo
 
-# Install node depenedencies
+# Install node dependencies
 npm i
 
-# Run the server. This does not write the hugo output to disk. 
+# Run hugo in memory, generate assets in parallel. 
 npm run watch
 
 # Launch the tests (build, run server and search for broken links)
