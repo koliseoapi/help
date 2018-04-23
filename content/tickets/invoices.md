@@ -41,6 +41,8 @@ To enable automatic invoices, fill out your invoice details:
 
 You can specify the concrete type and percentage of taxes according to your local legislation (VAT for the majority of Europe). This configuration may only be applicable for local events where all attendees share the same tax policy. Please consult your legal counsel before enabling automatic invoices, or contact info@koliseo.com if you have questions.
 
+Your invoices will be given a unique number according to the year when the ticket is sold. The invoice will be canceled if the ticket is refunded.
+
 ## List of invoices
 
 As the event organizer, you can get the list of all invoices emitted under the **Invoices** tab in the edit page for your event.
