@@ -29,15 +29,15 @@ You may configure your browser to block cookies from our website. However, many 
 
 Specifically, we do not get access to this information:
 
-* **Personal information from your OAuth provider other than specified above**. Specifically, we do not have access to your password, list of contacts on social networks, or activity on other websites. Koliseo does not gain permission to do actions on your behalf, other than to retrieve the information detailed above.
-* **Credit card information**. When accepting payments, we delegate to a third-party for payment processing. During this process, Koliseo does not have access to your credit card details.
+* **Personal information from your OAuth provider other than specified above**. We do not have access to your password, list of contacts on social networks, or activity on other websites. Koliseo does not gain permission to do actions on your behalf, other than to retrieve the information detailed above.
+* **Credit card information**. When accepting payments, we delegate the process to a third-party payment processing gateway. During this process, Koliseo does not have access to your credit card details.
 
 ## Sharing with third parties
 
 We do not share personal information with third parties unless one of the following circumstances applies:
 
-* **With your consent**. Some event organizers may ask to add their attendees to a communications list. In such a case, we require your opt-in consent during the ticket purchase process before sharing sensitive personal information.
-* **With our event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about events that you are attending to. We also display the gender of speakers in a talk proposal to the event organizer to help them reach a diverse agenda for their events. You may override the later in your [User Edit Page]({{< ref "users/edit.md" >}}). 
+* **With your consent**. Some event organizers may ask to add their attendees to a communications list. In such a case, we require your opt-in consent during the ticket purchase process, specifying clearly what is the purpose for which the organizer is collecting your data.
+* **With our event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about events that you are attending to. We also display the gender of speakers to the event organizer to help them measure the diversity of their agenda. As a speaker, you can override this in your [User Edit Page]({{< ref "users/edit.md" >}}). 
 * **Anonymized information**. We track anonymized data about visits to our website. We may share parts of this anonymized information with event organizers.
 * **For legal reasons**. We will share personal information if reasonably necessary to:
   * Meet any applicable law or legal process.
@@ -51,7 +51,8 @@ We work to protect your data from unauthorized access:
 * We encrypt our services using SSL.
 * We delegate to secure third-party providers your user credentials, so that Koliseo does not have access to your username and password.
 * We delegate the handling of your credit card details to secure, specialized third-party processing platforms.
-* We store our data in one of the most secure Cloud providers, which adds extra layers of physical and logical protection.
+* We store your data in a secure Cloud provider, which adds extra layers of physical and logical protection. 
+* All data is stored encrypted.
 
 ## Changes
 
