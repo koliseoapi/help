@@ -8,24 +8,19 @@ menu:
     parent: talks
 ---
 
-Users can provide feedback directly from the agenda component in your web page. This page explains how to collect this feedback.
+Users can provide feedback directly from the published agenda. This page explains how to collect this feedback.
 
 ## Before you start
 
-To accept feedback about your talks, you need:
+To accept feedback about your talks, you need <a href="{{< ref "agenda.md#publish" >}}">an agenda</a> published and with feedback enabled.
 
-1. <a href="{{< ref "talks/agenda.md#publish" >}}">A public agenda</a> with feedback enabled.
-2. The agenda component integrated into your web page ([read more]({{< ref "developers/agenda.md" >}})). Once your users can log in from the agenda component, you are ready to start accepting feedback.
-
-You can see an example of an agenda with feedback [here](https://2017.codemotion.es/agenda.html).
+You can see an example [here](https://www.koliseo.com/demo).
 
 ![The feedback list](/img/screenshots/talks/feedback-list.jpg)
 
 ## Feedback
 
-Users can provide feedback directly from the JavaScript component for the agenda. To leave feedback, you must first click the **Log in** button to open a user session.
-
-To make your feedback valuable, the page will warn if the **Comment** field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available on their user profile.
+Users can provide feedback directly from the published agenda. To make your feedback valuable, the page will warn if the **Comment** field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available on their user profile.
 
 ## Bookmarks
 
@@ -33,7 +28,5 @@ After logging in, users can bookmark talks before the event by clicking the **Bo
 
 ## What's next
 
-* [Integrate the agenda into your web page]({{< ref "developers/agenda.md" >}})
-* [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
-* [Publish the agenda]({{< ref "talks/agenda.md" >}})
- 
+- [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
+- [Publish your agenda]({{< ref "agenda.md" >}})

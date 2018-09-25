@@ -12,19 +12,18 @@ You can create a selection committee that will decide the final agenda. This pag
 
 ## Forming a selection committee
 
-Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.  
+Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.
 
 To invite a set of users to the selection committee of a request for proposals:
 
 1. Go to the edit page of your event.
 2. Select the **Request for proposals** tab and click on the R4P.
 3. Select the **Edit** &raquo; **Selection committee** tab.
-4. Introduce the [uuid]({{< ref "users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as needed.
+4. Introduce the [uuid]({{< ref "/users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as needed.
 
-    ![Edition UI of the selection committee](/img/screenshots/talks/selection-committee.jpg)
+   ![Edition UI of the selection committee](/img/screenshots/talks/selection-committee.jpg)
 
-
-5. To save your changes, click the **Save** button.
+5) To save your changes, click the **Save** button.
 
 The new members will receive an e-mail with instructions to participate in the talk selection process.
 
@@ -42,19 +41,19 @@ Once the committee has finished voting, select "Votes" and "Descending" in the *
 
 ## Diversity
 
-For some events, composing a diverse agenda requires lots of effort. Koliseo can help by filtering proposals by gender of the speaker (male, female, other or non-disclosed). 
+For some events, composing a diverse agenda requires lots of effort. Koliseo can help by filtering proposals by gender of the speaker (male, female, other or non-disclosed).
 
 To filter talks, pick a value from the **Gender** drop down. The filter will only display proposals with at least one speaker of the selected gender.
 
-The platform will deduce the gender of the speaker automatically from their first name, but the speaker can override it in their [User Edit Page]({{< ref "users/edit.md" >}}). 
+The platform will deduce the gender of the speaker automatically from their first name, but the speaker can override it in their [User Edit Page]({{< ref "users/edit.md" >}}).
 
 ## Talk state
 
 Each talk can be in one of three states:
 
-* **Not selected**: This is the default state of a talk that has just been submitted. 
-* **Selected**: Talks with this state are available when defining the final agenda. To toggle the **Selected** state of a talk, click the **Selected** / **Not selected** link in the talk.
-* **Assigned**: These are talks that have been assigned a slot in [the agenda]({{< ref "agenda.md" >}}).
+- **Not selected**: This is the default state of a talk that has just been submitted.
+- **Selected**: Talks with this state are available when defining the final agenda. To toggle the **Selected** state of a talk, click the **Selected** / **Not selected** link in the talk.
+- **Assigned**: These are talks that have been assigned a slot in [the agenda]({{< ref "agenda.md" >}}).
 
 ## Sending E-mail
 
@@ -72,14 +71,14 @@ The form displays the number of users that will receive this e-mail when sent. F
 
 You can use notifications at any point in the lifecycle of the R4P, like to send notifications about the assigned track and time, for example. To this purpose, you can use the following variables in the subject and body of the message:
 
-Parameter | Attributes | Description
----|---|---
-`event` | `name`, `uuid` | The information of the event associated with this R4P.
-`talk` | `title`, `description`, `state` | The information of the talk.
-`day`, `track`, `slot` | `name` | The assigned day, track and slot (for talks already in the agenda)
+| Parameter              | Attributes                      | Description                                                        |
+| ---------------------- | ------------------------------- | ------------------------------------------------------------------ |
+| `event`                | `name`, `uuid`                  | The information of the event associated with this R4P.             |
+| `talk`                 | `title`, `description`, `state` | The information of the talk.                                       |
+| `day`, `track`, `slot` | `name`                          | The assigned day, track and slot (for talks already in the agenda) |
 
 ## What's next
 
-* [Add categories to your R4P]({{< ref "categories.md" >}})
-* [Publish the agenda]({{< ref "talks/agenda.md" >}})
-* [Get feedback about your talks]({{< ref "feedback.md" >}})
+- [Add categories to your R4P]({{< ref "categories.md" >}})
+- [Publish your agenda]({{< ref "agenda.md" >}})
+- [Get feedback about your talks]({{< ref "feedback.md" >}})

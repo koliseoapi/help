@@ -4,10 +4,10 @@ weight: 10
 summary: "This page explains how the authentication and user management system works in Koliseo."
 menu:
   main:
-    parent: "users" 
+    parent: "users"
 ---
 
-This page explains how the authentication and user management system works in Koliseo. 
+This page explains how the authentication and user management system works in Koliseo.
 
 ## Authentication providers
 
@@ -17,12 +17,12 @@ Koliseo supports four providers to authenticate users into the platform: Google,
 
 During the authentication process Koliseo will gain access to the following information about your user profile:
 
-* OAuth id
-* User Name
-* E-mail address
-* Photo
+- OAuth id
+- User Name
+- E-mail address
+- Photo
 
-Koliseo will not get access to your contacts or get permissions to do actions on your behalf. 
+Koliseo will not get access to your contacts or get permissions to do actions on your behalf.
 
 ## Custom usernames and passwords
 
@@ -30,5 +30,5 @@ Koliseo does not support the creation of custom usernames and passwords. We dele
 
 ## What's next
 
-* [Edit your user information]({{< ref "users/edit.md" >}})
-* [Create your first event]({{< ref "create.md" >}})
+- [Edit your user information]({{< ref "/users/edit.md" >}})
+- [Create your first event]({{< ref "create.md" >}})

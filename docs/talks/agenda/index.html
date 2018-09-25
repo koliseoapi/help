@@ -207,23 +207,9 @@
       
         <a 
           class="sidebar-nav-a2 " 
-          href="/developers/agenda/"
-        > 
-          The agenda component 
-        </a> 
-      
-        <a 
-          class="sidebar-nav-a2 " 
           href="/developers/mailchimp/"
         > 
           MailChimp 
-        </a> 
-      
-        <a 
-          class="sidebar-nav-a2 " 
-          href="/developers/applications/"
-        > 
-          Applications 
         </a> 
       
         <a 
@@ -281,7 +267,7 @@
 <ul>
 <li><a href="#agenda-structure">Agenda structure</a></li>
 <li><a href="#slot-types">Slot types</a></li>
-<li><a href="#creating-a-random-assignment-of-talks">Creating a random assignment of talks</a></li>
+<li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
 <li><a href="#publish">Publish</a></li>
 <li><a href="#updates">Updates</a></li>
 <li><a href="#what-s-next">What&rsquo;s next</a></li>
@@ -311,7 +297,7 @@
 <ul>
 <li><a href="#agenda-structure">Agenda structure</a></li>
 <li><a href="#slot-types">Slot types</a></li>
-<li><a href="#creating-a-random-assignment-of-talks">Creating a random assignment of talks</a></li>
+<li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
 <li><a href="#publish">Publish</a></li>
 <li><a href="#updates">Updates</a></li>
 <li><a href="#what-s-next">What&rsquo;s next</a></li>
@@ -326,7 +312,7 @@
 
 <h2 id="agenda-structure">Agenda structure</h2>
 
-<p>The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &ldquo;Friday&rdquo; or &ldquo;November 12th&rdquo;, tracks (like &ldquo;Track A&rdquo; or &ldquo;Cloud Track&rdquo;) and slots (like &ldquo;09:00-09:45&rdquo;). Once they are defined, the <a href="/developers/agenda/">JavaScript agenda component</a> will format the slots as a table.</p>
+<p>The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &ldquo;Friday&rdquo; or &ldquo;November 12th&rdquo;, tracks (like &ldquo;Track A&rdquo; or &ldquo;Cloud Track&rdquo;) and slots (like &ldquo;09:00-09:45&rdquo;). Once published, the link to the published agenda will display your slots as a table.</p>
 
 <p>For example, to create an event with one day and two tracks:</p>
 
@@ -334,22 +320,22 @@
 <li>Go to the page of your Request for proposals and select the <strong>Agenda</strong> tab.</li>
 <li>Click the <strong>Add new day</strong> link, and then click on the created day.</li>
 <li>Click the <strong>Add new track</strong> link, and then click on the created track.</li>
+<li>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</li>
+</ol>
 
-<li><p>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</p>
+<p><img src="/img/screenshots/talks/agenda-track-edit.jpg" alt="The Track Edit UI" /></p>
 
-<p><img src="/img/screenshots/talks/agenda-track-edit.jpg" alt="The Track Edit UI" /></p></li>
+<ol>
+<li>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;.</li>
+<li>In the <strong>Talk</strong> text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the <strong>Create</strong> button.</li>
+</ol>
 
-<li><p>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;.</p></li>
+<p><img src="/img/screenshots/talks/agenda-slot-edit.jpg" alt="The Slot Edit UI" /></p>
 
-<li><p>In the <strong>Talk</strong> text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the <strong>Create</strong> button.</p>
-
-<p><img src="/img/screenshots/talks/agenda-slot-edit.jpg" alt="The Slot Edit UI" /></p></li>
-
-<li><p>Repeat the process until the track is complete.</p></li>
-
-<li><p>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</p></li>
-
-<li><p>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</p></li>
+<ol>
+<li>Repeat the process until the track is complete.</li>
+<li>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</li>
+<li>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</li>
 </ol>
 
 <p>While cloning, only the track structure is copied. You still have to assign talks to the newly created slots.</p>
@@ -373,7 +359,7 @@
 If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
 </aside>
 
-<h2 id="creating-a-random-assignment-of-talks">Creating a random assignment of talks</h2>
+<h2 id="creating-a-random-agenda">Creating a random agenda</h2>
 
 <p>Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the <strong>Actions</strong> tab and click the <strong>Assign empty slots</strong> button to randomly assign a talk to every empty slot.</p>
 
@@ -387,11 +373,10 @@ If you do not see a talk in the autocomplete list, make sure that it is selected
 
 <ol>
 <li>Go to the edit page of your agenda.</li>
-<li>Select the <strong>Settings</strong> tab and mark the <strong>Public</strong> checkbox.</li>
-<li>Configure the <a href="/developers/agenda/">JavaScript agenda component</a> in your web page.</li>
+<li>Select the <strong>Settings</strong> tab and mark the <strong>Public</strong> checkbox.
+<img src="/img/screenshots/talks/agenda-settings.jpg" alt="The settings tab of the agenda" /></li>
+<li>Click the <strong>See Agenda</strong> link to go to the published agenda.</li>
 </ol>
-
-<p><img src="/img/screenshots/talks/agenda-settings.jpg" alt="The settings tab of the agenda" /></p>
 
 <aside class="note">
 If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
@@ -414,7 +399,6 @@ The input fields for slides and video are only displayed for talks that have bee
 <h2 id="what-s-next">What&rsquo;s next</h2>
 
 <ul>
-<li><a href="/developers/agenda/">Embed your agenda in a web page</a></li>
 <li><a href="/talks/talk-selection/">Learn more about the talk selection process</a></li>
 <li><a href="/talks/feedback/">Get feedback about your talks</a></li>
 </ul>
@@ -427,7 +411,7 @@ The input fields for slides and video are only displayed for talks that have bee
   <div class="footer-row">
     <div class="content">
       <dl class="footer-column">
-        <dt class="footer-column-title">Product</dt>
+        <dt class="footer-column-title">Event Management</dt>
         <dd>
           <a class="footer-link" href="/events/create/">Getting started</a>
         </dd>
@@ -439,12 +423,12 @@ The input fields for slides and video are only displayed for talks that have bee
         </dd>
       </dl>
       <dl class="footer-column">
-        <dt class="footer-column-title">Developers</dt>
+        <dt class="footer-column-title">Agenda Management</dt>
         <dd>
-          <a class="footer-link" href="/developers/agenda/">Agenda</a>
+          <a class="footer-link" href="/talks/r4p/">Request for Proposals</a>
         </dd>
         <dd>
-          <a class="footer-link" href="/developers/share/">Social Networks</a>
+          <a class="footer-link" href="/talks/agenda/">Agenda</a>
         </dd>
       </dl>
       <dl class="footer-column">

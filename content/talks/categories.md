@@ -22,21 +22,20 @@ As an example, we are going to configure a request for proposals where talks hav
 
 ![The edition page for a category](/img/screenshots/talks/categories-edit.jpg)
 
-2To test this newly created category, click the **Send your proposal** button to make the page show a talk submission form where you can introduce the **Talk level**. 
+2To test this newly created category, click the **Send your proposal** button to make the page show a talk submission form where you can introduce the **Talk level**.
 
 <aside class="note">
 For categories that may accept multiple choices, mark the **Multiple choice** checkbox while editing the category.
 </aside>
 
-## Filtering using categories 
+## Filtering using categories
 
 Other users can filter talks by categories using the form at the top of the talk submission page or the published agenda.
 
 ![The filter UI in the agenda](/img/screenshots/talks/categories-filter.jpg)
 
-
 ## What's next
 
-* [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
-* [Publish the agenda]({{< ref "talks/agenda.md" >}})
-* [Get feedback about your talks]({{< ref "feedback.md" >}})
+- [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
+- [Publish the agenda]({{< ref "/talks/agenda.md" >}})
+- [Get feedback about your talks]({{< ref "feedback.md" >}})

@@ -17,13 +17,13 @@ All events start with a single ticket type with a cost of 10€. To modify this:
 1. Access your user dashboard and select your event under the **Events** tab.
 2. Select the **Date and Time** tab and click on the date where you want to apply a different ticket price. For instructions to create your first date and location, [click here]({{< ref "dates.md" >}}).
 
-    ![The ticket types list](/img/screenshots/events/ticket-types-list.jpg)
+   ![The ticket types list](/img/screenshots/events/ticket-types-list.jpg)
 
 3. Click the **Add Ticket Type** button.
 4. Enter a **Name**, **Description**, **Total tickets** and **Price**.
 5. To save your changes, click the **Save** button.
 
-    ![The ticket type creation page](/img/screenshots/events/ticket-types-edit.jpg)
+   ![The ticket type creation page](/img/screenshots/events/ticket-types-edit.jpg)
 
 ## Limited availability
 
@@ -37,13 +37,9 @@ To make this ticket type visible even when not available, select **Limit visibil
 Limited availability and limited visibility can be combined to hide or make visible your future ticket sale dates. 
 </aside>
 
-## Fee paid by
+## Our Fee
 
-Koliseo charges a service fee for paid tickets of [€1 + 4% over the ticket price]({{< ref "pricing.md" >}}) (if not free). You can choose to make this fee visible to the end user:
-
-1. Select the **Date and Time** tab and click on the date where you want to specify the fee visibility.
-2. Select the **Ticket Prices** tab
-3. Change the value of the **Fee paid by** radio button from "the organizer" to "the ticket buyer". 
+Koliseo charges a service fee for paid tickets of [€1 + 4% over the ticket price]({{< ref "pricing.md" >}}).
 
 <aside class="note">
 Free tickets are exempt from this service fee, but events with free tickets typically show a high no-show rate (30-60% is typical). Consider assigning a symbolic price of €3-5 to reduce the no-show rate.
@@ -51,6 +47,6 @@ Free tickets are exempt from this service fee, but events with free tickets typi
 
 ## What's next
 
-* [Start ticket sales for your event]({{< ref "sales.md" >}})
-* [Configure automatic invoices]({{< ref "invoices.md" >}})
-* [Create discount codes for your event]({{< ref "discounts.md" >}})
+- [Start ticket sales for your event]({{< ref "sales.md" >}})
+- [Configure automatic invoices]({{< ref "invoices.md" >}})
+- [Create discount codes for your event]({{< ref "discounts.md" >}})
