@@ -49,11 +49,12 @@ The platform will deduce the gender of the speaker automatically from their firs
 
 ## Talk state
 
-Each talk can be in one of three states:
+Each talk can be in one of four states:
 
 - **Not selected**: This is the default state of a talk that has just been submitted.
 - **Selected**: Talks with this state are available when defining the final agenda. To toggle the **Selected** state of a talk, click the **Selected** / **Not selected** link in the talk.
 - **Assigned**: These are talks that have been assigned a slot in [the agenda]({{< ref "agenda.md" >}}).
+- **Waitlisted**: The talk is in a waitlist, intended to be included in the agenda when a spot becomes available.
 
 ## Sending E-mail
 
