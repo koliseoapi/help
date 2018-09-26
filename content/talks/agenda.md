@@ -72,6 +72,8 @@ Once the agenda is final, to publish it:
 If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
 </aside>
 
+Your attendees can now bookmark their favorite talks, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the talks too.
+
 ## Updates
 
 As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place.
