@@ -8,7 +8,7 @@ menu:
     parent: developers
 ---
 
-This page explains how to integrate Koliseo with MailChimp. 
+This page explains how to integrate Koliseo with MailChimp.
 
 ## Integrating MailChimp
 
@@ -17,14 +17,18 @@ MailChimp is an e-mail marketing service that can be used to send communications
 1. Open the edit page of your event.
 2. Select the **Features** &raquo; **Plugins** tab.
 3. Switch the **Off** button to enable the integration with MailChimp.
-4. In the form, fill in your [MailChimp API key](https://kb.MailChimp.com/integrations/api-integrations/about-api-keys) and [List ID](https://kb.MailChimp.com/lists/manage-contacts/find-your-list-id), and click the **Save** button.
+4. In the form, fill in your [MailChimp API key](https://kb.MailChimp.com/integrations/api-integrations/about-api-keys) and [List ID](https://kb.MailChimp.com/lists/manage-contacts/find-your-list-id).
+5. Introduce a sentence under the **Description** field describing the intended use of the data, then click the **Save** button.
 
 ![The MailChimp edition UI](/img/screenshots/developers/mailchimp-edit.jpg)
 
-Bear in mind that the MailChimp integration includes an opt-in checkbox. Your attendees can now select a checkbox during the ticket purchase process indicating that they agree to get added to a list on MailChimp.
+<aside class="note">To comply with GDPR, this description must clearly describe who is keeping the record of the collected information, the purpose of this information, and with which parties you intend to share this information.</aside>
+
+Your attendees now see an opt-in checkbox in the ticket purchase page that they can check to get added to your list on MailChimp.
 
 ## What's next
 
-* [Share your event on social networks]({{< ref "share.md" >}})
-* [Collect information with forms]({{< ref "forms.md" >}})
-* [Download the list of tickets sold]({{< ref "validation.md" >}})
+- [Read more about the GDPR](https://eugdpr.org/)
+- [Share your event on social networks]({{< ref "share.md" >}})
+- [Collect information with forms]({{< ref "forms.md" >}})
+- [Download the list of tickets sold]({{< ref "validation.md" >}})
