@@ -14,7 +14,7 @@ Esta página introduce los Términos y Condiciones de Koliseo, una plataforma qu
 
 <div class="layman-terms">En la que explicamos quiénes somos, y dónde se nos puede encontrar</div>
 
-Extrema Sistemas, S.L., titular del sitio web http://koliseo.com (en adelante Koliseo) con domicilio en la Calle Casas de Miravete 24A, 28031 Madrid; provista de CIF B38676615, inscrita en el registro mercantil de la Comunidad de Madrid, Tomo 29.041, folio 109, sección 8, hoja M-522980, inscripción octava (en adelante Extrema Sistemas).
+Extrema Sistemas, S.L., titular del sitio web http://koliseo.com (en adelante Koliseo) con domicilio en la Calle Villanueva 33, 4 izqda 28001 Madrid; provista de CIF B38676615, inscrita en el registro mercantil de la Comunidad de Madrid, Tomo 29.041, folio 109, sección 8, hoja M-522980, inscripción octava (en adelante Extrema Sistemas).
 
 Las presentes condiciones regulan el acceso y el uso del servicio que Koliseo pone a disposición de los Usuarios de Internet. Cualquier consulta puede dirigirse a través de la dirección: info@koliseo.com
 
@@ -64,18 +64,18 @@ El recinto se reserva el derecho de admisión en caso de que el Usuario infrinja
 
 El Usuario se compromete a utilizar los servicios aportados por Koliseo de conformidad con la Ley y los presentes Términos y Condiciones, debiendo abstenerse de emplearlos para:
 
-* Transmitir a terceros no autorizados su nombre de usuario y su contraseña.
-* Introducir en la red programas informáticos susceptibles de provocar daños en los sistemas informáticos de Koliseo, sus proveedores o terceros.
-* Realizar actividades ilícitas o contrarias a la buena fe, a las costumbres, a la moral o al orden público.
-* Realizar actividades que constituyan una infracción de la regulación sobre propiedad intelectual e industrial o cualquier otra norma del ordenamiento jurídico aplicable.
-* Difundir contenidos de carácter racista, xenófobo, pornográfico, erótico, de apología del terrorismo y/o que atenten contra los derechos humanos.
-* Acosar a otra persona.
-* Realizar prácticas de spamming y, en general, difundir publicidad no solicitada o autorizada, material publicitario, "correo basura", "cartas en cadena",
-"estructuras piramidales", o cualquier otra forma de información.
-* Involucrar en actividades comerciales sin consentimiento expreso por parte de Extrema Sistemas. Serán consideradas como actividades comerciales los trueques,
-apuestas, publicidad, reventa de entradas, etc.
-* El Usuario entiende y acepta que sin aviso previo Extrema Sistemas puede interrumpir su acceso a Koliseo, cancelar sus entradas o eliminar cualquier contenido del Usuario si Extrema Sistemas entiende que dicho contenido ha infringido o no es coherente con
-estos Términos y Condiciones o constituye una infracción de los derechos de Extrema Sistemas, de otros Usuarios o de la ley.
+- Transmitir a terceros no autorizados su nombre de usuario y su contraseña.
+- Introducir en la red programas informáticos susceptibles de provocar daños en los sistemas informáticos de Koliseo, sus proveedores o terceros.
+- Realizar actividades ilícitas o contrarias a la buena fe, a las costumbres, a la moral o al orden público.
+- Realizar actividades que constituyan una infracción de la regulación sobre propiedad intelectual e industrial o cualquier otra norma del ordenamiento jurídico aplicable.
+- Difundir contenidos de carácter racista, xenófobo, pornográfico, erótico, de apología del terrorismo y/o que atenten contra los derechos humanos.
+- Acosar a otra persona.
+- Realizar prácticas de spamming y, en general, difundir publicidad no solicitada o autorizada, material publicitario, "correo basura", "cartas en cadena",
+  "estructuras piramidales", o cualquier otra forma de información.
+- Involucrar en actividades comerciales sin consentimiento expreso por parte de Extrema Sistemas. Serán consideradas como actividades comerciales los trueques,
+  apuestas, publicidad, reventa de entradas, etc.
+- El Usuario entiende y acepta que sin aviso previo Extrema Sistemas puede interrumpir su acceso a Koliseo, cancelar sus entradas o eliminar cualquier contenido del Usuario si Extrema Sistemas entiende que dicho contenido ha infringido o no es coherente con
+  estos Términos y Condiciones o constituye una infracción de los derechos de Extrema Sistemas, de otros Usuarios o de la ley.
 
 ## Exclusión de responsabilidades
 
@@ -113,4 +113,4 @@ Este acuerdo se rige por la legislación de España. Serán competentes para con
 
 ## Recursos Adicionales
 
-* [Lee acerca de nuestra Política de Privacidad (en inglés)]({{< ref "privacy.md" >}})
+- [Lee acerca de nuestra Política de Privacidad (en inglés)]({{< ref "privacy.md" >}})

@@ -15,7 +15,7 @@ This page introduces the Terms and Conditions of Koliseo, a platform that lets y
 <div class="layman-terms">In which we explain who we are and where we can be found</div>
 
 Extrema Sistemas, S.L., owner of the website http://koliseo.com (hereinafter Koliseo) residing
-at 24A Casas de Miravete St., 28031 Madrid; with CIF B38676615, registered in the Commercial Register
+at Calle Villanueva 33, 4 izqda 28001 Madrid; with CIF B38676615, registered in the Commercial Register
 of the Community of Madrid, Volume 29.041, sheet 109, section 8, page M-522980 eighth
 registration. (hereinafter Extrema Sistemas).
 
@@ -67,16 +67,15 @@ The event organizer reserves the right of admission for Users in violation of no
 
 The User agrees to use the services provided by Koliseo in accordance with the Law and these Terms and Conditions, and must refrain from using them to:
 
-
-* Transmit to unauthorized third parties your username and password.
-* Upload to the web computer programs capable of causing damage to computer systems belonging to Koliseo, its suppliers or third parties.
-* Perform illegal activities or contrary to good faith, customs, moral or public order.
-* Carry out activities in breach of regulations on intellectual and industrial property or other applicable legal standards.
-* Spread contents that are racist, xenophobic, pornographic, erotic, promoting terrorism or violating human rights.
-* Harassing another person.
-* Perform spamming practices and, in general, disseminate unsolicited or unauthorized advertising, promotional materials, "junk mail", "chain letters", "pyramid schemes" or any other form of information.
-* Engage in commercial activities without written consent from Extrema Sistemas. Swaps, betting, advertising, resale of tickets, etc. will be considered as commercial activities.
-* The User understands and agrees that without prior notice Extrema Sistemas may terminate their access to Koliseo, cancel any tickets or remove any User content that Extrema Sistemas believes has violated or is inconsistent with the Terms of Use, or constitutes an infringement of the rights of Extrema Sistemas, other Users or the Law.
+- Transmit to unauthorized third parties your username and password.
+- Upload to the web computer programs capable of causing damage to computer systems belonging to Koliseo, its suppliers or third parties.
+- Perform illegal activities or contrary to good faith, customs, moral or public order.
+- Carry out activities in breach of regulations on intellectual and industrial property or other applicable legal standards.
+- Spread contents that are racist, xenophobic, pornographic, erotic, promoting terrorism or violating human rights.
+- Harassing another person.
+- Perform spamming practices and, in general, disseminate unsolicited or unauthorized advertising, promotional materials, "junk mail", "chain letters", "pyramid schemes" or any other form of information.
+- Engage in commercial activities without written consent from Extrema Sistemas. Swaps, betting, advertising, resale of tickets, etc. will be considered as commercial activities.
+- The User understands and agrees that without prior notice Extrema Sistemas may terminate their access to Koliseo, cancel any tickets or remove any User content that Extrema Sistemas believes has violated or is inconsistent with the Terms of Use, or constitutes an infringement of the rights of Extrema Sistemas, other Users or the Law.
 
 ## Exclusion of Liability
 
@@ -114,4 +113,4 @@ The User agrees that this Agreement is governed by the laws of Spain. The User a
 
 ## Additional Resources
 
-* [Learn more about our Privacy Policy]({{< ref "privacy.md" >}})
+- [Learn more about our Privacy Policy]({{< ref "privacy.md" >}})
