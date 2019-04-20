@@ -28,7 +28,7 @@ Your attendees now see an opt-in checkbox in the ticket purchase page that they 
 
 ## What's next
 
-- [Read more about the GDPR](https://eugdpr.org/)
+- [Read more about the GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
 - [Share your event on social networks]({{< ref "share.md" >}})
 - [Collect information with forms]({{< ref "forms.md" >}})
 - [Download the list of tickets sold]({{< ref "validation.md" >}})
