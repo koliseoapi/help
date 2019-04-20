@@ -29,15 +29,27 @@ The new members will receive an e-mail with instructions to participate in the t
 
 ## Selecting talks
 
-Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to [the maximum per user]({{< ref "r4p.md" >}}) configured in the R4P. To see the list of users that have voted for a talk, click on the number of votes.
+Every member of the selection committee can open the R4P page and vote their preferred talks with a rating between 1 and 5.
 
 ![The voting UI](/img/screenshots/talks/talks-vote.jpg)
 
-You can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by [state](#talk-state), speaker gender, or by any [category]({{< ref "categories.md" >}}) that you have created. You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.
+<aside class="note">
+<p>
+In R4P with hundreds or thousands of submissions, rating each talk can be time consuming. To make the process more agile, use the following keyboard shortcuts:
+</p>
+<ul>
+<li><code>k,j</code>&nbsp; &nbsp; Move to the <b>previous/next</b> talk proposal.
+</li>
+<li><code>1-5</code>&nbsp; &nbsp; <b>Assign the corresponding rating</b>, and move to the next proposal.
+</li>
+</dl> 
+</aside>
+
+While voting, you can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by [state](#talk-state), speaker gender, or by any [category]({{< ref "categories.md" >}}) assigned by you when creating the R4P. You can also sort the talks by creation date or by rating.
 
 ![The talks filter](/img/screenshots/talks/talks-filter.jpg)
 
-Once the committee has finished voting, select "Votes" and "Descending" in the **Sort by** drop down to see the talks with the highest number of votes first. To download the list of talk proposals, click the **Download as CSV** button.
+Once the committee has finished voting, select "Rating" and "Descending" in the **Sort by** drop down to see the talks with the highest rating first. To download the list of talk proposals, click the **Download as CSV** button.
 
 ## Diversity
 

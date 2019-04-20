@@ -1,4 +1,3 @@
-
 // Set box-sizing globally to handle padding and border widths
 *,
 *:before,
@@ -18,38 +17,38 @@ body {
   font-display: swap;
 }
 
-img { 
-  max-width: 100%; 
-  height: auto; 
+img {
+  max-width: 100%;
+  height: auto;
   //display: inline-block;
   //vertical-align: middle;
 }
 
-div, 
-dl, 
-dt, 
-dd, 
-ul, 
-ol, 
-li, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
-pre, 
-form, 
-p, 
-blockquote, 
-th, 
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
 td {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  cursor: pointer; 
+  cursor: pointer;
   color: $linkColor;
   text-decoration: underline;
 
@@ -58,64 +57,77 @@ a {
     color: $linkColorHover;
   }
 
-  & > img { 
-    border: none; 
+  & > img {
+    border: none;
   }
 }
 
 p {
   margin-bottom: $paragraph-margin-bottom;
-//  text-rendering: optimizeLegibility;
+  //  text-rendering: optimizeLegibility;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   color: #4a4a4a;
   font-family: $headingFontFamily;
   font-weight: 300;
   line-height: 1.5;
-  margin-bottom: .5rem;
-  margin-top: .2rem;
-//  text-rendering: optimizeLegibility;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
+  //  text-rendering: optimizeLegibility;
 
   & > a {
     color: inherit;
   }
 }
 
-h1 { font-size: 40px; }
-h2 { font-size: 30px; }
-h3 { 
-  font-size: 25px; 
-  color: #6a6a6a; 
-  margin-bottom: 1.4rem; 
+h1 {
+  font-size: 40px;
 }
-h4 { font-size: 20px; }
-h5 { font-size: 16px; margin-bottom: .3rem; }
-h6 { font-size: 14px; }
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+  color: #6a6a6a;
+  margin-bottom: 1.4rem;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom: 0.3rem;
+}
+h6 {
+  font-size: 14px;
+}
 
 hr {
-    border: solid #DDD;
-    border-width: 1px 0 0;
-    clear: both;
-    height: 1px;
-    margin: 20px 0 20px;
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 1px;
+  margin: 20px 0 20px;
 }
 
 // small font, will use gray color
 small,
 .small {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: inherit;
   color: $gray;
 }
 
-// Lists 
-ul, ol, dl {
+// Lists
+ul,
+ol,
+dl {
   list-style-position: outside;
   margin-bottom: $paragraph-margin-bottom;
 }
@@ -124,8 +136,8 @@ $list-side-margin: 2rem;
 ul {
   list-style-type: none;
 
-  &.square { 
-    list-style-type: square; 
+  &.square {
+    list-style-type: square;
     margin-left: $list-side-margin;
   }
 }
@@ -156,7 +168,7 @@ abbr {
   }
 }
 
-// Blockquotes 
+// Blockquotes
 blockquote {
   margin: 0 0 $paragraph-margin-bottom;
   padding: 9px 20px 0 19px;
@@ -171,14 +183,13 @@ code {
   border: 1px solid $code-border-color;
   color: $black;
   font-family: $monoFontFamily;
-  font-size: .875rem;
+  font-size: 0.875rem;
   padding: 2px 5px 1px;
   border-radius: 3px;
 }
 
 // multi-line snippets of code
 pre {
-
   background-color: $code-background-color;
   border: 1px solid $code-border-color;
   border-radius: 3px;
@@ -191,7 +202,7 @@ pre {
   }
 }
 
-// container with max-width 980px 
+// container with max-width 980px
 .content {
   padding: 0 1rem;
 }
@@ -202,7 +213,7 @@ $help-horizontal-margin: 2rem;
   margin: $help-vertical-margin $help-horizontal-margin;
 
   & ul {
-    list-style-type: square; 
+    list-style-type: square;
     margin-left: $list-side-margin;
   }
 }
@@ -213,15 +224,20 @@ $help-horizontal-margin: 2rem;
   color: #0288d1;
   border-color: #0288d1;
   margin: 1rem 0;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   &::before {
     display: inline;
     font-weight: bold;
     content: "Note: ";
   }
+  & code {
+    background-color: #44a0d0;
+    border: 1px solid #078cd2;
+    color: #fff;
+  }
 }
 
-// bigger text in some section lists 
+// bigger text in some section lists
 .section-description {
   color: #888;
 }
@@ -229,7 +245,7 @@ $help-horizontal-margin: 2rem;
 // simple explanation of each point in the legal pages
 .layman-terms {
   position: relative;
-  top: -.5rem;
+  top: -0.5rem;
   margin-bottom: 1rem;
-  color: #777; 
+  color: #777;
 }

@@ -26,12 +26,12 @@ You can introduce the following values in this form:
 - **Name**: Name of the R4P. You can have multiple R4P open for the same event.
 - **Description**: The description of the R4P with the same Markdown syntax used for [Event descriptions]({{< ref "events/create.md#event-description" >}}).
 - **From** and **To**: The date interval where the R4P will be open for submissions.
-- **Votes per user** and **Votes per talk**: The number of votes assigned to each member of the [selection committee]({{< ref "talk-selection.md" >}}) and the maximum number of votes that a member can cast for the same talk.
-- **Activate notifications**: select this checkbox to receive an e-mail with each talk submission.
-- **Private R4P**: select this checkbox to keep the list of proposals hidden until you publish the final agenda. When private is selected, only the author and the event organizer can see the content of each talk.
-- **Compensate expenses**: Enable the speakers to request to be compensated for travel and lodging expenses.
+- **Receive notifications**: Select this checkbox to receive an e-mail with each talk submission.
+- **Private R4P**: Select this checkbox to keep the list of proposals hidden until you publish the final agenda. When private is selected, only the author and the selection committee can see the content of each talk.
+- **Compensate expenses**: Select this checkbox to ask the speakers if they want to be compensated for travel and lodging expenses.
+- **Recording permission**: Select this box to ask your speakers for permission to record their session.
 
-## Get the link to submit proposals
+## Get the link to submit talk proposals
 
 After saving the Request for Proposals, you can start accepting talks at the R4P page. To get the link to the page, click the **Get Link** button and then click the button with the clipboard icon.
 
@@ -39,21 +39,20 @@ After saving the Request for Proposals, you can start accepting talks at the R4P
 
 ## Sending a talk proposal
 
-As a speaker, you can submit your talk from the R4P page:
+As a speaker, you can submit your talk from the R4P page by clicking the **Send your proposal** button and introducing the **Title** and **Description** of your talk.
 
-1. Click the **Send your proposal** button.
-2. Fill the **Title** and **Description** of your talk.
+![The edition page for a talk proposal](/img/screenshots/talks/talk-edit.jpg)
 
-   ![The edition page for a talk proposal](/img/screenshots/talks/talk-edit.jpg)
+Optionally you can introduce your slide deck to help the selection committee understand better the content of your talk. Keep in mind that if your talk is selected, the slides will be visible to others on the agenda page.
 
-3. Select the **Speakers** tab, add the speaker details and click the **Save** button to save your proposal.
+You can now add the speaker details and click the **Save** button to save your proposal.
 
-   ![The speaker edition page](/img/screenshots/talks/speaker-edit.jpg)
+![The speaker edition page](/img/screenshots/talks/speaker-edit.jpg)
 
-If the Request for Proposals has marked **compensate expenses** (see above), you may request travel and lodging expenses for each speaker.
+If the Request for Proposals is marked to **Compensate expenses** (see above), you may request travel and lodging expenses for each speaker separately.
 
 <aside class="note">
-If you have something that you want to discuss privately with the organizers, you can use the <b>Comments</b> section. What you introduce here can only be seen by the event organizer, not the selection committee or the attendees.
+If you have something that you want to discuss privately with the organizers, you can use the <b>Comments</b> section. What you introduce here will only be seen by the event organizer, and not by the selection committee or the attendees.
 </aside>
 
 ## After the event
