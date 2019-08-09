@@ -45,11 +45,7 @@ Slots can have one of four types:
 - **Break**: A slot reserved for coffee, lunch break, inscription, etc.
 - **Extend track**: When a track will be extended horizontally over other tracks at one particular time, like keynotes.
 
-To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options.
-
-<aside class="note">
-If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
-</aside>
+To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options. If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
 
 ## Creating a random agenda
 
@@ -68,11 +64,15 @@ Once the agenda is final, to publish it:
    ![The settings tab of the agenda](/img/screenshots/talks/agenda-settings.jpg)
 3. Click the **See Agenda** link to go to the published agenda.
 
-<aside class="note">
 If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
-</aside>
+
+<img alt="The rendered agenda" class="illustration" style="max-width: 40rem" src="/img/screenshots/talks/laptop.svg">
 
 Your attendees can now bookmark their favorite talks, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the talks too.
+
+<aside class="note">
+Your agenda is available without an Internet connection with any Android or iPhone browser with Chrome, Firefox or Safari. This feature requires support for Service Workers.
+</aside>
 
 ## Updates
 
@@ -84,9 +84,7 @@ The slides link can be a URL pointing to any resource with your slides, but for 
 
 To modify your presentation, visit the Request for Proposals or open [your user profile](https://www.koliseo.com/me) and select the tab **Talks**.
 
-<aside class="note">
 The input fields for slides and video are only displayed for talks that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
-</aside>
 
 ## What's next
 

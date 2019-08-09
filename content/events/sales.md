@@ -29,6 +29,10 @@ To copy the link to purchase tickets for your event, click the **Get Link** butt
 
 ![The ticket types list](/img/screenshots/events/sales-link.jpg)
 
+Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. For security reasons, Koliseo does not have access to the credit card details associated with your ticket purchase.
+
+Starting in July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
+
 ## Receiving the payment from ticket sales
 
 We transfer the funds collected from your ticket sales one week after the event has taken place, and for this we need that you introduce your wire transfer information:
@@ -46,8 +50,8 @@ Ticket refunds using the platform are not possible after this transfer has compl
 
 ## What's next
 
-* [Set up the ticket types and prices]({{< ref "ticket-types.md" >}})
-* [Share your event on social networks]({{< ref "share.md" >}})
-* [Download the list of tickets sold]({{< ref "validation.md" >}})
-* [Configure automatic invoices]({{< ref "invoices.md" >}})
-* [Create discount codes for your event]({{< ref "discounts.md" >}})
+- [Set up the ticket types and prices]({{< ref "ticket-types.md" >}})
+- [Share your event on social networks]({{< ref "share.md" >}})
+- [Download the list of tickets sold]({{< ref "validation.md" >}})
+- [Configure automatic invoices]({{< ref "invoices.md" >}})
+- [Create discount codes for your event]({{< ref "discounts.md" >}})

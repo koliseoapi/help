@@ -8,7 +8,7 @@ menu:
     parent: talks
 ---
 
-This page explains how to create and manage a R4P (Request for Proposals) for your event. To create an agenda with talks, you need to first create a R4P where speakers can submit their talks.
+This page explains how to create and manage a R4P (Request for Proposals) for your event. To create an agenda you need to first create a R4P where speakers can submit their talks. During this process your speakers can introduce their photo, bio and talk description directly on the platform, and add their slides and talk recording after the event.
 
 ## Creating a Request for Proposals
 

@@ -1,7 +1,18 @@
-.help-content-main img {
+// images have border by default
+.help-content-main img:not(.illustration) {
   border: 1px solid #dedede;
   background: #fafafa;
   padding: 1.2rem 1.3rem;
-  image-rendering:-webkit-optimize-contrast;
-  image-rendering:crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+// image without border
+.illustration {
+  padding: 1.2rem 1.3rem;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+// lottie animations
+.animation-container {
+  max-width: 25rem;
 }
