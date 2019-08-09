@@ -318,25 +318,25 @@
 
 <h2 id="validating-tickets">Validating tickets</h2>
 
+<figure class="animation-container"></figure>
+
 <p>You can validate tickets at the entrance of the event using our <a href="https://play.google.com/store/apps/details?id=com.koliseo">Koliseo Access Control Application for Android</a>. To validate tickets:</p>
 
 <ol>
-<li><p>Install the <a href="https://play.google.com/store/apps/details?id=com.koliseo">Koliseo Access Control Application</a> on one or more Android devices (cell phone or tablet).</p>
-
-<p><a href="https://play.google.com/store/apps/details?id=com.koliseo"><img src="/img/screenshots/tickets/access-control-app.jpg" alt="The app to validate tickets" /></a></p></li>
-
-<li><p>In the browser, open your event edition page.</p></li>
-
-<li><p>Select the <strong>Attendees</strong> &raquo; <strong>Access control</strong> tab. The page shows a QR code that can be used to authenticate the Android app.</p>
-
-<p><img src="/img/screenshots/tickets/access-control-qr.jpg" alt="The access control config page" /></p></li>
-
-<li><p>Open the Android application.</p></li>
-
-<li><p>Click the <strong>Scan</strong> button and aim the QR code with your camera. Once authenticated, the application is ready to start validating tickets.</p></li>
-
-<li><p>Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.</p></li>
+<li>Install the <a href="https://play.google.com/store/apps/details?id=com.koliseo">Koliseo Access Control Application</a> on one or more Android devices (cell phone or tablet).</li>
+<li>In the browser, open your event edition page.</li>
+<li>Select the <strong>Attendees</strong> &raquo; <strong>Access control</strong> tab. The page shows a QR code that can be used to authenticate the Android app.</li>
 </ol>
+
+<p><img src="/img/screenshots/tickets/access-control-qr.jpg" alt="The access control config page" /></p>
+
+<ol>
+<li>Open the Android application.</li>
+<li>Click the <strong>Scan</strong> button and aim the QR code with your camera. Once authenticated, the application is ready to start validating tickets.</li>
+<li>Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.</li>
+</ol>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.koliseo"><img src="/img/screenshots/tickets/access-control-app.jpg" alt="The app to validate tickets" /></a></p>
 
 <aside class="note">
 Anyone with an Android device can operate the access control application, not just the event organizer.
@@ -357,6 +357,17 @@ Remember to open the application while online at least once before the event tak
 <li><a href="/events/ticket-types/">Set up the ticket types and prices for your event</a></li>
 <li><a href="/tickets/invoices/">Configure automatic invoices</a></li>
 </ul>
+
+<script src="/js/lottie_light.min.js"></script>
+<script>
+lottie.loadAnimation({
+  container: document.querySelector('.animation-container'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/img/qr-scan.json'
+});
+</script>
 
     </main>
   </div>
