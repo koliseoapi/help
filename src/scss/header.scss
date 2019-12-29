@@ -1,4 +1,4 @@
-$topbar-bg: #2E3C43;
+$topbar-bg: #2e3c43;
 $topbar-color: #fff;
 
 .topbar {
@@ -10,26 +10,25 @@ $topbar-color: #fff;
   flex-direction: row;
   position: relative;
   align-items: center;
-  .popup-menu-contents {
-    top: 70px;
-    right: 10px;
-  }
 }
-$logo-margin: .8rem 1rem;
+.topbar-content {
+  margin: 0;
+}
+
+$logo-margin: 0.8rem 1rem;
 .topbar-logo {
   float: left;
   display: block;
   margin: $logo-margin;
   margin-left: 0;
-} 
-.topbar-separator {
-  flex-grow: 1;
 }
 .topbar-link {
   padding: $logo-margin;
   color: $topbar-color;
   text-decoration: none;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     text-decoration: underline;
     color: $topbar-color;
   }

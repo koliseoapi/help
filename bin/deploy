@@ -1,6 +1,7 @@
 #!/bin/bash
 # Deploy changes to Github pages
-set -e
+
+set -e -u
 
 npm run test
 git add docs/*

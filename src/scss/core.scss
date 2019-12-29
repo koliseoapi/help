@@ -249,3 +249,12 @@ $help-horizontal-margin: 2rem;
   margin-bottom: 1rem;
   color: #777;
 }
+
+.screen-reader-only {
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

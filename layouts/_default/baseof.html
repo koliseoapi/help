@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link href="/css/main.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-  <title>{{ .Page.Title }} - Koliseo Help Center</title>
-</head>
-<body>
-  {{ partial "header.html" . }}
-  <div class="help-and-nav content">
-    {{ partial "sidebar.html" . }}
-    {{ block "main" . }}{{ end }} 
-  </div>
-  {{ partial "footer.html" . }}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <title>{{ .Page.Title }} - Koliseo Help Center</title>
+  </head>
+  <body>
+    <a href="#main" class="screen-reader-only">Skip to content</a>
+    {{ partial "header.html" . }}
+    <div class="help-and-nav content">
+      {{ partial "sidebar.html" . }}
+      <main id="main" role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    {{ partial "footer.html" . }}
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9562146-8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-9562146-8');
-  </script>
-
-</body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-9562146-8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-9562146-8");
+    </script>
+  </body>
 </html>

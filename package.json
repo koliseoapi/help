@@ -16,12 +16,12 @@
     "broken-link-checker": "^0.7.8",
     "concurrently": "^4.1.0",
     "fs-promise": "^2.0.3",
-    "node-sass": "^4.12.0"
+    "sass": "^1.24.0"
   },
   "scripts": {
     "test": "npm run build && concurrently --kill-others --success first \"hugo server\" \"sleep 1 && blc http://localhost:1313 -ro\"",
-    "watch:css": "inotifywait -m -r -e modify,create,delete ./src/scss/ | while read NEWFILE; do node-sass src/scss/main.scss static/css/main.css --output-style compressed; done",
+    "watch:css": "bin/compile-css && inotifywait -m -r -e modify,create,delete ./src/scss/ | while read NEWFILE; do bin/compile-css; done",
     "watch": "concurrently \"npm run watch:css\" \"hugo server --log\" \"xdg-open http://localhost:1313/\"",
-    "build": "node-sass src/scss/main.scss static/css/main.css --output-style compressed && hugo -d docs"
+    "build": "bin/compile-css && hugo -d docs"
   }
 }

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Compile sass sources into css
+node_modules/.bin/sass src/scss/main.scss static/css/main.css --style compressed -sourcemap=none

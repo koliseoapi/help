@@ -1,23 +1,29 @@
-<nav class="sidebar-nav" role="navigation">
+<nav class="sidebar-nav" role="navigation" aria-label="Sidebar">
+  <ul class="sidebar-ul">
   {{ $currentPage := . }} 
   {{ range .Site.Menus.main }}
-    <a 
-      class="sidebar-nav-a {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}selected{{end}}" 
-      href="{{.URL}}"
-    >
-      {{ .Name }}
-    </a>
-    {{ if .HasChildren }}
-      <div class="submenu {{if not ( or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) ) }}collapsed{{end}}">
-      {{ range .Children }}
-        <a 
-          class="sidebar-nav-a2 {{if $currentPage.IsMenuCurrent "main" . }}selected{{end}}" 
-          href="{{.URL}}"
-        > 
-          {{ .Name }} 
-        </a> 
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}selected{{end}}" 
+        href="{{.URL}}"
+      >
+        {{ .Name }}
+      </a>
+      {{ if .HasChildren }}
+        <ul class="submenu">
+        {{ range .Children }}
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 {{if $currentPage.IsMenuCurrent "main" . }}selected{{end}}" 
+              href="{{.URL}}"
+            > 
+              {{ .Name }} 
+            </a> 
+          </li>
+        {{ end }}
+        </ul>
       {{ end }}
-      </div>
-    {{ end }}
+    </li>
   {{ end }}
+  </ul>
 </nav>
