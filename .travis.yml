@@ -10,4 +10,6 @@ before_install:
   - sudo dpkg -i hugo*.deb
   - rm hugo*.deb
   - hugo version
-script: npm run test
+script:
+  - npm ci
+  - npm run test
