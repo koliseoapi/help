@@ -89,13 +89,13 @@ Extrema Sistemas cannot guarantee that files downloaded by the User are free of 
 
 <div class="layman-terms">In which the conditions governing the refund of tickets are detailed.</div>
 
-The User must be sure of their intentions before making a purchase because the refund of purchased tickets is not allowed. Failure to attend a performance or a mistake on the purchase of tickets are not valid reasons for a refund. Tickets can only be canceled for technical or operational reasons.
+Failure to attend a performance or a mistake on the purchase of tickets are not valid reasons for a refund. It's up to the event organizer to decide under which conditions a ticket may be refunded. If allowed, the event organizer is the user that must process the refund.
 
 It is important to emphasize that Extrema Sistemas acts as an agent and not as a seller. In the case of event cancellation, the User must get in contact with the Organizer to obtain information about their eligibility for a refund. In case of postponement or rescheduling of the event, the Organizer may establish refund limitations. The maximum amount of a refund will be the nominal value of the entry on the date of acquisition.
 
 It is the responsibility of the User to know whether an event is canceled or the date and time of any rescheduled event.
 
-Purchased tickets are subject to management fees for ticketing and order processing fees that in no case are refundable. Refunds will be limited to a maximum number of tickets per event to each User.
+Purchased tickets are subject to management fees for ticketing and order processing fees that in no case are refundable (specifically, [the fees from the payment processing platform are not returned with a refund](https://stripe.com/docs/refunds)). Refunds will be limited to a maximum number of tickets per event to each User.
 
 ## Duration and Termination
 
