@@ -54,6 +54,10 @@ We work to protect your data from unauthorized access:
 - We store your data in a secure Cloud provider, which adds extra layers of physical and logical protection.
 - All data is stored encrypted.
 
+## Data deletion
+
+If you want us to delete your data, get in contact by sending your request to [info@koliseo.com](info@koliseo.com), attaching a way to confirm that you own the related account.
+
 ## Changes
 
 Our Privacy Policy may change. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).
