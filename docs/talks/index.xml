@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on </title>
+    <link>/talks/</link>
+    <description>Recent content in Talks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Request for proposals</title>
+      <link>/talks/r4p/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>/talks/r4p/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to create and manage a R4P (Request for Proposals) for your event. To create an agenda with talks, you need to first create a R4P where speakers can submit their talks.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-a-request-for-proposals:bf6740a59cff873348c2e6a64e857b0b&#34;&gt;Creating a Request for Proposals&lt;/h2&gt;
+
+&lt;p&gt;To create a Request for Proposals:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page for your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Request for Proposals&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Create R4P&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Fill out the form and click the &lt;strong&gt;Save&lt;/strong&gt; button to create the R4P.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/r4p-edit.jpg&#34; alt=&#34;The edition page for R4P&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can introduce the following values in this form:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: Name of the R4P. You can have multiple R4P open for the same event.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: The description of the R4P with the same Markdown syntax used for &lt;a href=&#34;/events/create/#event-description:b2f7ec83b933df3ed63b2a387c4e9c83&#34;&gt;Event descriptions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From&lt;/strong&gt; and &lt;strong&gt;To&lt;/strong&gt;: The date interval where the R4P will be open for submissions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Votes per user&lt;/strong&gt; and &lt;strong&gt;Votes per talk&lt;/strong&gt;: The number of votes assigned to each member of the &lt;a href=&#34;/talks/talk-selection/&#34;&gt;selection committee&lt;/a&gt; and the maximum number of votes that a member can cast for the same talk.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Activate notifications&lt;/strong&gt;: select this checkbox to receive an e-mail with each talk submission.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Private R4P&lt;/strong&gt;: select this checkbox to keep the list of proposals hidden until you publish the final agenda. When private is selected, only the author and the event organizer can see the content of each talk.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;get-the-link-to-submit-proposals:bf6740a59cff873348c2e6a64e857b0b&#34;&gt;Get the link to submit proposals&lt;/h2&gt;
+
+&lt;p&gt;After saving the Request for Proposals, you can start accepting talks at the R4P page. To get the link to the page, click the &lt;strong&gt;Get Link&lt;/strong&gt; button and then click the button with the clipboard icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/r4p-link.jpg&#34; alt=&#34;The way to get the link to the R4P&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sending-a-talk-proposal:bf6740a59cff873348c2e6a64e857b0b&#34;&gt;Sending a talk proposal&lt;/h2&gt;
+
+&lt;p&gt;As a speaker, you can submit your talk from the R4P page:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click the &lt;strong&gt;Send your proposal&lt;/strong&gt; button.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fill the &lt;strong&gt;Title&lt;/strong&gt; and &lt;strong&gt;Description&lt;/strong&gt; of your talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/talk-edit.jpg&#34; alt=&#34;The edition page for a talk proposal&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Speakers&lt;/strong&gt; tab, add the speaker details and click the &lt;strong&gt;Save&lt;/strong&gt; button to save your proposal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/speaker-edit.jpg&#34; alt=&#34;The speaker edition page&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+If you have something that you want to discuss privately with the organizers, you can use the &lt;b&gt;Comments&lt;/b&gt; section. What you introduce here can only be seen by the event organizer, not the selection committee or the attendees.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;after-the-event:bf6740a59cff873348c2e6a64e857b0b&#34;&gt;After the event&lt;/h2&gt;
+
+&lt;p&gt;Once the event has taken place, both the speakers and event organizer can:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Review the feedback&lt;/strong&gt; (for events with feedback enabled): As a speaker, you can learn from the feedback to improve your presentations. As the event organizer, you can use the feedback to understand better the interests and expectations of the audience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add the slide deck and video recording of the talk&lt;/strong&gt;. Go to the edit page of the talk and fill out the &lt;strong&gt;Slide deck&lt;/strong&gt; and &lt;strong&gt;Video&lt;/strong&gt; to see them embedded in the agenda. The &lt;strong&gt;Video&lt;/strong&gt; value must be a Youtube URL.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-s-next:bf6740a59cff873348c2e6a64e857b0b&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/categories/&#34;&gt;Add categories to your R4P&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/talk-selection/&#34;&gt;Learn more about the talk selection process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/&#34;&gt;Publish the agenda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/feedback/&#34;&gt;Get feedback about your talks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>/talks/categories/</link>
+      <pubDate>Tue, 16 Jan 2018 22:10:23 +0100</pubDate>
+      
+      <guid>/talks/categories/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to configure the list of categories and tags that the speakers can associate with their talks in a Request for proposals. These categories can be used later to filter talks in the agenda.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-categories:2bcf3fb4f7aa534879d183e2bd4e4d95&#34;&gt;Creating categories&lt;/h2&gt;
+
+&lt;p&gt;As an example, we are going to configure a request for proposals where talks have assigned a &amp;ldquo;Talk Level&amp;rdquo; that can choose between &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Intermediate&amp;rdquo; or &amp;ldquo;Advanced&amp;rdquo;. To do this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the tab &lt;strong&gt;Request for proposals&lt;/strong&gt; and click on your R4P. For instructions about to create your first R4P, &lt;a href=&#34;/talks/r4p/&#34;&gt;click here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Categories&lt;/strong&gt; tab and click the &lt;strong&gt;Add Category&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Introduce &amp;ldquo;Talk Level&amp;rdquo; in the &lt;strong&gt;Category&lt;/strong&gt; input and &amp;ldquo;Beginner, Intermediate, Advanced&amp;rdquo; in the &lt;strong&gt;Allowed values&lt;/strong&gt; field.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Required&lt;/strong&gt; and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/categories-edit.jpg&#34; alt=&#34;The edition page for a category&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2To test this newly created category, click the &lt;strong&gt;Send your proposal&lt;/strong&gt; button to make the page show a talk submission form where you can introduce the &lt;strong&gt;Talk level&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+For categories that may accept multiple choices, mark the **Multiple choice** checkbox while editing the category.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;filtering-using-categories:2bcf3fb4f7aa534879d183e2bd4e4d95&#34;&gt;Filtering using categories&lt;/h2&gt;
+
+&lt;p&gt;Other users can filter talks by categories using the form at the top of the talk submission page or the published agenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/categories-filter.jpg&#34; alt=&#34;The filter UI in the agenda&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:2bcf3fb4f7aa534879d183e2bd4e4d95&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/talk-selection/&#34;&gt;Learn more about the talk selection process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/&#34;&gt;Publish the agenda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/feedback/&#34;&gt;Get feedback about your talks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Selection</title>
+      <link>/talks/talk-selection/</link>
+      <pubDate>Tue, 16 Jan 2018 23:24:21 +0100</pubDate>
+      
+      <guid>/talks/talk-selection/</guid>
+      <description>
+
+&lt;p&gt;You can create a selection committee that will decide the final agenda. This page explains how to compose the selection committee and the mechanics of the selection process.&lt;/p&gt;
+
+&lt;h2 id=&#34;forming-a-selection-committee:d6edc264045342c6404e0fe15710ffc5&#34;&gt;Forming a selection committee&lt;/h2&gt;
+
+&lt;p&gt;Simple events with a small number of proposals typically rely on one person that hand-picks the talks for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.&lt;/p&gt;
+
+&lt;p&gt;To invite a set of users to the selection committee of a request for proposals:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Request for proposals&lt;/strong&gt; tab and click on the R4P.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Edit&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Selection committee&lt;/strong&gt; tab.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce the &lt;a href=&#34;/users/edit/#uuid:6e8dc43273ae46d2125c0726c44746de&#34;&gt;uuid&lt;/a&gt; of the user that you want to add to the committee. You can add as many members as needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/selection-committee.jpg&#34; alt=&#34;Edition UI of the selection committee&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To save your changes, click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The new members will receive an e-mail with instructions to participate in the talk selection process.&lt;/p&gt;
+
+&lt;h2 id=&#34;selecting-talks:d6edc264045342c6404e0fe15710ffc5&#34;&gt;Selecting talks&lt;/h2&gt;
+
+&lt;p&gt;Every member of the selection committee can open the R4P page and vote on their preferred talks multiple times, up to &lt;a href=&#34;/talks/r4p/&#34;&gt;the maximum per user&lt;/a&gt; configured in the R4P. To see the list of users that have voted for a talk, click on the number of votes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/talks-vote.jpg&#34; alt=&#34;The voting UI&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by &lt;a href=&#34;#talk-state&#34;&gt;state&lt;/a&gt; or by any &lt;a href=&#34;/talks/categories/&#34;&gt;category&lt;/a&gt; that you have created. You can also sort the talks by creation date, number of votes, or (once there is feedback) by feedback rating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/talks-filter.jpg&#34; alt=&#34;The talks filter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the committee has finished voting, select &amp;ldquo;Votes&amp;rdquo; and &amp;ldquo;Descending&amp;rdquo; in the &lt;strong&gt;Sort by&lt;/strong&gt; drop down to see the talks with the highest number of votes first. To download the list of talk proposals, click the &lt;strong&gt;Download as CSV&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-state:d6edc264045342c6404e0fe15710ffc5&#34;&gt;Talk state&lt;/h2&gt;
+
+&lt;p&gt;Each talk can be in one of three states:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Not selected&lt;/strong&gt;: This is the default state of a talk that has just been submitted.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selected&lt;/strong&gt;: Talks with this state are available when defining the final agenda. To toggle the &lt;strong&gt;Selected&lt;/strong&gt; state of a talk, click the &lt;strong&gt;Selected&lt;/strong&gt; / &lt;strong&gt;Not selected&lt;/strong&gt; link in the talk.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assigned&lt;/strong&gt;: These are talks that have been assigned a slot in &lt;a href=&#34;/developers/agenda/&#34;&gt;the agenda&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;sending-e-mail:d6edc264045342c6404e0fe15710ffc5&#34;&gt;Sending E-mail&lt;/h2&gt;
+
+&lt;p&gt;You can send communications from the R4P page. For example, to send a notification to all your selected speakers:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the page of your R4P.&lt;/li&gt;
+&lt;li&gt;In the form on top, click on the &lt;strong&gt;Selected&lt;/strong&gt; tag to filter only selected talks.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;E-mail&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Accepted talk&amp;rdquo; in the &lt;strong&gt;Template&lt;/strong&gt; drop-down to display a predefined template to send to the selected speakers.&lt;/li&gt;
+&lt;li&gt;Modify the subject and body of the message as needed and click the &lt;strong&gt;Send e-mails&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/mail.jpg&#34; alt=&#34;The mail form&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The form displays the number of users that will receive this e-mail when sent. For talks with multiple speakers, each speaker will receive a copy of the message.&lt;/p&gt;
+
+&lt;p&gt;You can use notifications at any point in the lifecycle of the R4P, like to send notifications about the assigned track and time, for example. To this purpose, you can use the following variables in the subject and body of the message:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Attributes&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;event&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;name&lt;/code&gt;, &lt;code&gt;uuid&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The information of the event associated with this R4P.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;talk&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;title&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, &lt;code&gt;state&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The information of the talk.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;day&lt;/code&gt;, &lt;code&gt;track&lt;/code&gt;, &lt;code&gt;slot&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;name&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The assigned day, track and slot (for talks already in the agenda)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;what-s-next:d6edc264045342c6404e0fe15710ffc5&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/categories/&#34;&gt;Add categories to your R4P&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/&#34;&gt;Publish the agenda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/feedback/&#34;&gt;Get feedback about your talks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/talks/_index/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>/talks/_index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>/talks/agenda/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:13 +0100</pubDate>
+      
+      <guid>/talks/agenda/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to configure and publish an agenda after the selection of talks is complete.&lt;/p&gt;
+
+&lt;h2 id=&#34;agenda-structure:453326a12118412bb69ac5e5b8951e56&#34;&gt;Agenda structure&lt;/h2&gt;
+
+&lt;p&gt;The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &amp;ldquo;Friday&amp;rdquo; or &amp;ldquo;November 12th&amp;rdquo;, tracks (like &amp;ldquo;Track A&amp;rdquo; or &amp;ldquo;Cloud Track&amp;rdquo;) and slots (like &amp;ldquo;09:00-09:45&amp;rdquo;). Once they are defined, the &lt;a href=&#34;/developers/agenda/&#34;&gt;JavaScript agenda component&lt;/a&gt; will format the slots as a table.&lt;/p&gt;
+
+&lt;p&gt;For example, to create an event with one day and two tracks:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the page of your Request for proposals and select the &lt;strong&gt;Agenda&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add new day&lt;/strong&gt; link, and then click on the created day.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add new track&lt;/strong&gt; link, and then click on the created track.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Edit track&lt;/strong&gt; button, set the name to &amp;ldquo;Track A&amp;rdquo; and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/agenda-track-edit.jpg&#34; alt=&#34;The Track Edit UI&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Add new slot&lt;/strong&gt; button. Change the value of the &lt;strong&gt;Type&lt;/strong&gt; drop-down to &amp;ldquo;Talk&amp;rdquo;, &lt;strong&gt;From&lt;/strong&gt; to &amp;ldquo;09:15&amp;rdquo; and &lt;strong&gt;To&lt;/strong&gt; to &amp;ldquo;09:45&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Talk&lt;/strong&gt; text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the &lt;strong&gt;Create&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/agenda-slot-edit.jpg&#34; alt=&#34;The Slot Edit UI&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repeat the process until the track is complete.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the track name, click on the &lt;strong&gt;Clone track&lt;/strong&gt; button and select the newly created track.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Edit track&lt;/strong&gt; button, change the name to &amp;ldquo;Track B&amp;rdquo; and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While cloning, only the track structure is copied. You still have to assign talks to the newly created slots.&lt;/p&gt;
+
+&lt;p&gt;You can see a preview of the current status of the agenda by selecting the &lt;strong&gt;Preview&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;h2 id=&#34;slot-types:453326a12118412bb69ac5e5b8951e56&#34;&gt;Slot types&lt;/h2&gt;
+
+&lt;p&gt;Slots can have one of four types:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Undefined&lt;/strong&gt;: This is the default status of a slot. These slots are not displayed in the agenda.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk&lt;/strong&gt;: A slot reserved for a talk.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Break&lt;/strong&gt;: A slot reserved for coffee, lunch break, inscription, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extend track&lt;/strong&gt;: When a track will be extended horizontally over other tracks at one particular time, like keynotes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To assign a talk to a slot, set the &lt;strong&gt;Slot type&lt;/strong&gt; to &amp;ldquo;Talk&amp;rdquo; and start introducing the talk name in the &lt;strong&gt;Talk&lt;/strong&gt; input field. The page will autocomplete the talk name and offer you a list of options.&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;creating-a-random-assignment-of-talks:453326a12118412bb69ac5e5b8951e56&#34;&gt;Creating a random assignment of talks&lt;/h2&gt;
+
+&lt;p&gt;Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the &lt;strong&gt;Actions&lt;/strong&gt; tab and click the &lt;strong&gt;Assign empty slots&lt;/strong&gt; button to randomly assign a talk to every empty slot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/agenda-actions.jpg&#34; alt=&#34;The actions tab of the agenda&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can adjust the results later manually.&lt;/p&gt;
+
+&lt;h2 id=&#34;publish:453326a12118412bb69ac5e5b8951e56&#34;&gt;Publish&lt;/h2&gt;
+
+&lt;p&gt;Once the agenda is final, to publish it:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page of your agenda.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Settings&lt;/strong&gt; tab and mark the &lt;strong&gt;Public&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;li&gt;Configure the &lt;a href=&#34;/developers/agenda/&#34;&gt;JavaScript agenda component&lt;/a&gt; in your web page.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/agenda-settings.jpg&#34; alt=&#34;The settings tab of the agenda&#34; /&gt;&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+If you want to collect feedback, make sure that the &lt;b&gt;Feedback&lt;/b&gt; checkbox is also selected for your Agenda.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;updates:453326a12118412bb69ac5e5b8951e56&#34;&gt;Updates&lt;/h2&gt;
+
+&lt;p&gt;As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the &lt;strong&gt;Slide deck&lt;/strong&gt; and &lt;strong&gt;Video recording&lt;/strong&gt; before or after the event has taken place.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/talk-slides.jpg&#34; alt=&#34;The form fields to specify your slides and youtube URL&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.&lt;/p&gt;
+
+&lt;p&gt;To modify your presentation, visit the Request for Proposals or open &lt;a href=&#34;https://www.koliseo.com/me&#34;&gt;your user profile&lt;/a&gt; and select the tab &lt;strong&gt;Talks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+The input fields for slides and video are only displayed for talks that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;what-s-next:453326a12118412bb69ac5e5b8951e56&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/agenda/&#34;&gt;Embed your agenda in a web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/talk-selection/&#34;&gt;Learn more about the talk selection process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/feedback/&#34;&gt;Get feedback about your talks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>/talks/feedback/</link>
+      <pubDate>Thu, 18 Jan 2018 22:13:29 +0100</pubDate>
+      
+      <guid>/talks/feedback/</guid>
+      <description>
+
+&lt;p&gt;Users can provide feedback directly from the agenda component in your web page. This page explains how to collect this feedback.&lt;/p&gt;
+
+&lt;h2 id=&#34;before-you-start:bf5fe17326d224a81a3ca89bb46305b7&#34;&gt;Before you start&lt;/h2&gt;
+
+&lt;p&gt;To accept feedback about your talks, you need:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/#publish:453326a12118412bb69ac5e5b8951e56&#34;&gt;A public agenda&lt;/a&gt; with feedback enabled.&lt;/li&gt;
+&lt;li&gt;The agenda component integrated into your web page (&lt;a href=&#34;/developers/agenda/&#34;&gt;read more&lt;/a&gt;). Once your users can log in from the agenda component, you are ready to start accepting feedback.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can see an example of an agenda with feedback &lt;a href=&#34;https://2017.codemotion.es/agenda.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/talks/feedback-list.jpg&#34; alt=&#34;The feedback list&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback:bf5fe17326d224a81a3ca89bb46305b7&#34;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Users can provide feedback directly from the JavaScript component for the agenda. To leave feedback, you must first click the &lt;strong&gt;Log in&lt;/strong&gt; button to open a user session.&lt;/p&gt;
+
+&lt;p&gt;To make your feedback valuable, the page will warn if the &lt;strong&gt;Comment&lt;/strong&gt; field is empty with a rating of 3 or 4 stars, and require a comment if the rating is below that. All feedback about a speaker is recorded and publicly available on their user profile.&lt;/p&gt;
+
+&lt;h2 id=&#34;bookmarks:bf5fe17326d224a81a3ca89bb46305b7&#34;&gt;Bookmarks&lt;/h2&gt;
+
+&lt;p&gt;After logging in, users can bookmark talks before the event by clicking the &lt;strong&gt;Bookmark&lt;/strong&gt; button. As the organizer, you can later use this information to put the talks with the most interest in tracks with higher capacity.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:bf5fe17326d224a81a3ca89bb46305b7&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/agenda/&#34;&gt;Integrate the agenda into your web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/talk-selection/&#34;&gt;Learn more about the talk selection process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/&#34;&gt;Publish the agenda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

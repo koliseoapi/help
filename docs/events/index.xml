@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on </title>
+    <link>/events/</link>
+    <description>Recent content in Events on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:01:46 +0100</lastBuildDate>
+    <atom:link href="/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Events</title>
+      <link>/events/_index/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>/events/_index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Create event</title>
+      <link>/events/create/</link>
+      <pubDate>Mon, 08 Jan 2018 20:16:31 +0100</pubDate>
+      
+      <guid>/events/create/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to create events. In Koliseo everything is bound to an event: ticket sales, talk proposals and feedback, all require to create a parent event first.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-your-first-event:b2f7ec83b933df3ed63b2a387c4e9c83&#34;&gt;Create your first event&lt;/h2&gt;
+
+&lt;p&gt;To create an event:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;/users/authentication/&#34;&gt;Log into the system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Create new event&lt;/b&gt; button in your dashboard.&lt;/li&gt;
+&lt;li&gt;Introduce a &lt;strong&gt;Name&lt;/strong&gt; and &lt;strong&gt;Description&lt;/strong&gt; and click the &lt;b&gt;Save&lt;/b&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/create.jpg&#34; alt=&#34;The event creation page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are some optional fields in this form to customize the behavior of the event:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Max tickets per user&lt;/strong&gt; is the maximum number of tickets that can be purchased by a single user in one or multiple attempts.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Mark as unlisted&lt;/strong&gt; checkbox if you want your event to not be searchable in tools like Google Search or Bing. Users with the link will still be able to reach the page.&lt;/li&gt;
+&lt;li&gt;Check &lt;strong&gt;Notify sales&lt;/strong&gt; if you want to receive a notification e-mail with each ticket sale.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This information is later editable in the &lt;strong&gt;Info&lt;/strong&gt; tab of the edit page of the event.&lt;/p&gt;
+
+&lt;h2 id=&#34;event-description:b2f7ec83b933df3ed63b2a387c4e9c83&#34;&gt;Event description&lt;/h2&gt;
+
+&lt;p&gt;The description of the event uses Markdown syntax to introduce formatting hints like bold or italics. To see the full Markdown syntax, &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Syntax&lt;/th&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctrl+b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;**Bold text**&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctrl+i&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;*Italics text*&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Italics text&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctrl+.&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;* Bullets list&lt;/td&gt;
+&lt;td&gt;&lt;ul class=&#34;square&#34; &gt;&lt;li&gt;Bullets list&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;`Code`&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[Koliseo](http&amp;#xfeff;://koliseo.com)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://koliseo.com&#34;&gt;Koliseo&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;# Header 1&lt;/td&gt;
+&lt;td&gt;# Header 1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;## Header 2&lt;/td&gt;
+&lt;td&gt;## Header 2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;### Header 3&lt;/td&gt;
+&lt;td&gt;### Header 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;what-s-next:b2f7ec83b933df3ed63b2a387c4e9c83&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/dates/&#34;&gt;Set up the date and location of the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/ticket-types/&#34;&gt;Set up the ticket types and prices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/share/&#34;&gt;Share your event on social networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Date and Location</title>
+      <link>/events/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/events/dates/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to set up the date and location of an event.&lt;/p&gt;
+
+&lt;h2 id=&#34;setting-the-date-and-location:b659d06311f64e3a6e217223e606256c&#34;&gt;Setting the date and location&lt;/h2&gt;
+
+&lt;p&gt;You can specify multiple dates, locations, and ticket prices for an event:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Access your user dashboard and select the event in the &lt;strong&gt;Events&lt;/strong&gt; tab. For instructions on how to create your first event, &lt;a href=&#34;No page found with path or logical name &#34;/events/create.md&#34;.
+&#34;&gt;click here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Date and Time&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add new date&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Introduce a &lt;strong&gt;Date&lt;/strong&gt;, &lt;strong&gt;Time&lt;/strong&gt; and &lt;strong&gt;Location&lt;/strong&gt; for the event.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Save&lt;/strong&gt; button to add this date to the event.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/dates.jpg&#34; alt=&#34;The page to introduce date and location&#34; /&gt;&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;You should be able to introduce the name of the venue directly as a location to get the address automatically resolved.&lt;/aside&gt;
+
+&lt;p&gt;To specify a different time zone or for events that span over multiple dates, click on &lt;strong&gt;Advanced view&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once created, the new date should be visible in the list under the &lt;strong&gt;Date and Time&lt;/strong&gt; tab. To see past dates in this list, select the &lt;strong&gt;Display past dates&lt;/strong&gt; checkbox.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:b659d06311f64e3a6e217223e606256c&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/ticket-types/&#34;&gt;Set up the ticket types and prices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/clone/&#34;&gt;Create a duplicate of an event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ticket Types</title>
+      <link>/events/ticket-types/</link>
+      <pubDate>Tue, 09 Jan 2018 18:09:40 +0100</pubDate>
+      
+      <guid>/events/ticket-types/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to set up multiple ticket prices and ticket availability periods for an event.&lt;/p&gt;
+
+&lt;h2 id=&#34;adding-ticket-types:abe0f2a3c4605256d668385367137d2f&#34;&gt;Adding ticket types&lt;/h2&gt;
+
+&lt;p&gt;All events start with a single ticket type with a cost of 10€. To modify this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Access your user dashboard and select your event under the &lt;strong&gt;Events&lt;/strong&gt; tab.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Date and Time&lt;/strong&gt; tab and click on the date where you want to apply a different ticket price. For instructions to create your first date and location, &lt;a href=&#34;/events/dates/&#34;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/ticket-types-list.jpg&#34; alt=&#34;The ticket types list&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Add Ticket Type&lt;/strong&gt; button.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter a &lt;strong&gt;Name&lt;/strong&gt;, &lt;strong&gt;Description&lt;/strong&gt;, &lt;strong&gt;Total tickets&lt;/strong&gt; and &lt;strong&gt;Price&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To save your changes, click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/ticket-types-edit.jpg&#34; alt=&#34;The ticket type creation page&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;limited-availability:abe0f2a3c4605256d668385367137d2f&#34;&gt;Limited availability&lt;/h2&gt;
+
+&lt;p&gt;To select the dates in which this ticket type will be available, select the &lt;strong&gt;Limited availability&lt;/strong&gt; checkbox and enter a date interval. You can leave the start or end date empty.&lt;/p&gt;
+
+&lt;p&gt;To make this ticket type visible even when not available, select &lt;strong&gt;Limit visibility&lt;/strong&gt; and change the value in the &lt;strong&gt;Type&lt;/strong&gt; drop-down to either &amp;ldquo;Only when the ticket type is available&amp;rdquo; or &amp;ldquo;Between specified dates&amp;rdquo; to specify a date interval.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/ticket-types-availability.jpg&#34; alt=&#34;Limiting availability and visibility&#34; /&gt;&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+Limited availability and limited visibility can be combined to hide or make visible your future ticket sale dates. 
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;fee-paid-by:abe0f2a3c4605256d668385367137d2f&#34;&gt;Fee paid by&lt;/h2&gt;
+
+&lt;p&gt;Koliseo charges a service fee for paid tickets of &lt;a href=&#34;/tickets/pricing/&#34;&gt;€1 + 4% over the ticket price&lt;/a&gt; (if not free). You can choose to make this fee visible to the end user:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Select the &lt;strong&gt;Date and Time&lt;/strong&gt; tab and click on the date where you want to specify the fee visibility.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Ticket Prices&lt;/strong&gt; tab&lt;/li&gt;
+&lt;li&gt;Change the value of the &lt;strong&gt;Fee paid by&lt;/strong&gt; radio button from &amp;ldquo;the organizer&amp;rdquo; to &amp;ldquo;the ticket buyer&amp;rdquo;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+Free tickets are exempt from this service fee, but events with free tickets typically show a high no-show rate (30-60% is typical). Consider assigning a symbolic price of €3-5 to reduce the no-show rate.
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;what-s-next:abe0f2a3c4605256d668385367137d2f&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales for your event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/invoices/&#34;&gt;Configure automatic invoices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/discounts/&#34;&gt;Create discount codes for your event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ticket sales</title>
+      <link>/events/sales/</link>
+      <pubDate>Tue, 09 Jan 2018 20:21:09 +0100</pubDate>
+      
+      <guid>/events/sales/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to start selling tickets (free or not) for your event.&lt;/p&gt;
+
+&lt;h2 id=&#34;enabling-ticket-sales:0870fb9baac7fe7fc3d53fa02bc76cfc&#34;&gt;Enabling ticket sales&lt;/h2&gt;
+
+&lt;p&gt;Once your event is ready, you can activate ticket sales to let users attend the event. To get started:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to your user dashboard.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Events&lt;/strong&gt; tab and click on the event. For instructions to create your first event, &lt;a href=&#34;No page found with path or logical name &#34;/events/create.md&#34;.
+&#34;&gt;click here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Actions&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Resume selling&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/sales-resume.jpg&#34; alt=&#34;The resume selling page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To pause the ticket sales, click again on the &lt;strong&gt;Stop selling&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;h2 id=&#34;share-the-link-to-get-tickets:0870fb9baac7fe7fc3d53fa02bc76cfc&#34;&gt;Share the link to get tickets&lt;/h2&gt;
+
+&lt;p&gt;To copy the link to purchase tickets for your event, click the &lt;strong&gt;Get Link&lt;/strong&gt; button and then click the button with the clipboard icon. You can later share the link using e-mail or your social networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/sales-link.jpg&#34; alt=&#34;The ticket types list&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;receiving-the-payment-from-ticket-sales:0870fb9baac7fe7fc3d53fa02bc76cfc&#34;&gt;Receiving the payment from ticket sales&lt;/h2&gt;
+
+&lt;p&gt;We transfer the funds collected from your ticket sales one week after the event has taken place, and for this we need that you introduce your wire transfer information:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;/users/authentication/&#34;&gt;Log into the system&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click on your picture in the top right corner of the screen and select the menu option with your name.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Payment info&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Fill out the form with your payment details (&lt;strong&gt;IBAN&lt;/strong&gt;, &lt;strong&gt;VAT ID&lt;/strong&gt;, &lt;strong&gt;Billing name&lt;/strong&gt; and &lt;strong&gt;Billing address&lt;/strong&gt;) and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/sales-info.jpg&#34; alt=&#34;The payment info page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our accounting team will get in contact to transfer the funds (after subtracting our fee) to this IBAN account and send you our invoice via e-mail.&lt;/p&gt;
+
+&lt;p&gt;Ticket refunds using the platform are not possible after this transfer has completed.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:0870fb9baac7fe7fc3d53fa02bc76cfc&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/ticket-types/&#34;&gt;Set up the ticket types and prices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/share/&#34;&gt;Share your event on social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/validation/&#34;&gt;Download the list of tickets sold&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/invoices/&#34;&gt;Configure automatic invoices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/discounts/&#34;&gt;Create discount codes for your event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discounts</title>
+      <link>/events/discounts/</link>
+      <pubDate>Sun, 14 Jan 2018 17:47:34 +0100</pubDate>
+      
+      <guid>/events/discounts/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to create and use discount codes that can be applied to ticket purchases.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-discount-codes:cfe459849540c67cfd745c4bec66fdba&#34;&gt;Creating discount codes&lt;/h2&gt;
+
+&lt;p&gt;To create discount codes for your events:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Features&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Discounts&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add discount&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Fill the fields in the form and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/discounts-edit.jpg&#34; alt=&#34;The discount edition page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can configure the following fields for the discount:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: The code that must be introduced during the ticket purchase to apply the discount.
+&lt;aside class=&#34;note&#34;&gt;
+The attendees will have to introduce this value when getting tickets, so usually it is better to keep it short and easy to remember.
+&lt;/aside&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amount&lt;/strong&gt;: The total amount of the discount. Set this drop-down to &amp;ldquo;percentage&amp;rdquo; to specify a value between 0 and 100, or &amp;ldquo;per ticket&amp;rdquo; to specify a fixed amount per ticket (in the local currency of the event).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expires&lt;/strong&gt;: The date when this discount will no longer be available. Leave empty if this discount does not expire.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Max redemptions&lt;/strong&gt;: The total number of times that this discount can be used. Set to &amp;ldquo;1&amp;rdquo; for single-use discount codes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;using-a-discount-code:cfe459849540c67cfd745c4bec66fdba&#34;&gt;Using a discount code&lt;/h2&gt;
+
+&lt;p&gt;To use a discount:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Navigate to the ticket purchase page of the event.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce the number of tickets for each category that you want to purchase. The page should display the total amount to pay under the &lt;strong&gt;Total&lt;/strong&gt; section.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/discounts-use-before.jpg&#34; alt=&#34;The page where you can use a discount&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Click here if you have a promotional code&lt;/strong&gt; link.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce the discount code in the input field that appears. Once introduced, the code is validated automatically.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once the validation passes, the page subtracts the discount from the amount to pay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/discounts-use-after.jpg&#34; alt=&#34;The same page after using the discount&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To complete the ticket purchase, click the &lt;strong&gt;Check out&lt;/strong&gt; button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The discount is applied to the total amount before including &lt;a href=&#34;/tickets/pricing/&#34;&gt;our service fee&lt;/a&gt;. If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is not applied.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:cfe459849540c67cfd745c4bec66fdba&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/validation/&#34;&gt;Download the list of tickets sold&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/forms/&#34;&gt;Collect information with forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/invoices/&#34;&gt;Configure automatic invoices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attendee Forms</title>
+      <link>/events/forms/</link>
+      <pubDate>Mon, 15 Jan 2018 10:07:48 +0100</pubDate>
+      
+      <guid>/events/forms/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to configure attendee forms. Forms can be used to collect information about the person purchasing the ticket, like T-shirt size or role in the company.&lt;/p&gt;
+
+&lt;h2 id=&#34;defining-a-form:8b4b5012a7347719ec08b969976201f3&#34;&gt;Defining a form&lt;/h2&gt;
+
+&lt;p&gt;As the event organizer, you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Features&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Form&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add field&lt;/strong&gt; button.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce &amp;ldquo;Role in your organization&amp;rdquo; into the &lt;strong&gt;Field name&lt;/strong&gt; input.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/form-edit.jpg&#34; alt=&#34;The form edition page&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &amp;ldquo;text&amp;rdquo; into the &lt;strong&gt;Type&lt;/strong&gt; drop-down.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Required&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add other fields as needed. When you are done, click &lt;strong&gt;Save&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Koliseo supports the following field types:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Text&lt;/strong&gt; and &lt;strong&gt;Text Area&lt;/strong&gt; for single-line or multiline free text.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select&lt;/strong&gt; to choose from a comma-separated range of values.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Number&lt;/strong&gt; for an integer number greater or equal to zero.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telephone&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-mail&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Checkbox&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can sort or delete fields using the buttons below each field. To save your changes, click the &lt;strong&gt;Save&lt;/strong&gt; button at the top of the page.&lt;/p&gt;
+
+&lt;h2 id=&#34;filling-out-the-form:8b4b5012a7347719ec08b969976201f3&#34;&gt;Filling out the form&lt;/h2&gt;
+
+&lt;p&gt;When an event includes a form, the ticket purchase page displays a set of input fields for each attendee. The attendees must fill out all fields marked as required to get their tickets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/form-fill.jpg&#34; alt=&#34;Filling out a form&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;collecting-the-form-input:8b4b5012a7347719ec08b969976201f3&#34;&gt;Collecting the form input&lt;/h2&gt;
+
+&lt;p&gt;To get the list of form values introduced by attendees, &lt;a href=&#34;/tickets/validation/#list-of-tickets:eff160cdcda8f026fba936da7f3fea15&#34;&gt;download the list of tickets&lt;/a&gt; and open the downloaded file with a spreadsheet application. The form values are in the last columns of the spreadsheet.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:8b4b5012a7347719ec08b969976201f3&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/validation/&#34;&gt;Download the list of tickets sold&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/discounts/&#34;&gt;Create discount codes for your event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/invitations/&#34;&gt;Create restricted events that require an invitation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invitations</title>
+      <link>/events/invitations/</link>
+      <pubDate>Mon, 15 Jan 2018 11:23:43 +0100</pubDate>
+      
+      <guid>/events/invitations/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to create restricted events that require an invitation to attend.&lt;/p&gt;
+
+&lt;h2 id=&#34;restricting-access-to-your-event:7c5b732f21bf1df2405ce4dc08ca5bf6&#34;&gt;Restricting access to your event&lt;/h2&gt;
+
+&lt;p&gt;To enable invitations:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Features&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Invitations&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Mark the &lt;strong&gt;This event requires an invitation&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/invitations-enable.jpg&#34; alt=&#34;Enabling invitations for an event&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you mark the event as &amp;ldquo;invitation only&amp;rdquo;, the ticket purchase page gets locked and will require an invitation to proceed. Uncheck this checkbox to remove the restriction and open the event again to the public.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-and-sending-invitations:7c5b732f21bf1df2405ce4dc08ca5bf6&#34;&gt;Creating and sending invitations&lt;/h2&gt;
+
+&lt;p&gt;To send invitations, click the &lt;strong&gt;Add invitations&lt;/strong&gt; button and fill out the form:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;E-mail addresses&lt;/strong&gt;: The list of e-mail addresses that will receive a copy of the invitation, separated by commas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt;: The message to include with the invitation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discount code&lt;/strong&gt;: If specified, the ticket purchase link will automatically fill out the discount code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expires&lt;/strong&gt;: Optional expiration date for this invitation.
+&lt;aside class=&#34;note&#34;&gt;It is considered good practice to associate an expiration date with all invitations because it helps to plan the event attendance.&lt;/aside&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/invitations-edit.jpg&#34; alt=&#34;The invitation edition page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Send&lt;/strong&gt; button to send the invitations to the list of e-mail addresses. Each invitation includes a unique link to get tickets for this event. An invitation cannot be used more than once, and the server will mark it as consumed when the user completes the ticket purchase.&lt;/p&gt;
+
+&lt;p&gt;Anyone with a Koliseo account can use an invitation, as it is not tied to the original e-mail address that received it. When an invitation includes a discount code, the ticket purchase link will automatically introduce the discount code when clicked.&lt;/p&gt;
+
+&lt;p&gt;You can use the list in the &lt;strong&gt;Features&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Invitations&lt;/strong&gt; tab to check the status or re-send invitations. You can only delete an invitation if the user has not yet accepted it.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:7c5b732f21bf1df2405ce4dc08ca5bf6&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/validation/&#34;&gt;Download the list of tickets sold&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/forms/&#34;&gt;Collect information with forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloning your event</title>
+      <link>/events/clone/</link>
+      <pubDate>Tue, 09 Jan 2018 20:14:03 +0100</pubDate>
+      
+      <guid>/events/clone/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to create a duplicate of your event for a different date, replicating ticket types and availability.&lt;/p&gt;
+
+&lt;h2 id=&#34;cloning-your-event:ea958806119aa9d400c83ca40dd7a627&#34;&gt;Cloning your event&lt;/h2&gt;
+
+&lt;p&gt;To create a duplicate of your event:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Access your user dashboard and select the event in the &lt;strong&gt;Events&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Date and Time&lt;/strong&gt; tab and click on the date that you would like to copy.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Actions&lt;/strong&gt; tab&lt;/li&gt;
+&lt;li&gt;Under the &lt;strong&gt;Clone&lt;/strong&gt; section, choose the date and time where you would like to create the copy.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Clone&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/events/clone.jpg&#34; alt=&#34;The clone page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The created copy reproduces all ticket types from the original date, including sales restrictions associated with its ticket types.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:ea958806119aa9d400c83ca40dd7a627&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/dates/&#34;&gt;Set up the date and location of the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/ticket-types/&#34;&gt;Set up the ticket types and prices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

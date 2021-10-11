@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on </title>
+    <link>/developers/</link>
+    <description>Recent content in Developers on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <lastBuildDate>Fri, 19 Jan 2018 00:11:40 +0100</lastBuildDate>
+    <atom:link href="/developers/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The agenda component</title>
+      <link>/developers/agenda/</link>
+      <pubDate>Fri, 19 Jan 2018 00:11:40 +0100</pubDate>
+      
+      <guid>/developers/agenda/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to integrate the agenda component into your own web page. Some JavaScript knowledge is required.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/developers/agenda-screenshot-desktop.jpg&#34; alt=&#34;The agenda embedded in a web page&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;before-you-start:453326a12118412bb69ac5e5b8951e56&#34;&gt;Before you start&lt;/h2&gt;
+
+&lt;p&gt;To integrate &lt;a href=&#34;https://github.com/koliseoapi/koliseo-agenda&#34;&gt;koliseo-agenda&lt;/a&gt; with your web page you first need to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create the &lt;a href=&#34;/talks/r4p/&#34;&gt;r4p&lt;/a&gt; and select the talks to be part of your agenda.&lt;/li&gt;
+&lt;li&gt;Create the &lt;a href=&#34;/talks/agenda/&#34;&gt;agenda&lt;/a&gt; and &lt;a href=&#34;/developers/agenda/&#34;&gt;integrate it into your web page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Optionally, create an &lt;a href=&#34;/developers/applications/&#34;&gt;Application&lt;/a&gt; and copy the &lt;strong&gt;Client ID&lt;/strong&gt; into your component configuration (&lt;a href=&#34;https://github.com/koliseoapi/koliseo-agenda/#usage&#34;&gt;see an example&lt;/a&gt;). This task is required to enable the write operations on the agenda (&lt;strong&gt;add bookmark&lt;/strong&gt; and &lt;strong&gt;submit feedback&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once this is done, you are ready to integrate the JavaScript component.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-the-component:453326a12118412bb69ac5e5b8951e56&#34;&gt;Using the component&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/koliseoapi/koliseo-agenda&#34;&gt;koliseo-agenda&lt;/a&gt; is a JavaScript component that you can integrate into your web page. You can import the component from npm:&lt;/p&gt;
+
+
+# npm i --save koliseo-agenda
+
+
+&lt;p&gt;To use the component, invoke its &lt;code&gt;render()&lt;/code&gt; method:&lt;/p&gt;
+
+
+&lt;div class=&#34;ka&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;koliseo-agenda.js&#34; defer&gt;&lt;/script&gt;
+&lt;script defer&gt;
+  Koliseo.agenda.render({
+    element: document.querySelector(&#39;.ka&#39;),
+    c4pUrl: &#39;https://www.koliseo.com/&lt;your c4p URL&gt;&#39;,
+    oauthClientId: &#39;&lt;Your Koliseo App Client ID&gt;&#39;
+  });
+&lt;/script&gt;
+
+
+&lt;h2 id=&#34;responsive-design:453326a12118412bb69ac5e5b8951e56&#34;&gt;Responsive design&lt;/h2&gt;
+
+&lt;p&gt;The agenda is a responsive component. In devices with small screens like smartphones the agenda will be displayed as a list instead of a table. You can customize this behavior using CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/developers/agenda-screenshot-mobile.jpg&#34; alt=&#34;The agenda on mobile&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;embed-videos-and-slides:453326a12118412bb69ac5e5b8951e56&#34;&gt;Embed videos and slides&lt;/h2&gt;
+
+&lt;p&gt;Speakers and event organizers can add slides and youtube recordings to their talks at any time (&lt;a href=&#34;No page found with path or logical name &#34;talks/agenda&#34;.
+&#34;&gt;read more&lt;/a&gt;). You may choose to hide these videos on your website using CSS.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:453326a12118412bb69ac5e5b8951e56&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/koliseoapi/koliseo-agenda&#34;&gt;See koliseo-agenda on Github&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/agenda/&#34;&gt;Publish the agenda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/talks/feedback/&#34;&gt;Get feedback about your talks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MailChimp</title>
+      <link>/developers/mailchimp/</link>
+      <pubDate>Mon, 15 Jan 2018 23:07:43 +0100</pubDate>
+      
+      <guid>/developers/mailchimp/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to integrate Koliseo with MailChimp.&lt;/p&gt;
+
+&lt;h2 id=&#34;integrating-mailchimp:dd16d7036bbe799ca8de4fc91516d414&#34;&gt;Integrating MailChimp&lt;/h2&gt;
+
+&lt;p&gt;MailChimp is an e-mail marketing service that can be used to send communications to customers. You can register your attendees automatically into your MailChimp list:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the edit page of your event.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Features&lt;/strong&gt; &amp;raquo; &lt;strong&gt;Plugins&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Switch the &lt;strong&gt;Off&lt;/strong&gt; button to enable the integration with MailChimp.&lt;/li&gt;
+&lt;li&gt;In the form, fill in your &lt;a href=&#34;https://kb.MailChimp.com/integrations/api-integrations/about-api-keys&#34;&gt;MailChimp API key&lt;/a&gt; and &lt;a href=&#34;https://kb.MailChimp.com/lists/manage-contacts/find-your-list-id&#34;&gt;List ID&lt;/a&gt;, and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/developers/mailchimp-edit.jpg&#34; alt=&#34;The MailChimp edition UI&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bear in mind that the MailChimp integration includes an opt-in checkbox. Your attendees can now select a checkbox during the ticket purchase process indicating that they agree to get added to a list on MailChimp.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:dd16d7036bbe799ca8de4fc91516d414&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/share/&#34;&gt;Share your event on social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/forms/&#34;&gt;Collect information with forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/validation/&#34;&gt;Download the list of tickets sold&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Applications</title>
+      <link>/developers/applications/</link>
+      <pubDate>Fri, 19 Jan 2018 10:15:47 +0100</pubDate>
+      
+      <guid>/developers/applications/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to integrate third-party applications using the Koliseo API.&lt;/p&gt;
+
+&lt;h2 id=&#34;generating-credentials:b98785e6c450ac5acdf879a231956402&#34;&gt;Generating credentials&lt;/h2&gt;
+
+&lt;p&gt;Koliseo uses OAuth 2 to secure its API. To connect your application with the platform, you first need to create a set of credentials:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://www.koliseo.com/me&#34;&gt;your user page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Applications&lt;/strong&gt; tab and click the &lt;strong&gt;Add Application&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Fill the form and click the &lt;strong&gt;Save&lt;/strong&gt; button to create your application.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The application includes the following fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: the name that you will use to identify this application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt;: set this drop-down to &amp;ldquo;web&amp;rdquo; for web applications, &amp;ldquo;mobile&amp;rdquo; for mobile apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Your application description.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thumbnail URL&lt;/strong&gt;: A URL pointing to the logo of your application. Leave empty to use the default logo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Redirect URIs&lt;/strong&gt;: A list of the allowed URLs for redirection after logging in, one per line. It typically includes the web page where your login link will be.
+&lt;aside class=&#34;note&#34;&gt;
+You may want to include &lt;code&gt;localhost&lt;/code&gt; if you are using these credentials for testing.
+&lt;/aside&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+[The agenda component](/developers/agenda/) will require a Client ID to enable write operations like bookmarks and sending feedback. 
+&lt;/aside&gt;
+
+&lt;p&gt;After creating the application, you can use the &lt;strong&gt;Client ID&lt;/strong&gt; and &lt;strong&gt;Secret&lt;/strong&gt; to configure your OAuth 2 application. &lt;a href=&#34;https://github.com/koliseoapi/koliseo-agenda/#usage&#34;&gt;See an example&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:b98785e6c450ac5acdf879a231956402&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/developers/agenda/&#34;&gt;Embed your agenda in a web page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Share your event</title>
+      <link>/developers/share/</link>
+      <pubDate>Tue, 09 Jan 2018 20:32:35 +0100</pubDate>
+      
+      <guid>/developers/share/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to share your event on social networks and enable Google Analytics from your event page.&lt;/p&gt;
+
+&lt;h2 id=&#34;schema-org:6f58fe49a615132860be3927e4165e1c&#34;&gt;Schema.org&lt;/h2&gt;
+
+&lt;p&gt;The server includes in the event page the HTML tags required by the &lt;a href=&#34;http://schema.org/Event&#34;&gt;Event schema&lt;/a&gt; to make them indexable by search engines. A similar &lt;a href=&#34;http://schema.org/Ticket&#34;&gt;Ticket schema&lt;/a&gt; is used in e-mail confirmations so that your smartphone can process and index your tickets.&lt;/p&gt;
+
+&lt;aside class=&#34;note&#34;&gt;
+If you are concerned about privacy, you may &lt;a href=&#34;/events/create/&#34;&gt;mark your event as unlisted&lt;/a&gt; so that it does not show on public search engines. 
+&lt;/aside&gt;
+
+&lt;h2 id=&#34;twitter-and-facebook:6f58fe49a615132860be3927e4165e1c&#34;&gt;Twitter and Facebook&lt;/h2&gt;
+
+&lt;p&gt;Koliseo also includes with the event page the metadata required by Twitter and Facebook to show the smart card relative to your event.&lt;/p&gt;
+
+&lt;h2 id=&#34;google-analytics:6f58fe49a615132860be3927e4165e1c&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;To track the performance of your event, you can configure your Google Analytics ID. To do this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Log into the system.&lt;/li&gt;
+&lt;li&gt;Go to your user profile by clicking on your picture in the top right corner and selecting your name in the pop-up menu.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Advanced&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Introduce your &lt;strong&gt;Google Analytics ID&lt;/strong&gt; and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/developers/analytics-edit.jpg&#34; alt=&#34;The advanced tab of the user profile&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After doing this you can start tracking metrics associated with your events in Google Analytics.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:6f58fe49a615132860be3927e4165e1c&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/sales/&#34;&gt;Start ticket sales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/discounts/&#34;&gt;Create discount codes for your event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Developers</title>
+      <link>/developers/_index/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>/developers/_index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

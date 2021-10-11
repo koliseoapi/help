@@ -331,17 +331,14 @@
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#agenda-structure">Agenda structure</a></li>
-<li><a href="#slot-types">Slot types</a></li>
-<li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
-<li><a href="#publish">Publish</a></li>
-<li><a href="#updates">Updates</a></li>
-<li><a href="#what-s-next">What&rsquo;s next</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#agenda-structure">Agenda structure</a></li>
+    <li><a href="#slot-types">Slot types</a></li>
+    <li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
+    <li><a href="#publish">Publish</a></li>
+    <li><a href="#updates">Updates</a></li>
+    <li><a href="#whats-next">What&rsquo;s next</a></li>
+  </ul>
 </nav>
   </div>
 </aside>
@@ -361,112 +358,86 @@
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#agenda-structure">Agenda structure</a></li>
-<li><a href="#slot-types">Slot types</a></li>
-<li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
-<li><a href="#publish">Publish</a></li>
-<li><a href="#updates">Updates</a></li>
-<li><a href="#what-s-next">What&rsquo;s next</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#agenda-structure">Agenda structure</a></li>
+    <li><a href="#slot-types">Slot types</a></li>
+    <li><a href="#creating-a-random-agenda">Creating a random agenda</a></li>
+    <li><a href="#publish">Publish</a></li>
+    <li><a href="#updates">Updates</a></li>
+    <li><a href="#whats-next">What&rsquo;s next</a></li>
+  </ul>
 </nav>
   </div>
 </aside>
-      
-
-<p>This page explains how to configure and publish an agenda after the selection of talks is complete.</p>
-
+      <p>This page explains how to configure and publish an agenda after the selection of talks is complete.</p>
 <h2 id="agenda-structure">Agenda structure</h2>
-
 <p>The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like &ldquo;Friday&rdquo; or &ldquo;November 12th&rdquo;, tracks (like &ldquo;Track A&rdquo; or &ldquo;Cloud Track&rdquo;) and slots (like &ldquo;09:00-09:45&rdquo;). Once published, the link to the published agenda will display your slots as a table.</p>
-
 <p>For example, to create an event with one day and two tracks:</p>
-
 <ol>
-<li>Go to the page of your Request for proposals and select the <strong>Agenda</strong> tab.</li>
-<li>Click the <strong>Add new day</strong> link, and then click on the created day.</li>
-<li>Click the <strong>Add new track</strong> link, and then click on the created track.</li>
-<li>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</li>
+<li>
+<p>Go to the page of your Request for proposals and select the <strong>Agenda</strong> tab.</p>
+</li>
+<li>
+<p>Click the <strong>Add new day</strong> link, and then click on the created day.</p>
+</li>
+<li>
+<p>Click the <strong>Add new track</strong> link, and then click on the created track.</p>
+</li>
+<li>
+<p>Click the <strong>Edit track</strong> button, set the name to &ldquo;Track A&rdquo; and click the <strong>Save</strong> button.</p>
+<p><img src="/img/screenshots/talks/agenda-track-edit.jpg" alt="The Track Edit UI"></p>
+</li>
+<li>
+<p>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;.</p>
+</li>
+<li>
+<p>In the <strong>Talk</strong> text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the <strong>Create</strong> button.</p>
+<p><img src="/img/screenshots/talks/agenda-slot-edit.jpg" alt="The Slot Edit UI"></p>
+</li>
+<li>
+<p>Repeat the process until the track is complete.</p>
+</li>
+<li>
+<p>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</p>
+</li>
+<li>
+<p>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</p>
+</li>
 </ol>
-
-<p><img src="/img/screenshots/talks/agenda-track-edit.jpg" alt="The Track Edit UI" /></p>
-
-<ol>
-<li>Click the <strong>Add new slot</strong> button. Change the value of the <strong>Type</strong> drop-down to &ldquo;Talk&rdquo;, <strong>From</strong> to &ldquo;09:15&rdquo; and <strong>To</strong> to &ldquo;09:45&rdquo;.</li>
-<li>In the <strong>Talk</strong> text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the <strong>Create</strong> button.</li>
-</ol>
-
-<p><img src="/img/screenshots/talks/agenda-slot-edit.jpg" alt="The Slot Edit UI" /></p>
-
-<ol>
-<li>Repeat the process until the track is complete.</li>
-<li>Select the track name, click on the <strong>Clone track</strong> button and select the newly created track.</li>
-<li>Click the <strong>Edit track</strong> button, change the name to &ldquo;Track B&rdquo; and click the <strong>Save</strong> button.</li>
-</ol>
-
 <p>While cloning, only the track structure is copied. You still have to assign talks to the newly created slots.</p>
-
 <p>You can see a preview of the current status of the agenda by selecting the <strong>Preview</strong> tab.</p>
-
 <h2 id="slot-types">Slot types</h2>
-
 <p>Slots can have one of four types:</p>
-
 <ul>
 <li><strong>Undefined</strong>: This is the default status of a slot. These slots are not displayed in the agenda.</li>
 <li><strong>Talk</strong>: A slot reserved for a talk.</li>
 <li><strong>Break</strong>: A slot reserved for coffee, lunch break, inscription, etc.</li>
 <li><strong>Extend track</strong>: When a track will be extended horizontally over other tracks at one particular time, like keynotes.</li>
 </ul>
-
 <p>To assign a talk to a slot, set the <strong>Slot type</strong> to &ldquo;Talk&rdquo; and start introducing the talk name in the <strong>Talk</strong> input field. The page will autocomplete the talk name and offer you a list of options. If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.</p>
-
 <h2 id="creating-a-random-agenda">Creating a random agenda</h2>
-
 <p>Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the <strong>Actions</strong> tab and click the <strong>Assign empty slots</strong> button to randomly assign a talk to every empty slot.</p>
-
-<p><img src="/img/screenshots/talks/agenda-actions.jpg" alt="The actions tab of the agenda" /></p>
-
+<p><img src="/img/screenshots/talks/agenda-actions.jpg" alt="The actions tab of the agenda"></p>
 <p>Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can adjust the results later manually.</p>
-
 <h2 id="publish">Publish</h2>
-
 <p>Once the agenda is final, to publish it:</p>
-
 <ol>
 <li>Go to the edit page of your agenda.</li>
 <li>Select the <strong>Settings</strong> tab and mark the <strong>Public</strong> checkbox.
-<img src="/img/screenshots/talks/agenda-settings.jpg" alt="The settings tab of the agenda" /></li>
+<img src="/img/screenshots/talks/agenda-settings.jpg" alt="The settings tab of the agenda"></li>
 <li>Click the <strong>See Agenda</strong> link to go to the published agenda.</li>
 </ol>
-
-<p>If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.</p>
-
-<p><img alt="The rendered agenda" class="illustration" style="max-width: 40rem" src="/img/screenshots/talks/laptop.svg"></p>
-
+<p>If you want to collect feedback, make sure that the <!-- raw HTML omitted -->Feedback<!-- raw HTML omitted --> checkbox is also selected for your Agenda.</p>
+<!-- raw HTML omitted -->
 <p>Your attendees can now bookmark their favorite talks, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the talks too.</p>
-
-<aside class="note">
-Your agenda is available without an Internet connection with any Android or iPhone browser with Chrome, Firefox or Safari. This feature requires support for Service Workers.
-</aside>
-
+<!-- raw HTML omitted -->
 <h2 id="updates">Updates</h2>
-
 <p>As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the <strong>Slide deck</strong> and <strong>Video recording</strong> before or after the event has taken place.</p>
-
-<p><img src="/img/screenshots/talks/talk-slides.jpg" alt="The form fields to specify your slides and youtube URL" /></p>
-
+<p><img src="/img/screenshots/talks/talk-slides.jpg" alt="The form fields to specify your slides and youtube URL"></p>
 <p>The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.</p>
-
 <p>To modify your presentation, visit the Request for Proposals or open <a href="https://www.koliseo.com/me">your user profile</a> and select the tab <strong>Talks</strong>.</p>
-
 <p>The input fields for slides and video are only displayed for talks that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.</p>
-
-<h2 id="what-s-next">What&rsquo;s next</h2>
-
+<h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
 <li><a href="/talks/talk-selection/">Learn more about the talk selection process</a></li>
 <li><a href="/talks/feedback/">Get feedback about your talks</a></li>

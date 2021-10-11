@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Users on </title>
+    <link>/users/</link>
+    <description>Recent content in Users on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Apache License 2.0</copyright>
+    <atom:link href="/users/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>User authentication</title>
+      <link>/users/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/users/authentication/</guid>
+      <description>
+
+&lt;p&gt;This page explains how the authentication and user management system works in Koliseo.&lt;/p&gt;
+
+&lt;h2 id=&#34;authentication-providers:6b57b661b9236f856cd4f0afa1bed671&#34;&gt;Authentication providers&lt;/h2&gt;
+
+&lt;p&gt;Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our &lt;a href=&#34;https://www.koliseo.com/legal&#34;&gt;terms and conditions&lt;/a&gt; including our use of Cookies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/users/login.jpg&#34; alt=&#34;The login page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the authentication process Koliseo will gain access to the following information about your user profile:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OAuth id&lt;/li&gt;
+&lt;li&gt;User Name&lt;/li&gt;
+&lt;li&gt;E-mail address&lt;/li&gt;
+&lt;li&gt;Photo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Koliseo will not get access to your contacts or get permissions to do actions on your behalf.&lt;/p&gt;
+
+&lt;h2 id=&#34;custom-usernames-and-passwords:6b57b661b9236f856cd4f0afa1bed671&#34;&gt;Custom usernames and passwords&lt;/h2&gt;
+
+&lt;p&gt;Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:6b57b661b9236f856cd4f0afa1bed671&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/users/edit/&#34;&gt;Edit your user information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/events/create/&#34;&gt;Create your first event&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edit user</title>
+      <link>/users/edit/</link>
+      <pubDate>Tue, 09 Jan 2018 22:34:05 +0100</pubDate>
+      
+      <guid>/users/edit/</guid>
+      <description>
+
+&lt;p&gt;This page explains how to edit your user profile.&lt;/p&gt;
+
+&lt;h2 id=&#34;accessing-your-user-profile:6e8dc43273ae46d2125c0726c44746de&#34;&gt;Accessing your user profile&lt;/h2&gt;
+
+&lt;p&gt;To access your user profile:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click on your picture in the top right corner of the screen and select the menu option with your name.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Edit&lt;/strong&gt; button to the right of your name.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Data&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Fill out your changes in the form and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/screenshots/users/user-edit.jpg&#34; alt=&#34;The Edit User page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The user information includes the following fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Avatar&lt;/strong&gt;: Click the &lt;strong&gt;Choose a file&lt;/strong&gt; button next to your picture. Koliseo will extract your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it. When you upload a custom picture, this behavior will be disabled.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: Your name, to be displayed in listings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt;: The URL of your user profile. You can change it by modifying your &lt;a href=&#34;#uuid:6e8dc43273ae46d2125c0726c44746de&#34;&gt;uuid&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: A short (140 characters) description to display on your user profile.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: The language that the page will show when you are logged in. The supprted languages are English and Spanish.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter account&lt;/strong&gt;: If set, your Twitter handle will be visible in your user profile and in any talks where you are a speaker.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Subscribed&lt;/strong&gt; checkbox to get registered on the mailing list where we announce our new features.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a &lt;code&gt;hl=en&lt;/code&gt; or &lt;code&gt;hl=es&lt;/code&gt; GET parameter to any URL.&lt;/p&gt;
+
+&lt;h2 id=&#34;user-deletion:6e8dc43273ae46d2125c0726c44746de&#34;&gt;User deletion&lt;/h2&gt;
+
+&lt;p&gt;To delete your user information, contact us at info@koliseo.com and we will proceed to remove your data.&lt;/p&gt;
+
+&lt;p&gt;After deleting your user:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We will remove all your talks, feedback or bookmarks.&lt;/li&gt;
+&lt;li&gt;We will reassign any existing tickets or events with sold tickets to a different user. We will keep them for accounting purposes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;merge-of-user-information:6e8dc43273ae46d2125c0726c44746de&#34;&gt;Merge of user information&lt;/h2&gt;
+
+&lt;p&gt;Koliseo does not support the merge of data from multiple user accounts that share the same e-mail address. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help avoid confusion, the login page shows which provider you used the last time.&lt;/p&gt;
+
+&lt;h2 id=&#34;uuid:6e8dc43273ae46d2125c0726c44746de&#34;&gt;UUID&lt;/h2&gt;
+
+&lt;p&gt;Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after &amp;ldquo;koliseo.com&amp;rdquo;. For example, for &lt;a href=&#34;https://www.koliseo.com/ccoloma&#34;&gt;https://www.koliseo.com/ccoloma&lt;/a&gt; the uuid is &amp;ldquo;ccoloma&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next:6e8dc43273ae46d2125c0726c44746de&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/events/create/&#34;&gt;Create your first event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/users/authentication/&#34;&gt;Learn about user authentication&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Users</title>
+      <link>/users/_index/</link>
+      <pubDate>Tue, 16 Jan 2018 00:01:46 +0100</pubDate>
+      
+      <guid>/users/_index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
