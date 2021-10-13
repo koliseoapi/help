@@ -56,7 +56,7 @@ We work to protect your data from unauthorized access:
 
 ## Data deletion
 
-If you want us to delete your data, get in contact by sending your request to info@koliseo.com, attaching a way to confirm that you own the related account.
+If you want us to delete your data, get in contact by sending your request to info@koliseo.com from the email address associated with your user account.
 
 ## Changes
 
