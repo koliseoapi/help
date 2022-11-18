@@ -27,7 +27,7 @@ To pause the ticket sales, click again on the **Stop selling** button.
 
 To copy the link to purchase tickets for your event, click the **Get Link** button and then click the button with the clipboard icon. You can later share the link using e-mail or your social networks.
 
-![The ticket types list](/img/screenshots/events/sales-link.jpg)
+![The list of ticket classes](/img/screenshots/events/sales-link.jpg)
 
 Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. For security reasons, Koliseo does not have access to the credit card details associated with your ticket purchase.
 
@@ -50,7 +50,7 @@ Ticket refunds using the platform are not possible after this transfer has compl
 
 ## What's next
 
-- [Set up the ticket types and prices]({{< ref "ticket-types.md" >}})
+- [Create ticket classes]({{< ref "ticket-classes.md" >}})
 - [Share your event on social networks]({{< ref "share.md" >}})
 - [Download the list of tickets sold]({{< ref "validation.md" >}})
 - [Configure automatic invoices]({{< ref "invoices.md" >}})

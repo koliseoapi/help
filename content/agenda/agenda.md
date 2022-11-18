@@ -3,12 +3,14 @@ title: "Agenda"
 date: 2018-01-18T22:13:13+01:00
 summary: "Publish the agenda after the talks selection process is complete."
 weight: 40
+aliases:
+  - /talks/agenda
 menu:
   main:
-    parent: talks
+    parent: agenda
 ---
 
-This page explains how to configure and publish an agenda after the selection of talks is complete.
+This page explains how to configure and publish an agenda after the session review process is complete.
 
 ## Agenda structure
 
@@ -16,7 +18,7 @@ The first step is to create the agenda structure. An agenda in Koliseo is compos
 
 For example, to create an event with one day and two tracks:
 
-1. Go to the page of your Request for proposals and select the **Agenda** tab.
+1. Go to the page of your Call for Papers and select the **Agenda** tab.
 2. Click the **Add new day** link, and then click on the created day.
 3. Click the **Add new track** link, and then click on the created track.
 4. Click the **Edit track** button, set the name to "Track A" and click the **Save** button.
@@ -24,7 +26,7 @@ For example, to create an event with one day and two tracks:
    ![The Track Edit UI](/img/screenshots/talks/agenda-track-edit.jpg)
 
 5. Click the **Add new slot** button. Change the value of the **Type** drop-down to "Talk", **From** to "09:15" and **To** to "09:45".
-6. In the **Talk** text field, start typing the name of any of the selected talks, select the talk from the autocomplete list and click the **Create** button.
+6. In the **Session** text field, start typing the session name, select the session from the autocomplete list and click the **Create** button.
 
    ![The Slot Edit UI](/img/screenshots/talks/agenda-slot-edit.jpg)
 
@@ -32,7 +34,7 @@ For example, to create an event with one day and two tracks:
 8. Select the track name, click on the **Clone track** button and select the newly created track.
 9. Click the **Edit track** button, change the name to "Track B" and click the **Save** button.
 
-While cloning, only the track structure is copied. You still have to assign talks to the newly created slots.
+While cloning, only the track structure is copied. You still have to assign sessions to the newly created slots.
 
 You can see a preview of the current status of the agenda by selecting the **Preview** tab.
 
@@ -47,14 +49,6 @@ Slots can have one of four types:
 
 To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options. If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
 
-## Creating a random agenda
-
-Once you have created the agenda structure (days, tracks and slots), you can create a random assignment of talks to help you get started. Go to the **Actions** tab and click the **Assign empty slots** button to randomly assign a talk to every empty slot.
-
-![The actions tab of the agenda](/img/screenshots/talks/agenda-actions.jpg)
-
-Assigned slots will not be modified, so you can use this as an easy way to fill any empty slots easily. You can adjust the results later manually.
-
 ## Publish
 
 Once the agenda is final, to publish it:
@@ -68,7 +62,7 @@ If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is 
 
 <img alt="The rendered agenda" class="illustration" style="max-width: 40rem" src="/img/screenshots/talks/laptop.svg">
 
-Your attendees can now bookmark their favorite talks, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the talks too.
+Your attendees can now bookmark their favorite sessions, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the sessions too.
 
 <aside class="note">
 Your agenda is available without an Internet connection with any Android or iPhone browser with Chrome, Firefox or Safari. This feature requires support for Service Workers.
@@ -82,11 +76,11 @@ As a speaker, you can always modify your presentations (title and description of
 
 The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.
 
-To modify your presentation, visit the Request for Proposals or open [your user profile](https://www.koliseo.com/me) and select the tab **Talks**.
+To modify your presentation, visit the Call for Papers or open [your user profile](https://www.koliseo.com/me) and select the tab **Sessions**.
 
-The input fields for slides and video are only displayed for talks that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
+The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
 
 ## What's next
 
-- [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
-- [Get feedback about your talks]({{< ref "feedback.md" >}})
+- [Learn more about the session review process]({{< ref "session-review.md" >}})
+- [Receive session feedback in the agenda]({{< ref "feedback.md" >}})

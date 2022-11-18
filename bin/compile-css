@@ -1,3 +1,4 @@
 #!/bin/bash
 # Compile sass sources into css
+set -e -o pipefail
 node_modules/.bin/sass src/scss/main.scss static/css/main.css --style compressed --no-source-map

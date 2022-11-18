@@ -1,18 +1,20 @@
 ---
 title: "Feedback"
 date: 2018-01-18T22:13:29+01:00
-summary: "Collect feedback about the talks directly from the agenda."
+summary: "Collect session feedback directly from the agenda."
 weight: 50
+aliases:
+  - /talks/feedback
 menu:
   main:
-    parent: talks
+    parent: agenda
 ---
 
 Users can provide feedback directly from the published agenda. This page explains how to collect this feedback.
 
 ## Before you start
 
-To accept feedback about your talks, you need <a href="{{< ref "agenda.md#publish" >}}">an agenda</a> published and with feedback enabled.
+To accept feedback, you need <a href="{{< ref "agenda.md#publish" >}}">a published agenda</a> with feedback enabled.
 
 You can see an example [here](https://www.koliseo.com/demo).
 
@@ -24,9 +26,9 @@ Users can provide feedback directly from the published agenda. To make your feed
 
 ## Bookmarks
 
-After logging in, users can bookmark talks before the event by clicking the **Bookmark** button. As the organizer, you can later use this information to put the talks with the most interest in tracks with higher capacity.
+After logging in, users can bookmark their favorite sessions before the event by clicking the **Bookmark** button. As the organizer, you can later use this information to put the sessions with the most interest in tracks with higher capacity.
 
 ## What's next
 
-- [Learn more about the talk selection process]({{< ref "talk-selection.md" >}})
+- [Learn more about the session review process]({{< ref "session-review.md" >}})
 - [Publish your agenda]({{< ref "agenda.md" >}})

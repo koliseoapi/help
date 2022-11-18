@@ -53,7 +53,7 @@ Remember to open the application while online at least once before the event tak
 ## What's next
 
 - [Start ticket sales]({{< ref "sales.md" >}})
-- [Set up the ticket types and prices for your event]({{< ref "ticket-types.md" >}})
+- [Create ticket classes for your event]({{< ref "ticket-classes.md" >}})
 - [Configure automatic invoices]({{< ref "invoices.md" >}})
 
 <script src="/js/lottie_light.min.js"></script>

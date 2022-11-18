@@ -52,5 +52,5 @@ As the event organizer, you can get the list of all invoices emitted under the *
 ## What's next
 
 - [Start ticket sales]({{< ref "sales.md" >}})
-- [Set up the ticket types and prices for your event]({{< ref "ticket-types.md" >}})
+- [Create ticket classes for your event]({{< ref "ticket-classes.md" >}})
 - [Create discount codes for your event]({{< ref "discounts.md" >}})
