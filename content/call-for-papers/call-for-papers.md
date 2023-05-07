@@ -7,7 +7,7 @@ aliases:
   - /talks/r4p
 menu:
   main:
-    parent: call-for-papers
+    parent: agenda
 ---
 
 This page explains how to create and manage a Call for Papers for your event. To create an agenda you need to first create a Call for Papers where speakers can submit their sessions. During this process your speakers can introduce their photo, bio and talk description directly on the platform, and add their slides and talk recording after the event.

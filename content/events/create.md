@@ -46,7 +46,6 @@ The description of the event uses Markdown syntax to introduce formatting hints 
 
 ## What's next
 
-- [Add a Call for Papers]({{< ref "call-for-papers.md" >}})
 - [Configure ticket classes]({{< ref "ticket-classes.md" >}})
 - [Start ticket sales]({{< ref "sales.md" >}})
 - [Share your event on social networks]({{< ref "share.md" >}})

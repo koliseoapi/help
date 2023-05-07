@@ -31,7 +31,7 @@ You can configure the following fields for the discount:
 - **Percentage**: For `Percentage` discounts, the percentage to be discounted (as a number between 0 and 100).
 - **Start** and **End**: The dates of the discount. If specified, the discount will be available only during this period. If not specified, the discount will be available until the organizer closes it.
 - **Expires**: The date when this discount will no longer be available. Leave empty if this discount does not expire.
-- **Ticket Classes**: The ticket classes that this discount can be applied to. By default, discounts can be applie dto all ticket classes.
+- **Ticket Classes**: The ticket classes that this discount can be applied to. By default, this value is set to all ticket classes.
 
 ## Using a discount code
 
@@ -56,5 +56,5 @@ The discount is applied to the total amount before including [our service fee]({
 
 - [Configure ticket classes]({{< ref "ticket-classes.md" >}})
 - [Start ticket sales]({{< ref "sales.md" >}})
-- [Collect information with forms]({{< ref "forms.md" >}})
+- [Collect information with forms]({{< ref "questions.md" >}})
 - [Configure automatic invoices]({{< ref "invoices.md" >}})
