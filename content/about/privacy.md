@@ -8,14 +8,14 @@ menu:
     parent: about
 ---
 
-We collect information to provide a better service to all of our users. This page explains what information we collect and why we collect it.
+We collect information to provide a better service to all of our users. This page explains which information we collect and why we collect it.
 
 ## Information that we collect
 
 We collect information in the following ways:
 
 - **Information you introduce in the platform manually**. For example, you may enter your Twitter account or a user description on your user profile page.
-- **Information we get from your Authentication provider**. When you log into the platform we receive the following information from your authentication provider: **OAuth id**, **Name**, **E-mail address**, and **Photo**. We use this information to identify your user account. We use your email address for notifications, like when purchasing tickets for an event, or if an event that you are attending is suffering changes.
+- **Information we get from your Authentication provider**. When you log into the platform we receive the following information from your authentication provider: **OAuth id**, **Name**, **E-mail address**, and **Photo**. We use this information to identify your user account, and we use your email address for notifications (e.g. when purchasing tickets).
 - **Logs**. When you use our services, we automatically collect and store information in server logs, including:
   - The pages that you visited.
   - Your IP address.
@@ -36,8 +36,8 @@ Specifically, we do not get access to this information:
 
 We do not share personal information with third parties unless one of the following circumstances applies:
 
-- **With our event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about events that you are attending to.
-- **Anonymized information**. We track cumulative, anonymized data about visits to our website. We may share parts of this anonymized information with event organizers.
+- **With event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about the event that you will be attending.
+- **Anonymized information**. We track cumulative, anonymized statistics about our website. We may share parts of this information with third parties. This information cannot be used to track back to an individual.
 - **For legal reasons**. We will share personal information if reasonably necessary to:
   - Meet any applicable law or legal process.
   - Enforce applicable Terms of Service, including investigation of potential violations.
@@ -47,11 +47,10 @@ We do not share personal information with third parties unless one of the follow
 
 We work to protect your data from unauthorized access:
 
-- We encrypt our services using SSL.
-- We delegate to secure third-party providers your user credentials, so that Koliseo does not have access to your username and password.
-- We delegate the handling of your credit card details to secure, specialized third-party processing platforms.
-- We store your data in a secure Cloud provider, which adds extra layers of physical and logical protection.
-- All our data is stored encrypted.
+- **We encrypt our services using SSL** and store all our data encrypted.
+- **We delegate authentication to secure third-party providers**, so that Koliseo does not have access to your username and password.
+- **We delegate the handling of your credit card details to secure, specialized third-party processing platforms**.
+- **We store your data in a secure Cloud provider**, which adds extra layers of physical and logical protection.
 
 ## Data deletion
 
