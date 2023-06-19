@@ -1,38 +1,37 @@
 ---
 title: "Agenda"
 date: 2018-01-18T22:13:13+01:00
-summary: "Publish the agenda after the talks selection process is complete."
+summary: "Publish the agenda after the selection process is complete."
 weight: 40
-aliases:
-  - /talks/agenda
 menu:
   main:
     parent: agenda
 ---
 
-This page explains how to configure and publish an agenda after the session review process is complete.
+This page explains how to configure and publish an agenda after the sessions have been selected.
 
 ## Agenda structure
 
-The first step is to create the agenda structure. An agenda in Koliseo is composed of days (like "Friday" or "November 12th", tracks (like "Track A" or "Cloud Track") and slots (like "09:00-09:45"). Once published, the link to the published agenda will display your slots as a table.
+The first step is to create the agenda structure. An agenda is composed of tracks (like "Track A" or "Cloud Track") and time intervals (like "09:00-09:45"). The agenda will be displayed as a table on desktop, but as a list on mobile devices.
 
-For example, to create an event with one day and two tracks:
+For example, to create an Agenda with two tracks:
 
-1. Go to the page of your Call for Papers and select the **Agenda** tab.
-2. Click the **Add new day** link, and then click on the created day.
-3. Click the **Add new track** link, and then click on the created track.
-4. Click the **Edit track** button, set the name to "Track A" and click the **Save** button.
+1. In the sidebar menu, select <b>Agenda</b>.
+1. Click the <b>Create agenda</b> button.
+1. Introduce a date for this agenda. By default the event date is selected, but you may want to change this for events spanning multiple days.
+1. Under **Number of Tracks**, enter "2". Under **Slots per Track**, enter 4.
+1. Click the **Create Agenda** button.
 
-   ![The Track Edit UI](/img/screenshots/talks/agenda-track-edit.jpg)
+   ![The Create Agenda UI](/img/screenshots/agenda/create.jpg)
 
-5. Click the **Add new slot** button. Change the value of the **Type** drop-down to "Talk", **From** to "09:15" and **To** to "09:45".
-6. In the **Session** text field, start typing the session name, select the session from the autocomplete list and click the **Create** button.
+1. Click the **Add new slot** button. Change the value of the **Type** drop-down to "Talk", **From** to "09:15" and **To** to "09:45".
+1. In the **Session** text field, start typing the session name, select the session from the autocomplete list and click the **Create** button.
 
    ![The Slot Edit UI](/img/screenshots/talks/agenda-slot-edit.jpg)
 
-7. Repeat the process until the track is complete.
-8. Select the track name, click on the **Clone track** button and select the newly created track.
-9. Click the **Edit track** button, change the name to "Track B" and click the **Save** button.
+1. Repeat the process until the track is complete.
+1. Select the track name, click on the **Clone track** button and select the newly created track.
+1. Click the **Edit track** button, change the name to "Track B" and click the **Save** button.
 
 While cloning, only the track structure is copied. You still have to assign sessions to the newly created slots.
 
