@@ -21,7 +21,7 @@
   "scripts": {
     "test": "npm run build && concurrently --kill-others --success first \"hugo server\" \"sleep 1 && blc http://localhost:1313 -ro --get\"",
     "watch:css": "bin/compile-css && inotifywait -m -r -e modify,create,delete ./src/scss/ | while read NEWFILE; do bin/compile-css; done",
-    "watch": "concurrently \"npm run watch:css\" \"hugo server --log\" \"xdg-open http://localhost:1313/\"",
+    "watch": "concurrently \"npm run watch:css\" \"hugo server --logLevel info\" \"xdg-open http://localhost:1313/\"",
     "build": "bin/compile-css && hugo -d docs"
   }
 }
