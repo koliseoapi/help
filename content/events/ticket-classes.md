@@ -10,42 +10,36 @@ menu:
     parent: events
 ---
 
-This page explains how to set up multiple ticket prices and ticket availability periods for an event.
+This page explains how to set up multiple ticket classes for an event. Each ticket class can have different price, availability dates, and more.
 
 ## Adding a Ticket Class
 
 All events start with a single ticket class with a cost of 10€. To modify this:
 
-1. Access your user dashboard and select your event under the **Events** tab.
-2. Select the **Date and Time** tab and click on the date where you want to apply a different ticket price.
+1. [Log into the system]({{< ref "authentication.md" >}})
+1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. In the sidebar menu, select **Ticket Classes** and click the **Create Ticket Class** button.
 
-   ![The list of ticket classes](/img/screenshots/events/ticket-types-list.jpg)
+   ![The list of ticket classes](/img/screenshots/events/ticket-classes.avif)
 
-3. Click the **Add Ticket Class** button.
-4. Enter a **Name**, **Description**, **Total tickets** and **Price**.
-5. To save your changes, click the **Save** button.
+1. Enter a **Name**, **Total tickets** and **Price**.
+1. To save your changes, click the **Save** button.
 
-   ![The ticket class creation page](/img/screenshots/events/ticket-types-edit.jpg)
+   ![The ticket class creation page](/img/screenshots/events/ticket-class-edit.avif)
 
 ## Limited availability
 
-To select the dates in which this ticket class will be available, select the **Limited availability** checkbox and enter a date interval. You can leave the start or end date empty.
+You can introduce dates in which this ticket class will be available, or set that your ticket class will become available when another is sold out (for example, to sell Normal tickets after Early Bird). These fields can be found in the **Availability** section.
 
-To make this ticket class visible even when not available, select **Limit visibility** and change the value in the **Type** drop-down to either "Only when the ticket class is available" or "Between specified dates" to specify a date interval.
+Note that you can set **Visibility** to "While Available" to hide your tickets until they become available.
 
-![Limiting availability and visibility](/img/screenshots/events/ticket-types-availability.jpg)
+![Limiting availability and visibility](/img/screenshots/events/ticket-class-availability.avif)
 
-<aside class="note">
-Limited availability and limited visibility can be combined to hide or make visible your future ticket sale dates. 
-</aside>
+## Paid Ticket Classes
 
-## Our Fee
+To sell paid tickets, you need to [connect to your Stripe Account]({{< ref "users/edit.md#connect-stripe" >}}). The proceedings from your ticket sales go directly to your Stripe Account, after deducing a [service fee of 4%]({{< ref "pricing.md" >}}).
 
-Koliseo charges a service fee for paid tickets of [€1 + 4% over the ticket price]({{< ref "pricing.md" >}}).
-
-<aside class="note">
-Free tickets are exempt from this service fee, but events with free tickets typically show a high no-show rate (30-60% is typical). Consider assigning a symbolic price of €3-5 to reduce the no-show rate.
-</aside>
+Free tickets are exempt from this fee, but keep in mind that they also show a high no-show rate (40-60% is typical). Consider assigning a symbolic price of €3-5 to reduce the no-show rate.
 
 ## What's next
 

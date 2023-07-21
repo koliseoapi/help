@@ -34,6 +34,8 @@ The user information includes the following fields:
 
 When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a `hl=en` or `hl=es` GET parameter to any URL.
 
+## Connect to your Stripe Account {#connect-stripe}
+
 ## User deletion
 
 To delete your user information, contact us at info@koliseo.com and we will proceed to remove your data.

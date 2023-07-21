@@ -1,18 +1,18 @@
 ---
 title: "Ticket sales"
 date: 2018-01-09T20:21:09+01:00
-summary: "Once your event is ready, you can enable the ticket sales to let users attend the event."
+summary: "Once your event is ready, enable ticket sales to start collecting funds on your Stripe Account."
 weight: 40
 menu:
   main:
     parent: events
 ---
 
-This page explains how to start selling tickets (free or not) for your event.
+This page explains how to make tickets available (free or not) for your event.
 
 ## Enabling ticket sales
 
-Once your event is ready, you can activate ticket sales to let users attend the event. To get started:
+Once your event is ready, activate ticket sales to let users attend the event. To get started:
 
 1. Go to your user dashboard.
 2. Select the **Events** tab and click on the event. For instructions to create your first event, [click here]({{< ref "/events/create.md" >}}).
@@ -51,7 +51,6 @@ Ticket refunds using the platform are not possible after this transfer has compl
 ## What's next
 
 - [Create ticket classes]({{< ref "ticket-classes.md" >}})
-- [Share your event on social networks]({{< ref "share.md" >}})
 - [Download the list of tickets sold]({{< ref "validation.md" >}})
 - [Configure automatic invoices]({{< ref "invoices.md" >}})
 - [Create discount codes for your event]({{< ref "discounts.md" >}})
