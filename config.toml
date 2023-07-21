@@ -4,3 +4,6 @@ copyright = "Apache License 2.0"
 sectionPagesMenu = "main"
 pygmentsUseClasses=true
 disableKinds=["RSS","sitemap"]
+
+[markup.goldmark.renderer]
+unsafe= true
