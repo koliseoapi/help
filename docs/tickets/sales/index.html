@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>User authentication - Koliseo Help Center</title>
+    <title>Ticket sales - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -74,7 +74,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a " 
+        class="sidebar-nav-a selected" 
         href="/tickets/"
       >
         Tickets
@@ -93,7 +93,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/tickets/sales/"
             > 
               Ticket sales 
@@ -197,7 +197,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a selected" 
+        class="sidebar-nav-a " 
         href="/users/"
       >
         Users
@@ -207,7 +207,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 selected" 
+              class="sidebar-nav-a2 " 
               href="/users/authentication/"
             > 
               User authentication 
@@ -278,8 +278,9 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#enabling-ticket-sales">Enabling ticket sales</a></li>
+    <li><a href="#income">Income</a></li>
+    <li><a href="#ticket-processing-fee">Ticket Processing Fee</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -292,41 +293,55 @@
       <a class="breadcrumb-a" href="/">home</a>
     </li>
     <li class="breadcrumb-li">
-      <a class="breadcrumb-a" href='/users'>users</a>
+      <a class="breadcrumb-a" href='/tickets'>tickets</a>
     </li>
   </ul>
 </nav>
-      <h1>User authentication</h1>
+      <h1>Ticket sales</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#enabling-ticket-sales">Enabling ticket sales</a></li>
+    <li><a href="#income">Income</a></li>
+    <li><a href="#ticket-processing-fee">Ticket Processing Fee</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how the authentication and user management system works in Koliseo.</p>
-<h2 id="authentication-providers">Authentication providers</h2>
-<p>Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our <a href="/about/legal/">terms and conditions</a> including our use of Cookies.</p>
-<p><img src="/img/screenshots/users/login.jpg" alt="The login page"></p>
-<p>During the authentication process Koliseo will gain access to the following information about your user profile:</p>
+      <p>After creating ticket classes, this page explains how to start / stop ticket sales.</p>
+<h2 id="enabling-ticket-sales">Enabling ticket sales</h2>
+<p>Once your event is ready, activate ticket sales to let users attend the event. To get started:</p>
+<ol>
+<li><a href="/users/authentication/">Log into the system</a></li>
+<li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
+<li>Under <strong>Tickets</strong>, select <strong>Settings</strong>.</li>
+<li>Set <strong>Status</strong> to <strong>Enabled</strong> and click <strong>Save</strong>.</li>
+</ol>
+<p><img src="/img/screenshots/events/sales-settings.avif" alt="The Sales Settings page"></p>
+<p>The <strong>Sales Settings</strong> form includes the following fields:</p>
 <ul>
-<li>OAuth id</li>
-<li>User Name</li>
-<li>E-mail address</li>
-<li>Photo</li>
+<li><strong>Currency</strong>: The currency used for ticket classes and discounts.</li>
+<li><strong>Max Tickets per Account</strong>: If set, the maximum number of tickets that can be purchased by a single user account.</li>
+<li><strong>Hide ticket classes that are sold out</strong>: If set, ticket classes that are sold out will not show on the ticket purchase interface.</li>
+<li><strong>Tickets Editable Until</strong>: Attendees can edit the data introduced with their tickets until the date set in this field, if any. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.</li>
+<li><strong>Purchase Confirmation Message</strong>: If set, this is the confirmation email that an attendee will receive after a successful ticket purchase.</li>
 </ul>
-<p>Koliseo will not get access to your contacts or get permissions to do actions on your behalf.</p>
-<h2 id="custom-usernames-and-passwords">Custom usernames and passwords</h2>
-<p>Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.</p>
+<h2 id="income">Income</h2>
+<p>Koliseo delegates payment processing on <a href="http://stripe.com">Stripe</a>, a secure online payment gateway. A Stripe Account is required if you plan to sell any paid tickets. You can select a connected Stripe Account, or add new accounts in the select box, then click <strong>Save</strong>.</p>
+<p><img src="/img/screenshots/events/income.avif" alt="The Income interface"></p>
+<p>For security reasons, Koliseo does not have access to the credit card details associated with your ticket purchase. The proceedings from ticket sales are deposited directly on your Stripe Account, minus the fee of the platform.</p>
+<p>Starting in July 2019, Koliseo requires that all purchases follow the <a href="https://stripe.com/docs/strong-customer-authentication">Strong Customer Authentication (SCA)</a> guidelines, which may require 3D Secure validation from your banking website.</p>
+<h2 id="ticket-processing-fee">Ticket Processing Fee</h2>
+<p>Koliseo charges a fixed service fee of <strong>4% of the ticket price</strong> (in addition to the Stripe fee) for tickets that are not free.</p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
-<li><a href="/users/edit/">Edit your user information</a></li>
-<li><a href="/events/create/">Create your first event</a></li>
+<li><a href="/tickets/ticket-classes/">Create ticket classes</a></li>
+<li><a href="/tickets/validation/">Download the list of tickets sold</a></li>
+<li><a href="/tickets/invoices/">Configure automatic invoices</a></li>
+<li><a href="/events/discounts/">Create discount codes for your event</a></li>
 </ul>
 
     </main>

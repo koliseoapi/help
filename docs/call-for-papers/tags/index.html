@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>User authentication - Koliseo Help Center</title>
+    <title>Tags - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -165,7 +165,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a " 
+        class="sidebar-nav-a selected" 
         href="/call-for-papers/"
       >
         Call for Papers
@@ -175,7 +175,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/call-for-papers/tags/"
             > 
               Tags 
@@ -197,7 +197,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a selected" 
+        class="sidebar-nav-a " 
         href="/users/"
       >
         Users
@@ -207,7 +207,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 selected" 
+              class="sidebar-nav-a2 " 
               href="/users/authentication/"
             > 
               User authentication 
@@ -278,8 +278,8 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#creating-tags">Creating tags</a></li>
+    <li><a href="#filtering-using-categories">Filtering using categories</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -292,41 +292,46 @@
       <a class="breadcrumb-a" href="/">home</a>
     </li>
     <li class="breadcrumb-li">
-      <a class="breadcrumb-a" href='/users'>users</a>
+      <a class="breadcrumb-a" href='/call-for-papers'>call-for-papers</a>
     </li>
   </ul>
 </nav>
-      <h1>User authentication</h1>
+      <h1>Tags</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#creating-tags">Creating tags</a></li>
+    <li><a href="#filtering-using-categories">Filtering using categories</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how the authentication and user management system works in Koliseo.</p>
-<h2 id="authentication-providers">Authentication providers</h2>
-<p>Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our <a href="/about/legal/">terms and conditions</a> including our use of Cookies.</p>
-<p><img src="/img/screenshots/users/login.jpg" alt="The login page"></p>
-<p>During the authentication process Koliseo will gain access to the following information about your user profile:</p>
-<ul>
-<li>OAuth id</li>
-<li>User Name</li>
-<li>E-mail address</li>
-<li>Photo</li>
-</ul>
-<p>Koliseo will not get access to your contacts or get permissions to do actions on your behalf.</p>
-<h2 id="custom-usernames-and-passwords">Custom usernames and passwords</h2>
-<p>Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.</p>
+      <p>This page explains how to configure the list of categories and tags that the speakers can associate with their sessions in a Call for Papers. These categories can be used later to filter sessions in the agenda.</p>
+<h2 id="creating-tags">Creating tags</h2>
+<p>As an example, we are going to configure a Call for Papers where sessions have assigned a &ldquo;Talk Level&rdquo; that can choose between &ldquo;Beginner&rdquo;, &ldquo;Intermediate&rdquo; or &ldquo;Advanced&rdquo;. To do this:</p>
+<ol>
+<li>Go to the edit page of your event.</li>
+<li>Select the tab <strong>Call for Papers</strong> and click on your Call for Papers. For instructions about to create your first Call for Papers, <a href="/call-for-papers/call-for-papers/">click here</a>.</li>
+<li>Select the <strong>Categories</strong> tab and click the <strong>Add Category</strong> button.</li>
+<li>Introduce &ldquo;Talk Level&rdquo; in the <strong>Category</strong> input and &ldquo;Beginner, Intermediate, Advanced&rdquo; in the <strong>Allowed values</strong> field.</li>
+<li>Select <strong>Required</strong> and click the <strong>Save</strong> button.</li>
+</ol>
+<p><img src="/img/screenshots/talks/categories-edit.jpg" alt="The edition page for a category"></p>
+<p>2To test this newly created category, click the <strong>Send your proposal</strong> button to make the page show a talk submission form where you can introduce the <strong>Talk level</strong>.</p>
+<aside class="note">
+For categories that may accept multiple choices, mark the **Multiple choice** checkbox while editing the category.
+</aside>
+<h2 id="filtering-using-categories">Filtering using categories</h2>
+<p>Other users can filter sessions by categories using the form at the top of the talk submission page or the published agenda.</p>
+<p><img src="/img/screenshots/talks/categories-filter.jpg" alt="The filter UI in the agenda"></p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
-<li><a href="/users/edit/">Edit your user information</a></li>
-<li><a href="/events/create/">Create your first event</a></li>
+<li><a href="/call-for-papers/session-review/">Learn more about the session review process</a></li>
+<li><a href="/agenda/agenda/">Create and publish the event agenda</a></li>
+<li><a href="/agenda/feedback/">Receive session feedback in the agenda</a></li>
 </ul>
 
     </main>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>User authentication - Koliseo Help Center</title>
+    <title>Session Review - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -165,7 +165,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a " 
+        class="sidebar-nav-a selected" 
         href="/call-for-papers/"
       >
         Call for Papers
@@ -184,7 +184,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/call-for-papers/session-review/"
             > 
               Session Review 
@@ -197,7 +197,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a selected" 
+        class="sidebar-nav-a " 
         href="/users/"
       >
         Users
@@ -207,7 +207,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 selected" 
+              class="sidebar-nav-a2 " 
               href="/users/authentication/"
             > 
               User authentication 
@@ -278,8 +278,10 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#forming-a-selection-committee">Forming a selection committee</a></li>
+    <li><a href="#the-session-review-process">The Session Review Process</a></li>
+    <li><a href="#talk-state">Talk state</a></li>
+    <li><a href="#sending-e-mail">Sending E-mail</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -292,41 +294,116 @@
       <a class="breadcrumb-a" href="/">home</a>
     </li>
     <li class="breadcrumb-li">
-      <a class="breadcrumb-a" href='/users'>users</a>
+      <a class="breadcrumb-a" href='/call-for-papers'>call-for-papers</a>
     </li>
   </ul>
 </nav>
-      <h1>User authentication</h1>
+      <h1>Session Review</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authentication-providers">Authentication providers</a></li>
-    <li><a href="#custom-usernames-and-passwords">Custom usernames and passwords</a></li>
+    <li><a href="#forming-a-selection-committee">Forming a selection committee</a></li>
+    <li><a href="#the-session-review-process">The Session Review Process</a></li>
+    <li><a href="#talk-state">Talk state</a></li>
+    <li><a href="#sending-e-mail">Sending E-mail</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how the authentication and user management system works in Koliseo.</p>
-<h2 id="authentication-providers">Authentication providers</h2>
-<p>Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our <a href="/about/legal/">terms and conditions</a> including our use of Cookies.</p>
-<p><img src="/img/screenshots/users/login.jpg" alt="The login page"></p>
-<p>During the authentication process Koliseo will gain access to the following information about your user profile:</p>
+      <p>This page explains how to review session proposals and contact the presenters, if needed.</p>
+<h2 id="forming-a-selection-committee">Forming a selection committee</h2>
+<p>Simple events with a small number of proposals typically rely on one person that hand-picks the sessions for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.</p>
+<p>To invite a set of users to the selection committee of a Call for Papers:</p>
+<ol>
+<li>
+<p>Go to the edit page of your event.</p>
+</li>
+<li>
+<p>Select the <strong>Call for Papers</strong> tab and click on the Call for Papers.</p>
+</li>
+<li>
+<p>Select the <strong>Edit</strong> » <strong>Selection committee</strong> tab.</p>
+</li>
+<li>
+<p>Introduce the <a href="/users/edit/#uuid">uuid</a> of the user that you want to add to the committee. You can add as many members as needed.</p>
+<p><img src="/img/screenshots/talks/selection-committee.jpg" alt="Edition UI of the selection committee"></p>
+</li>
+</ol>
+<ol start="5">
+<li>To save your changes, click the <strong>Save</strong> button.</li>
+</ol>
+<p>The new members will receive an e-mail with instructions to participate in the talk selection process.</p>
+<h2 id="the-session-review-process">The Session Review Process</h2>
+<p>Every member of the selection committee can open the R4P page and give sessions a rating between 1 and 5. This rating is private and only visible to other users with review permissions.</p>
+<p><img src="/img/screenshots/talks/talks-vote.jpg" alt="The voting UI"></p>
+<aside class="note">
+<p>
+In R4P with hundreds or thousands of submissions, rating each talk can be time consuming. To make the process more agile, use the following keyboard shortcuts:
+</p>
 <ul>
-<li>OAuth id</li>
-<li>User Name</li>
-<li>E-mail address</li>
-<li>Photo</li>
+<li><code>k,j</code>&nbsp; &nbsp; Move to the <b>previous/next</b> talk proposal.
+</li>
+<li><code>1-5</code>&nbsp; &nbsp; <b>Assign the corresponding rating</b>, and move to the next proposal.
+</li>
+</dl> 
+</aside>
+<p>While voting, you can filter the list of talk proposals by free text (searching by talk title, description, or username/bio), by <a href="#talk-state">state</a>, speaker gender, or by any <a href="/categories/">category</a> assigned by you when creating the R4P. You can also sort the sessions by creation date or by rating.</p>
+<p><img src="/img/screenshots/talks/talks-filter.jpg" alt="The talks filter"></p>
+<p>Once the committee has finished voting, select &ldquo;Rating&rdquo; and &ldquo;Descending&rdquo; in the <strong>Sort by</strong> drop down to see the sessions with the highest rating first. To download the list of talk proposals, click the <strong>Download as CSV</strong> button.</p>
+<h2 id="talk-state">Talk state</h2>
+<p>Each talk can be in one of four states:</p>
+<ul>
+<li><strong>Not selected</strong>: This is the default state of a talk that has just been submitted.</li>
+<li><strong>Selected</strong>: Sessions with this state are available when defining the final agenda. To toggle the <strong>Selected</strong> state of a talk, click the <strong>Selected</strong> / <strong>Not selected</strong> link in the talk.</li>
+<li><strong>Assigned</strong>: These are sessions that have been assigned a slot in <a href="/agenda/agenda/">the agenda</a>.</li>
+<li><strong>Waitlisted</strong>: The session is in a waitlist, intended to be included in the agenda when a spot becomes available.</li>
 </ul>
-<p>Koliseo will not get access to your contacts or get permissions to do actions on your behalf.</p>
-<h2 id="custom-usernames-and-passwords">Custom usernames and passwords</h2>
-<p>Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.</p>
+<h2 id="sending-e-mail">Sending E-mail</h2>
+<p>You can send communications from the R4P page. For example, to send a notification to all your selected speakers:</p>
+<ol>
+<li>Go to the page of your R4P.</li>
+<li>In the form on top, click on the <strong>Selected</strong> tag to filter only selected talks.</li>
+<li>Click the <strong>E-mail</strong> button.</li>
+<li>Select &ldquo;Accepted talk&rdquo; in the <strong>Template</strong> drop-down to display a predefined template to send to the selected speakers.</li>
+<li>Modify the subject and body of the message as needed and click the <strong>Send e-mails</strong> button.</li>
+</ol>
+<p><img src="/img/screenshots/talks/mail.jpg" alt="The mail form"></p>
+<p>The form displays the number of users that will receive this e-mail when sent. For sessions with multiple speakers, each speaker will receive a copy of the message.</p>
+<p>You can use notifications at any point in the lifecycle of the R4P, like to send notifications about the assigned track and time, for example. To this purpose, you can use the following variables in the subject and body of the message:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Attributes</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>event</code></td>
+<td><code>name</code>, <code>uuid</code></td>
+<td>The information of the event associated with this R4P.</td>
+</tr>
+<tr>
+<td><code>talk</code></td>
+<td><code>title</code>, <code>description</code>, <code>state</code></td>
+<td>The information of the talk.</td>
+</tr>
+<tr>
+<td><code>day</code>, <code>track</code>, <code>slot</code></td>
+<td><code>name</code></td>
+<td>The assigned day, track and slot (for sessions already in the agenda)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
-<li><a href="/users/edit/">Edit your user information</a></li>
-<li><a href="/events/create/">Create your first event</a></li>
+<li><a href="/categories/">Add categories to your R4P</a></li>
+<li><a href="/agenda/agenda/">Create and publish the event agenda</a></li>
+<li><a href="/agenda/feedback/">Receive session feedback in the agenda</a></li>
 </ul>
 
     </main>

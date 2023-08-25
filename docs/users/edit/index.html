@@ -53,33 +53,6 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/dates/"
-            > 
-              Date and Location 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/events/ticket-types/"
-            > 
-              Ticket Types 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/events/sales/"
-            > 
-              Ticket sales 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
               href="/events/discounts/"
             > 
               Discounts 
@@ -89,27 +62,9 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/forms/"
+              href="/events/questions/"
             > 
-              Attendee Forms 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/events/invitations/"
-            > 
-              Invitations 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/events/clone/"
-            > 
-              Cloning your event 
+              Questions &amp; Answers 
             </a> 
           </li>
         
@@ -130,9 +85,18 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/tickets/pricing/"
+              href="/tickets/ticket-classes/"
             > 
-              Pricing 
+              Ticket Classes 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/tickets/sales/"
+            > 
+              Ticket sales 
             </a> 
           </li>
         
@@ -161,9 +125,9 @@
     <li class="sidebar-nav-li">
       <a 
         class="sidebar-nav-a " 
-        href="/talks/"
+        href="/agenda/"
       >
-        Talks
+        Agenda
       </a>
       
         <ul class="submenu">
@@ -171,34 +135,16 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/talks/r4p/"
+              href="/call-for-papers/call-for-papers/"
             > 
-              Request for proposals 
+              Call for Papers 
             </a> 
           </li>
         
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/talks/categories/"
-            > 
-              Categories 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/talks/talk-selection/"
-            > 
-              Talk Selection 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/talks/agenda/"
+              href="/agenda/agenda/"
             > 
               Agenda 
             </a> 
@@ -207,9 +153,41 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/talks/feedback/"
+              href="/agenda/feedback/"
             > 
               Feedback 
+            </a> 
+          </li>
+        
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/call-for-papers/"
+      >
+        Call for Papers
+      </a>
+      
+        <ul class="submenu">
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/call-for-papers/tags/"
+            > 
+              Tags 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/call-for-papers/session-review/"
+            > 
+              Session Review 
             </a> 
           </li>
         
@@ -242,38 +220,6 @@
               href="/users/edit/"
             > 
               Edit user 
-            </a> 
-          </li>
-        
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/developers/"
-      >
-        Developers
-      </a>
-      
-        <ul class="submenu">
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/developers/mailchimp/"
-            > 
-              MailChimp 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/developers/share/"
-            > 
-              Share your event 
             </a> 
           </li>
         
@@ -333,6 +279,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#accessing-your-user-profile">Accessing your user profile</a></li>
+    <li><a href="#connect-stripe">Connect to your Stripe Account</a></li>
     <li><a href="#user-deletion">User deletion</a></li>
     <li><a href="#merge-of-user-information">Merge of user information</a></li>
     <li><a href="#uuid">UUID</a></li>
@@ -359,6 +306,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#accessing-your-user-profile">Accessing your user profile</a></li>
+    <li><a href="#connect-stripe">Connect to your Stripe Account</a></li>
     <li><a href="#user-deletion">User deletion</a></li>
     <li><a href="#merge-of-user-information">Merge of user information</a></li>
     <li><a href="#uuid">UUID</a></li>
@@ -384,16 +332,17 @@
 <li><strong>URL</strong>: The URL of your user profile. You can change it by modifying your <a href="#uuid">uuid</a>.</li>
 <li><strong>Description</strong>: A short (140 characters) description to display on your user profile.</li>
 <li><strong>Language</strong>: The language that the page will show when you are logged in. The supprted languages are English and Spanish.</li>
-<li><strong>Twitter account</strong>: If set, your Twitter handle will be visible in your user profile and in any talks where you are a speaker.</li>
+<li><strong>Twitter account</strong>: If set, your Twitter handle will be visible in your user profile and in any sessions where you are a speaker.</li>
 <li><strong>Gender</strong>: The gender of the user. Possible values are Male, Female, Other, or Non-Disclosed. The platform only includes this value with your talk proposals to help event organizers arrange a diverse agenda, and never on your public profile page. You can disable this by setting the value to &ldquo;Non-Disclosed&rdquo;.</li>
 <li>Select the <strong>Subscribed</strong> checkbox to get registered on the mailing list where we announce our new features.</li>
 </ul>
 <p>When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a <code>hl=en</code> or <code>hl=es</code> GET parameter to any URL.</p>
+<h2 id="connect-stripe">Connect to your Stripe Account</h2>
 <h2 id="user-deletion">User deletion</h2>
 <p>To delete your user information, contact us at <a href="mailto:info@koliseo.com">info@koliseo.com</a> and we will proceed to remove your data.</p>
 <p>After deleting your user:</p>
 <ul>
-<li>We will remove all your talks, feedback or bookmarks.</li>
+<li>We will remove all your sessions, feedback or bookmarks.</li>
 <li>We will reassign any existing tickets or events with sold tickets to a different user. We will keep them for accounting purposes.</li>
 </ul>
 <h2 id="merge-of-user-information">Merge of user information</h2>
@@ -421,12 +370,12 @@
             <a class="footer-link" href="/events/create/">Getting started</a>
           </li>
           <li>
-            <a class="footer-link" href="http://www.koliseo.com/create"
+            <a class="footer-link" href="https://www.koliseo.com/me/create"
               >Create Event</a
             >
           </li>
           <li>
-            <a class="footer-link" href="/tickets/pricing/">Pricing</a>
+            <a class="footer-link" href="/tickets/sales">Pricing</a>
           </li>
         </ul>
       </div>
@@ -434,10 +383,10 @@
         <h2 class="footer-column-title">Agenda Management</h2>
         <ul>
           <li>
-            <a class="footer-link" href="/talks/r4p/">Request for Proposals</a>
+            <a class="footer-link" href="/agenda/agenda/">Agenda</a>
           </li>
           <li>
-            <a class="footer-link" href="/talks/agenda/">Agenda</a>
+            <a class="footer-link" href="/call-for-papers/">Call for Papers</a>
           </li>
         </ul>
       </div>
@@ -450,7 +399,7 @@
             >
           </li>
           <li>
-            <a class="footer-link" href="http://blog.koliseo.com">Our Blog</a>
+            <a class="footer-link" href="https://blog.koliseo.com">Our Blog</a>
           </li>
           <li>
             <a class="footer-link" href="mailto:support@koliseo.com"
