@@ -2,7 +2,7 @@
 title: "Invoices"
 date: 2018-01-14T10:48:18+01:00
 summary: "Configure automatic invoices for your attendees."
-weight: 30
+weight: 50
 menu:
   main:
     parent: tickets

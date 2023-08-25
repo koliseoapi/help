@@ -1,30 +1,32 @@
 ---
 title: "Validate tickets"
 date: 2018-01-15T13:15:23+01:00
-weight: 20
+weight: 30
 summary: "Retrieve the list of tickets sold and validate tickets at the venue."
 menu:
   main:
     parent: tickets
 ---
 
-This page explains how to retrieve the list of tickets sold and validate tickets at the venue.
+This page documents how to validate tickets at the venue.
 
-## Downloading the list of tickets
+## Download the list of tickets
 
-The list of tickets sold is available under the **Attendees** tab of your event. To download the file:
+To download the list of tickets sold:
 
-1. Go to the edit page for your event and select the tab **Attendees**.
-2. Click the **Download as CSV** button.
-3. Open the file with any spreadsheet application selecting **Format CSV**, **Separator: commas** and **Encoding: UTF-8**.
+1. [Log into the system]({{< ref "authentication.md" >}})
+1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. On the sidebar menu, select **Tickets Sold**.
+1. Click the **Download as CSV** button.
+1. Open the file with any spreadsheet application selecting **Format CSV**, **Separator: commas** and **Encoding: UTF-8**.
 
-![The list of tickets sold](/img/screenshots/tickets/list.jpg)
+![The list of tickets sold](/img/screenshots/tickets/download-tickets.avif)
 
-## Validating tickets
+## Validate tickets
 
 <figure class="animation-container"></figure>
 
-You can validate tickets at the entrance of the event using our [Koliseo Access Control Application for Android](https://play.google.com/store/apps/details?id=com.koliseo). To validate tickets:
+You can validate tickets at the entrance using our [Koliseo Access Control Application for Android](https://play.google.com/store/apps/details?id=com.koliseo). To validate tickets:
 
 1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo) on one or more Android devices (cell phone or tablet).
 2. In the browser, open your event edition page.

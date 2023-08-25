@@ -14,18 +14,18 @@ You can configure questions to collect information from attendees, like T-shirt 
 
 ## Creating questions
 
-As the event organizer, you can define a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+As event organizer, you can create a form that attendees must fill out to get their tickets. For example, to request the role in the company:
 
-1. Go to the edit page of your event.
-2. On the sidebar menu, select **Questions**.
-3. Click the **Create Question** button.
-4. Introduce "Role in your organization" in the **Name** input.
+1. [Log into the system]({{< ref "authentication.md" >}})
+1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. On the sidebar menu, select **Questions**.
+1. Click the **Create Question** button.
+1. Introduce "Role in your organization" in the **Name** input.
 
    ![The form edition page](/img/screenshots/events/questions-edit.avif)
 
-5. Select "text" in the **Type** drop-down.
-6. Mark the **Required** checkbox.
-7. When you are done, click **Save**
+1. Select "text" in the **Type** drop-down.
+1. When you are done, click **Save**
 
 Koliseo supports the following field types:
 
@@ -52,14 +52,13 @@ Additionally, you can configure the following options:
 
 ## Collecting Answers
 
-When an event includes questions, the ticket purchase page includes an additional step to fill out the form for each attendee. All required fields must be filled out to complete the ticket purchase.
+When an event includes questions, the ticket purchase flow includes an additional step to fill out the form for each attendee. All required fields must be filled out to complete the ticket purchase.
 
 ![Collecting Answers](/img/screenshots/events/answers-edit.avif)
 
-To retrieve the list of answers produced by attendees, [download the list of tickets]({{< ref "validation.md#list-of-tickets" >}}) and open the downloaded file with a spreadsheet application. The form values are in the last columns of the spreadsheet.
+To retrieve the list of answers produced by attendees, [download the list of sold tickets]({{< ref "validation.md#list-of-tickets" >}}) and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.
 
 ## What's next
 
 - [Download the list of tickets sold]({{< ref "validation.md" >}})
 - [Create discount codes for your event]({{< ref "discounts.md" >}})
-- [Create restricted events that require an invitation]({{< ref "invitations.md" >}})
