@@ -1,5 +1,5 @@
 ---
-title: "Validate tickets"
+title: "Ticket Validation"
 date: 2018-01-15T13:15:23+01:00
 weight: 30
 summary: "Retrieve the list of tickets sold and validate tickets at the venue."
@@ -8,7 +8,7 @@ menu:
     parent: tickets
 ---
 
-This page documents how to validate tickets at the venue.
+This page documents how to validate tickets during your event.
 
 ## Download the list of tickets
 
@@ -26,9 +26,9 @@ To download the list of tickets sold:
 
 <figure class="animation-container"></figure>
 
-You can validate tickets at the entrance using our [Koliseo Access Control Application for Android](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol). To validate tickets:
+You can validate tickets at the entrance using [Koliseo Access Control for Android](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol). To validate tickets:
 
-1. Install the [Koliseo Access Control Application](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol) on one or more Android devices (cell phone or tablet).
+1. Install [Koliseo Access Control](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol) on one or more Android devices.
 2. In the browser, open your event edition page.
 3. Select the **Attendees** &raquo; **Access control** tab. The page shows a QR code that can be used to authenticate the Android app.
 

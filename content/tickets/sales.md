@@ -1,8 +1,10 @@
 ---
-title: "Ticket sales"
+title: "Ticket Sales"
 date: 2018-01-09T20:21:09+01:00
 summary: "Once your event is ready, enable ticket sales to start collecting funds on your Stripe Account."
 weight: 20
+aliases:
+  - /tickets/pricing
 menu:
   main:
     parent: tickets
