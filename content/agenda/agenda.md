@@ -75,7 +75,7 @@ As a speaker, you can always modify your presentations (title and description of
 
 The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.
 
-To modify your presentation, visit the Call for Papers or open [your user profile](https://www.koliseo.com/me) and select the tab **Sessions**.
+To modify your presentation, visit the Call for Papers or open [your user profile](https://www.koliseo.com/me) and select **Sessions** on the sidebar menu.
 
 The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
 

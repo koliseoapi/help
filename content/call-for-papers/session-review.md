@@ -16,18 +16,9 @@ This page explains how to review session proposals and contact the presenters, i
 
 Simple events with a small number of proposals typically rely on one person that hand-picks the sessions for the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.
 
-To invite a set of users to the selection committee of a Call for Papers:
+To invite a set of users to the selection committee of a Call for Papers you need to assign them the **Session Reviewer** role from the [event permissions page]({{< ref "/users/permissions.md" >}}).
 
-1. Go to the edit page of your event.
-2. Select the **Call for Papers** tab and click on the Call for Papers.
-3. Select the **Edit** &raquo; **Selection committee** tab.
-4. Introduce the [uuid]({{< ref "/users/edit.md#uuid" >}}) of the user that you want to add to the committee. You can add as many members as needed.
-
-   ![Edition UI of the selection committee](/img/screenshots/talks/selection-committee.jpg)
-
-5) To save your changes, click the **Save** button.
-
-The new members will receive an e-mail with instructions to participate in the talk selection process.
+The new members will receive an e-mail with their newly assigned role.
 
 ## The Session Review Process
 
