@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>Validate tickets - Koliseo Help Center</title>
+    <title>Ticket Validation - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -50,21 +50,76 @@
             </a> 
           </li>
         
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/call-for-papers/"
+      >
+        Call for Papers
+      </a>
+      
+        <ul class="submenu">
+        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/discounts/"
+              href="/call-for-papers/call-for-papers/"
             > 
-              Discounts 
+              Create a Call for Papers 
             </a> 
           </li>
         
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/questions/"
+              href="/call-for-papers/tags/"
             > 
-              Questions &amp; Answers 
+              Tags 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/call-for-papers/review-sessions/"
+            > 
+              Review Sessions 
+            </a> 
+          </li>
+        
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/agenda/"
+      >
+        Agenda
+      </a>
+      
+        <ul class="submenu">
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/agenda/"
+            > 
+              Agenda 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/feedback/"
+            > 
+              Feedback 
             </a> 
           </li>
         
@@ -96,7 +151,7 @@
               class="sidebar-nav-a2 " 
               href="/tickets/sales/"
             > 
-              Ticket sales 
+              Ticket Sales 
             </a> 
           </li>
         
@@ -105,7 +160,16 @@
               class="sidebar-nav-a2 selected" 
               href="/tickets/validation/"
             > 
-              Validate tickets 
+              Ticket Validation 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/tickets/discounts/"
+            > 
+              Discounts 
             </a> 
           </li>
         
@@ -118,76 +182,12 @@
             </a> 
           </li>
         
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/agenda/"
-      >
-        Agenda
-      </a>
-      
-        <ul class="submenu">
-        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/call-for-papers/call-for-papers/"
+              href="/tickets/questions/"
             > 
-              Call for Papers 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/agenda/"
-            > 
-              Agenda 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/feedback/"
-            > 
-              Feedback 
-            </a> 
-          </li>
-        
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/call-for-papers/"
-      >
-        Call for Papers
-      </a>
-      
-        <ul class="submenu">
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/call-for-papers/tags/"
-            > 
-              Tags 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/call-for-papers/session-review/"
-            > 
-              Session Review 
+              Questions &amp; Answers 
             </a> 
           </li>
         
@@ -210,7 +210,7 @@
               class="sidebar-nav-a2 " 
               href="/users/authentication/"
             > 
-              User authentication 
+              Authentication 
             </a> 
           </li>
         
@@ -219,7 +219,25 @@
               class="sidebar-nav-a2 " 
               href="/users/edit/"
             > 
-              Edit user 
+              Edit your profile 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/stripe/"
+            > 
+              Stripe 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/permissions/"
+            > 
+              Permissions 
             </a> 
           </li>
         
@@ -278,8 +296,12 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#download-the-list-of-tickets">Download the list of tickets</a></li>
-    <li><a href="#validate-tickets">Validate tickets</a></li>
+    <li><a href="#installing-the-app-and-getting-permissions">Installing the app and getting permissions</a></li>
+    <li><a href="#assigning-permissions-to-other-users">Assigning permissions to other users</a></li>
+    <li><a href="#validating-tickets">Validating tickets</a></li>
+    <li><a href="#offline-validation">Offline validation</a></li>
+    <li><a href="#download-the-activity-history">Download the Activity History</a></li>
+    <li><a href="#download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -296,22 +318,64 @@
     </li>
   </ul>
 </nav>
-      <h1>Validate tickets</h1>
+      <h1>Ticket Validation</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#download-the-list-of-tickets">Download the list of tickets</a></li>
-    <li><a href="#validate-tickets">Validate tickets</a></li>
+    <li><a href="#installing-the-app-and-getting-permissions">Installing the app and getting permissions</a></li>
+    <li><a href="#assigning-permissions-to-other-users">Assigning permissions to other users</a></li>
+    <li><a href="#validating-tickets">Validating tickets</a></li>
+    <li><a href="#offline-validation">Offline validation</a></li>
+    <li><a href="#download-the-activity-history">Download the Activity History</a></li>
+    <li><a href="#download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page documents how to validate tickets at the venue.</p>
-<h2 id="download-the-list-of-tickets">Download the list of tickets</h2>
-<p>To download the list of tickets sold:</p>
+      <p>This page documents how to validate tickets during your event.</p>
+<h2 id="installing-the-app-and-getting-permissions">Installing the app and getting permissions</h2>
+<figure class="animation-container"></figure>
+<p>You can validate tickets at the entrance using <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control for Android</a>. To validate tickets:</p>
+<ol>
+<li>Install <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control</a> on one or more Android devices.</li>
+<li>Open session on the app. At this time, only the authentication using Google credentials is supported.</li>
+<li>If your user already has permissions, select the event from the list that appears.</li>
+<li>If your user has no permissions (or not on this particular event), go to the menu <strong>Preferences &gt; My account</strong>, and show the QR code to someone with <strong>Administrator</strong> rights over the event. The administrator will grant access to the event to your user.</li>
+</ol>
+<p><img src="/img/screenshots/validation/sidebar-menu.avif" alt="The sidebar menu"></p>
+<h2 id="assigning-permissions-to-other-users">Assigning permissions to other users</h2>
+<p>If you are the administrator of the event, to grant permissions to other users:</p>
+<ol>
+<li>
+<p>Open the app and select the event where you want to assign permissions.</p>
+<p><img src="/img/screenshots/validation/select-event.avif" alt="The list of events"></p>
+</li>
+<li>
+<p>Open the <strong>Permissions History</strong> menu item, and click the <strong>+</strong> button in the bottom right corner. Two options should be displayed: <strong>Volunteer</strong> and <strong>Sponsor</strong>.</p>
+<p><img src="/img/screenshots/validation/add-permission.avif" alt="The list of permissions"></p>
+</li>
+<li>
+<p>After choosing the desired role, scan the QR code of the user you want to grant permissions to (see previous section, <strong>Installing the app and getting permissions</strong>).</p>
+</li>
+</ol>
+<p>When assigning permissions, the administrator can choose to grant access to the specific user account of the QR code being scanned, or to one of the organizations that they belong to. When granted to an organization, the validation history is shared with other people, so that they can see (and download) the activity of others.</p>
+<p>If a user is granted permissions through an organization, it can be overwritten later by assigning permissions directly. In that case, the Activity History will no longer be shared with the organization.</p>
+<p>Once the permissions have been assigned, the user is ready to start using the app.</p>
+<h2 id="validating-tickets">Validating tickets</h2>
+<p>To validate tickets, click the <strong>Scan Ticket</strong> button and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.</p>
+<p>When scanning tickets, the app will display the basic information of the ticket holder: name, email, avatar and ticket class. Additionally, if the ticket has associated any answers to <a href="/tickets/questions/">event questions</a>, they will be displayed as well. Users validated as sponsors will only see any answers to questions marked as &ldquo;shared with third parties&rdquo;. The volunteers will additionally see answers to questions marked as &ldquo;access control&rdquo;.</p>
+<h2 id="offline-validation">Offline validation</h2>
+<p>Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.</p>
+<p>When validating tickets offline, the information window will not include any answers or attendee information, only that the ticket is valid. Tickets do not have to be printed to be recognized by the app, but you may need to adjust the brightness of the device displaying it.</p>
+<p>Remember to open the application while connected to the Internet at least once before the event takes place, so that the application can download the list of tickets.</p>
+<h2 id="download-the-activity-history">Download the Activity History</h2>
+<p>To download the list of tickets scanned by the current user or organization, you can select the <strong>Tickets History</strong> menu item. On this screen there is a button in the bottom right corner with two possible actions, <strong>Scan a new ticket</strong> or <strong>Download the ativity list</strong>. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by email, whatsapp, uploaded to Google Drive, etc.</p>
+<p><img src="/img/screenshots/validation/activity-history.avif" alt="The activity history"></p>
+<h2 id="download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</h2>
+<p>You can download the list of tickets sold from the web page:</p>
 <ol>
 <li><a href="/users/authentication/">Log into the system</a></li>
 <li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
@@ -320,39 +384,6 @@
 <li>Open the file with any spreadsheet application selecting <strong>Format CSV</strong>, <strong>Separator: commas</strong> and <strong>Encoding: UTF-8</strong>.</li>
 </ol>
 <p><img src="/img/screenshots/tickets/download-tickets.avif" alt="The list of tickets sold"></p>
-<h2 id="validate-tickets">Validate tickets</h2>
-<figure class="animation-container"></figure>
-<p>You can validate tickets at the entrance using our <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control Application for Android</a>. To validate tickets:</p>
-<ol>
-<li>
-<p>Install the <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control Application</a> on one or more Android devices (cell phone or tablet).</p>
-</li>
-<li>
-<p>In the browser, open your event edition page.</p>
-</li>
-<li>
-<p>Select the <strong>Attendees</strong> » <strong>Access control</strong> tab. The page shows a QR code that can be used to authenticate the Android app.</p>
-<p><img src="/img/screenshots/tickets/access-control-qr.jpg" alt="The access control config page"></p>
-</li>
-<li>
-<p>Open the Android application.</p>
-</li>
-<li>
-<p>Click the <strong>Scan</strong> button and aim the QR code with your camera. Once authenticated, the application is ready to start validating tickets.</p>
-</li>
-<li>
-<p>Put the QR code of any valid ticket in front of the camera. If the ticket is valid, the application makes a distinctive sound and displays the ticket information.</p>
-<p><a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol"><img src="/img/screenshots/tickets/access-control-app.jpg" alt="The app to validate tickets"></a></p>
-</li>
-</ol>
-<aside class="note">
-Anyone with an Android device can operate the access control application, not just the event organizer.
-</aside>
-<p>Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.</p>
-<p>Tickets do not have to be printed to be recognized by the app, but you may need to adjust the brightness of the device displaying it.</p>
-<aside class="note">
-Remember to open the application while online at least once before the event takes place so that the application can download the list of tickets. 
-</aside>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
 <li><a href="/tickets/sales/">Start ticket sales</a></li>

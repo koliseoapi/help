@@ -50,21 +50,76 @@
             </a> 
           </li>
         
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a selected" 
+        href="/call-for-papers/"
+      >
+        Call for Papers
+      </a>
+      
+        <ul class="submenu">
+        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/discounts/"
+              href="/call-for-papers/call-for-papers/"
             > 
-              Discounts 
+              Create a Call for Papers 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 selected" 
+              href="/call-for-papers/tags/"
+            > 
+              Tags 
             </a> 
           </li>
         
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/questions/"
+              href="/call-for-papers/review-sessions/"
             > 
-              Questions &amp; Answers 
+              Review Sessions 
+            </a> 
+          </li>
+        
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/agenda/"
+      >
+        Agenda
+      </a>
+      
+        <ul class="submenu">
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/agenda/"
+            > 
+              Agenda 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/feedback/"
+            > 
+              Feedback 
             </a> 
           </li>
         
@@ -96,7 +151,7 @@
               class="sidebar-nav-a2 " 
               href="/tickets/sales/"
             > 
-              Ticket sales 
+              Ticket Sales 
             </a> 
           </li>
         
@@ -105,7 +160,16 @@
               class="sidebar-nav-a2 " 
               href="/tickets/validation/"
             > 
-              Validate tickets 
+              Ticket Validation 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/tickets/discounts/"
+            > 
+              Discounts 
             </a> 
           </li>
         
@@ -118,76 +182,12 @@
             </a> 
           </li>
         
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/agenda/"
-      >
-        Agenda
-      </a>
-      
-        <ul class="submenu">
-        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/call-for-papers/call-for-papers/"
+              href="/tickets/questions/"
             > 
-              Call for Papers 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/agenda/"
-            > 
-              Agenda 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/feedback/"
-            > 
-              Feedback 
-            </a> 
-          </li>
-        
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a selected" 
-        href="/call-for-papers/"
-      >
-        Call for Papers
-      </a>
-      
-        <ul class="submenu">
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 selected" 
-              href="/call-for-papers/tags/"
-            > 
-              Tags 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/call-for-papers/session-review/"
-            > 
-              Session Review 
+              Questions &amp; Answers 
             </a> 
           </li>
         
@@ -210,7 +210,7 @@
               class="sidebar-nav-a2 " 
               href="/users/authentication/"
             > 
-              User authentication 
+              Authentication 
             </a> 
           </li>
         
@@ -219,7 +219,25 @@
               class="sidebar-nav-a2 " 
               href="/users/edit/"
             > 
-              Edit user 
+              Edit your profile 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/stripe/"
+            > 
+              Stripe 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/permissions/"
+            > 
+              Permissions 
             </a> 
           </li>
         
@@ -279,7 +297,8 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#creating-tags">Creating tags</a></li>
-    <li><a href="#filtering-using-categories">Filtering using categories</a></li>
+    <li><a href="#default-tags">Default Tags</a></li>
+    <li><a href="#filter-using-tagsets">Filter using tagsets</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -303,33 +322,53 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#creating-tags">Creating tags</a></li>
-    <li><a href="#filtering-using-categories">Filtering using categories</a></li>
+    <li><a href="#default-tags">Default Tags</a></li>
+    <li><a href="#filter-using-tagsets">Filter using tagsets</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how to configure the list of categories and tags that the speakers can associate with their sessions in a Call for Papers. These categories can be used later to filter sessions in the agenda.</p>
+      <p>Sessions can be classified according to multiple categories: level, language, topic, etc. No two events are the same, and for this reason Koliseo supports flexible, customizable tagsets that are unique to your event. These tagsets can be used to filter sessions in the agenda or to design a balanced agenda.</p>
 <h2 id="creating-tags">Creating tags</h2>
 <p>As an example, we are going to configure a Call for Papers where sessions have assigned a &ldquo;Talk Level&rdquo; that can choose between &ldquo;Beginner&rdquo;, &ldquo;Intermediate&rdquo; or &ldquo;Advanced&rdquo;. To do this:</p>
 <ol>
-<li>Go to the edit page of your event.</li>
-<li>Select the tab <strong>Call for Papers</strong> and click on your Call for Papers. For instructions about to create your first Call for Papers, <a href="/call-for-papers/call-for-papers/">click here</a>.</li>
-<li>Select the <strong>Categories</strong> tab and click the <strong>Add Category</strong> button.</li>
-<li>Introduce &ldquo;Talk Level&rdquo; in the <strong>Category</strong> input and &ldquo;Beginner, Intermediate, Advanced&rdquo; in the <strong>Allowed values</strong> field.</li>
-<li>Select <strong>Required</strong> and click the <strong>Save</strong> button.</li>
+<li><a href="/users/authentication/">Log into the system</a></li>
+<li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
+<li>In the sidebar menu, select <strong>Agenda &gt; Tags</strong>.</li>
+<li>Click the <strong>Add Tagset</strong> button. The Tagset edition page will open.</li>
 </ol>
-<p><img src="/img/screenshots/talks/categories-edit.jpg" alt="The edition page for a category"></p>
-<p>2To test this newly created category, click the <strong>Send your proposal</strong> button to make the page show a talk submission form where you can introduce the <strong>Talk level</strong>.</p>
-<aside class="note">
-For categories that may accept multiple choices, mark the **Multiple choice** checkbox while editing the category.
-</aside>
-<h2 id="filtering-using-categories">Filtering using categories</h2>
-<p>Other users can filter sessions by categories using the form at the top of the talk submission page or the published agenda.</p>
-<p><img src="/img/screenshots/talks/categories-filter.jpg" alt="The filter UI in the agenda"></p>
+<p><img src="/img/screenshots/agenda/tagset-create.avif" alt="The edition page for a Tagset"></p>
+<p>In this form, you can introduce the following:</p>
+<ul>
+<li><strong>Name</strong>: The name of the tagset. In our example, we will introduce &ldquo;Programming Language&rdquo;.</li>
+<li><strong>Mutiple Choice</strong>: If you want to allow multiple tags to be selected for each session, mark this checkbox.</li>
+<li><strong>Visibility</strong>: The visibility of the tagset. The options are:
+<ul>
+<li><strong>PUBLIC</strong>: The tagset will be visible in the session dialog, but not in the agenda grid.</li>
+<li><strong>HIGHLIGHT</strong>: The tagset will be shown both in the session dialog and in the agenda grid.</li>
+<li><strong>HIDDEN</strong>: The tagset will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don&rsquo;t want to show to the attendees, like state of the session (accepted / rejected), waitlists, and more.</li>
+</ul>
+</li>
+</ul>
+<p>Once you have introduced the tagset, click the <strong>Add Value</strong> to add each of the possible values for this tagset. For example, for a theoretical case of a &ldquo;Session State&rdquo; tagset, we could use &ldquo;Approved&rdquo;, &ldquo;Rejected&rdquo; and &ldquo;Waitlisted&rdquo; as possible values (in this example, remember to make such a tagset private).</p>
+<p><img src="/img/screenshots/agenda/tagset-values.avif" alt="Edit Tagset values"></p>
+<p>When you add tagset values, you can set a shortcut for each value. When reviewing sessions, the shortcut key can be used to easily toggle the value of the tag. In this example, we have set the chortcuts for &ldquo;accepted&rdquo; and &ldquo;rejected&rdquo; to &ldquo;a&rdquo;, and &ldquo;r&rdquo;, respectively. When reviewing sessions, you can press &ldquo;a&rdquo; or &ldquo;r&rdquo; to quickly toggle the state of the session.</p>
+<h2 id="default-tags">Default Tags</h2>
+<p>When you create a new event, there is a set of default tags that get automatically created for you:</p>
+<ul>
+<li><strong>Language</strong>: the language of your presentation (required, visibility <code>HIGHLIGHT</code>). The allowed values are &ldquo;Español&rdquo; and &ldquo;English&rdquo;.</li>
+<li><strong>Level</strong>: the level of your presentation (required, visibility <code>HIGHLIGHT</code>). The allowed values are &ldquo;Beginner&rdquo;, &ldquo;Intermediate&rdquo; and &ldquo;Advanced&rdquo;.</li>
+<li><strong>Stage</strong>: the stage of the presentation (optional, visibility <code>PRIVATE</code>). The allowed values are &ldquo;Accepted&rdquo;, &ldquo;Rejected&rdquo;, and &ldquo;Waitlisted&rdquo;.</li>
+</ul>
+<h2 id="filter-using-tagsets">Filter using tagsets</h2>
+<p>During session review and in the final agenda, the users can filter sessions by tags. For example, in the session review page, the selection committee can filter sessions by level, language, or any other tag that you have configured. To open the filter dialog, click the text box at the top of the screen.</p>
+<p><img src="/img/screenshots/agenda/sessions-filter.avif" alt="The filter UI in the agenda"></p>
+<p>When reviewing sessions, this dialog includes a &ldquo;Keyboard shortcuts&rdquo; link to show the list of shortcuts that you can use to quickly move between sessions and toggle the tags.</p>
+<p><img src="/img/screenshots/agenda/sessions-shortcuts.avif" alt="The keyboard shortcuts dialog"></p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
-<li><a href="/call-for-papers/session-review/">Learn more about the session review process</a></li>
+<li><a href="/call-for-papers/review-sessions/">Learn more about the session review process</a></li>
 <li><a href="/agenda/agenda/">Create and publish the event agenda</a></li>
 <li><a href="/agenda/feedback/">Receive session feedback in the agenda</a></li>
 </ul>

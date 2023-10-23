@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>User authentication - Koliseo Help Center</title>
+    <title>Authentication - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -50,21 +50,76 @@
             </a> 
           </li>
         
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/call-for-papers/"
+      >
+        Call for Papers
+      </a>
+      
+        <ul class="submenu">
+        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/discounts/"
+              href="/call-for-papers/call-for-papers/"
             > 
-              Discounts 
+              Create a Call for Papers 
             </a> 
           </li>
         
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/events/questions/"
+              href="/call-for-papers/tags/"
             > 
-              Questions &amp; Answers 
+              Tags 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/call-for-papers/review-sessions/"
+            > 
+              Review Sessions 
+            </a> 
+          </li>
+        
+        </ul>
+      
+    </li>
+  
+    <li class="sidebar-nav-li">
+      <a 
+        class="sidebar-nav-a " 
+        href="/agenda/"
+      >
+        Agenda
+      </a>
+      
+        <ul class="submenu">
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/agenda/"
+            > 
+              Agenda 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/agenda/feedback/"
+            > 
+              Feedback 
             </a> 
           </li>
         
@@ -96,7 +151,7 @@
               class="sidebar-nav-a2 " 
               href="/tickets/sales/"
             > 
-              Ticket sales 
+              Ticket Sales 
             </a> 
           </li>
         
@@ -105,7 +160,16 @@
               class="sidebar-nav-a2 " 
               href="/tickets/validation/"
             > 
-              Validate tickets 
+              Ticket Validation 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/tickets/discounts/"
+            > 
+              Discounts 
             </a> 
           </li>
         
@@ -118,76 +182,12 @@
             </a> 
           </li>
         
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/agenda/"
-      >
-        Agenda
-      </a>
-      
-        <ul class="submenu">
-        
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
-              href="/call-for-papers/call-for-papers/"
+              href="/tickets/questions/"
             > 
-              Call for Papers 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/agenda/"
-            > 
-              Agenda 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/agenda/feedback/"
-            > 
-              Feedback 
-            </a> 
-          </li>
-        
-        </ul>
-      
-    </li>
-  
-    <li class="sidebar-nav-li">
-      <a 
-        class="sidebar-nav-a " 
-        href="/call-for-papers/"
-      >
-        Call for Papers
-      </a>
-      
-        <ul class="submenu">
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/call-for-papers/tags/"
-            > 
-              Tags 
-            </a> 
-          </li>
-        
-          <li class="sidebar-nav-li2">
-            <a 
-              class="sidebar-nav-a2 " 
-              href="/call-for-papers/session-review/"
-            > 
-              Session Review 
+              Questions &amp; Answers 
             </a> 
           </li>
         
@@ -210,7 +210,7 @@
               class="sidebar-nav-a2 selected" 
               href="/users/authentication/"
             > 
-              User authentication 
+              Authentication 
             </a> 
           </li>
         
@@ -219,7 +219,25 @@
               class="sidebar-nav-a2 " 
               href="/users/edit/"
             > 
-              Edit user 
+              Edit your profile 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/stripe/"
+            > 
+              Stripe 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/users/permissions/"
+            > 
+              Permissions 
             </a> 
           </li>
         
@@ -296,7 +314,7 @@
     </li>
   </ul>
 </nav>
-      <h1>User authentication</h1>
+      <h1>Authentication</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
@@ -309,16 +327,16 @@
 </nav>
   </div>
 </aside>
-      <p>This page explains how the authentication and user management system works in Koliseo.</p>
+      <p>This page explains the authentication process in Koliseo.</p>
 <h2 id="authentication-providers">Authentication providers</h2>
-<p>Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our <a href="/about/legal/">terms and conditions</a> including our use of Cookies.</p>
-<p><img src="/img/screenshots/users/login.jpg" alt="The login page"></p>
+<p>Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Twitter / X. If it&rsquo;s your first time logging in, the system will create your user account automatically after accepting our <a href="/about/legal/">terms and conditions</a>, including our use of Cookies.</p>
+<p><img src="/img/screenshots/users/login.avif" alt="The login page"></p>
 <p>During the authentication process Koliseo will gain access to the following information about your user profile:</p>
 <ul>
-<li>OAuth id</li>
-<li>User Name</li>
-<li>E-mail address</li>
-<li>Photo</li>
+<li><strong>OAuth ID</strong>: A unique identifier for your user account from your selected OAuth provider.</li>
+<li><strong>User Name</strong>: Your full name.</li>
+<li><strong>E-mail address</strong>: Your e-mail address, used to send you notifications about your events.</li>
+<li><strong>Photo</strong>: Your profile photo, used to identify you in the platform.</li>
 </ul>
 <p>Koliseo will not get access to your contacts or get permissions to do actions on your behalf.</p>
 <h2 id="custom-usernames-and-passwords">Custom usernames and passwords</h2>
