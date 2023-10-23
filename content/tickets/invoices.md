@@ -8,39 +8,29 @@ menu:
     parent: tickets
 ---
 
-Koliseo supports automatic invoices, which enables your attendees to create their invoices directly from the ticket purchase. This document explains how to use and configure automatic invoices.
+Koliseo supports automatic invoices provided by Stripe, which enables your attendees to create their invoices directly from the ticket purchase. This document explains how to use and configure automatic invoices.
 
-## Get the invoice for a ticket
+## Before you get started
+
+As an event organizer, in order to enable automatic invoices, you need to:
+
+1. Have Stripe Billing enabled in your Stripe account. You can check this in the [Stripe dashboard](https://dashboard.stripe.com/settings/billing). If you don't have it enabled, you can activate it by clicking the **Activate** button.
+1. If your invoices carry taxes, you need to have Stripe Tax enabled in your Stripe account. You can check this in the [Stripe dashboard](https://dashboard.stripe.com/settings/tax/activate). You need to specify your company address and activate the **Use automatic tax calculation** option. More info at https://stripe.com/tax
+1. [Connect your Stripe account with Koliseo](({{< ref "stripe.md" >}})) and then selecting the Stripe account in your event edit page (under Tickets > Settings).
+1. Select **Manage taxes automatically** in your event edit page (under Tickets > Settings).
+
+After you have done this, the ticket purchase form from Stripe is extended with the Company ID and Company Name fields. If the user introduces a mistake here (and does not enter the company information, for example), the organizer would have to fix the invoice manually from the Stripe console or using their own billing software.
+
+You can get the list of all invoices emitted for your event from the [Stripe dashboard](https://dashboard.stripe.com/invoices), as PDF or as one single CSV file with the whole list. You can also use the dashboard to configure any prefixes to be used for billing.
+
+## Create the invoice for a ticket
 
 If the event organizer has enabled automatic invoices, you can as an attendee create an invoice directly from your ticket purchase. To do this:
 
 1. Open [the ticket purchase page](https://koliseo.com/me/tickets).
+1. Click the **Get invoice** button.
 
-   ![The create invoice link](/img/screenshots/tickets/invoices-create.avif)
-
-2. Click the **Get invoice** button.
-
-You will be redirected to your Stripe account, where you can retrieve your invoice.
-
-## Enabling automatic invoices
-
-As an organizer, to enable automatic invoices:
-
-1. Under the **Events** tab in your dashboard, select your event and click **Edit**.
-2. Select the **Invoices** &raquo; **Invoicing info** tab.
-3. Fill out all the fields in the form and click **Save**.
-
-   ![Enabling automatic invoices](/img/screenshots/tickets/invoices-organizer-info.jpg)
-
-You can specify the concrete type and percentage of taxes according to your local legislation (VAT for the majority of Europe). This configuration may only be applicable for local events where all attendees share the same tax policy. Please consult your legal counsel before enabling automatic invoices, or contact info@koliseo.com if you have questions.
-
-Your invoices will be given a unique number according to the year of the ticket sale. We will void the invoice automatically if the organizer refunds the ticket.
-
-You can specify the prefix to use for the invoice number, which is `KLS` by default. If you change this value, any previously emitted invoices will not be modified.
-
-## List of invoices
-
-As the event organizer, you can get the list of all invoices emitted under the **Invoices** tab in the edit page for your event.
+You will be redirected to your Stripe account, where you can retrieve your receipt or generate an invoice (receipts is always available, but invoice is only if the event organizer has fulfilled all their requirements). Taxes are calculated automatically by Stripe Tax, taking into consideration the billing address and where taxes are presented.
 
 ## What's next
 

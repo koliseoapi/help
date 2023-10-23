@@ -15,7 +15,7 @@ We collect information to provide a better service to all of our users. This pag
 We collect information in the following ways:
 
 - **Information you introduce in the platform manually**. For example, you may enter your Twitter account or a user description on your user profile page.
-- **Information we get from your Authentication provider**. When you log into the platform we receive the following information from your authentication provider: **OAuth id**, **Name**, **E-mail address**, and **Photo**. We use this information to identify your user account, and we use your email address for notifications (e.g. when purchasing tickets).
+- **Information we get from your Authentication provider**. When you log into the platform we receive the following information from your authentication provider: **OAuth id**, **Name**, **E-mail address**, and **Photo**. We use this information to identify your user account, and we use your e-mail address for notifications (e.g. when purchasing tickets).
 - **Logs**. When you use our services, we automatically collect and store information in server logs, including:
   - The pages that you visited.
   - Your IP address.
@@ -54,8 +54,8 @@ We work to protect your data from unauthorized access:
 
 ## Data deletion
 
-If you want us to delete your data, get in contact with info@koliseo.com using the email address associated with your user account.
+If you want us to delete your data, get in contact with info@koliseo.com using the e-mail address associated with your user account.
 
 ## Changes
 
-Our Privacy Policy may change. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).
+Our Privacy Policy may change. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, e-mail notification of privacy policy changes).

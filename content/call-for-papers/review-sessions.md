@@ -59,13 +59,13 @@ Once a filter is active, the filter popup will display the number of selected se
 
 If you need to contact a presenter, you can do so by clicking the **Contact Speakers** button below the session filter. This will open a form where you can write your message. Each presenter will receive an e-mail with your message and a link to the session details page.
 
-![The "Contact Speakers" form](/img/screenshots/c4p/session-email.avif)
+![The "Contact Speakers" form](/img/screenshots/c4p/session-e-mail.avif)
 
-For sessions with more than one presenter, each presenter will receive a separate e-mail with the same message. If a presenter has more than one session that passes the filter, they will receive one email per session.
+For sessions with more than one presenter, each presenter will receive a separate e-mail with the same message. If a presenter has more than one session that passes the filter, they will receive one e-mail per session.
 
 You can select a predefined template for your message by using the **Subject** drop down, or write your own subject and body contents.
 
-![The form, with a predefined template](/img/screenshots/c4p/session-email-2.avif)
+![The form, with a predefined template](/img/screenshots/c4p/session-e-mail-2.avif)
 
 ## What's next
 

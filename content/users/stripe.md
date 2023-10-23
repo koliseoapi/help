@@ -8,7 +8,7 @@ menu:
     parent: users
 ---
 
-Koliseo delegates the payment processing to [Stripe](https://stripe.com/). This means that you need to create a Stripe account and connect it to Koliseo. This is a one-time process that you need to do before you can start selling tickets.
+Koliseo delegates payment processing to [Stripe](https://stripe.com/). This means that you need to create a Stripe account and connect it to Koliseo, as a one-time process that you need to do before you can start selling paid tickets.
 
 For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. The proceedings from ticket sales are deposited directly on your Stripe Account, minus [our platform fee]({{< ref "sales.md" >}}).
 
@@ -18,18 +18,18 @@ If you don't have a Stripe account yet, you can create one for free at [https://
 
 ## Connect your Stripe account to Koliseo
 
-Once you have created your Stripe account, you need to connect it to Koliseo. To do so, go to the [Stripe settings page](https://koliseo.com/settings/stripe) and click on the "Connect with Stripe" button. You will be redirected to Stripe, where you will be asked to authorize Koliseo to access your account.
+Once you have created your Stripe account, you need to connect it to Koliseo. To do so, go to your [Stripe settings page](https://koliseo.com/me/stripe-accounts) and click the "Connect with Stripe" button. You will be redirected to Stripe, where you will be asked to authorize Koliseo to access your account.
 
-![Connect with Stripe](/images/stripe-connect.png)
+![Connect with Stripe](/img/screenshots/users/connect-stripe.avif)
 
-Once you have authorized Koliseo, you will be redirected back to Koliseo. You will see a confirmation message and the Stripe settings page will show your Stripe account details.
+Once you have authorized Koliseo, you will be redirected back to your profile page. You will see a confirmation message and the Stripe settings page will show your Stripe account details.
 
-![Stripe connected](/images/stripe-connected.png)
+![Disconnect Stripe](/img/screenshots/users/disconnect-stripe.avif)
 
-## Disconnect your Stripe account
+If you want to disconnect your Stripe account from Koliseo, click the "Delete" button next to the details of your Stripe account. You will be asked to confirm the operation. Once disconnected, all ticket sales associated with this connected account will be paused.
 
-If you want to disconnect your Stripe account from Koliseo, go to the [Stripe settings page](https://koliseo.com/settings/stripe) and click on the "Disconnect from Stripe" button. You will be asked to confirm the operation. Once you confirm, you will be redirected to Stripe, where you will be asked to confirm that you want to disconnect Koliseo from your account. Once you confirm, you will be redirected back to Koliseo and you will see a confirmation message.
+## What's next
 
-![Disconnect from Stripe](/images/stripe-disconnect.png)
-
-payment processing on [Stripe](http://stripe.com), a secure online payment gateway. A Stripe Account is required if you
+- [Create ticket classes]({{< ref "ticket-classes.md" >}})
+- [Download the list of tickets sold]({{< ref "validation.md" >}})
+- [Configure automatic invoices]({{< ref "invoices.md" >}})

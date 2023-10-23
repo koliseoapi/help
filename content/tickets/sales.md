@@ -29,7 +29,7 @@ The **Sales Settings** form includes the following fields:
 - **Max Tickets per Account**: If set, the maximum number of tickets that can be purchased by a single user account.
 - **Hide ticket classes that are sold out**: If set, ticket classes that are sold out will not show on the ticket purchase interface.
 - **Tickets Editable Until**: Attendees can edit the data introduced with their tickets until the date set in this field, if any. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.
-- **Purchase Confirmation Message**: If set, this is the confirmation email that an attendee will receive after a successful ticket purchase.
+- **Purchase Confirmation Message**: If set, this is the confirmation e-mail that an attendee will receive after a successful ticket purchase.
 
 ## Income
 

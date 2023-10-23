@@ -7,7 +7,7 @@ aliases:
   - /events/forms
 menu:
   main:
-    parent: events
+    parent: tickets
 ---
 
 You can configure questions to collect information from attendees, like T-shirt size or role in their company.

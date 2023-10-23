@@ -3,9 +3,11 @@ title: "Discounts"
 date: 2018-01-14T17:47:34+01:00
 summary: "Create discount codes that can be applied to ticket purchases."
 weight: 50
+aliases:
+  - /events/discounts
 menu:
   main:
-    parent: events
+    parent: tickets
 ---
 
 This page explains how to create discount codes that can be applied to ticket purchases.
@@ -51,6 +53,16 @@ Once the discount code has been saved, it can be used during a ticket purchase. 
 6. To complete the ticket purchase, click the **Get tickets** button.
 
 The discount is applied to the total amount before including [our service fee]({{< ref "sales.md#ticket-processing-fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
+
+## Sending discount codes
+
+In the discount list, you can click on the **Send** button next to a discount to send it to a list of e-mail addresses. The discount code will be sent to each e-mail address in the list, along with a link to the ticket purchase page.
+
+![The send discount button](/img/screenshots/tickets/discount-send.avif)
+
+You can send the same discount to up to 20 e-mail addresses.
+
+![The send discount button](/img/screenshots/tickets/discount-send-2.avif)
 
 ## What's next
 
