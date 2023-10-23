@@ -1,7 +1,7 @@
 ---
 title: "Ticket Sales"
 date: 2018-01-09T20:21:09+01:00
-summary: "Once your event is ready, enable ticket sales to start collecting funds on your Stripe Account."
+summary: "How to enable ticket sales to start collecting funds on your Stripe Account."
 weight: 20
 aliases:
   - /tickets/pricing
@@ -10,7 +10,7 @@ menu:
     parent: tickets
 ---
 
-After creating ticket classes, this page explains how to start / stop ticket sales.
+After creating ticket classes, this page explains how to start or stop ticket sales.
 
 ## Enabling ticket sales
 
@@ -33,11 +33,13 @@ The **Sales Settings** form includes the following fields:
 
 ## Income
 
-Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. A Stripe Account is required if you plan to sell any paid tickets. You can select a connected Stripe Account, or add new accounts in the select box, then click **Save**.
+Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. A Stripe Account is required to sell any paid tickets (free tickets are exempt). You can select any connected Stripe Account, or add new accounts in the select box, then click **Save**.
 
 ![The Income interface](/img/screenshots/events/income.avif)
 
-For security reasons, Koliseo does not have access to the credit card details associated with your ticket purchase. The proceedings from ticket sales are deposited directly on your Stripe Account, minus the fee of the platform.
+To connect a new Stripe account, see [Connect a Stripe Account]({{< ref "users/stripe.md" >}})
+
+For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, minus the fee of the platform.
 
 Starting in July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
 

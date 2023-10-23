@@ -1,6 +1,6 @@
 ---
 title: "Agenda"
-summary: "This section introduces the Agenda, Call for Papers, and Sessions."
+summary: "This section introduces how to compose and publish the Agenda."
 weight: 30
 date: 2018-01-16T00:01:46+01:00
 ---

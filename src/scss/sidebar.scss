@@ -8,7 +8,7 @@ $sidebar-selected-bg: #f0f4f7;
 
 $chevron-width: 0.7rem;
 .sidebar-nav-a {
-  padding: 1rem;
+  padding: 10px 16px;
   position: relative;
   color: $sidebar-a-color;
   display: flex;
@@ -16,6 +16,7 @@ $chevron-width: 0.7rem;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: $baseFontSize;
 
   &:focus,
   &:hover {
@@ -35,10 +36,11 @@ $chevron-width: 0.7rem;
 
 .sidebar-nav-a2 {
   color: $sidebar-a-color;
-  padding: 0.7rem 1rem;
+  padding: 8px 16px;
   display: block;
   padding-left: $chevron-width + 1.5rem;
   text-decoration: none;
+  font-size: $baseFontSize;
   &.selected {
     background: $sidebar-selected-bg;
     font-weight: bold;

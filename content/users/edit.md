@@ -1,5 +1,5 @@
 ---
-title: "Edit user"
+title: "Edit your profile"
 date: 2018-01-09T22:34:05+01:00
 summary: "How to edit your user profile."
 weight: 20
@@ -10,48 +10,41 @@ menu:
 
 This page explains how to edit your user profile.
 
-## Accessing your user profile
+## Edit your user profile
 
-To access your user profile:
+To edit your user profile:
 
-1. Click on your picture in the top right corner of the screen and select the menu option with your name.
-2. Click the **Edit** button to the right of your name.
-3. Select the **Data** tab.
-4. Fill out your changes in the form and click the **Save** button.
+1. Visit your user profile page by clicking on your name in the top right corner of the screen and selecting **My Profile**, or alternatively by following [this link](https://koliseo.com/me).
+2. On the sidebar menu, select **Edit**.
+3. Introduce your changes in the form and click the **Save** button.
 
-![The Edit User page](/img/screenshots/users/user-edit.jpg)
+![The edit user page](/img/screenshots/users/user-edit.avif)
 
-The user information includes the following fields:
+The following fields are available:
 
-- **Avatar**: Click the **Choose a file** button next to your picture. Koliseo will extract your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it. When you upload a custom picture, this behavior will be disabled.
-- **Name**: Your name, to be displayed in listings.
-- **URL**: The URL of your user profile. You can change it by modifying your [uuid]({{< ref "#uuid" >}}).
+- **Name**: Your full name.
+- **Avatar**: Your profile photo, used to identify you in the platform. To change your avatar, click the **Edit** button next to your picture. Koliseo extracts your profile picture from your authentication provider when you log in for the first time, and with every new session it will update it if needed. When you upload a custom picture, this behavior will be disabled.
+- **Username**: The unique identifier of your user profile in the platform. It is used to generate the URL of your profile page. You can change it at any time, but if you do, the old URL will stop working. If you want to change it, we recommend you to do it as soon as possible.
 - **Description**: A short (140 characters) description to display on your user profile.
-- **Language**: The language that the page will show when you are logged in. The supprted languages are English and Spanish.
 - **Twitter account**: If set, your Twitter handle will be visible in your user profile and in any sessions where you are a speaker.
-- **Gender**: The gender of the user. Possible values are Male, Female, Other, or Non-Disclosed. The platform only includes this value with your talk proposals to help event organizers arrange a diverse agenda, and never on your public profile page. You can disable this by setting the value to "Non-Disclosed".
-- Select the **Subscribed** checkbox to get registered on the mailing list where we announce our new features.
+- **Language**: The language you prefer to use in the platform. This language will be used to display the platform interface, and to send you e-mails. You can change it at any time. By default Koliseo will use the language provided by your browser and save it into your user account the first time you log in.
 
-When not logged in, Koliseo will use the language provided by your browser and default to English if not supported. This language will be saved into your user account the first time you log in. You may override this language at any time by adding a `hl=en` or `hl=es` GET parameter to any URL.
-
-## Connect to your Stripe Account {#connect-stripe}
+You may override the language used by any page at any time by adding a `hl=en` or `hl=es` GET parameter to your URL.
 
 ## User deletion
 
-To delete your user information, contact us at info@koliseo.com and we will proceed to remove your data.
+To delete your user information, contact us at <a href="mailto:info@koliseo.com">info@koliseo.com</a> and we will proceed to remove your data.
 
-After deleting your user:
+After deleting your user account:
 
-- We will remove all your sessions, feedback or bookmarks.
+- We will remove your sessions, feedback or bookmarks. Any session that belong to an agenda will remain, but the presenter information will be removed.
 - We will reassign any existing tickets or events with sold tickets to a different user. We will keep them for accounting purposes.
 
-## Merge of user information
+## Merge user accounts
 
-Koliseo does not support the merge of data from multiple user accounts that share the same e-mail address. That means that it is possible to log in with a Google or Linkedin account with the same e-mail address, but those would be two different users. To help avoid confusion, the login page shows which provider you used the last time.
+If you have used different authentication providers to log in to Koliseo, you may have ended up with multiple user accounts. If you log in with an account using the same e-mail address as an existing user, Koliseo will automatically merge the accounts.
 
-## UUID
-
-Each user has a unique identifier in Koliseo which can be used to identify them. In the URL pointing to a user profile, the uuid is the part right after "koliseo.com". For example, for https://www.koliseo.com/ccoloma the uuid is "ccoloma".
+To help avoid confusion, the login page shows which provider you used the last time.
 
 ## What's next
 

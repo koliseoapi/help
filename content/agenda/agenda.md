@@ -8,78 +8,75 @@ menu:
     parent: agenda
 ---
 
-This page explains how to configure and publish an agenda after the sessions have been selected.
+This page explains how to configure and publish an agenda after the sessions have been selected. For more information about reviewing sessions, see [the session review process]({{< ref "review-sessions.md" >}}).
 
-## Agenda structure
+## Create a new Agenda
 
-The first step is to create the agenda structure. An agenda is composed of tracks (like "Track A" or "Cloud Track") and time intervals (like "09:00-09:45"). The agenda will be displayed as a table on desktop, but as a list on mobile devices.
+To create a new agenda:
 
-For example, to create an Agenda with two tracks:
+1. [Log into the system]({{< ref "authentication.md" >}})
+1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. In the sidebar menu, select **Agenda > Agenda**.
+1. Click the button **Create Agenda**
+1. Fill the form fields and click the **Save** button.
 
-1. In the sidebar menu, select <b>Agenda</b>.
-1. Click the <b>Create agenda</b> button.
-1. Introduce a date for this agenda. By default the event date is selected, but you may want to change this for events spanning multiple days.
-1. Under **Number of Tracks**, enter "2". Under **Slots per Track**, enter 4.
-1. Click the **Create Agenda** button.
+   ![The form to create a new agenda](/img/screenshots/agenda/agenda-create.avif)
 
-   ![The Create Agenda UI](/img/screenshots/agenda/create.jpg)
+The form includes the following fields:
 
-1. Click the **Add new slot** button. Change the value of the **Type** drop-down to "Talk", **From** to "09:15" and **To** to "09:45".
-1. In the **Session** text field, start typing the session name, select the session from the autocomplete list and click the **Create** button.
+- **Name**: The name of the agenda. This name will be displayed in the agenda page. Your event can have different agendas for multiple days.
+- **Date**: The date of the agenda. By default, the date of the event is selected, but you can change it if your event spans multiple days.
+- **Number of tracks**: The number of tracks that the agenda will have.
+- **Slots per track**: The number of slots that each track will have.
+- **Start time**: The time when the first slot of the agenda will start, relative to the event timezone.
+- **Slot Duration**: The duration of each slot in the agenda, in minutes.
+- **Breaks between slots**: The duration of the breaks between slots, in minutes.
 
-   ![The Slot Edit UI](/img/screenshots/talks/agenda-slot-edit.jpg)
+This form will automatically create the tracks and slots for the agenda. You can add more tracks and slots later.
 
-1. Repeat the process until the track is complete.
-1. Select the track name, click on the **Clone track** button and select the newly created track.
-1. Click the **Edit track** button, change the name to "Track B" and click the **Save** button.
+## Agenda grid
 
-While cloning, only the track structure is copied. You still have to assign sessions to the newly created slots.
+Click on an agenda to display the agenda grid. An agenda grid is composed of tracks (like "Track A" or "Cloud Track") and time intervals (like "09:00-09:45"). The agenda will be displayed as a table on desktop, but as a list on mobile devices. For e-readers, the agenda will be read as a table, which makes it more accessible to navigate (by tracks or time slots) for blind users. To give it a try, you can visit [the demo](https://koliseo.com/demo).
 
-You can see a preview of the current status of the agenda by selecting the **Preview** tab.
+![The agenda grid interface](/img/screenshots/agenda/agenda-grid.avif)
 
-## Slot types
+While on the agenda grid on desktop, you can drag sessions from the list on the left of the screen to any available slot, or drag and drop betweem slots to switch them. On mobile, you need to do each change manually by clicking on each slot.
 
-Slots can have one of four types:
+![The slot edition interface](/img/screenshots/agenda/slot-edit.avif)
 
-- **Undefined**: This is the default status of a slot. These slots are not displayed in the agenda.
-- **Talk**: A slot reserved for a talk.
-- **Break**: A slot reserved for coffee, lunch break, inscription, etc.
-- **Extend track**: When a track will be extended horizontally over other tracks at one particular time, like keynotes.
+A slot can have one of three types:
 
-To assign a talk to a slot, set the **Slot type** to "Talk" and start introducing the talk name in the **Talk** input field. The page will autocomplete the talk name and offer you a list of options. If you do not see a talk in the autocomplete list, make sure that it is selected and not already included in the agenda.
+- **Empty**: This is the default, it means that the slot is available for a session.
+- **Session**: A slot that has been assigned to a session.
+- **Break**: A slot that has been assigned to a break: coffee, lunch break, inscription, etc.
 
-## Publish
+To assign a session to a slot, set the **Slot type** to "Session" to make the **Session** input field appear. Alternatively, you can drag sessions from the list on the left into any slot. If there is already a session on that slot, it will be unassigned from the agenda. If you drag and drop two slots, they will exchange places in the agenda.
 
-Once the agenda is final, to publish it:
+## Slot Sizes
 
-1. Go to the edit page of your agenda.
-2. Select the **Settings** tab and mark the **Public** checkbox.
-   ![The settings tab of the agenda](/img/screenshots/talks/agenda-settings.jpg)
-3. Click the **See Agenda** link to go to the published agenda.
+A slot can span multiple rows and columns (for example, taking more than one track or time slot). In order to change the number of columns or rows that a slot takes, click on the slot to open the edition dialog and click the **Edit Slot Size** button.
 
-If you want to collect feedback, make sure that the <b>Feedback</b> checkbox is also selected for your Agenda.
+![The slot size edition interface](/img/screenshots/agenda/slot-edit-size.avif)
 
-<img alt="The rendered agenda" class="illustration" style="max-width: 40rem" src="/img/screenshots/talks/laptop.svg">
+You can now introduce the new number of row and column span. For example, if you want to make a session take two tracks, you can set the number of columns to 2. If you want to make a session take two time slots, you can set the number of rows to 2.
 
-Your attendees can now bookmark their favorite sessions, which can be used to identify the most interesting topics. When feedback is enabled, they can introduce reviews of the sessions too.
+Keep in mind that the maximum value is dictated by the number of empty slots available to the right and below the slot. If you are truing to use both row and column span at the same time, the affected area needs to be empty for the change to be successful.
 
-<aside class="note">
-Your agenda is available without an Internet connection with any Android or iPhone browser with Chrome, Firefox or Safari. This feature requires support for Service Workers.
-</aside>
+## Publish the agenda
 
-## Updates
+At the top of the grid page there are buttons to **Publish** and **Unpublish** the agenda. Your changes are in draft until you click the Publish button. Once published, your agenda changes will be visible to the attendees.
 
-As a speaker, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place.
-
-![The form fields to specify your slides and youtube URL](/img/screenshots/talks/talk-slides.jpg)
-
-The slides link can be a URL pointing to any resource with your slides, but for the video Koliseo only supports Youtube URLs to embed in the published agenda.
+As a presenter, you can always modify your presentations (title and description of the agenda, bio or picture). Most importantly, you can add the **Slide deck** and **Video recording** before or after the event has taken place. Any changes that you make to your session will be immediately visible in the published agenda.
 
 To modify your presentation, visit the Call for Papers or open [your user profile](https://www.koliseo.com/me) and select **Sessions** on the sidebar menu.
 
-The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your talk.
+The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your session.
+
+## How attendees can interact with the agenda
+
+Once published, other users can bookmark their favorite sessions. If feedback is enabled in the Agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session. After the event has taken place, the attendees can also watch the recordings from the agenda page, and download the slides.
 
 ## What's next
 
-- [Learn more about the session review process]({{< ref "session-review.md" >}})
+- [Learn more about the session review process]({{< ref "review-sessions.md" >}})
 - [Receive session feedback in the agenda]({{< ref "feedback.md" >}})

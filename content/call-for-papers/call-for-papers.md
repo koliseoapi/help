@@ -64,6 +64,6 @@ Once the event has taken place, both the presenters and event organizer can:
 ## What's next
 
 - [Add tags to your Call for Papers]({{< ref "tags.md" >}})
-- [Kickstart the session review process]({{< ref "session-review.md" >}})
+- [Kickstart the session review process]({{< ref "review-sessions.md" >}})
 - [Design and publish the event agenda]({{< ref "/agenda/agenda.md" >}})
 - [Receive session feedback in the agenda]({{< ref "feedback.md" >}})

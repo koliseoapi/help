@@ -11,7 +11,7 @@ This page explains how to assign permissions to other users to your events and o
 
 ## Permissions and events
 
-You can assign permissions to events directly. In order to assign permissions to one of your events:
+You can assign permissions to events. In order to assign permissions:
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
@@ -27,7 +27,7 @@ In this page, you can assign the following permissions to other users:
 - **Write**: The user can do all above, and also modify the event settings.
 - **Administrator**: Same as Write, and additionally the user can assign permissions to other users.
 
-## Assigning permissions through an organization
+## Assigning permissions to an organization
 
 Organizations are a way to group events and assign permissions to them. When you create an organization, you can assign permissions to other users to operate the app on behalf of the organization. This is useful when you are organizing multiple events and you want to assign permissions to the same users to all of them.
 

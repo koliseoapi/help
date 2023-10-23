@@ -1,26 +1,26 @@
 ---
-title: User authentication
+title: Authentication
 weight: 10
-summary: "This page explains how the authentication and user management system works in Koliseo."
+summary: "This page explains the authentication process in Koliseo."
 menu:
   main:
     parent: "users"
 ---
 
-This page explains how the authentication and user management system works in Koliseo.
+This page explains the authentication process in Koliseo.
 
 ## Authentication providers
 
-Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Linkedin. The server will create your user account automatically the first time that you log in. By logging into the platform, you agree to our [terms and conditions]({{< ref "legal.md" >}}) including our use of Cookies.
+Koliseo supports four providers to authenticate users into the platform: Google, Facebook, Microsoft and Twitter / X. If it's your first time logging in, the system will create your user account automatically after accepting our [terms and conditions]({{< ref "legal.md" >}}), including our use of Cookies.
 
-![The login page](/img/screenshots/users/login.jpg)
+![The login page](/img/screenshots/users/login.avif)
 
 During the authentication process Koliseo will gain access to the following information about your user profile:
 
-- OAuth id
-- User Name
-- E-mail address
-- Photo
+- **OAuth ID**: A unique identifier for your user account from your selected OAuth provider.
+- **User Name**: Your full name.
+- **E-mail address**: Your e-mail address, used to send you notifications about your events.
+- **Photo**: Your profile photo, used to identify you in the platform.
 
 Koliseo will not get access to your contacts or get permissions to do actions on your behalf.
 

@@ -10,7 +10,7 @@ menu:
     parent: call-for-papers
 ---
 
-Sessions can be classified according to multiple categories: level, language, topic, etc. No two events are the same, and for this reason Koliseo supports flexible, customizable tag sets that are unique to your event. These tag sets can be used to filter sessions in the agenda or to design a balanced agenda.
+Sessions can be classified according to multiple categories: level, language, topic, etc. No two events are the same, and for this reason Koliseo supports flexible, customizable tagsets that are unique to your event. These tagsets can be used to filter sessions in the agenda or to design a balanced agenda.
 
 ## Creating tags
 
@@ -19,22 +19,22 @@ As an example, we are going to configure a Call for Papers where sessions have a
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
 1. In the sidebar menu, select **Agenda > Tags**.
-1. Click the **Add Tag Set** button. The Tag Set edition page will open.
+1. Click the **Add Tagset** button. The Tagset edition page will open.
 
-![The edition page for a Tag Set](/img/screenshots/agenda/tagset-create.avif)
+![The edition page for a Tagset](/img/screenshots/agenda/tagset-create.avif)
 
 In this form, you can introduce the following:
 
-- **Name**: The name of the tag set. In our example, we will introduce "Programming Language".
+- **Name**: The name of the tagset. In our example, we will introduce "Programming Language".
 - **Mutiple Choice**: If you want to allow multiple tags to be selected for each session, mark this checkbox.
-- **Visibility**: The visibility of the tag set. The options are:
-  - **PUBLIC**: The tag set will be visible in the session dialog, but not in the agenda grid.
-  - **HIGHLIGHT**: The tag set will be shown both in the session dialog and in the agenda grid.
-  - **HIDDEN**: The tag set will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don't want to show to the attendees, like state of the session (accepted / rejected), waitlists, and more.
+- **Visibility**: The visibility of the tagset. The options are:
+  - **PUBLIC**: The tagset will be visible in the session dialog, but not in the agenda grid.
+  - **HIGHLIGHT**: The tagset will be shown both in the session dialog and in the agenda grid.
+  - **HIDDEN**: The tagset will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don't want to show to the attendees, like state of the session (accepted / rejected), waitlists, and more.
 
-Once you have introduced the tag set, click the **Add Value** to add each of the possible values for this tag set. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to make such a tag set private).
+Once you have introduced the tagset, click the **Add Value** to add each of the possible values for this tagset. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to make such a tagset private).
 
-![Edit Tag Set values](/img/screenshots/agenda/tagset-values.avif)
+![Edit Tagset values](/img/screenshots/agenda/tagset-values.avif)
 
 When you add tagset values, you can set a shortcut for each value. When reviewing sessions, the shortcut key can be used to easily toggle the value of the tag. In this example, we have set the chortcuts for "accepted" and "rejected" to "a", and "r", respectively. When reviewing sessions, you can press "a" or "r" to quickly toggle the state of the session.
 
@@ -46,7 +46,7 @@ When you create a new event, there is a set of default tags that get automatical
 - **Level**: the level of your presentation (required, visibility `HIGHLIGHT`). The allowed values are "Beginner", "Intermediate" and "Advanced".
 - **Stage**: the stage of the presentation (optional, visibility `PRIVATE`). The allowed values are "Accepted", "Rejected", and "Waitlisted".
 
-## Filter using tag sets
+## Filter using tagsets
 
 During session review and in the final agenda, the users can filter sessions by tags. For example, in the session review page, the selection committee can filter sessions by level, language, or any other tag that you have configured. To open the filter dialog, click the text box at the top of the screen.
 
@@ -58,6 +58,6 @@ When reviewing sessions, this dialog includes a "Keyboard shortcuts" link to sho
 
 ## What's next
 
-- [Learn more about the session review process]({{< ref "session-review.md" >}})
+- [Learn more about the session review process]({{< ref "review-sessions.md" >}})
 - [Create and publish the event agenda]({{< ref "/agenda/agenda.md" >}})
 - [Receive session feedback in the agenda]({{< ref "feedback.md" >}})
