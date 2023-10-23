@@ -16,7 +16,7 @@ As an event organizer, in order to enable automatic invoices, you need to:
 
 1. Have Stripe Billing enabled in your Stripe account. You can check this in the [Stripe dashboard](https://dashboard.stripe.com/settings/billing). If you don't have it enabled, you can activate it by clicking the **Activate** button.
 1. If your invoices carry taxes, you need to have Stripe Tax enabled in your Stripe account. You can check this in the [Stripe dashboard](https://dashboard.stripe.com/settings/tax/activate). You need to specify your company address and activate the **Use automatic tax calculation** option. More info at https://stripe.com/tax
-1. [Connect your Stripe account with Koliseo](({{< ref "/users/stripe.md" >}})) and then selecting the Stripe account in your event edit page (under Tickets > Settings).
+1. [Connect your Stripe account with Koliseo]({{< ref "stripe.md" >}}) and then selecting the Stripe account in your event edit page (under Tickets > Settings).
 1. Select **Manage taxes automatically** in your event edit page (under Tickets > Settings).
 
 After you have done this, the ticket purchase form from Stripe is extended with the Company ID and Company Name fields. If the user introduces a mistake here (and does not enter the company information, for example), the organizer would have to fix the invoice manually from the Stripe console or using their own billing software.
