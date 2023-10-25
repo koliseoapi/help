@@ -298,10 +298,10 @@
   <ul>
     <li><a href="#installing-the-app-and-getting-permissions">Installing the app and getting permissions</a></li>
     <li><a href="#assigning-permissions-to-other-users">Assigning permissions to other users</a></li>
-    <li><a href="#validating-tickets">Validating tickets</a></li>
+    <li><a href="#scanning-tickets">Scanning tickets</a></li>
     <li><a href="#offline-validation">Offline validation</a></li>
     <li><a href="#download-the-activity-history">Download the Activity History</a></li>
-    <li><a href="#download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</a></li>
+    <li><a href="#manual-validation">Manual validation</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -326,28 +326,36 @@
   <ul>
     <li><a href="#installing-the-app-and-getting-permissions">Installing the app and getting permissions</a></li>
     <li><a href="#assigning-permissions-to-other-users">Assigning permissions to other users</a></li>
-    <li><a href="#validating-tickets">Validating tickets</a></li>
+    <li><a href="#scanning-tickets">Scanning tickets</a></li>
     <li><a href="#offline-validation">Offline validation</a></li>
     <li><a href="#download-the-activity-history">Download the Activity History</a></li>
-    <li><a href="#download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</a></li>
+    <li><a href="#manual-validation">Manual validation</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page documents how to validate tickets during your event.</p>
+      <p>You can validate tickets using the <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control for Android</a> application, or download the list of tickets sold to validate manually. This page documents how to validate tickets during your event.</p>
 <h2 id="installing-the-app-and-getting-permissions">Installing the app and getting permissions</h2>
 <figure class="animation-container"></figure>
-<p>You can validate tickets at the entrance using <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control for Android</a>. To validate tickets:</p>
+<p>You can validate tickets at the entrance using <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control for Android</a>. To get started:</p>
 <ol>
-<li>Install <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control</a> on one or more Android devices.</li>
-<li>Open session on the app. At this time, only the authentication using Google credentials is supported.</li>
-<li>If your user already has permissions, select the event from the list that appears.</li>
-<li>If your user has no permissions (or not on this particular event), go to the menu <strong>Preferences &gt; My account</strong>, and show the QR code to someone with <strong>Administrator</strong> rights over the event. The administrator will grant access to the event to your user.</li>
-</ol>
+<li>
+<p>Install <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control</a> on one or more Android devices.</p>
+</li>
+<li>
+<p>Sign into the app. At this time, the only authentication supported is using Google credentials.</p>
+</li>
+<li>
+<p>If your user already has permissions, you can select your event from the list that appears.</p>
+</li>
+<li>
+<p>If your user has no permissions (or not on this particular event), go to the menu <strong>Preferences &gt; My account</strong>, and show the QR code to someone with <strong>Administrator</strong> rights on the event. The administrator can grant access to the event to other users (see next section).</p>
 <p><img src="/img/screenshots/validation/sidebar-menu.avif" alt="The sidebar menu"></p>
+</li>
+</ol>
 <h2 id="assigning-permissions-to-other-users">Assigning permissions to other users</h2>
-<p>If you are the administrator of the event, to grant permissions to other users:</p>
+<p>If you have Administrator permissions on the event, you can grant permissions to other users:</p>
 <ol>
 <li>
 <p>Open the app and select the event where you want to assign permissions.</p>
@@ -361,27 +369,29 @@
 <p>After choosing the desired role, scan the QR code of the user you want to grant permissions to (see previous section, <strong>Installing the app and getting permissions</strong>).</p>
 </li>
 </ol>
-<p>When assigning permissions, the administrator can choose to grant access to the specific user account of the QR code being scanned, or to one of the organizations that they belong to. When granted to an organization, the validation history is shared with other people, so that they can see (and download) the activity of others.</p>
-<p>If a user is granted permissions through an organization, it can be overwritten later by assigning permissions directly. In that case, the Activity History will no longer be shared with the organization.</p>
-<p>Once the permissions have been assigned, the user is ready to start using the app.</p>
-<h2 id="validating-tickets">Validating tickets</h2>
-<p>To validate tickets, click the <strong>Scan Ticket</strong> button and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.</p>
-<p>When scanning tickets, the app will display the basic information of the ticket holder: name, email, avatar and ticket class. Additionally, if the ticket has associated any answers to <a href="/tickets/questions/">event questions</a>, they will be displayed as well. Users validated as sponsors will only see any answers to questions marked as &ldquo;shared with third parties&rdquo;. The volunteers will additionally see answers to questions marked as &ldquo;access control&rdquo;.</p>
+<p>After scanning a QR code to assign permissions, you can choose to grant access to the specific user account or to one of the organizations that they belong to. When granted to an organization, the activity history is shared with other people, so that they can see (and download) the scanning activity of others.</p>
+<p>If a user is granted permissions through an organization, it can be overwritten later by assigning permissions directly to their user account. In that case, the activity history will no longer be shared with the organization.</p>
+<p>Once the permissions have been assigned, the user is ready to start scanning tickets.</p>
+<h2 id="scanning-tickets">Scanning tickets</h2>
+<p>To scan tickets, click the <strong>Scan Ticket</strong> button and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.</p>
+<p>Right after scanning a ticket, the app will display the basic information of the ticket holder: name, email, avatar and ticket class. Additionally, if the ticket is associated to any answers to <a href="/tickets/questions/">event questions</a>, they will be displayed as well. Users validated as sponsors will only see any answers to questions marked as &ldquo;shared with third parties&rdquo;. The volunteers will additionally see answers to questions marked as &ldquo;access control&rdquo;.</p>
 <h2 id="offline-validation">Offline validation</h2>
 <p>Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.</p>
-<p>When validating tickets offline, the information window will not include any answers or attendee information, only that the ticket is valid. Tickets do not have to be printed to be recognized by the app, but you may need to adjust the brightness of the device displaying it.</p>
-<p>Remember to open the application while connected to the Internet at least once before the event takes place, so that the application can download the list of tickets.</p>
+<p>When validating tickets offline, the information window may not include any answers or user avatar, but it will check that the ticket is valid. Remember to open the application while connected to the Internet at least once before the event takes place, so that the application can download the list of tickets. Keep in mind that multiple offline devices may find the same ticket valid if they cannot synchronize over the Internet.</p>
+<p>Tickets do not have to be printed to be recognized by the app, but you may need to adjust the brightness of the device displaying it.</p>
+<p>If the user has &ldquo;Volunteer&rdquo; permissions, they can check the same ticket again to undo a scan. This is useful if the user accidentally scanned a ticket that was not supposed to be scanned.</p>
+<p>Tickets numbers can also be manually introduced in the app, in case the QR code is not readable. To do this, click the button with a keyboard. The app will display a keyboard to introduce the ticket number. The app will autocomplete ticket numbers for Volunteers, but Sponsors will need to introduce the full ticket number.</p>
 <h2 id="download-the-activity-history">Download the Activity History</h2>
-<p>To download the list of tickets scanned by the current user or organization, you can select the <strong>Tickets History</strong> menu item. On this screen there is a button in the bottom right corner with two possible actions, <strong>Scan a new ticket</strong> or <strong>Download the ativity list</strong>. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by email, whatsapp, uploaded to Google Drive, etc.</p>
+<p>To download the list of tickets scanned by the current user or organization, you can select the <strong>Tickets History</strong> menu item. On this screen there is a button in the bottom right corner with two possible actions, <strong>Scan a new ticket</strong> or <strong>Download the activity list</strong>. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by e-mail, WhatsApp, uploaded to Google Drive, etc.</p>
 <p><img src="/img/screenshots/validation/activity-history.avif" alt="The activity history"></p>
-<h2 id="download-the-list-of-tickets-sold-for-manual-validation">Download the list of tickets sold for manual validation</h2>
+<h2 id="manual-validation">Manual validation</h2>
 <p>You can download the list of tickets sold from the web page:</p>
 <ol>
 <li><a href="/users/authentication/">Log into the system</a></li>
 <li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
 <li>On the sidebar menu, select <strong>Tickets Sold</strong>.</li>
 <li>Click the <strong>Download as CSV</strong> button.</li>
-<li>Open the file with any spreadsheet application selecting <strong>Format CSV</strong>, <strong>Separator: commas</strong> and <strong>Encoding: UTF-8</strong>.</li>
+<li>Open the file with your preferred spreadsheet application selecting <strong>Format CSV</strong>, <strong>Separator: commas</strong> and <strong>Encoding: UTF-8</strong>.</li>
 </ol>
 <p><img src="/img/screenshots/tickets/download-tickets.avif" alt="The list of tickets sold"></p>
 <h2 id="whats-next">What&rsquo;s next</h2>

@@ -329,23 +329,23 @@
 </nav>
   </div>
 </aside>
-      <p>After creating ticket classes, this page explains how to start or stop ticket sales.</p>
+      <p>After creating ticket classes, this page explains how to start or stop ticket sales. You can also configure the Stripe Account where ticket sales will be deposited.</p>
 <h2 id="enabling-ticket-sales">Enabling ticket sales</h2>
 <p>Once your event is ready, activate ticket sales to let users attend the event. To get started:</p>
 <ol>
 <li><a href="/users/authentication/">Log into the system</a></li>
 <li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
-<li>Under <strong>Tickets</strong>, select <strong>Settings</strong>.</li>
+<li>Select <strong>Tickets &gt; Settings</strong>.</li>
 <li>Set <strong>Status</strong> to <strong>Enabled</strong> and click <strong>Save</strong>.</li>
 </ol>
 <p><img src="/img/screenshots/events/sales-settings.avif" alt="The Sales Settings page"></p>
-<p>The <strong>Sales Settings</strong> form includes the following fields:</p>
+<p>The <strong>Sales Settings</strong> form also includes the following fields:</p>
 <ul>
 <li><strong>Currency</strong>: The currency used for ticket classes and discounts.</li>
 <li><strong>Max Tickets per Account</strong>: If set, the maximum number of tickets that can be purchased by a single user account.</li>
 <li><strong>Hide ticket classes that are sold out</strong>: If set, ticket classes that are sold out will not show on the ticket purchase interface.</li>
-<li><strong>Tickets Editable Until</strong>: Attendees can edit the data introduced with their tickets until the date set in this field, if any. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.</li>
-<li><strong>Purchase Confirmation Message</strong>: If set, this is the confirmation e-mail that an attendee will receive after a successful ticket purchase.</li>
+<li><strong>Tickets Editable Until</strong>: if this field is set, the user can edit the [answers]({{ ref &ldquo;questions.md&rdquo; }}) introduced with their tickets until this date. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.</li>
+<li><strong>Purchase Confirmation Message</strong>: If set, this is the confirmation e-mail to send to the user after a successful ticket purchase.</li>
 </ul>
 <h2 id="income">Income</h2>
 <p>Koliseo delegates payment processing on <a href="http://stripe.com">Stripe</a>, a secure online payment gateway. A Stripe Account is required to sell any paid tickets (free tickets are exempt). You can select any connected Stripe Account, or add new accounts in the select box, then click <strong>Save</strong>.</p>
