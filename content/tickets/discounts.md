@@ -10,34 +10,36 @@ menu:
     parent: tickets
 ---
 
+You can use discounts to offer special prices to early birds, sponsors, speakers, or any other group of people. Discounts can be applied to all ticket classes or to a specific ticket class.
+
 This page explains how to create discount codes that can be applied to ticket purchases.
 
-## Creating discount codes
+## Creating discounts
 
-To create a discount:
+To create a discount code:
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
-1. On the sidebar menu, select **Discounts** and click the **Create discount** button.
+1. On the sidebar menu, select **Tickets > Discounts** and click the **Create Discount** button.
 1. Fill the fields in the form and click the **Save** button.
 
 ![The discount edition page](/img/screenshots/events/discounts-edit.avif)
 
-The discount edition form includes the following fields:
+The following fields are available:
 
 - **Name**: The code that must be introduced during the ticket purchase to apply the discount.
-- **Max redemptions**: The total number of times that this discount can be used. Set to **1**, for single-use discount codes.
+- **Max redemptions**: The total number of times that this discount can be used. Set to "1" for single-use discount codes.
 - **Type**: The type of discount. You can choose between:
   - **Percentage**: The discount will be applied as a percentage of the ticket price.
-  - **Per ticket**: The discount will be applied as a fixed amount of money per ticket.
-- **Amount per ticket**: For `Per Ticket` discounts, the amount to be discounted per ticket (in the local currency of the event).
-- **Percentage**: For `Percentage` discounts, the percentage to be discounted (as a number between 0 and 100).
+  - **Per ticket**: The discount will be applied as a fixed amount per ticket.
+- **Amount per ticket**: If type is "Per Ticket", the amount to be discounted per ticket in the currency of the event.
+- **Percentage**: If type is "Percentage", the percentage to be discounted as a number between 0 and 100.
 - **Start** and **End**: If set, the discount will be available only during this period of time.
-- **Ticket Classes**: The ticket classes that this discount can be applied to. If not set, this discount can be applied to all ticket classes.
+- **Ticket Classes**: The ticket classes that this discount can be applied to. If not set, this discount can be applied to any ticket class.
 
-## Using a discount code
+## Using a discount
 
-Once the discount code has been saved, it can be used during a ticket purchase. To use a discount:
+Once the discount has been saved, it can be used during a ticket purchase. To use a discount code:
 
 1. Navigate to the ticket purchase page.
 2. Introduce the number of tickets that you want to purchase. The page should display the amount to pay under the **Total** section.
@@ -52,17 +54,17 @@ Once the discount code has been saved, it can be used during a ticket purchase. 
 
 6. To complete the ticket purchase, click the **Get tickets** button.
 
-The discount is applied to the total amount before including [our service fee]({{< ref "sales.md#ticket-processing-fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
+The discount is applied before including [our service fee]({{< ref "sales.md#ticket-processing-fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
 
 ## Sending discount codes
 
-In the discount list, you can click on the **Send** button next to a discount to send it to a list of e-mail addresses. The discount code will be sent to each e-mail address in the list, along with a link to the ticket purchase page.
+In the discount list, you can click on the **Send** button next to a discount to send it to a list of e-mail addresses. The discount code will be sent to each e-mail address, along with a link to the ticket purchase page that will automatically apply the discount.
 
 ![The send discount button](/img/screenshots/tickets/discount-send.avif)
 
-You can send the same discount to up to 20 e-mail addresses.
-
 ![The send discount button](/img/screenshots/tickets/discount-send-2.avif)
+
+You can send the same discount to up to 20 e-mail addresses.
 
 ## What's next
 

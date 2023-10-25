@@ -10,7 +10,7 @@ menu:
     parent: tickets
 ---
 
-After creating ticket classes, this page explains how to start or stop ticket sales.
+After creating ticket classes, this page explains how to start or stop ticket sales. You can also configure the Stripe Account where ticket sales will be deposited.
 
 ## Enabling ticket sales
 
@@ -18,18 +18,18 @@ Once your event is ready, activate ticket sales to let users attend the event. T
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
-1. Under **Tickets**, select **Settings**.
+1. Select **Tickets > Settings**.
 1. Set **Status** to **Enabled** and click **Save**.
 
 ![The Sales Settings page](/img/screenshots/events/sales-settings.avif)
 
-The **Sales Settings** form includes the following fields:
+The **Sales Settings** form also includes the following fields:
 
 - **Currency**: The currency used for ticket classes and discounts.
 - **Max Tickets per Account**: If set, the maximum number of tickets that can be purchased by a single user account.
 - **Hide ticket classes that are sold out**: If set, ticket classes that are sold out will not show on the ticket purchase interface.
-- **Tickets Editable Until**: Attendees can edit the data introduced with their tickets until the date set in this field, if any. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.
-- **Purchase Confirmation Message**: If set, this is the confirmation e-mail that an attendee will receive after a successful ticket purchase.
+- **Tickets Editable Until**: if this field is set, the user can edit the [answers]({{ ref "questions.md" }}) introduced with their tickets until this date. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.
+- **Purchase Confirmation Message**: If set, this is the confirmation e-mail to send to the user after a successful ticket purchase.
 
 ## Income
 

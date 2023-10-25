@@ -10,11 +10,11 @@ menu:
     parent: call-for-papers
 ---
 
-Sessions can be classified according to multiple categories: level, language, topic, etc. No two events are the same, and for this reason Koliseo supports flexible, customizable tagsets that are unique to your event. These tagsets can be used to filter sessions in the agenda or to design a balanced agenda.
+Sessions can be categorized based on various criteria, such as level, language, and topic. No two events are identical, and for this reason, Koliseo supports flexible, customizable tagsets unique to your event. These tagsets can be used to filter sessions in the agenda or to design a balanced agenda.
 
 ## Creating tags
 
-As an example, we are going to configure a Call for Papers where sessions have assigned a "Talk Level" that can choose between "Beginner", "Intermediate" or "Advanced". To do this:
+As an example, we are going to configure tags for an event where sessions have assigned a "Talk Level" that can choose between "Beginner", "Intermediate" or "Advanced". To do this:
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
@@ -30,13 +30,13 @@ In this form, you can introduce the following:
 - **Visibility**: The visibility of the tagset. The options are:
   - **PUBLIC**: The tagset will be visible in the session dialog, but not in the agenda grid.
   - **HIGHLIGHT**: The tagset will be shown both in the session dialog and in the agenda grid.
-  - **HIDDEN**: The tagset will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don't want to show to the attendees, like state of the session (accepted / rejected), waitlists, and more.
+  - **HIDDEN**: The tagset will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don't want to show to the attendees, like state of the session (accepted / rejected), one or multiple waitlists, and more.
 
-Once you have introduced the tagset, click the **Add Value** to add each of the possible values for this tagset. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to make such a tagset private).
+Once you have introduced the tagset, click the **Add Value** to add each of the possible values for this tagset. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to mark the tagset private).
 
 ![Edit Tagset values](/img/screenshots/agenda/tagset-values.avif)
 
-When you add tagset values, you can set a shortcut for each value. When reviewing sessions, the shortcut key can be used to easily toggle the value of the tag. In this example, we have set the chortcuts for "accepted" and "rejected" to "a", and "r", respectively. When reviewing sessions, you can press "a" or "r" to quickly toggle the state of the session.
+When you add tagset values, you can set a shortcut for each value. When reviewing sessions, the shortcut key can be used to easily toggle the value of the tag. In this example, we have set the chortcuts for "accepted" to `a` and "rejected" to `r`. When reviewing sessions, you can press `a` or `r` to quickly toggle the state of the session.
 
 ## Default Tags
 
