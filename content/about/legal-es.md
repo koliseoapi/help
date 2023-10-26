@@ -8,7 +8,7 @@ menu:
     parent: about
 ---
 
-Esta página introduce los Términos y Condiciones de Koliseo, una plataforma que permite gestionar la agenda, feedback y entradas para tu eventos. [Ir a la versión en Inglés]({{< ref "legal.md" >}}).
+Esta página introduce los Términos y Condiciones de Koliseo, una plataforma que permite gestionar el call for papers, la agenda, y entradas para tus eventos. [Ir a la versión en Inglés]({{< ref "legal.md" >}}).
 
 ## Identificación de la empresa
 

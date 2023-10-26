@@ -10,11 +10,11 @@ menu:
     parent: tickets
 ---
 
-You can configure questions to collect information from attendees, like T-shirt size or role in their company.
+You can configure questions to collect information from attendees, like T-shirt size or role in their company. This information is available in the [list of tickets]({{< ref "validation.md" >}}), and you can use this information to create custom badges.
 
 ## Creating questions
 
-As event organizer, you can create a form that attendees must fill out to get their tickets. For example, to request the role in the company:
+As the event organizer, you can create a form that must be filled out as part of the ticket purchase process. For example, to request the role in the company:
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
@@ -27,7 +27,22 @@ As event organizer, you can create a form that attendees must fill out to get th
 1. Select "text" in the **Type** drop-down.
 1. When you are done, click **Save**
 
-Koliseo supports the following field types:
+The following fields are available:
+
+- **Required** to require an answer to this question.
+- **Type** to select the type of question. See below for a list of supported types.
+- **Options** for questions of type **Select** or **Multiple checkbox**, this is the list of possible values separated by commas.
+- **Answer Visibility** controls who can see the answer to the question. You can choose between:
+
+  - **Private** to make the answer visible only to the event organizer.
+  - **Access Control** to make the answer visible during [the check-in process]({{< ref "validation.md" >}}).
+  - **Third Parties** to make the answer visible to sponsors using [Koliseo Access Control]({{< ref "validation.md" >}}).
+
+- **Ticket Classes**: The ticket classes that will request this question. By default, this value is set to all ticket classes.
+
+## Supported question types
+
+Koliseo supports the following question types:
 
 - **Select** to choose from a comma-separated range of values.
 - **Text** and **Text Area** for single-line or multiline free text.
@@ -38,25 +53,13 @@ Koliseo supports the following field types:
 - **Multiple checkbox** for a comma-separated range of boolean values.
 - **Date** for a date.
 
-Additionally, you can configure the following options:
-
-- **Required** to require an answer to this question.
-- **Options** for questions of type **Select** or **Multiple checkbox**, this is the list of possible values separated by commas.
-- **Answer Visibility** controls who can see the answer to the question. You can choose between:
-
-  - **Private** to make the answer visible only to the event organizer.
-  - **Access Control** to make the answer visible during the check-in process.
-  - **Third Parties** to make the answer visible to sponsors using the lead generation app.
-
-- **Ticket Classes**: The ticket classes that will request this question. By default, this value is set to all ticket classes.
-
 ## Collecting Answers
 
 When an event includes questions, the ticket purchase flow includes an additional step to fill out the form for each attendee. All required fields must be filled out to complete the ticket purchase.
 
 ![Collecting Answers](/img/screenshots/events/answers-edit.avif)
 
-To retrieve the list of answers produced by attendees, [download the list of sold tickets]({{< ref "validation.md#list-of-tickets" >}}) and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.
+To retrieve the list of answers produced by attendees, [download the list of sold tickets]({{< ref "validation.md" >}}) and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.
 
 ## What's next
 

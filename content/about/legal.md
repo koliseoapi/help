@@ -8,7 +8,7 @@ menu:
     parent: about
 ---
 
-This page introduces the Terms and Conditions of Koliseo, a platform that lets you organize the agenda, feedback, and tickets for your events. [Go to the Spanish version]({{< ref "legal-es.md" >}}).
+This page introduces the Terms and Conditions of Koliseo, a platform that lets you organize the call for papers, agenda, and tickets for your events. [Go to the Spanish version]({{< ref "legal-es.md" >}}).
 
 ## Business Identification
 
