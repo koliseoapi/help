@@ -1,7 +1,7 @@
 ---
 title: "Tags"
 date: 2018-01-16T22:10:23+01:00
-summary: "This page explains how to configure the list of categories and tags that the speakers can associate with their sessions in a Call for Papers. These categories can be used later to filter sessions in the agenda."
+summary: "Configure the tagsets and tag values that the presenters can associate to their sessions in a call for papers."
 weight: 20
 aliases:
   - /talks/categories
@@ -12,7 +12,7 @@ menu:
 
 Sessions can be categorized based on various criteria, such as level, language, and topic. No two events are identical, and for this reason, Koliseo supports flexible, customizable tagsets unique to your event. These tagsets can be used to filter sessions in the agenda or to design a balanced agenda.
 
-## Creating tags
+## Create tags
 
 As an example, we are going to configure tags for an event where sessions have assigned a "Talk Level" that can choose between "Beginner", "Intermediate" or "Advanced". To do this:
 

@@ -14,13 +14,13 @@ You can use discounts to offer special prices to early birds, sponsors, speakers
 
 This page explains how to create discount codes that can be applied to ticket purchases.
 
-## Creating discounts
+## Create discounts
 
 To create a discount code:
 
 1. [Log into the system]({{< ref "authentication.md" >}})
 1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
-1. On the sidebar menu, select **Tickets > Discounts** and click the **Create Discount** button.
+1. On the sidebar menu, select **Tickets > Discounts** and click **Create Discount**.
 1. Fill the fields in the form and click the **Save** button.
 
 ![The discount edition page](/img/screenshots/events/discounts-edit.avif)
@@ -37,7 +37,7 @@ The following fields are available:
 - **Start** and **End**: If set, the discount will be available only during this period of time.
 - **Ticket Classes**: The ticket classes that this discount can be applied to. If not set, this discount can be applied to any ticket class.
 
-## Using a discount
+## Use discount
 
 Once the discount has been saved, it can be used during a ticket purchase. To use a discount code:
 
@@ -56,7 +56,7 @@ Once the discount has been saved, it can be used during a ticket purchase. To us
 
 The discount is applied before including [our service fee]({{< ref "sales.md#ticket-processing-fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
 
-## Sending discount codes
+## Send discount codes
 
 In the discount list, you can click on the **Send** button next to a discount to send it to a list of e-mail addresses. The discount code will be sent to each e-mail address, along with a link to the ticket purchase page that will automatically apply the discount.
 

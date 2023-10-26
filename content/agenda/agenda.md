@@ -1,16 +1,18 @@
 ---
 title: "Agenda"
 date: 2018-01-18T22:13:13+01:00
-summary: "Publish the agenda after the selection process is complete."
+summary: "Compose the agenda grid and publish the final agenda after the session selection process is complete."
 weight: 40
 menu:
   main:
     parent: agenda
 ---
 
-This page explains how to configure and publish an agenda after finalizing the [selection process]({{ ref "review-sessions.md" }}). The agenda is composed of tracks and time slots, and each slot can be assigned to a session or a break. The agenda can be published before or after the event has taken place. After the event, the attendees can watch the recordings and download the slides from the agenda page.
+This page explains how to configure and publish an agenda after finalizing the [selection process]({{ ref "review-sessions.md" }}).
 
-## Create a new Agenda
+The agenda is composed of tracks and time slots, and each slot can be assigned to a session or a break. The agenda can be published before or after the event has taken place. After the event, the attendees can watch the recordings and download the slides from the agenda page.
+
+## Create a new agenda
 
 To create a new agenda:
 
@@ -52,7 +54,7 @@ A slot can have one of three types:
 
 To assign a session to a slot, set the **Slot type** to "Session" and introduce the session name. Alternatively, you can drag sessions from the list on the left into any slot. If there is already a session on that slot, it will be unassigned from the agenda. If you drag and drop two slots, they will exchange places in the agenda.
 
-## Row and Column Span
+## Row and column span
 
 A slot can span multiple rows and columns to take more than one track or time slot. In order to change the number of columns or rows, click on the slot to open the edition dialog and click the **Edit Slot Size** button.
 
@@ -68,11 +70,11 @@ At the top of the grid page there are buttons to **Publish** and **Unpublish** t
 
 Presenters can modify their session anytime (title and description, bio or picture). Any changes on a published session will be immediately visible in the published agenda.
 
-To modify a presentation, visit the Call for Papers or open [the user profile of the presenter](https://www.koliseo.com/me) and select **Sessions** on the sidebar menu.
+To modify a presentation, visit the call for papers or open [the user profile of the presenter](https://www.koliseo.com/me) and select **Sessions** on the sidebar menu.
 
 The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your session.
 
-Once published, other users can bookmark their favorite sessions. If feedback is enabled in the Agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session. After the event has taken place, the attendees can also watch the recordings from the agenda page, and download the slides.
+Once published, other users can bookmark their favorite sessions. If feedback is enabled in the agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session. After the event has taken place, the attendees can also watch the recordings from the agenda page, and download the slides.
 
 ## What's next
 

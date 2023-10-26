@@ -1,5 +1,5 @@
 ---
-title: "Ticket Validation"
+title: "Ticket validation"
 date: 2018-01-15T13:15:23+01:00
 weight: 30
 summary: "Validate tickets using the mobile application, or download the list of tickets sold to validate manually."
@@ -10,7 +10,7 @@ menu:
 
 You can validate tickets using the [Koliseo Access Control for Android](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol) application, or download the list of tickets sold to validate manually. This page documents how to validate tickets during your event.
 
-## Installing the app and getting permissions
+## Install the app and get permissions
 
 <figure class="animation-container"></figure>
 
@@ -23,7 +23,7 @@ You can validate tickets at the entrance using [Koliseo Access Control for Andro
 
    ![The sidebar menu](/img/screenshots/validation/sidebar-menu.avif)
 
-## Assigning permissions to other users
+## Assign permissions to other users
 
 If you have Administrator permissions on the event, you can grant permissions to other users:
 
@@ -35,7 +35,7 @@ If you have Administrator permissions on the event, you can grant permissions to
 
    ![The list of permissions](/img/screenshots/validation/add-permission.avif)
 
-1. After choosing the desired role, scan the QR code of the user you want to grant permissions to (see previous section, **Installing the app and getting permissions**).
+1. After choosing the desired role, scan the QR code of the user you want to grant permissions to (see previous section, **Install the app and get permissions**).
 
 After scanning a QR code to assign permissions, you can choose to grant access to the specific user account or to one of the organizations that they belong to. When granted to an organization, the activity history is shared with other people, so that they can see (and download) the scanning activity of others.
 
@@ -43,7 +43,7 @@ If a user is granted permissions through an organization, it can be overwritten 
 
 Once the permissions have been assigned, the user is ready to start scanning tickets.
 
-## Scanning tickets
+## Scan tickets
 
 To scan tickets, click the **Scan Ticket** button and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.
 
@@ -61,9 +61,9 @@ If the user has "Volunteer" permissions, they can check the same ticket again to
 
 Tickets numbers can also be manually introduced in the app, in case the QR code is not readable. To do this, click the button with a keyboard. The app will display a keyboard to introduce the ticket number. The app will autocomplete ticket numbers for Volunteers, but Sponsors will need to introduce the full ticket number.
 
-## Download the Activity History
+## Download the activity history
 
-To download the list of tickets scanned by the current user or organization, you can select the **Tickets History** menu item. On this screen there is a button in the bottom right corner with two possible actions, **Scan a new ticket** or **Download the activity list**. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by e-mail, WhatsApp, uploaded to Google Drive, etc.
+To download the list of tickets scanned by the current user or organization, you can select the **Tickets History** menu item. On this screen there is a button in the bottom right corner with two possible actions, **Scan a new ticket** or **Download the activity history**. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by e-mail, WhatsApp, uploaded to Google Drive, etc.
 
 ![The activity history](/img/screenshots/validation/activity-history.avif)
 

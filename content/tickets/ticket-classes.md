@@ -12,7 +12,7 @@ menu:
 
 This page explains how to set up ticket classes available for an event. Each ticket class can have different price, availability dates, visibility and other properties. You can also create [discount codes]({{< ref "discounts.md" >}}) to offer special prices to specific groups of users.
 
-## Adding a Ticket Class
+## Add a ticket class
 
 All events start with a single ticket class with a cost of 10€. To modify this:
 
@@ -50,7 +50,7 @@ Note that you can set **Visibility** to "While Available" to hide ticket classes
 
 ![Limiting availability and visibility](/img/screenshots/events/ticket-class-availability.avif)
 
-## Paid Ticket Classes
+## Paid ticket classes
 
 To sell paid tickets, you need to [connect to your Stripe Account]({{< ref "stripe.md" >}}). The proceedings from your ticket sales go directly to your Stripe Account, after deducing our [service fee]({{< ref "sales.md#ticket-processing-fee" >}}).
 

@@ -1,7 +1,7 @@
 ---
 title: "Legal"
 date: 2018-01-09T20:14:03+01:00
-summary: "The Terms and Conditions of the website."
+summary: "The Terms and Conditions of Koliseo."
 weight: 10
 menu:
   main:

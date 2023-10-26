@@ -1,7 +1,7 @@
 ---
 title: "Feedback"
 date: 2018-01-18T22:13:29+01:00
-summary: "Collect session feedback from the agenda page."
+summary: "Collect session feedback from the published agenda."
 weight: 50
 aliases:
   - /talks/feedback

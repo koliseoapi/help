@@ -15,13 +15,13 @@ Koliseo supports the following permissions:
 
 - **Access control**: The user can operate the app to register attendees at the event entrance. This permission is required to use [Koliseo Access Control]({{< ref "validation.md" >}}) to validate tickets.
 - **Leads**: The user can operate the app to register contacts from attendees during the event. This permission is required to use [Koliseo Access Control]({{< ref "validation.md" >}}) to collect leads during an event.
-- **Review sessions**: The user can review sessions during the Call for Papers. See [the session review process]({{< ref "review-sessions.md" >}}) for more information.
+- **Review sessions**: The user can review sessions during the call for papers. See [the session review process]({{< ref "review-sessions.md" >}}) for more information.
 - **Write**: The user can do all above, and also modify the event settings.
 - **Administrator**: The user can do all above, and also assign permissions to other users.
 
 You can assign permissions to users at the event level or at the organization level. Permissions assigned at the event level override permissions assigned at the organization level.
 
-## Assigning permissions to an event
+## Assign permissions to an event
 
 You can assign permissions to events. In order to assign permissions:
 
@@ -32,7 +32,7 @@ You can assign permissions to events. In order to assign permissions:
 
 ![The permissions page](/img/screenshots/users/permissions-edit.avif)
 
-## Assigning permissions to an organization
+## Assign permissions to an organization
 
 Organizations are a way to group events and manage permissions in a single place. This is useful when you are organizing multiple events and you want to assign the same permissions to a set of users.
 

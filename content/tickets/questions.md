@@ -1,7 +1,7 @@
 ---
 title: "Questions & Answers"
 date: 2018-01-15T10:07:48+01:00
-summary: "You can collect information from attendees like T-shirt size or role in their company."
+summary: "Collect information from attendees, like T-shirt size, food allergies, or role in their company."
 weight: 60
 aliases:
   - /events/forms
@@ -12,7 +12,7 @@ menu:
 
 You can configure questions to collect information from attendees, like T-shirt size or role in their company. This information is available in the [list of tickets]({{< ref "validation.md" >}}), and you can use this information to create custom badges.
 
-## Creating questions
+## Create questions
 
 As the event organizer, you can create a form that must be filled out as part of the ticket purchase process. For example, to request the role in the company:
 
@@ -53,11 +53,11 @@ Koliseo supports the following question types:
 - **Multiple checkbox** for a comma-separated range of boolean values.
 - **Date** for a date.
 
-## Collecting Answers
+## Collect answers
 
 When an event includes questions, the ticket purchase flow includes an additional step to fill out the form for each attendee. All required fields must be filled out to complete the ticket purchase.
 
-![Collecting Answers](/img/screenshots/events/answers-edit.avif)
+![Collecting answers](/img/screenshots/events/answers-edit.avif)
 
 To retrieve the list of answers produced by attendees, [download the list of sold tickets]({{< ref "validation.md" >}}) and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.
 

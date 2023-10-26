@@ -1,7 +1,7 @@
 ---
 title: Authentication
 weight: 10
-summary: "This page explains the authentication process in Koliseo."
+summary: "The details of the authentication process in Koliseo."
 menu:
   main:
     parent: "users"

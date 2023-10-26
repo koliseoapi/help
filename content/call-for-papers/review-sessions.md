@@ -1,7 +1,7 @@
 ---
 title: "Review Sessions"
 date: 2018-01-16T23:24:21+01:00
-summary: "This page explains how to review session proposals and contact the presenters, if needed."
+summary: "The session review process, and how to contact the presenters if needed."
 weight: 30
 aliases:
   - /talks/talk-selection
@@ -16,9 +16,9 @@ This page explains how to review the proposals to make a final list of sessions 
 
 Simple events with a small number of proposals typically rely on one person that hand-picks the contents of the agenda, but for more complex events with hundreds of proposals you may need to put together a committee.
 
-To invite a set of users to the selection committee of a Call for Papers you need to assign the **Session Reviewer** role from the [event permissions page]({{< ref "/users/permissions.md" >}}). The new team members will receive an e-mail with their newly assigned role.
+To invite a set of users to the selection committee of a call for papers you need to assign the **Session Reviewer** role from the [event permissions page]({{< ref "/users/permissions.md" >}}). The new team members will receive an e-mail with their newly assigned role.
 
-## The Session Review Process
+## The session review process
 
 Once you have formed the selection committee, you can start reviewing sessions. To do this:
 

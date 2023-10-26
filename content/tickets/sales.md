@@ -1,7 +1,7 @@
 ---
 title: "Ticket Sales"
 date: 2018-01-09T20:21:09+01:00
-summary: "How to enable ticket sales to start collecting funds on your Stripe Account."
+summary: "How to enable ticket sales to start collecting into your Stripe Account."
 weight: 20
 aliases:
   - /tickets/pricing
@@ -12,7 +12,7 @@ menu:
 
 After creating ticket classes, this page explains how to start or stop ticket sales. You can also configure the Stripe Account where ticket sales will be deposited.
 
-## Enabling ticket sales
+## Enable ticket sales
 
 Once your event is ready, activate ticket sales to let users attend the event. To get started:
 
@@ -43,7 +43,7 @@ For security reasons, Koliseo does not have access to the credit card details as
 
 Starting in July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
 
-## Ticket Processing Fee
+## The ticket processing fee
 
 Koliseo charges a fixed service fee of **4% of the ticket price** (in addition to the Stripe fee) for tickets that are not free.
 
