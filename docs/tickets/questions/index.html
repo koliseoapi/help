@@ -297,6 +297,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#creating-questions">Creating questions</a></li>
+    <li><a href="#supported-question-types">Supported question types</a></li>
     <li><a href="#collecting-answers">Collecting Answers</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
@@ -321,15 +322,16 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#creating-questions">Creating questions</a></li>
+    <li><a href="#supported-question-types">Supported question types</a></li>
     <li><a href="#collecting-answers">Collecting Answers</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>You can configure questions to collect information from attendees, like T-shirt size or role in their company.</p>
+      <p>You can configure questions to collect information from attendees, like T-shirt size or role in their company. This information is available in the <a href="/tickets/validation/">list of tickets</a>, and you can use this information to create custom badges.</p>
 <h2 id="creating-questions">Creating questions</h2>
-<p>As event organizer, you can create a form that attendees must fill out to get their tickets. For example, to request the role in the company:</p>
+<p>As the event organizer, you can create a form that must be filled out as part of the ticket purchase process. For example, to request the role in the company:</p>
 <ol>
 <li>
 <p><a href="/users/authentication/">Log into the system</a></p>
@@ -354,7 +356,31 @@
 <p>When you are done, click <strong>Save</strong></p>
 </li>
 </ol>
-<p>Koliseo supports the following field types:</p>
+<p>The following fields are available:</p>
+<ul>
+<li>
+<p><strong>Required</strong> to require an answer to this question.</p>
+</li>
+<li>
+<p><strong>Type</strong> to select the type of question. See below for a list of supported types.</p>
+</li>
+<li>
+<p><strong>Options</strong> for questions of type <strong>Select</strong> or <strong>Multiple checkbox</strong>, this is the list of possible values separated by commas.</p>
+</li>
+<li>
+<p><strong>Answer Visibility</strong> controls who can see the answer to the question. You can choose between:</p>
+<ul>
+<li><strong>Private</strong> to make the answer visible only to the event organizer.</li>
+<li><strong>Access Control</strong> to make the answer visible during <a href="/tickets/validation/">the check-in process</a>.</li>
+<li><strong>Third Parties</strong> to make the answer visible to sponsors using <a href="/tickets/validation/">Koliseo Access Control</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ticket Classes</strong>: The ticket classes that will request this question. By default, this value is set to all ticket classes.</p>
+</li>
+</ul>
+<h2 id="supported-question-types">Supported question types</h2>
+<p>Koliseo supports the following question types:</p>
 <ul>
 <li><strong>Select</strong> to choose from a comma-separated range of values.</li>
 <li><strong>Text</strong> and <strong>Text Area</strong> for single-line or multiline free text.</li>
@@ -365,30 +391,10 @@
 <li><strong>Multiple checkbox</strong> for a comma-separated range of boolean values.</li>
 <li><strong>Date</strong> for a date.</li>
 </ul>
-<p>Additionally, you can configure the following options:</p>
-<ul>
-<li>
-<p><strong>Required</strong> to require an answer to this question.</p>
-</li>
-<li>
-<p><strong>Options</strong> for questions of type <strong>Select</strong> or <strong>Multiple checkbox</strong>, this is the list of possible values separated by commas.</p>
-</li>
-<li>
-<p><strong>Answer Visibility</strong> controls who can see the answer to the question. You can choose between:</p>
-<ul>
-<li><strong>Private</strong> to make the answer visible only to the event organizer.</li>
-<li><strong>Access Control</strong> to make the answer visible during the check-in process.</li>
-<li><strong>Third Parties</strong> to make the answer visible to sponsors using the lead generation app.</li>
-</ul>
-</li>
-<li>
-<p><strong>Ticket Classes</strong>: The ticket classes that will request this question. By default, this value is set to all ticket classes.</p>
-</li>
-</ul>
 <h2 id="collecting-answers">Collecting Answers</h2>
 <p>When an event includes questions, the ticket purchase flow includes an additional step to fill out the form for each attendee. All required fields must be filled out to complete the ticket purchase.</p>
 <p><img src="/img/screenshots/events/answers-edit.avif" alt="Collecting Answers"></p>
-<p>To retrieve the list of answers produced by attendees, <a href="/tickets/validation/#list-of-tickets">download the list of sold tickets</a> and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.</p>
+<p>To retrieve the list of answers produced by attendees, <a href="/tickets/validation/">download the list of sold tickets</a> and open the downloaded file with a spreadsheet application. The form values are the last columns in the spreadsheet.</p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
 <li><a href="/tickets/validation/">Download the list of tickets sold</a></li>

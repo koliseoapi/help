@@ -296,7 +296,8 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#permissions-and-events">Permissions and events</a></li>
+    <li><a href="#permissions">Permissions</a></li>
+    <li><a href="#assigning-permissions-to-an-event">Assigning permissions to an event</a></li>
     <li><a href="#assigning-permissions-to-an-organization">Assigning permissions to an organization</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
@@ -320,32 +321,36 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#permissions-and-events">Permissions and events</a></li>
+    <li><a href="#permissions">Permissions</a></li>
+    <li><a href="#assigning-permissions-to-an-event">Assigning permissions to an event</a></li>
     <li><a href="#assigning-permissions-to-an-organization">Assigning permissions to an organization</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how to assign permissions to other users to your events and organizations.</p>
-<h2 id="permissions-and-events">Permissions and events</h2>
+      <p>This page explains how to assign permissions to other users to your events and organizations. Permissions allow other users to manage events on your behalf.</p>
+<h2 id="permissions">Permissions</h2>
+<p>Koliseo supports the following permissions:</p>
+<ul>
+<li><strong>Access control</strong>: The user can operate the app to register attendees at the event entrance. This permission is required to use <a href="/tickets/validation/">Koliseo Access Control</a> to validate tickets.</li>
+<li><strong>Leads</strong>: The user can operate the app to register contacts from attendees during the event. This permission is required to use <a href="/tickets/validation/">Koliseo Access Control</a> to collect leads during an event.</li>
+<li><strong>Review sessions</strong>: The user can review sessions during the Call for Papers. See <a href="/call-for-papers/review-sessions/">the session review process</a> for more information.</li>
+<li><strong>Write</strong>: The user can do all above, and also modify the event settings.</li>
+<li><strong>Administrator</strong>: The user can do all above, and also assign permissions to other users.</li>
+</ul>
+<p>You can assign permissions to users at the event level or at the organization level. Permissions assigned at the event level override permissions assigned at the organization level.</p>
+<h2 id="assigning-permissions-to-an-event">Assigning permissions to an event</h2>
 <p>You can assign permissions to events. In order to assign permissions:</p>
 <ol>
 <li><a href="/users/authentication/">Log into the system</a></li>
 <li>In the sidebar menu, select <strong>Events</strong> and click on the name of your event to open the event management page.</li>
 <li>In the sidebar menu, select <strong>Event &gt; Permissions</strong>.</li>
+<li>Select the user that you want to assign permissions to, mark the checkboxes and click the <strong>Save</strong> button.</li>
 </ol>
 <p><img src="/img/screenshots/users/permissions-edit.avif" alt="The permissions page"></p>
-<p>In this page, you can assign the following permissions to other users:</p>
-<ul>
-<li><strong>Access control</strong>: The user can operate the app to register attendees at the event entrance (for example, volunteers assigned to control access).</li>
-<li><strong>Leads</strong>: The user can operate the app to register contacts from attendees during the event (for example, sponsors that want to collect leads from their stand during the event).</li>
-<li><strong>Review sessions</strong>: The user can review sessions during the Call for Papers (members of the selection committee).</li>
-<li><strong>Write</strong>: The user can do all above, and also modify the event settings.</li>
-<li><strong>Administrator</strong>: Same as Write, and additionally the user can assign permissions to other users.</li>
-</ul>
 <h2 id="assigning-permissions-to-an-organization">Assigning permissions to an organization</h2>
-<p>Organizations are a way to group events and assign permissions to them. When you create an organization, you can assign permissions to other users to operate the app on behalf of the organization. This is useful when you are organizing multiple events and you want to assign permissions to the same users to all of them.</p>
+<p>Organizations are a way to group events and manage permissions in a single place. This is useful when you are organizing multiple events and you want to assign the same permissions to a set of users.</p>
 <p>In order to do this:</p>
 <ol>
 <li><a href="/users/authentication/">Log into the system</a></li>
@@ -354,6 +359,7 @@
 </ol>
 <p><img src="/img/screenshots/users/org-create.avif" alt="The edit organization page"></p>
 <p>Once created, you can navigate to the user profile page of your organizations. An organization is similar to any other user account, but it also includes a <strong>Permissions</strong> option in the sidebar menu (if the logged in user has Administrator permissions), where you can add other users.</p>
+<p>When you create a new event under an organization, the permissions are automatically propagated to the event.</p>
 <p>Permissions assigned at the organization level can be overriden by the event. For example, if you assign the &ldquo;Write&rdquo; permission to a user at the organization level, you can still assign the &ldquo;Administrator&rdquo; permission to the same user at the event level.</p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
