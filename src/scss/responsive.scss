@@ -24,6 +24,11 @@
     padding-top: 1.3rem;
     border-right: 2px solid $border-color;
   }
+
+  .limited-large {
+    margin: 0 auto;
+    max-width: 760px;
+  }
 }
 
 // big desktop
