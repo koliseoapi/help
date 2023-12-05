@@ -16,8 +16,8 @@ This page explains how to set up ticket classes available for an event. Each tic
 
 All events start with a single ticket class with a cost of 10€. To modify this:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Tickets > Ticket Classes** and click the **Create Ticket Class** button.
 
    ![The list of ticket classes](/img/screenshots/events/ticket-classes.avif)

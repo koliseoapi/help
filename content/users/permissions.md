@@ -25,8 +25,8 @@ You can assign permissions to users at the event level or at the organization le
 
 You can assign permissions to events. In order to assign permissions:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Event > Permissions**.
 1. Select the user that you want to assign permissions to, mark the checkboxes and click the **Save** button.
 
@@ -38,7 +38,7 @@ Organizations are a way to group events and manage permissions in a single place
 
 In order to do this:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
+1. {{< login >}}
 1. Navigate to your [User Profile page](https://www.koliseo.com/me) and select **Organizations** on the sidebar menu.
 1. Fill in the form fields and click the **Save** button.
 

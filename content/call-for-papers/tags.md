@@ -16,8 +16,8 @@ Sessions can be categorized based on various criteria, such as level, language, 
 
 As an example, we are going to configure tags for an event where sessions have assigned a "Talk Level" that can choose between "Beginner", "Intermediate" or "Advanced". To do this:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Agenda > Tags**.
 1. Click the **Add Tagset** button. The Tagset edition page will open.
 

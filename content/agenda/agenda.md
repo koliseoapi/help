@@ -8,7 +8,7 @@ menu:
     parent: agenda
 ---
 
-This page explains how to configure and publish an agenda after finalizing the [selection process]({{ ref "review-sessions.md" }}).
+This page explains how to configure and publish an agenda after finalizing the [selection process]({{< ref "review-sessions.md" >}}).
 
 The agenda is composed of tracks and time slots, and each slot can be assigned to a session or a break. The agenda can be published before or after the event has taken place. After the event, the attendees can watch the recordings and download the slides from the agenda page.
 
@@ -16,8 +16,8 @@ The agenda is composed of tracks and time slots, and each slot can be assigned t
 
 To create a new agenda:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Agenda > Agenda**.
 1. Click the button **Create Agenda**
 1. Fill the form fields and click the **Save** button.

@@ -16,8 +16,8 @@ In order to create an agenda, you first need to create a call for papers where s
 
 To create a call for papers:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Call for Papers**.
 1. Select "Enabled" under **Call for Papers Status**, fill out the form, and click **Save**.
 

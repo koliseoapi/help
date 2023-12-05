@@ -71,8 +71,8 @@ To download the list of tickets scanned by the current user or organization, you
 
 You can download the list of tickets sold from the web page:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. On the sidebar menu, select **Tickets Sold**.
 1. Click the **Download as CSV** button.
 1. Open the file with your preferred spreadsheet application selecting **Format CSV**, **Separator: commas** and **Encoding: UTF-8**.

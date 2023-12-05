@@ -18,8 +18,8 @@ This page explains how to create discount codes that can be applied to ticket pu
 
 To create a discount code:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. On the sidebar menu, select **Tickets > Discounts** and click **Create Discount**.
 1. Fill the fields in the form and click the **Save** button.
 

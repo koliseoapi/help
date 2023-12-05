@@ -22,8 +22,8 @@ To invite a set of users to the selection committee of a call for papers you nee
 
 Once you have formed the selection committee, you can start reviewing sessions. To do this:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Call for Papers > Sessions**.
 
 Every member of the selection committee can assign sessions a rating between 1 and 5. This rating is only visible to other users with review permissions. Comments introduced by the reviewers are also only visible to other members of the selection committee.

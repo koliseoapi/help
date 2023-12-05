@@ -16,8 +16,8 @@ After creating ticket classes, this page explains how to start or stop ticket sa
 
 Once your event is ready, activate ticket sales to let users attend the event. To get started:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
-1. In the sidebar menu, select **Events** and click on the name of your event to open the event management page.
+1. {{< login >}}
+1. {{< open-event-edition >}}
 1. Select **Tickets > Settings**.
 1. Set **Status** to **Enabled** and click **Save**.
 

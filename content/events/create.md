@@ -14,7 +14,7 @@ In Koliseo everything is bound to an event: tickets, call for papers and agenda,
 
 To create an event:
 
-1. [Log into the system]({{< ref "authentication.md" >}})
+1. {{< login >}}
 1. In the sidebar menu, select **Events**.
 1. Click the **Create event** button.
 1. Fill in the form fields and click the **Save** button.
