@@ -30,7 +30,7 @@ You can assign permissions to events. In order to assign permissions:
 1. In the sidebar menu, select **Event > Permissions**.
 1. Select the user that you want to assign permissions to, mark the checkboxes and click the **Save** button.
 
-![The permissions page](/img/screenshots/users/permissions-edit.avif)
+   ![The permissions page](/img/screenshots/users/permissions-edit.avif)
 
 ## Assign permissions to an organization
 
@@ -42,7 +42,7 @@ In order to do this:
 1. Navigate to your [User Profile page](https://www.koliseo.com/me) and select **Organizations** on the sidebar menu.
 1. Fill in the form fields and click the **Save** button.
 
-![The edit organization page](/img/screenshots/users/org-create.avif)
+   ![The edit organization page](/img/screenshots/users/org-create.avif)
 
 Once created, you can navigate to the user profile page of your organizations. An organization is similar to any other user account, but it also includes a **Permissions** option in the sidebar menu (if the logged in user has Administrator permissions), where you can add other users.
 

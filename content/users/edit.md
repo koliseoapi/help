@@ -18,7 +18,7 @@ To edit your user profile:
 2. On the sidebar menu, select **Edit**.
 3. Introduce your changes in the form and click the **Save** button.
 
-![The edit user page](/img/screenshots/users/user-edit.avif)
+   ![The edit user page](/img/screenshots/users/user-edit.avif)
 
 The following fields are available:
 

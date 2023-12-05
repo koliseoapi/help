@@ -21,7 +21,7 @@ To create a call for papers:
 1. In the sidebar menu, select **Call for Papers**.
 1. Select "Enabled" under **Call for Papers Status**, fill out the form, and click **Save**.
 
-![The edition page of a call for papers](/img/screenshots/c4p/c4p-create.avif)
+   ![The edition page of a call for papers](/img/screenshots/c4p/c4p-create.avif)
 
 This form includes the following fields:
 

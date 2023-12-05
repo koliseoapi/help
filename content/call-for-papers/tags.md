@@ -21,7 +21,7 @@ As an example, we are going to configure tags for an event where sessions have a
 1. In the sidebar menu, select **Agenda > Tags**.
 1. Click the **Add Tagset** button. The Tagset edition page will open.
 
-![The edition page for a Tagset](/img/screenshots/agenda/tagset-create.avif)
+   ![The edition page for a Tagset](/img/screenshots/agenda/tagset-create.avif)
 
 In this form, you can introduce the following:
 

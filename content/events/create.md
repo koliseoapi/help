@@ -19,7 +19,7 @@ To create an event:
 1. Click the **Create event** button.
 1. Fill in the form fields and click the **Save** button.
 
-![The event creation page](/img/screenshots/events/create.avif)
+   ![The event creation page](/img/screenshots/events/create.avif)
 
 The form includes the following fields:
 
