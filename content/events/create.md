@@ -34,7 +34,7 @@ The form includes the following fields:
 
 ## Event description
 
-The event description uses Markdown to introduce formatting hints like bold or italics. [Read about the Markdown syntax](https://guides.github.com/features/mastering-markdown/).
+The event description uses {{< markdown-syntax >}} to introduce formatting hints like bold or italics.
 
 The following table summarizes the most common formatting options:
 

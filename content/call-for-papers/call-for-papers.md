@@ -26,7 +26,7 @@ To create a call for papers:
 This form includes the following fields:
 
 - **Start and End Date**: The date interval where the call for papers will be open for submissions.
-- **Description**: A short description of the call for papers, using [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- **Description**: A short description of the call for papers, using {{< markdown-syntax >}}.
 - **Blind Sessions**: Select this checkbox to hide the presenter name and avatar from the selection committee.
 - **Reimbursable Expenses**: Select this checkbox to ask the presenters if they want to be compensated for travel and lodging expenses.
 - **Recording permission**: Select this box to ask your presenters for permission to record their session. If enabled, a recording agreement will be shown to the presenters when they submit their talk proposal.
@@ -49,7 +49,7 @@ Here you can introduce your information and add additional presenters. If the ev
 This form includes the following fields:
 
 - **Name**: The title of your session.
-- **Description**: A description of your session, using [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- **Description**: A description of your session, using {{< markdown-syntax >}}.
 - **Comments**: If you have something that you want to discuss privately with the organizers, you can use this field. What you introduce here will only be seen by the event organizer, and not by the selection committee or the attendees.
 - **Tags**: You can add tags to your sessions to categorize it and help users find your session in the agenda grid. The event organizer can configure the tagsets available. For more information, [see tags]({{< ref "tags.md" >}}).
 - **Slides and Video**: Can be filled in after the event, to introduce the slides and video to display in the final agenda.
