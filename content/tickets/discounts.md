@@ -23,7 +23,7 @@ To create a discount code:
 1. On the sidebar menu, select **Tickets > Discounts** and click **Create Discount**.
 1. Fill the fields in the form and click the **Save** button.
 
-![The discount edition page](/img/screenshots/events/discounts-edit.avif)
+   ![The discount edition page](/img/screenshots/events/discounts-edit.avif)
 
 The following fields are available:
 
