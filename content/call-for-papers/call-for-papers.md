@@ -28,7 +28,7 @@ This form includes the following fields:
 - **Start and End Date**: The date interval where the call for papers will be open for submissions.
 - **Description**: A short description of the call for papers, using {{< markdown-syntax >}}.
 - **Blind Sessions**: Select this checkbox to hide the presenter name and avatar from the selection committee.
-- **Reimbursable Expenses**: Select this checkbox to ask the presenters if they want to be compensated for travel and lodging expenses.
+- **Reimbursable Expenses**: Select this checkbox to ask the presenters if they want to be compensated for travel and lodging expenses. Note that only event organizers with ADMIN permissions will be able to see this information.
 - **Recording permission**: Select this box to ask your presenters for permission to record their session. If enabled, a recording agreement will be shown to the presenters when they submit their talk proposal.
 - **Feedback Enabled**: If enabled, attendees will be able to rate and comment the sessions in the agenda.
 
