@@ -149,6 +149,15 @@
           <li class="sidebar-nav-li2">
             <a 
               class="sidebar-nav-a2 " 
+              href="/tickets/extras/"
+            > 
+              Ticket Extras 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
               href="/tickets/sales/"
             > 
               Ticket Sales 
@@ -297,7 +306,8 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#add-a-ticket-class">Add a ticket class</a></li>
-    <li><a href="#limited-availability">Limited availability</a></li>
+    <li><a href="#availability-settings">Availability Settings</a></li>
+    <li><a href="#visibility-settings">Visibility Settings</a></li>
     <li><a href="#paid-ticket-classes">Paid ticket classes</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
@@ -322,7 +332,8 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#add-a-ticket-class">Add a ticket class</a></li>
-    <li><a href="#limited-availability">Limited availability</a></li>
+    <li><a href="#availability-settings">Availability Settings</a></li>
+    <li><a href="#visibility-settings">Visibility Settings</a></li>
     <li><a href="#paid-ticket-classes">Paid ticket classes</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
@@ -354,25 +365,31 @@ open the event management page.
 <p>The following fields are available:</p>
 <ul>
 <li><strong>Name</strong>: The name of the ticket class, e.g. &ldquo;Early Bird&rdquo;, &ldquo;Normal&rdquo;, &ldquo;VIP&rdquo;, etc.</li>
-<li><strong>Ticket type</strong>: One of &ldquo;Paid&rdquo; or &ldquo;Free&rdquo;</li>
-<li><strong>Price</strong>: The price of the ticket, in the currency of the event. To set to zero, choose a ticket type of &ldquo;Free&rdquo;.</li>
-<li><strong>Description</strong>: A short description of the ticket class.</li>
 <li><strong>Total tickets</strong>: The total number of tickets available for this ticket class. It&rsquo;s a required field.</li>
-<li><strong>Max. tickets per Account</strong>: The maximum number of tickets that a single account can buy. If you want to allow unlimited tickets per account, leave this field empty.</li>
-<li><strong>Start and End Date</strong>: The date interval where the ticket class will be available. If you want to make the ticket class available immediately, leave the start date empty.</li>
+<li><strong>Price</strong>: The price of the ticket, in the currency of the event. It can be set to zero for free tickets, otherwise theprice needs to be greater than one euro / dollar(depending on the currency of the event).</li>
+<li><strong>Description</strong>: A short description of the ticket class.</li>
+</ul>
+<h2 id="availability-settings">Availability Settings</h2>
+<p>You can set the availability of the ticket class in the <strong>Availability</strong> section. The following fields are available:</p>
+<ul>
+<li><strong>Available by date</strong>: When enabled, you can specify the start and end date of the ticket class availability. Additionally, there is an option to display the availability dates in the purchase page.</li>
+<li><strong>Available after ticket class</strong>: When enabled, the ticket class will only be available after another ticket class is sold out. You can select the ticket class that needs to be sold out before this ticket class becomes available.</li>
+<li><strong>Max. tickets per account</strong>: When enabled, you can specify the maximum number of tickets that a single account can buy.</li>
+</ul>
+<p><img src="/img/screenshots/tickets/ticket-class-availability.avif" alt="Limiting availability"></p>
+<h2 id="visibility-settings">Visibility Settings</h2>
+<p>You can set the visibility of the ticket class in the <strong>Visibility</strong> section. The following fields are available:</p>
+<ul>
 <li><strong>Visibility</strong>: The visibility of the ticket class. The options are:
 <ul>
 <li><strong>Always</strong>: The ticket class will be visible in the ticket selection dialog.</li>
-<li><strong>While Available</strong>: The ticket class will only be visible in the ticket selection dialog while it&rsquo;s available.</li>
+<li><strong>While Available</strong>: The ticket class will only be visible in the ticket selection dialog while it&rsquo;s available, according to the settings in the Availability section.</li>
 <li><strong>Hidden</strong>: The ticket class will not be visible in the ticket selection dialog.</li>
 </ul>
 </li>
+<li><strong>Display Tickets Available</strong>: When enabled, the number of tickets available for this ticket class will be displayed in the ticket selection dialog.</li>
 </ul>
-<p>You can also choose to display availability dates or the number of tickets available in the purchase page for each ticket class.</p>
-<h2 id="limited-availability">Limited availability</h2>
-<p>You can introduce dates in which this ticket class will be available, or set your ticket class to only become available after another is sold out (for example, to sell &ldquo;Normal tickets&rdquo; after &ldquo;Early Bird&rdquo;). These fields can be edited in the <strong>Availability</strong> section.</p>
-<p>Note that you can set <strong>Visibility</strong> to &ldquo;While Available&rdquo; to hide ticket classes until they become available.</p>
-<p><img src="/img/screenshots/events/ticket-class-availability.avif" alt="Limiting availability and visibility"></p>
+<p><img src="/img/screenshots/tickets/ticket-class-visibility.avif" alt="Limiting visibility"></p>
 <h2 id="paid-ticket-classes">Paid ticket classes</h2>
 <p>To sell paid tickets, you need to <a href="/users/stripe/">connect to your Stripe Account</a>. The proceedings from your ticket sales go directly to your Stripe Account, after deducing our <a href="/tickets/sales/#ticket-processing-fee">service fee</a>.</p>
 <p>Free tickets are exempt from this fee, but keep in mind that they also show a high no-show rate (40-60% is typical).</p>

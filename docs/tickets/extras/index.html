@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>Users - Koliseo Help Center</title>
+    <title>Ticket Extras - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -129,7 +129,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a " 
+        class="sidebar-nav-a selected" 
         href="/tickets/"
       >
         Tickets
@@ -148,7 +148,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/tickets/extras/"
             > 
               Ticket Extras 
@@ -206,7 +206,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a selected" 
+        class="sidebar-nav-a " 
         href="/users/"
       >
         Users
@@ -300,32 +300,67 @@
       <main id="main" role="main">
         
   <div class="help-content">
+    <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#add-a-ticket-extra">Add a ticket extra</a></li>
+    <li><a href="#purchasing-extras">Purchasing extras</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
     <main class="help-content-main">
-      <h1>Users</h1>
-      <h3 class="section-description">This section introduces user management.</h3>
-      <ul class="square">
-        
-        <li>
-          <a href="/users/authentication/">Authentication</a> 
-          <p>The details of the authentication process in Koliseo.</p>
-        </li>
-        
-        <li>
-          <a href="/users/edit/">Edit your profile</a> 
-          <p>How to edit your user profile.</p>
-        </li>
-        
-        <li>
-          <a href="/users/stripe/">Stripe</a> 
-          <p>How to connect to your Stripe account.</p>
-        </li>
-        
-        <li>
-          <a href="/users/permissions/">Permissions</a> 
-          <p>Assign permissions to other users to your events and organizations.</p>
-        </li>
-        
-      </ul>
+      <nav aria-label="breadcrumbs">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href="/">home</a>
+    </li>
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href='/tickets'>tickets</a>
+    </li>
+  </ul>
+</nav>
+      <h1>Ticket Extras</h1>
+      <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#add-a-ticket-extra">Add a ticket extra</a></li>
+    <li><a href="#purchasing-extras">Purchasing extras</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
+      <p>This page explains how to set up ticket extras available for an event. Extras are additional items that can be purchased along with a ticket, such as t-shirts, meal vouchers, or parking passes.</p>
+<h2 id="add-a-ticket-extra">Add a ticket extra</h2>
+<p>To create a ticket extra:</p>
+<ol>
+<li><a href="https://koliseo.com/login" target="_blank">Log into the system</a>
+</li>
+<li>In the sidebar menu, select <b>Events</b> and click on the name of your event to
+open the event management page.
+</li>
+<li>In the sidebar menu, select <strong>Tickets &gt; Ticket Classes</strong> and select the <strong>Extras</strong> tab.</li>
+<li>Click the <strong>Add Extra</strong> button.</li>
+<li>Fill out the form and click the <strong>Save</strong> button.</li>
+</ol>
+<p><img src="/img/screenshots/tickets/extra-create.avif" alt="The extra creation page"></p>
+<p>The following fields are available:</p>
+<ul>
+<li><strong>Name</strong>: The name of the extra, e.g. &ldquo;T-shirt&rdquo;, &ldquo;Meal Voucher&rdquo;, &ldquo;Parking Pass&rdquo;, etc.</li>
+<li><strong>Price</strong>: The price of the extra, in the currency of the event. It can be set to zero for free extras.</li>
+<li><strong>Description</strong>: A short description of the extra. You can use markdown syntax to format the text.</li>
+<li><strong>Available for specific ticket classes</strong>: If enabled, you can select the ticket classes where this extra will be available. If no ticket classes are selected, the extra will be available for all ticket classes.</li>
+</ul>
+<h2 id="purchasing-extras">Purchasing extras</h2>
+<p>When purchasing a ticket, the user can select the extras they want to purchase. The total price of the ticket will include the price of the ticket and the selected extras.</p>
+<p><img src="/img/screenshots/tickets/extras-selection.avif" alt="The extras selection dialog"></p>
+<p>Once in the cart, the page will display the list of tickets with their selected extras.</p>
+<p><img src="/img/screenshots/tickets/cart-with-extras.avif" alt="The cart with extras"></p>
+
     </main>
   </div>
 
