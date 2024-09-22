@@ -10,7 +10,7 @@ menu:
     parent: call-for-papers
 ---
 
-In order to create an agenda, you first need to create a call for papers where speakers can submit their sessions, introduce their photo, bio and abstract. They can also add their slides and talk recording after the event.
+In order to create an agenda, you first need to create a call for papers where the presenters can submit their sessions, introduce their photo, bio and abstract. They can also add their slides and talk recording after the event.
 
 ## Get started
 
@@ -21,11 +21,9 @@ To create a call for papers:
 1. In the sidebar menu, select **Call for Papers**.
 1. Select "Enabled" under **Call for Papers Status**, fill out the form, and click **Save**.
 
-   ![The edition page of a call for papers](/img/screenshots/c4p/c4p-create.avif)
-
 This form includes the following fields:
 
-- **Start and End Date**: The date interval where the call for papers will be open for submissions.
+- **Submission deadline**: The date interval where the call for papers will be open for submissions.
 - **Description**: A short description of the call for papers, using {{< markdown-syntax >}}.
 - **Blind Sessions**: Select this checkbox to hide the presenter name and avatar from the selection committee.
 - **Reimbursable Expenses**: Select this checkbox to ask the presenters if they want to be compensated for travel and lodging expenses. Note that only event organizers with ADMIN permissions will be able to see this information.

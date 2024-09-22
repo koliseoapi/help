@@ -31,21 +31,23 @@ The **Sales Settings** form also includes the following fields:
 - **Tickets Editable Until**: if this field is set, the user can edit the [answers]({{ ref "questions.md" }}) introduced with their tickets until this date. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.
 - **Purchase Confirmation Message**: If set, this is the confirmation e-mail to send to the user after a successful ticket purchase.
 
-## Income
+## Connecting your Strpe account
 
-Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. A Stripe Account is required to sell any paid tickets (free tickets are exempt). You can select any connected Stripe Account, or add new accounts in the select box, then click **Save**.
+Koliseo delegates payment processing on [Stripe](http://stripe.com), a secure online payment gateway. Koliseo requires a Stripe Account in order to sell any paid tickets. If you are only planning to sell free tickets, you can skip this step.
 
-![The Income interface](/img/screenshots/events/income.avif)
+You can select any connected Stripe Account, or add new accounts in the select box, then click **Save**.
+
+![The Stripe section in the Sales Settings page](/img/screenshots/events/stripe.avif)
 
 To connect a new Stripe account, see [Connect a Stripe Account]({{< ref "users/stripe.md" >}})
 
-For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, minus the fee of the platform.
+For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, minus a fee (see below).
 
 Starting in July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
 
 ## The ticket processing fee
 
-Koliseo charges a fixed service fee of **4% of the ticket price** (in addition to the Stripe fee) for tickets that are not free.
+Koliseo charges a fixed service fee of **4% of the ticket price** (in addition to the Stripe fee) for paid tickets. Free tickets are not charged any fees.
 
 ## What's next
 

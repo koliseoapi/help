@@ -12,8 +12,6 @@ Koliseo delegates payment processing to [Stripe](https://stripe.com/). This mean
 
 For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. The proceedings from ticket sales are deposited directly on your Stripe Account, minus [our platform fee]({{< ref "sales.md" >}}).
 
-## Create a Stripe account
-
 If you don't have a Stripe account yet, you can [create one for free](https://dashboard.stripe.com/register). You will need to provide some basic information about your business and your bank account details.
 
 ## Connect your Stripe account to Koliseo

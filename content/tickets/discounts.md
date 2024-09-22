@@ -10,7 +10,7 @@ menu:
     parent: tickets
 ---
 
-You can use discounts to offer special prices to early birds, sponsors, speakers, or any other group of people. Discounts can be applied to all ticket classes or to a specific ticket class.
+You can use discounts to offer special prices to early birds, sponsors, presenters, or any other group of people. Discounts can be applied to all ticket classes or to a specific ticket class.
 
 This page explains how to create discount codes that can be applied to ticket purchases.
 
@@ -23,19 +23,19 @@ To create a discount code:
 1. On the sidebar menu, select **Tickets > Discounts** and click **Create Discount**.
 1. Fill the fields in the form and click the **Save** button.
 
-   ![The discount edition page](/img/screenshots/events/discounts-edit.avif)
+   ![The discount edition page](/img/screenshots/discounts/discount-create.avif)
 
 The following fields are available:
 
 - **Name**: The code that must be introduced during the ticket purchase to apply the discount.
-- **Max redemptions**: The total number of times that this discount can be used. Set to "1" for single-use discount codes.
+- **Max. redemptions**: The total number of times that this discount can be used. Set to "1" for single-use discount codes.
 - **Type**: The type of discount. You can choose between:
   - **Percentage**: The discount will be applied as a percentage of the ticket price.
   - **Per ticket**: The discount will be applied as a fixed amount per ticket.
 - **Amount per ticket**: If type is "Per Ticket", the amount to be discounted per ticket in the currency of the event.
 - **Percentage**: If type is "Percentage", the percentage to be discounted as a number between 0 and 100.
-- **Start** and **End**: If set, the discount will be available only during this period of time.
-- **Ticket Classes**: The ticket classes that this discount can be applied to. If not set, this discount can be applied to any ticket class.
+- **Available during a date interval**: If set, the discount will be available only during this period of time.
+- **Available for specific ticket classes**: If set, the discount will be available only for the selected ticket classes.
 
 ## Use discount
 

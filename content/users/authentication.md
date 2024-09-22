@@ -11,7 +11,7 @@ This page explains the authentication process in Koliseo.
 
 ## Authentication providers
 
-Koliseo supports four OAuth providers to authenticate users into the platform: Google, Facebook, Microsoft and Twitter / X. If it's your first time logging in, the system will create your user account automatically after accepting our [terms and conditions]({{< ref "legal.md" >}}), including our use of Cookies.
+Koliseo supports Google, Facebook and Microsoft users to authenticate into the platform. If it's your first time logging in, you need to accept our [terms and conditions]({{< ref "legal.md" >}}) (including our use of Cookies) before the system creates an account in Koliseo with your user information.
 
 ![The login page](/img/screenshots/users/login.avif)
 

@@ -24,21 +24,21 @@ As the event organizer, you can create a form that must be filled out as part of
 
    ![The form edition page](/img/screenshots/events/questions-edit.avif)
 
-1. Select "text" in the **Type** drop-down.
+1. Select "Select" in the **Type** drop-down, then enter "Manager,Engineer,Designer" in the **Options** input.
 1. When you are done, click **Save**
 
 The following fields are available:
 
 - **Required** to require an answer to this question.
 - **Type** to select the type of question. See below for a list of supported types.
-- **Options** for questions of type **Select** or **Multiple checkbox**, this is the list of possible values separated by commas.
+- **Options** for questions of type **Select** or **Multiple checkbox**. This is the list of possible values separated by commas.
 - **Answer Visibility** controls who can see the answer to the question. You can choose between:
 
   - **Private** to make the answer visible only to the event organizer.
   - **Access Control** to make the answer visible during [the check-in process]({{< ref "validation.md" >}}).
   - **Third Parties** to make the answer visible to sponsors using [Koliseo Access Control]({{< ref "validation.md" >}}).
 
-- **Ticket Classes**: The ticket classes that will request this question. By default, this value is set to all ticket classes.
+- **Available only for specific ticket classes**: If set, the question will be available only for the selected ticket classes.
 
 ## Supported question types
 

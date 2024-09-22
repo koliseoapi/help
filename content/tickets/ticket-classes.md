@@ -29,26 +29,31 @@ All events start with a single ticket class with a cost of 10€. To modify this
 The following fields are available:
 
 - **Name**: The name of the ticket class, e.g. "Early Bird", "Normal", "VIP", etc.
-- **Ticket type**: One of "Paid" or "Free"
-- **Price**: The price of the ticket, in the currency of the event. To set to zero, choose a ticket type of "Free".
-- **Description**: A short description of the ticket class.
 - **Total tickets**: The total number of tickets available for this ticket class. It's a required field.
-- **Max. tickets per Account**: The maximum number of tickets that a single account can buy. If you want to allow unlimited tickets per account, leave this field empty.
-- **Start and End Date**: The date interval where the ticket class will be available. If you want to make the ticket class available immediately, leave the start date empty.
+- **Price**: The price of the ticket, in the currency of the event. It can be set to zero for free tickets, otherwise theprice needs to be greater than one euro / dollar(depending on the currency of the event).
+- **Description**: A short description of the ticket class.
+
+## Availability Settings
+
+You can set the availability of the ticket class in the **Availability** section. The following fields are available:
+
+- **Available by date**: When enabled, you can specify the start and end date of the ticket class availability. Additionally, there is an option to display the availability dates in the purchase page.
+- **Available after ticket class**: When enabled, the ticket class will only be available after another ticket class is sold out. You can select the ticket class that needs to be sold out before this ticket class becomes available.
+- **Max. tickets per account**: When enabled, you can specify the maximum number of tickets that a single account can buy.
+
+![Limiting availability](/img/screenshots/tickets/ticket-class-availability.avif)
+
+## Visibility Settings
+
+You can set the visibility of the ticket class in the **Visibility** section. The following fields are available:
+
 - **Visibility**: The visibility of the ticket class. The options are:
   - **Always**: The ticket class will be visible in the ticket selection dialog.
-  - **While Available**: The ticket class will only be visible in the ticket selection dialog while it's available.
+  - **While Available**: The ticket class will only be visible in the ticket selection dialog while it's available, according to the settings in the Availability section.
   - **Hidden**: The ticket class will not be visible in the ticket selection dialog.
+- **Display Tickets Available**: When enabled, the number of tickets available for this ticket class will be displayed in the ticket selection dialog.
 
-You can also choose to display availability dates or the number of tickets available in the purchase page for each ticket class.
-
-## Limited availability
-
-You can introduce dates in which this ticket class will be available, or set your ticket class to only become available after another is sold out (for example, to sell "Normal tickets" after "Early Bird"). These fields can be edited in the **Availability** section.
-
-Note that you can set **Visibility** to "While Available" to hide ticket classes until they become available.
-
-![Limiting availability and visibility](/img/screenshots/events/ticket-class-availability.avif)
+![Limiting visibility](/img/screenshots/tickets/ticket-class-visibility.avif)
 
 ## Paid ticket classes
 

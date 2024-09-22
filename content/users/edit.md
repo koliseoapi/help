@@ -25,11 +25,15 @@ The following fields are available:
 - **Name**: Your full name.
 - **Avatar**: Your profile photo, used to identify you in the platform. To change your avatar, click the **Edit** button next to your picture. Koliseo extracts your profile picture from your authentication provider when you log in for the first time, and it will review and update the picture if needed every time that you sign in. If you upload a custom picture, this behavior will be disabled and cannot be enabled again.
 - **Username**: The unique identifier of your user profile in the platform. It is used to generate the URL of your profile page. You can change it at any time, but if you do, the old URL will stop working.
-- **Description**: A short (140 characters) description to display on your user profile.
-- **Twitter account**: If set, your Twitter/X handle will be visible in your user profile and in any sessions where you are a speaker.
+- **Description**: A short description to display on your user profile.
+- **Twitter account**: If set, your Twitter/X handle will be visible in your user profile and in any sessions where you are a presenter.
 - **Language**: The language to use in the platform interface and e-mails. By default Koliseo will use the preferred language in your browser, and save it into your user account the first time you log in.
 
 You may override the language used by any page at any time by adding a `hl=en` or `hl=es` GET parameter to your URL.
+
+## Merge user accounts
+
+If you use multiple different authentication providers with the same e-mail address to log in, Koliseo will proceed to automatically merge the accounts. To help avoid confusion, the login page displays a hint to let you know te authentication provider that you used the last time that you logged in.
 
 ## User deletion
 
@@ -39,10 +43,6 @@ After deleting your user account:
 
 - We will remove your sessions, feedback or bookmarks. Any session currently assigned to a published agenda will remain, but the presenter information will be removed.
 - We will reassign any existing tickets or events with sold tickets to a placeholder user, and will be archived for accounting purposes.
-
-## Merge user accounts
-
-If you use multiple different authentication providers with the same e-mail address to log in, Koliseo will automatically merge the accounts. To help avoid confusion, the login page displays a hint to let you know te authentication provider that you used the last time that you logged in.
 
 ## What's next
 
