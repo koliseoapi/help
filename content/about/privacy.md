@@ -37,6 +37,7 @@ Specifically, we do not get access to this information:
 We do not share personal information with third parties unless one of the following circumstances applies:
 
 - **With event organizers**. We only share with event organizers the minimum information to be able to contact you for updates about the event that you will be attending.
+- **With event sponsors**. We may share your information with organizations authorized by the event organizer, but only if you allow the sponsor to scan your QR code at the event. By doing so, you consent to share your information with that sponsor. You can review the information that can be shared with sponsors at your ticket page. Any request to cancel or amend information shared this way must be addressed directy to the sponsor.
 - **Anonymized information**. We track cumulative, anonymized statistics about our website. We may share parts of this information with third parties. This information cannot be used to track back to an individual.
 - **For legal reasons**. We will share personal information if reasonably necessary to:
   - Meet any applicable law or legal process.
