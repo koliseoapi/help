@@ -49,6 +49,8 @@ To scan tickets, click the **Scan Ticket** button and aim at the QR code with yo
 
 Right after scanning a ticket, the app will display the basic information of the ticket holder: name, email, avatar and ticket class. Additionally, if the ticket is associated to any answers to [event questions]({{< ref "questions.md" >}}), they will be displayed as well. Users validated as sponsors will only see any answers to questions marked as "shared with third parties". The volunteers will additionally see answers to questions marked as "access control".
 
+For more details about sharing attendee information with sponsors, see the [Privacy Policy]({{< ref "privacy.md#sharing-with-third-parties" >}}).
+
 ## Offline validation
 
 Once logged in, the Android application does not require a connection to the Internet to validate tickets. If there is a connection, all logged in devices will synchronize the ticket information in real time. Any tickets validated while offline will be synchronized the next time it gets online.
