@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>Tickets - Koliseo Help Center</title>
+    <title>Badges - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -184,7 +184,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/tickets/badges/"
             > 
               Badges 
@@ -318,52 +318,73 @@
       <main id="main" role="main">
         
   <div class="help-content">
-    <main class="help-content-main">
-      <h1>Tickets</h1>
-      <h3 class="section-description">This section describes how to manage and validate tickets and invoices.</h3>
-      <ul class="square">
-        
-        <li>
-          <a href="/tickets/ticket-classes/">Ticket Classes</a> 
-          <p>Set up ticket prices and availability periods for an event.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/extras/">Ticket Extras</a> 
-          <p>Set up ticket extras.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/sales/">Ticket Sales</a> 
-          <p>How to enable ticket sales to start collecting into your Stripe Account.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/validation/">Ticket validation</a> 
-          <p>Validate tickets using the mobile application, or download the list of tickets sold to validate manually.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/badges/">Badges</a> 
-          <p>With Koliseo you can generate and print badges for your events.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/discounts/">Discounts</a> 
-          <p>Create discount codes that can be applied to ticket purchases.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/invoices/">Invoices</a> 
-          <p>Configure automatic invoices for your attendees.</p>
-        </li>
-        
-        <li>
-          <a href="/tickets/questions/">Questions &amp; Answers</a> 
-          <p>Collect information from attendees, like T-shirt size, food allergies, or role in their company.</p>
-        </li>
-        
+    <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#creating-badges">Creating Badges</a></li>
+    <li><a href="#designing-your-own-badge-template">Designing your own Badge Template</a>
+      <ul>
+        <li><a href="#preview-and-confirmation">Preview and Confirmation</a></li>
       </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</aside>
+    <main class="help-content-main">
+      <nav aria-label="breadcrumbs">
+  <ul class="breadcrumbs">
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href="/">home</a>
+    </li>
+    <li class="breadcrumb-li">
+      <a class="breadcrumb-a" href='/tickets'>tickets</a>
+    </li>
+  </ul>
+</nav>
+      <h1>Badges</h1>
+      <aside class="toc">
+  <div class="toc-contents">
+    <h4>Page Contents</h4>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#creating-badges">Creating Badges</a></li>
+    <li><a href="#designing-your-own-badge-template">Designing your own Badge Template</a>
+      <ul>
+        <li><a href="#preview-and-confirmation">Preview and Confirmation</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</aside>
+      <p>Badges are an essential part of any event, helping to identify attendees, speakers, and staff while adding a professional touch to your event experience. With Koliseo, you can easily generate and print customized badges directly from the platform, using either our ready-made templates or your own designs. This guide will walk you through the requirements and steps to create badges for your events.</p>
+<h2 id="requirements">Requirements</h2>
+<p>To create badges, your account must have a subscription that includes this feature. You can review the features of the different subscription plans in the <a href="#">pricing and plans page</a>.</p>
+<h2 id="creating-badges">Creating Badges</h2>
+<p>The process for generating badges is the same for both speakers and attendees. Speaker badges are generated from the session list in the call for papers, while attendee badges are generated from the list of sold tickets.</p>
+<p><img src="/img/screenshots/tickets/badges-print-btn.avif" alt="A screenshot of the button to print badges"></p>
+<p>By clicking the &ldquo;Print Badges&rdquo; button, Koliseo will prepare to generate badges for all speakers or attendees currently displayed in the list. Use the filter to limit which badges will be generated.</p>
+<p>You can choose between one of the platform&rsquo;s generic templates or use your own custom template for the generated badges.</p>
+<p><img src="/img/screenshots/tickets/badges-choose-template.avif" alt="The dialog to choose the badge theme, or pick your own template"></p>
+<h2 id="designing-your-own-badge-template">Designing your own Badge Template</h2>
+<p>Templates are SVG files with your desired design. The platform will look for specific elements in the template to populate with the information of the speaker or attendee. The following identifiers are available to be used in the template:</p>
+<ul>
+<li><strong>k-avatar</strong>: Profile image of the user.</li>
+<li><strong>k-name</strong>: User name.</li>
+<li><strong>k-uuid</strong>: UUID of the user.</li>
+<li><strong>k-twitter</strong>: User&rsquo;s X (formerly Twitter) account, if available.</li>
+</ul>
+<p>For attendee badges, you can also include answers to questions asked during the ticket purchase process. To do this, the template must include elements with identifiers matching the question IDs on the platform. For example, if an event with ID <code>123</code> has a question &ldquo;Place of Origin&rdquo; with ID <code>456</code> you can include the answer to this question on the badge by adding an element with the identifier <code>events/123/questions/456</code> in the template.</p>
+<p>Make sure that your template already includes any bleed margins or crop marks required for printing. For more details, consult with your printing partner.</p>
+<h3 id="preview-and-confirmation">Preview and Confirmation</h3>
+<p>When selecting a template, a preview of the badges will be displayed. If everything looks correct, confirm the action and save the generated PDF file containing the badges.</p>
+<p><img src="/img/screenshots/tickets/badges-preview.avif" alt="The preview of the generated badges"></p>
+
     </main>
   </div>
 

@@ -50,6 +50,15 @@
             </a> 
           </li>
         
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/events/pricing/"
+            > 
+              Pricing and Plans 
+            </a> 
+          </li>
+        
         </ul>
       
     </li>
@@ -170,6 +179,15 @@
               href="/tickets/validation/"
             > 
               Ticket validation 
+            </a> 
+          </li>
+        
+          <li class="sidebar-nav-li2">
+            <a 
+              class="sidebar-nav-a2 " 
+              href="/tickets/badges/"
+            > 
+              Badges 
             </a> 
           </li>
         
@@ -306,8 +324,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#enable-ticket-sales">Enable ticket sales</a></li>
-    <li><a href="#connecting-your-strpe-account">Connecting your Strpe account</a></li>
-    <li><a href="#the-ticket-processing-fee">The ticket processing fee</a></li>
+    <li><a href="#connecting-your-stripe-account">Connecting your Stripe account</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -331,8 +348,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#enable-ticket-sales">Enable ticket sales</a></li>
-    <li><a href="#connecting-your-strpe-account">Connecting your Strpe account</a></li>
-    <li><a href="#the-ticket-processing-fee">The ticket processing fee</a></li>
+    <li><a href="#connecting-your-stripe-account">Connecting your Stripe account</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -359,15 +375,14 @@ open the event management page.
 <li><strong>Tickets Editable Until</strong>: if this field is set, the user can edit the [answers]({{ ref &ldquo;questions.md&rdquo; }}) introduced with their tickets until this date. For example, you may want to disable ticket edition after ordering catering, to stop attendees from changing their meal preference.</li>
 <li><strong>Purchase Confirmation Message</strong>: If set, this is the confirmation e-mail to send to the user after a successful ticket purchase.</li>
 </ul>
-<h2 id="connecting-your-strpe-account">Connecting your Strpe account</h2>
+<h2 id="connecting-your-stripe-account">Connecting your Stripe account</h2>
 <p>Koliseo delegates payment processing on <a href="http://stripe.com">Stripe</a>, a secure online payment gateway. Koliseo requires a Stripe Account in order to sell any paid tickets. If you are only planning to sell free tickets, you can skip this step.</p>
 <p>You can select any connected Stripe Account, or add new accounts in the select box, then click <strong>Save</strong>.</p>
 <p><img src="/img/screenshots/events/stripe.avif" alt="The Stripe section in the Sales Settings page"></p>
 <p>To connect a new Stripe account, see <a href="/users/stripe/">Connect a Stripe Account</a></p>
-<p>For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, minus a fee (see below).</p>
+<p>For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, after deducing <a href="/events/pricing/#fee">our service fee</a>.
+.</p>
 <p>Starting in July 2019, Koliseo requires that all purchases follow the <a href="https://stripe.com/docs/strong-customer-authentication">Strong Customer Authentication (SCA)</a> guidelines, which may require 3D Secure validation from your banking website.</p>
-<h2 id="the-ticket-processing-fee">The ticket processing fee</h2>
-<p>Koliseo charges a fixed service fee of <strong>4% of the ticket price</strong> (in addition to the Stripe fee) for paid tickets. Free tickets are not charged any fees.</p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
 <li><a href="/tickets/ticket-classes/">Create ticket classes</a></li>
