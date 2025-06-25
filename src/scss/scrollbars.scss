@@ -1,0 +1,38 @@
+// .scroller is used in the agenda page
+// in general, use .scroller to have a scrollable component with custom scrollbars
+// add .sticky-bottom to make it sticky at the bottom page, like the handle used to manipulate the agenda
+$color-scrollbar-bg: $linkColor;
+$scrollbar-width: 12px;
+$color-scroller-shadow: $gray-light;
+
+.scroller {
+  scrollbar-color: $color-scrollbar-bg;
+  scrollbar-width: $scrollbar-width;
+
+  &.scroller-x {
+    overflow-x: auto;
+  }
+  &.scroller-y {
+    overflow-y: auto;
+  }
+
+  &::-webkit-scrollbar {
+    background: transparent;
+    height: $scrollbar-width;
+    width: $scrollbar-width;
+  }
+  &::-webkit-scrollbar-thumb {
+    // only way to create a margin for the scrollbar
+    border: 3px solid #fff;
+    box-shadow: none;
+    background: $color-scroller-shadow;
+    border-radius: $scrollbar-width;
+    min-height: 40px;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    background: $color-scrollbar-bg;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: $color-scrollbar-bg;
+  }
+}

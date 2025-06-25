@@ -57,7 +57,7 @@ You can set the visibility of the ticket class in the **Visibility** section. Th
 
 ## Paid ticket classes
 
-To sell paid tickets, you need to [connect to your Stripe Account]({{< ref "stripe.md" >}}). The proceedings from your ticket sales go directly to your Stripe Account, after deducing our [service fee]({{< ref "sales.md#ticket-processing-fee" >}}).
+To sell paid tickets, you need to [connect to your Stripe Account]({{< ref "stripe.md" >}}). The proceedings from your ticket sales go directly to your Stripe Account, after deducing our [service fee]({{< ref "pricing.md#fee" >}}).
 
 Free tickets are exempt from this fee, but keep in mind that they also show a high no-show rate (40-60% is typical).
 

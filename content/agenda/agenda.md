@@ -74,7 +74,15 @@ To modify a presentation, visit the call for papers or open [the user profile of
 
 The input fields for slides and video are only displayed for sessions that have been accepted and have an assigned slot in the agenda. If you cannot see them, double check the status of your session.
 
-Once published, other users can bookmark their favorite sessions. If feedback is enabled in the agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session. After the event has taken place, the attendees can also watch the recordings from the agenda page, and download the slides.
+Once published, other users can bookmark their favorite sessions. If feedback is enabled in the agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session.
+
+## Session Recordings
+
+If you have enabled the session recording feature, you can upload the video and slides for each session. To do this, click on the session in the agenda grid to open the edition dialog, and fill in the **Video URL** and **Slides URL** fields.
+
+After the event has taken place, the attendees can watch the recordings from the agenda page, and download the slides.
+
+Koliseo support automatic **recording highlights**, which are bookmarks of the most relevant moments of the session. These highlights are generated automatically by the system and can be used to quickly navigate through the session recording. Recording highlights is a feature that is available by invite only, so please contact us if you are interested in using it for your event.
 
 ## What's next
 

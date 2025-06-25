@@ -54,7 +54,7 @@ Once the discount has been saved, it can be used during a ticket purchase. To us
 
 6. To complete the ticket purchase, click the **Get tickets** button.
 
-The discount is applied before including [our service fee]({{< ref "sales.md#ticket-processing-fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
+The discount is applied before including [our service fee]({{< ref "pricing.md#fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
 
 ## Send discount codes
 
