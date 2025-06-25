@@ -44,13 +44,13 @@ Once the discount has been saved, it can be used during a ticket purchase. To us
 1. Navigate to the ticket purchase page.
 2. Introduce the number of tickets that you want to purchase. The page should display the amount to pay under the **Total** section.
 
-   ![Discount usage screenshot](/img/screenshots/events/discounts-use-before.avif)
+   ![Discount usage screenshot](/img/screenshots/discounts/discounts-use-before.avif)
 
 3. Click the **Enter discount code** link.
 4. Introduce the discount code in the input field that appears. Once introduced, the code is validated automatically.
 5. Once the validation passes, the page subtracts the discount from the amount to pay.
 
-   ![The same page after using the discount](/img/screenshots/events/discounts-use-after.avif)
+   ![The same page after using the discount](/img/screenshots/discounts/discounts-use-after.avif)
 
 6. To complete the ticket purchase, click the **Get tickets** button.
 
