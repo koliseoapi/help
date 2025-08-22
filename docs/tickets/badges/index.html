@@ -325,11 +325,8 @@
   <ul>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#creating-badges">Creating Badges</a></li>
-    <li><a href="#designing-your-own-badge-template">Designing your own Badge Template</a>
-      <ul>
-        <li><a href="#preview-and-confirmation">Preview and Confirmation</a></li>
-      </ul>
-    </li>
+    <li><a href="#choosing-a-template">Choosing a template</a></li>
+    <li><a href="#designing-your-badge-template">Designing your Badge Template</a></li>
   </ul>
 </nav>
   </div>
@@ -353,37 +350,39 @@
   <ul>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#creating-badges">Creating Badges</a></li>
-    <li><a href="#designing-your-own-badge-template">Designing your own Badge Template</a>
-      <ul>
-        <li><a href="#preview-and-confirmation">Preview and Confirmation</a></li>
-      </ul>
-    </li>
+    <li><a href="#choosing-a-template">Choosing a template</a></li>
+    <li><a href="#designing-your-badge-template">Designing your Badge Template</a></li>
   </ul>
 </nav>
   </div>
 </aside>
       <p>Badges are an essential part of any event, helping to identify attendees, speakers, and staff while adding a professional touch to your event experience. With Koliseo, you can easily generate and print customized badges directly from the platform, using either our ready-made templates or your own designs. This guide will walk you through the requirements and steps to create badges for your events.</p>
 <h2 id="requirements">Requirements</h2>
-<p>To create badges, your account must have a subscription that includes this feature. You can review the features of the different subscription plans in the <a href="#">pricing and plans page</a>.</p>
+<p>To create badges, your account must have a subscription that includes this feature. You can review the features of the different subscription plans in the <a href="/events/pricing/">pricing and plans page</a>.</p>
 <h2 id="creating-badges">Creating Badges</h2>
-<p>The process for generating badges is the same for both speakers and attendees. Speaker badges are generated from the session list in the call for papers, while attendee badges are generated from the list of sold tickets.</p>
-<p><img src="/img/screenshots/tickets/badges-print-btn.avif" alt="A screenshot of the button to print badges"></p>
-<p>By clicking the &ldquo;Print Badges&rdquo; button, Koliseo will prepare to generate badges for all speakers or attendees currently displayed in the list. Use the filter to limit which badges will be generated.</p>
-<p>You can choose between one of the platform&rsquo;s generic templates or use your own custom template for the generated badges.</p>
-<p><img src="/img/screenshots/tickets/badges-choose-template.avif" alt="The dialog to choose the badge theme, or pick your own template"></p>
-<h2 id="designing-your-own-badge-template">Designing your own Badge Template</h2>
-<p>Templates are SVG files with your desired design. The platform will look for specific elements in the template to populate with the information of the speaker or attendee. The following identifiers are available to be used in the template:</p>
+<p>The process for generating badges is the same for both speakers and attendees. while attendee badges are generated from <strong>Tickets &gt; Tickets Sold</strong>.</p>
+<p>Speaker badges are generated from <strong>Agenda &gt; Sessions</strong>, where you can select the speakers for whom you want to create badges. For example, to print badges for speakers already included in the agenda, filter for <strong>State: Published</strong> and click on the <strong>Print Badges</strong> button.</p>
+<p><img src="/img/screenshots/tickets/badges-session-filter.avif" alt="A screenshot of the session filter to print badges for published speakers"></p>
+<p>Attendee badges are generated from <strong>Tickets &gt; Tickets Sold</strong>. When you click <strong>Print Badges</strong> all sold tickets will be included in the generated badges. If a ticket purchase includes multiple tickets, you will get one badge for each ticket.</p>
+<h2 id="choosing-a-template">Choosing a template</h2>
+<p>When you click the <strong>Print Badges</strong> button, a dialog will appear allowing you to select a predefined badge template or upload your own.</p>
+<p><img src="/img/screenshots/tickets/badges-print-dialog.avif" alt="A screenshot of the dialog to print badges"></p>
+<p>When you click <strong>Select Template</strong>, you will see a list of templates, each rendering a sample of the first badge. By clicking on one of the templates, you can preview how the badges will look. After reviewing the preview, click <strong>Print Badges</strong> to proceed with the badge generation.</p>
+<p><img src="/img/screenshots/tickets/badges-choose-template.avif" alt="The list of templates"></p>
+<p><img src="/img/screenshots/tickets/badges-print-preview.avif" alt="A screenshot of the badge template preview"></p>
+<p>If you want to make modifications to the template, click <strong>Download Template</strong> and follow the <a href="#designing-your-badge-template">instructions to design your badge template</a> below. Once you have your custom template ready, you can use it by clicking the <strong>Upload Template</strong> button in the dialog.</p>
+<h2 id="designing-your-badge-template">Designing your Badge Template</h2>
+<p>Templates are HTML files with your desired design. The platform will look for specific elements in the template with syntax <code>${element}</code> to populate with the information of the speaker or attendee. The following identifiers are available to be used in the template:</p>
 <ul>
-<li><strong>k-avatar</strong>: Profile image of the user.</li>
-<li><strong>k-name</strong>: User name.</li>
-<li><strong>k-uuid</strong>: UUID of the user.</li>
-<li><strong>k-twitter</strong>: User&rsquo;s X (formerly Twitter) account, if available.</li>
+<li><strong>${avatar}</strong>: Profile image of the user.</li>
+<li><strong>${name}</strong>: User name.</li>
+<li><strong>${uuid}</strong>: UUID of the user.</li>
+<li><strong>${twitter}</strong>: User&rsquo;s X (formerly Twitter) account, if available.</li>
+<li><strong>${session.title}</strong>: Title of the session for speakers, if applicable. If there is more than one session, only the first one will be used.</li>
+<li><strong>${session.qr}</strong>: QR code pointing at the published session in the agenda, if applicable. If there is more than one session, only the first one will be used.</li>
+<li><strong>${data[index]}</strong>: Custom data fields for the user, where <code>index</code> is the index of the field in the list of custom fields. For example, if you have a custom field for &ldquo;Company&rdquo; as the first field, you can use <code>${data[0]}</code> to include that information in the badge.</li>
 </ul>
-<p>For attendee badges, you can also include answers to questions asked during the ticket purchase process. To do this, the template must include elements with identifiers matching the question IDs on the platform. For example, if an event with ID <code>123</code> has a question &ldquo;Place of Origin&rdquo; with ID <code>456</code> you can include the answer to this question on the badge by adding an element with the identifier <code>events/123/questions/456</code> in the template.</p>
-<p>Make sure that your template already includes any bleed margins or crop marks required for printing. For more details, consult with your printing partner.</p>
-<h3 id="preview-and-confirmation">Preview and Confirmation</h3>
-<p>When selecting a template, a preview of the badges will be displayed. If everything looks correct, confirm the action and save the generated PDF file containing the badges.</p>
-<p><img src="/img/screenshots/tickets/badges-preview.avif" alt="The preview of the generated badges"></p>
+<p>Check that your template includes any bleed margins or crop marks required for printing. For more details, consult with your printing partner.</p>
 
     </main>
   </div>
