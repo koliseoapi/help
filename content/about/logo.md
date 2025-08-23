@@ -10,6 +10,6 @@ menu:
 
 ## Assets
 
-Looking for our logo? Here it is: <a href="/img/logo-color.svg" download>Download logo</a>
+Looking for our logo? Here it is: <a href="/img/logo-color.svg" rel="nofollow" download>Download logo</a>
 
 ![The koliseo logo](/img/logo-color.svg)
