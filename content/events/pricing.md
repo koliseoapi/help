@@ -32,4 +32,6 @@ Whether you're organizing a small gathering or a large-scale conference, we offe
 
 In addition to our flexible pricing plans, we apply a transparent ticket processing fee for paid events. This ensures the continued development and maintenance of our platform while keeping costs fair and predictable for event organizers.
 
-Koliseo charges a fixed service fee of **4% of the ticket price** (in addition to the Stripe fee) for paid tickets. Free tickets are exempt from this fee.
+Koliseo charges a fixed service fee of **4% of the ticket price** (in addition to the Stripe fee) for paid tickets, with a maximum of €25 / $25 for the entire ticket purchase. Free tickets are exempt from this fee.
+
+For example, if you sell a ticket for $100, the service fee would be $4 (in addition to the Stripe fee, which is typically around 2.9% + $0.30 per transaction). If a single ticket purchase acquires 10 tickets, the service fee would be capped at $25.
