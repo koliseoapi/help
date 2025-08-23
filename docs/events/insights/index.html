@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>Feedback - Koliseo Help Center</title>
+    <title>Insights - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -33,7 +33,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a " 
+        class="sidebar-nav-a selected" 
         href="/events/"
       >
         Events
@@ -61,7 +61,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/events/insights/"
             > 
               Insights 
@@ -115,7 +115,7 @@
   
     <li class="sidebar-nav-li">
       <a 
-        class="sidebar-nav-a selected" 
+        class="sidebar-nav-a " 
         href="/agenda/"
       >
         Agenda
@@ -134,7 +134,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 selected" 
+              class="sidebar-nav-a2 " 
               href="/agenda/feedback/"
             > 
               Feedback 
@@ -341,10 +341,13 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#before-you-start">Before you start</a></li>
-    <li><a href="#feedback">Feedback</a></li>
-    <li><a href="#bookmarks">Bookmarks</a></li>
-    <li><a href="#whats-next">What&rsquo;s next</a></li>
+    <li><a href="#event-analytics">Event Analytics</a></li>
+    <li><a href="#ticket-sales-charts">Ticket Sales Charts</a>
+      <ul>
+        <li><a href="#chart-filter">Chart filter</a></li>
+      </ul>
+    </li>
+    <li><a href="#session-charts">Session charts</a></li>
   </ul>
 </nav>
   </div>
@@ -356,38 +359,69 @@
       <a class="breadcrumb-a" href="/">home</a>
     </li>
     <li class="breadcrumb-li">
-      <a class="breadcrumb-a" href='/agenda'>agenda</a>
+      <a class="breadcrumb-a" href='/events'>events</a>
     </li>
   </ul>
 </nav>
-      <h1>Feedback</h1>
+      <h1>Insights</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#before-you-start">Before you start</a></li>
-    <li><a href="#feedback">Feedback</a></li>
-    <li><a href="#bookmarks">Bookmarks</a></li>
-    <li><a href="#whats-next">What&rsquo;s next</a></li>
+    <li><a href="#event-analytics">Event Analytics</a></li>
+    <li><a href="#ticket-sales-charts">Ticket Sales Charts</a>
+      <ul>
+        <li><a href="#chart-filter">Chart filter</a></li>
+      </ul>
+    </li>
+    <li><a href="#session-charts">Session charts</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>This page explains how users can provide session feedback from the published agenda. As the organizer, you can use this information to improve the quality of your event.</p>
-<h2 id="before-you-start">Before you start</h2>
-<p>To receive feedback, you need <a href="/agenda/agenda/">a published agenda</a> with feedback enabled in the agenda settings. You can see an example <a href="https://www.koliseo.com/demo">here</a>.</p>
-<p><img src="/img/screenshots/agenda/feedback.avif" alt="The feedback list"></p>
-<h2 id="feedback">Feedback</h2>
-<p>Users can provide feedback directly from the published agenda. All feedback (ratings and comments) about a speaker are recorded and publicly available on their user profile.</p>
-<p>Feedback provided during the [session review process]({{ ref &ldquo;review-sessions.md&rdquo; }}) is only visible to the selection comittee. Feedback provided in the agenda is visible to all users.</p>
-<h2 id="bookmarks">Bookmarks</h2>
-<p>After logging in, users can bookmark their favorite sessions before the event by clicking the <strong>Bookmark</strong> button. As the organizer, you can later use this information to assign sessions that spark the most interest in tracks with higher capacity.</p>
-<h2 id="whats-next">What&rsquo;s next</h2>
+      <h2 id="event-analytics">Event Analytics</h2>
+<p>Koliseo provides powerful analytics tools to help you understand your event&rsquo;s performance. Track key metrics such as ticket sales, attendee demographics, and engagement levels to make informed decisions for future events.</p>
+<p>Visualize your ticket sales with interactive charts that display sales trends over time. Identify peak sales periods and adjust your marketing strategies accordingly.</p>
+<h2 id="ticket-sales-charts">Ticket Sales Charts</h2>
+<p>To display your ticket sales charts, go to <strong>Event &gt; Insights</strong>. The default chart will display ticket sales for the last day, so if the event took place some time ago, you may want to adjust the date range to see the full picture.</p>
+<p><img src="/img/screenshots/events/chart-ticket-sales.avif" alt="The ticket sales chart"></p>
+<p>Under the chart there is a short list with the last ticket purchases.</p>
+<p><img src="/img/screenshots/events/chart-ticket-last-purchases.avif" alt="The last ticket purchases"></p>
+<h3 id="chart-filter">Chart filter</h3>
+<p>There is a set of controls above the chart to filter the information displayed:</p>
 <ul>
-<li><a href="/call-for-papers/review-sessions/">Learn more about the session review process</a></li>
-<li><a href="/agenda/agenda/">Publish your agenda</a></li>
+<li><strong>Ticket Status</strong>: The ticket status selector allows you to filter the chart by ticket status.
+<ul>
+<li><strong>Paid</strong>: Tickets that have been successfully paid for.</li>
+<li><strong>Rolled Back</strong>: Tickets that were paid but later refunded or canceled.</li>
+<li><strong>Timed out</strong>: Tickets that were not paid within the purchase time limit.</li>
 </ul>
+</li>
+<li><strong>Display metric</strong>: The second combo box allows you to choose the metric displayed in the chart.
+<ul>
+<li><strong>Tickets</strong>: The number of tickets sold. This is useful if you want to compare ticket sales that includes free tickets.</li>
+<li><strong>Revenue</strong>: The total revenue generated from ticket sales.</li>
+</ul>
+</li>
+<li><strong>Date Range</strong>: The date range selector allows you to choose the period for which you want to display the data.
+<ul>
+<li><strong>Today</strong>, <strong>This week</strong>, <strong>This month</strong>: Displays data for the specified period in UTC timezone. This period (day, week or month) will be incomplete. If the event took place some time ago, the chart may be empty.</li>
+<li><strong>Yesterday</strong>, <strong>Last week</strong>, <strong>Last month</strong>: Displays data for the previous period in UTC timezone. The data for the specified period will be complete.</li>
+<li><strong>Display all</strong>: Displays all available data for the event.</li>
+</ul>
+</li>
+</ul>
+<p>Right below the filter components there is a list with all ticket classes, including those that were deleted at some point. Each ticket class has a bar displaying the number of tickets still available for sale. The bars are color-coded to match the chart below. You can hide a particular ticket class by unselecting the corresponding checkbox.</p>
+<p><img src="/img/screenshots/events/chart-ticket-classes.avif" alt="The last ticket purchases"></p>
+<p>After the list of ticket classes you can find the total amount of discounts and extras.</p>
+<h2 id="session-charts">Session charts</h2>
+<p>To display your session charts, select the <strong>Agenda</strong> tab under <strong>Event &gt; Insights</strong>. If your event has a published agenda, you will see a chart displaying the feedback per session.</p>
+<p><img src="/img/screenshots/events/chart-sessions.avif" alt="The session feedback chart"></p>
+<p>The chart displays at the top the total number of sessions received for the call for papers, the number of accepted (published) sessions and how many of those have received feedback.</p>
+<p>For each session you can see the number of reviews, average number of stars, and how many ratings of each star level it has received. You can hover over each session to see more details.</p>
+<p>You can also filter and sort the sessions with the controls at the top of the list. For example, you can filter sessions about a particular topic, and sort best to worst.</p>
+<p>The sorting algorithm is based on the average rating, but it also takes into account the number of reviews. This means that a session with a high rating but few reviews will not rank as high as a session with a lower rating but many reviews.</p>
 
     </main>
   </div>
