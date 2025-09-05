@@ -8,7 +8,9 @@ menu:
     parent: tickets
 ---
 
-Badges are an essential part of any event, helping to identify attendees, speakers, and staff while adding a professional touch to your event experience. With Koliseo, you can easily generate and print customized badges directly from the platform, using either our ready-made templates or your own designs. This guide will walk you through the requirements and steps to create badges for your events.
+Badges are an essential part of any event, helping to identify attendees, speakers, and staff while adding a professional touch to your event experience. With Koliseo, you can easily generate and print customized badges directly from the platform, using either our ready-made templates or your own designs.
+
+This guide will walk you through the requirements and steps to create badges for your events.
 
 ## Requirements
 
@@ -16,7 +18,7 @@ To create badges, your account must have a subscription that includes this featu
 
 ## Creating Badges
 
-The process for generating badges is the same for both speakers and attendees. while attendee badges are generated from **Tickets > Tickets Sold**.
+The process for generating badges is the same for both speakers and attendees.
 
 Speaker badges are generated from **Agenda > Sessions**, where you can select the speakers for whom you want to create badges. For example, to print badges for speakers already included in the agenda, filter for **State: Published** and click on the **Print Badges** button.
 
