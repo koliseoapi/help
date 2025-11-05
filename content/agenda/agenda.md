@@ -76,6 +76,8 @@ The input fields for slides and video are only displayed for sessions that have 
 
 Once published, other users can bookmark their favorite sessions. If feedback is enabled in the agenda settings (look for **Agenda > Settings** on the sidebar menu), they can also introduce reviews and comment on each session.
 
+Any changes to an agenda will require republishing the agenda to be visible to the attendees. The agenda will reload detected changes within a few minutes, provided that it is scheduled for the same day. For agendas that are not scheduled for the current day, the reload behavior is disabled.
+
 ## Session Recordings
 
 If you have enabled the session recording feature, you can upload the video and slides for each session. To do this, click on the session in the agenda grid to open the edition dialog, and fill in the **Video URL** and **Slides URL** fields.
@@ -83,6 +85,15 @@ If you have enabled the session recording feature, you can upload the video and 
 After the event has taken place, the attendees can watch the recordings from the agenda page, and download the slides.
 
 Koliseo support automatic **recording highlights**, which are bookmarks of the most relevant moments of the session. These highlights are generated automatically by the system and can be used to quickly navigate through the session recording. Recording highlights is a feature that is available by invite only, so please contact us if you are interested in using it for your event.
+
+## Embed the agenda
+
+You can embed the agenda in your own website by using an iframe. To see an example, visit [the web integration demo](https://github.com/koliseoapi/web-integration-demo). Be aware of the following limitations, though:
+
+- The embedded agenda will not support deep linking (links to specific sessions).
+- The headers of columns and rows will not be sticky.
+
+In order to embed the agenda, you must configure your website domain as an **Authorized Domain** in the event settings.
 
 ## What's next
 
