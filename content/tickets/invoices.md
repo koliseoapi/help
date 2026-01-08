@@ -25,14 +25,14 @@ You can get the list of all invoices emitted for your event from the [Stripe das
 
 ## Create the invoice for a ticket
 
-If the event organizer has enabled automatic invoices, you can as an attendee create an invoice directly from your ticket purchase. To do this:
+If the event organizer has enabled automatic invoices, any attendee can create an invoice directly from their ticket purchase. To do this:
 
 1. Open [the ticket purchase page](https://koliseo.com/me/tickets).
-1. Click the **Get invoice** button.
+1. Click **Get Invoice**.
 
    ![The ticket page, displaying a button to get the invoice](/img/screenshots/tickets/invoice-create.avif)
 
-You will be redirected to your Stripe account, where you can retrieve your receipt or generate an invoice. Receipts are always available, but invoices are only if the event organizer has fulfilled all the requirements in the section above. Taxes are calculated automatically by Stripe Tax, taking into consideration the billing address and where taxes are presented.
+You will be redirected to your Stripe account, where you can retrieve your receipt or generate an invoice. Receipts are always available, but invoices are available if the event organizer has fulfilled all the requirements in the section above. Taxes are calculated automatically by Stripe Tax, taking into consideration the billing address and where taxes are presented.
 
 ## What's next
 

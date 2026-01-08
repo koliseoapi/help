@@ -17,16 +17,16 @@ To create a ticket extra:
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Tickets > Ticket Classes** and select the **Extras** tab.
-1. Click the **Add Extra** button.
-1. Fill out the form and click the **Save** button.
+1. Click **Add Extra**.
+1. Fill in the form and click **Save**.
 
 ![The extra creation page](/img/screenshots/tickets/extra-create.avif)
 
 The following fields are available:
 
-- **Name**: The name of the extra, e.g. "T-shirt", "Meal Voucher", "Parking Pass", etc.
+- **Name**: The name of the extra, e.g., "T-shirt", "Meal Voucher", "Parking Pass", etc.
 - **Price**: The price of the extra, in the currency of the event. It can be set to zero for free extras.
-- **Description**: A short description of the extra. You can use markdown syntax to format the text.
+- **Description**: A short description of the extra. You can use Markdown syntax to format the text.
 - **Available for specific ticket classes**: If enabled, you can select the ticket classes where this extra will be available. If no ticket classes are selected, the extra will be available for all ticket classes.
 
 ## Purchasing extras

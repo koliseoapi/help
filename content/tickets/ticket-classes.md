@@ -10,38 +10,38 @@ menu:
     parent: tickets
 ---
 
-This page explains how to set up ticket classes available for an event. Each ticket class can have different price, availability dates, visibility and other properties. You can also create [discount codes]({{< ref "discounts.md" >}}) to offer special prices to specific groups of users.
+A ticket class is a specific type of attendee ticket available for an event. This page explains how to set up ticket classes, where each ticket class can have different price, availability dates, visibility and other properties. You can also create [discount codes]({{< ref "discounts.md" >}}) to offer special prices to specific groups of users.
 
 ## Add a ticket class
 
-All events start with a single ticket class with a cost of 10€. To modify this:
+All events start with no ticket classes. To create a new ticket class, follow these steps:
 
 1. {{< login >}}
 1. {{< open-event-edition >}}
-1. In the sidebar menu, select **Tickets > Ticket Classes** and click the **Create Ticket Class** button.
+1. In the sidebar menu, select **Tickets > Ticket Classes** and click **Create Ticket Class**.
 
    ![The list of ticket classes](/img/screenshots/events/ticket-classes.avif)
 
-1. Fill out the form and click the **Save** button.
+1. Fill in the form and click **Save**.
 
    ![The ticket class creation page](/img/screenshots/tickets/ticket-class-create.avif)
 
 The following fields are available:
 
-- **Name**: The name of the ticket class, e.g. "Early Bird", "Normal", "VIP", etc.
-- **Total tickets**: The total number of tickets available for this ticket class. It's a required field.
-- **Price**: The price of the ticket, in the currency of the event. It can be set to zero for free tickets, otherwise theprice needs to be greater than one euro / dollar(depending on the currency of the event).
+- **Name**: The name of the ticket class, e.g., "Early Bird", "Normal", "VIP", etc.
+- **Total tickets**: The total number of tickets available for this ticket class. This is a required field.
+- **Price**: The price of the ticket, in the currency of the event. It can be set to zero for free tickets, otherwise the price needs to be greater than one euro or dollar, depending on the currency of the event.
 - **Description**: A short description of the ticket class.
 
 ## Availability Settings
 
 You can set the availability of the ticket class in the **Availability** section. The following fields are available:
 
-- **Available by date**: When enabled, you can specify the start and end date of the ticket class availability. Additionally, there is an option to display the availability dates in the purchase page.
+- **Available by date**: When enabled, you can specify the start and end date of the ticket class availability. Additionally, you can choose to display the availability dates on the purchase page.
 - **Available after ticket class**: When enabled, the ticket class will only be available after another ticket class is sold out. You can select the ticket class that needs to be sold out before this ticket class becomes available.
-- **Max. tickets per account**: When enabled, you can specify the maximum number of tickets that a single account can buy.
+- **Maximum tickets per account**: When enabled, you can specify the maximum number of tickets that a single account can buy.
 
-![Limiting availability](/img/screenshots/tickets/ticket-class-availability.avif)
+![Screenshot showing the availability settings for a ticket class](/img/screenshots/tickets/ticket-class-availability.avif)
 
 ## Visibility Settings
 

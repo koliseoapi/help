@@ -14,25 +14,25 @@ Sessions can be categorized based on various criteria, such as level, language, 
 
 ## Create tags
 
-As an example, we are going to configure tags for an event where sessions have assigned a "Talk Level" that can choose between "Beginner", "Intermediate" or "Advanced". To do this:
+As an example, we are going to configure tags for an event where sessions are assigned a "Talk Level" that can be "Beginner", "Intermediate" or "Advanced". To do this:
 
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Agenda > Tags**.
-1. Click the **Add Tagset** button. The Tagset edition page will open.
+1. Click **Add Tagset** to open the Tagset edit page.
 
    ![The edition page for a Tagset](/img/screenshots/agenda/tagset-create.avif)
 
-In this form, you can introduce the following:
+This form includes the following fields:
 
-- **Name**: The name of the tagset. In our example, we will introduce "Programming Language".
+- **Name**: The name of the tagset. In our example, we will enter "Programming Language".
 - **Mutiple Choice**: If you want to allow multiple tags to be selected for each session, mark this checkbox.
 - **Visibility**: The visibility of the tagset. The options are:
   - **PUBLIC**: The tagset will be visible in the session dialog, but not in the agenda grid.
   - **HIGHLIGHT**: The tagset will be shown both in the session dialog and in the agenda grid.
   - **HIDDEN**: The tagset will only be visible to the event organizers and the selection committee. This is useful for internal tags that you don't want to show to the attendees, like state of the session (accepted / rejected), one or multiple waitlists, and more.
 
-Once you have introduced the tagset, click the **Add Value** to add each of the possible values for this tagset. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to mark the tagset private).
+Once you have introduced the tagset, click **Add Value** to add each of the possible values for this tagset. For example, for a theoretical case of a "Session State" tagset, we could use "Approved", "Rejected" and "Waitlisted" as possible values (in this example, remember to mark the tagset private).
 
 ![Edit Tagset values](/img/screenshots/agenda/tagset-values.avif)
 

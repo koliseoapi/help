@@ -41,7 +41,7 @@ The following keyboard shortcuts are available when reviewing sessions:
 </li>
 </ul>
 
-Additionally, any shortcuts defined in [your tagsets]({{< ref "tags.md" >}}) are also available from the review page. The list of available shortcuts is displayed as a link in the event filter popup.
+Additionally, any shortcuts defined in [your tagsets]({{< ref "tags.md" >}}) are also available from the review page. The list of available shortcuts is displayed as a link in the event filter pop-up.
 
 ## Filtering and sorting
 
@@ -50,20 +50,20 @@ You can open the session filter by clicking the text box at the top of the page.
 ![The session filter](/img/screenshots/c4p/session-filter.avif)
 
 - **Any tag values** defined in [your tagsets]({{< ref "tags.md" >}}). For each tagset, the option at the top of the list selects / unselects all possible values. If you unselect all values, you will only see sessions that have not set any value for this tagset.
-- Select **Rated by me** to display only sessions that you have already rated / not rated.
-- Click the **Presenters** drop down to select sessions by the presenter names. If you select more than one presenter, any session with at least one of the selected presenters will pass the filter.
+- Select **Rated by me** to display only sessions that you have rated or not rated.
+- Click the **Presenters** dropdown to select sessions by the presenter names. If you select more than one presenter, any session with at least one of the selected presenters will pass the filter.
 
-Once a filter is active, the filter popup will display the number of selected sessions. You can click **Clear Filter** to remove the filter.
+Once a filter is active, the filter pop-up will display the number of selected sessions. You can click **Clear Filter** to remove the filter.
 
 ## Contacting presenters
 
-If you need to contact a presenter, you can click the **Contact Speakers** button below the session filter. This will open a form where you can write your message. Each presenter of a selected session will receive an e-mail with your message and a link to the session details page.
+If you need to contact a presenter, you can click **Contact Speakers** below the session filter. This will open a form where you can write your message. Each presenter of a selected session will receive an e-mail with your message and a link to the session details page.
 
 ![The "Contact Speakers" form](/img/screenshots/c4p/session-email.avif)
 
-For sessions with more than one presenter, each presenter will receive a separate e-mail with the same message. If a presenter has more than one session that passes the filter, they will receive one separate e-mail per session.
+For sessions with more than one presenter, each presenter will receive a separate e-mail with the same message. If a presenter has multiple sessions that pass the filter, they will receive one separate e-mail per session.
 
-You can select a predefined template for your message by using the **Subject** drop down, or write your own subject and body contents.
+You can select a predefined template for your message by using the **Subject** dropdown, or write your own subject and body.
 
 ![The form, with a predefined template](/img/screenshots/c4p/session-email-2.avif)
 

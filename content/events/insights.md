@@ -54,8 +54,8 @@ To display your session charts, select the **Agenda** tab under **Event > Insigh
 
 The chart displays at the top the total number of sessions received for the call for papers, the number of accepted (published) sessions and how many of those have received feedback.
 
-For each session you can see the number of reviews, average number of stars, and how many ratings of each star level it has received. You can hover over each session to see more details.
+For each session you can see the number of reviews, average star rating, and the number of ratings for each star level. You can hover over each session to see more details.
 
-You can also filter and sort the sessions with the controls at the top of the list. For example, you can filter sessions about a particular topic, and sort best to worst.
+You can also filter and sort the sessions with the controls at the top of the list. For example, you can filter sessions about a particular topic, and sort from best to worst.
 
-The sorting algorithm is based on the average rating, but it also takes into account the number of reviews. This means that a session with a high rating but few reviews will not rank as high as a session with a lower rating but many reviews.
+The sorting algorithm is based on the average rating, but it also considers the number of reviews. This means that a session with a high rating but few reviews will not rank as high as a session with a lower rating but many reviews.

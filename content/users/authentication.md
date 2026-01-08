@@ -22,11 +22,11 @@ During the authentication process Koliseo will get access to the following infor
 - **E-mail address**: Your e-mail address, used to send you notifications about your events.
 - **Photo**: Your profile photo, used to identify you in the platform.
 
-Koliseo will not get access to your password, contacts or get permissions to do actions on your behalf.
+Koliseo will not access to your password, contacts or get permissions to perform actions on your behalf.
 
 ## Custom usernames and passwords
 
-Koliseo does not support the creation of custom usernames and passwords. We delegate user authentication to trusted third-party OAuth providers because we believe this is a more secure alternative for managing user credentials. To use the platform, you need an account with one of these providers.
+Koliseo does not allow the creation of custom usernames and passwords. We delegate user authentication to trusted third-party OAuth providers, as we believe this is a more secure way to manage user credentials. To use the platform, you need an account with one of these OAuth providers.
 
 ## What's next
 

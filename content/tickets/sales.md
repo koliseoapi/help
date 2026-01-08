@@ -41,10 +41,10 @@ You can select any connected Stripe Account, or add new accounts in the select b
 
 To connect a new Stripe account, see [Connect a Stripe Account]({{< ref "users/stripe.md" >}})
 
-For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly on the assigned Stripe Account, after deducing [our service fee]({{< ref "pricing.md#fee" >}}).
+For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. Any income from ticket sales is deposited directly into the assigned Stripe Account, after deducting [our service fee]({{< ref "pricing.md#fee" >}}).
 .
 
-Starting in July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
+Since July 2019, Koliseo requires that all purchases follow the [Strong Customer Authentication (SCA)](https://stripe.com/docs/strong-customer-authentication) guidelines, which may require 3D Secure validation from your banking website.
 
 ## What's next
 

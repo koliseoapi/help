@@ -10,9 +10,9 @@ menu:
 
 Koliseo delegates payment processing to [Stripe](https://stripe.com/). This means that you need to create a Stripe account and connect it to Koliseo before you can start selling paid tickets. This is a one-time operation, and you can connect multiple Stripe accounts.
 
-For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. The proceedings from ticket sales are deposited directly on your Stripe Account, minus [our platform fee]({{< ref "sales.md" >}}).
+For security reasons, Koliseo does not have access to the credit card details associated with any ticket purchase. The proceeds from ticket sales are deposited directly into your Stripe account, minus [our platform fee]({{< ref "sales.md" >}}).
 
-If you don't have a Stripe account yet, you can [create one for free](https://dashboard.stripe.com/register). You will need to provide some basic information about your business and your bank account details.
+If you don't have a Stripe account yet, you can [create one for free](https://dashboard.stripe.com/register). You will need to provide basic information about your business and bank account details.
 
 ## Connect your Stripe account to Koliseo
 

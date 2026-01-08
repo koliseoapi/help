@@ -16,14 +16,14 @@ To edit your user profile:
 
 1. Visit your user profile page by clicking on your name in the top right corner of the screen and selecting **My Profile**, or by following [this link](https://koliseo.com/me).
 2. On the sidebar menu, select **Edit**.
-3. Introduce your changes in the form and click the **Save** button.
+3. Enter your changes in the form and click **Save**.
 
    ![The edit user page](/img/screenshots/users/user-edit.avif)
 
 The following fields are available:
 
 - **Name**: Your full name.
-- **Avatar**: Your profile photo, used to identify you in the platform. To change your avatar, click the **Edit** button next to your picture. Koliseo extracts your profile picture from your authentication provider when you log in for the first time, and it will review and update the picture if needed every time that you sign in. If you upload a custom picture, this behavior will be disabled and cannot be enabled again.
+- **Avatar**: Your profile photo, used to identify you on the platform. To change your avatar, click **Edit** next to your profile photo. Koliseo extracts your profile picture from your authentication provider when you log in for the first time, and it will review and update the picture if needed every time that you sign in. If you upload a custom picture, this behavior will be disabled and cannot be enabled again.
 - **Username**: The unique identifier of your user profile in the platform. It is used to generate the URL of your profile page. You can change it at any time, but if you do, the old URL will stop working.
 - **Description**: A short description to display on your user profile.
 - **Twitter account**: If set, your Twitter/X handle will be visible in your user profile and in any sessions where you are a presenter.

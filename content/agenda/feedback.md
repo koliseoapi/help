@@ -22,7 +22,7 @@ To receive feedback, you need [a published agenda]({{< ref "agenda.md" >}}) with
 
 Users can provide feedback directly from the published agenda. All feedback (ratings and comments) about a speaker are recorded and publicly available on their user profile.
 
-Feedback provided during the [session review process]({{ ref "review-sessions.md" }}) is only visible to the selection comittee. Feedback provided in the agenda is visible to all users.
+Feedback provided during the [session review process]({{ ref "review-sessions.md" }}) is only visible to the selection committee. Feedback submitted through the published agenda is visible to all users.
 
 ## Bookmarks
 

@@ -28,7 +28,7 @@ You can assign permissions to events. In order to assign permissions:
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. In the sidebar menu, select **Event > Permissions**.
-1. Select the user that you want to assign permissions to, mark the checkboxes and click the **Save** button.
+1. Select the user that you want to assign permissions to, mark the checkboxes and click **Save**.
 
    ![The permissions page](/img/screenshots/users/permissions-edit.avif)
 
@@ -36,17 +36,17 @@ You can assign permissions to events. In order to assign permissions:
 
 Organizations are a way to group events and manage permissions in a single place. This is useful when you are organizing multiple events and you want to assign the same permissions to a set of users.
 
-In order to do this:
+To do this:
 
 1. {{< login >}}
-1. Navigate to your [User Profile page](https://www.koliseo.com/me) and select **Organizations** on the sidebar menu.
-1. Fill in the form fields and click the **Save** button.
+1. Navigate to your [user profile page](https://www.koliseo.com/me) and select **Organizations** on the sidebar menu.
+1. Fill in the form fields and click **Save**.
 
    ![The edit organization page](/img/screenshots/users/org-create.avif)
 
-Once created, you can navigate to the user profile page of your organizations. An organization is similar to any other user account, but it also includes a **Permissions** option in the sidebar menu (if the logged in user has Administrator permissions), where you can add other users.
+Once created, you can navigate to the user profile page for your organizations. An organization is similar to any other user account, but it additionally includes a **Permissions** option in the sidebar menu (only visible if the logged-in user has Administrator permissions), where you can add users with permissions.
 
-When you create a new event under an organization, the permissions are automatically propagated to the event.
+When you create a new event under an organization, any assigned permissions are automatically propagated to the event.
 
 Permissions assigned at the organization level can be overriden by the event. For example, if you assign the "Write" permission to a user at the organization level, you can still assign the "Administrator" permission to the same user at the event level.
 

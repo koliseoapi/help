@@ -10,9 +10,9 @@ menu:
     parent: call-for-papers
 ---
 
-In order to create an agenda, you first need to create a call for papers where the presenters can submit their sessions, introduce their photo, bio and abstract. They can also add their slides and talk recording after the event.
+In order to create an agenda, you first need to create a call for papers where the presenters can submit their sessions, sumit their bio, abstract, and photo. They can also add their slides and recording after the event.
 
-## Get started
+## Getting started
 
 To create a call for papers:
 
@@ -32,7 +32,7 @@ This form includes the following fields:
 
 ## Get the link to submit proposals
 
-After saving the call for papers, click the **Get Link** button at the top of the page and select **Call for Papers** to get the link to submit a session proposal.
+After saving the call for papers, click **Get Link** at the top of the page and select **Call for Papers** to get the link to submit a session proposal.
 
 ![Get the link to the call for papers](/img/screenshots/c4p/get-link.avif)
 
@@ -42,13 +42,13 @@ As a speaker, in the public page of the event you can submit an abstract by clic
 
 ![The session creation UI](/img/screenshots/c4p/session-create.avif)
 
-Here you can introduce your information and add additional presenters. If the event can reimburse expenses, the form includes a checkbox to indicate for each presenter if they would request to reimburse expenses, and the location from which they are travelling.
+Here you can enter your information and add additional presenters. If the event offers to reimburse expenses, the form will include a checkbox for each presenter to request expense reimbursement, and the location from which they are travelling.
 
 This form includes the following fields:
 
 - **Name**: The title of your session.
 - **Description**: A description of your session, using {{< markdown-syntax >}}.
-- **Comments**: If you have something that you want to discuss privately with the organizers, you can use this field. What you introduce here will only be seen by the event organizer, and not by the selection committee or the attendees.
+- **Comments**: If you have something that you want to discuss privately with the organizers, you can use this field. This field will only be seen by the event organizer, and not by the selection committee or the attendees.
 - **Tags**: You can add tags to your sessions to categorize it and help users find your session in the agenda grid. The event organizer can configure the tagsets available. For more information, [see tags]({{< ref "tags.md" >}}).
 - **Slides and Video**: Can be filled in after the event, to introduce the slides and video to display in the final agenda.
 

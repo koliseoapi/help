@@ -21,14 +21,14 @@ To create a discount code:
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. On the sidebar menu, select **Tickets > Discounts** and click **Create Discount**.
-1. Fill the fields in the form and click the **Save** button.
+1. Fill the fields in the form and click **Save**.
 
-   ![The discount edition page](/img/screenshots/discounts/discount-create.avif)
+   ![A screenshot of the discount editing page](/img/screenshots/discounts/discount-create.avif)
 
 The following fields are available:
 
-- **Name**: The code that must be introduced during the ticket purchase to apply the discount.
-- **Max. redemptions**: The total number of times that this discount can be used. Set to "1" for single-use discount codes.
+- **Name**: The code that must be entered during the ticket purchase to apply the discount.
+- **Maximum redemptions**: The total number of times that this discount can be used. Set to "1" for single-use discount codes.
 - **Type**: The type of discount. You can choose between:
   - **Percentage**: The discount will be applied as a percentage of the ticket price.
   - **Per ticket**: The discount will be applied as a fixed amount per ticket.
@@ -42,17 +42,17 @@ The following fields are available:
 Once the discount has been saved, it can be used during a ticket purchase. To use a discount code:
 
 1. Navigate to the ticket purchase page.
-2. Introduce the number of tickets that you want to purchase. The page should display the amount to pay under the **Total** section.
+2. Enter the number of tickets that you want to purchase. The page should display the amount to pay under the **Total** section.
 
    ![Discount usage screenshot](/img/screenshots/discounts/discounts-use-before.avif)
 
-3. Click the **Enter discount code** link.
-4. Introduce the discount code in the input field that appears. Once introduced, the code is validated automatically.
+3. Click **Enter discount code**.
+4. Enter the discount code in the input field that appears. Once introduced, the code is validated automatically.
 5. Once the validation passes, the page subtracts the discount from the amount to pay.
 
    ![The same page after using the discount](/img/screenshots/discounts/discounts-use-after.avif)
 
-6. To complete the ticket purchase, click the **Get tickets** button.
+6. To complete the ticket purchase, click **Get tickets**.
 
 The discount is applied before including [our service fee]({{< ref "pricing.md#fee" >}}). If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.
 

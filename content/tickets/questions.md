@@ -14,18 +14,18 @@ You can configure questions to collect information from attendees, like T-shirt 
 
 ## Create questions
 
-As the event organizer, you can create a form that must be filled out as part of the ticket purchase process. For example, to request the role in the company:
+As the event organizer, you can create a form that must be filled out as part of the ticket purchase process. For example, to request their role in the company:
 
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. On the sidebar menu, select **Questions**.
-1. Click the **Create Question** button.
-1. Introduce "Role in your organization" in the **Name** input.
+1. Click **Create Question**.
+1. Type "Role in your organization" in the **Name** input.
 
-   ![The form edition page](/img/screenshots/events/questions-edit.avif)
+   ![The form editing page](/img/screenshots/events/questions-edit.avif)
 
-1. Select "Select" in the **Type** drop-down, then enter "Manager,Engineer,Designer" in the **Options** input.
-1. When you are done, click **Save**
+1. Choose "Select" from the **Type** drop-down, then enter "Manager,Engineer,Designer" in the **Options** input.
+1. When you are done, click **Save**.
 
 The following fields are available:
 

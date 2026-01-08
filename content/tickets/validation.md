@@ -31,7 +31,7 @@ If you have Administrator permissions on the event, you can grant permissions to
 
    ![The list of events](/img/screenshots/validation/select-event.avif)
 
-1. Open the **Permissions History** menu item, and click the **+** button in the bottom right corner. Two options should be displayed: **Volunteer** and **Sponsor**.
+1. Open the **Permissions History** menu item, and click **+** in the bottom right corner. Two options should be displayed: **Volunteer** and **Sponsor**.
 
    ![The list of permissions](/img/screenshots/validation/add-permission.avif)
 
@@ -45,7 +45,7 @@ Once the permissions have been assigned, the user is ready to start scanning tic
 
 ## Scan tickets
 
-To scan tickets, click the **Scan Ticket** button and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.
+To scan tickets, click **Scan Ticket** and aim at the QR code with your mobile device. The app will make a distinctive sound and display the ticket information if the ticket is valid.
 
 Right after scanning a ticket, the app will display the basic information of the ticket holder: name, email, avatar and ticket class. Additionally, if the ticket is associated to any answers to [event questions]({{< ref "questions.md" >}}), they will be displayed as well. Users validated as sponsors will only see any answers to questions marked as "shared with third parties". The volunteers will additionally see answers to questions marked as "access control".
 
@@ -61,11 +61,11 @@ Tickets do not have to be printed to be recognized by the app, but you may need 
 
 If the user has "Volunteer" permissions, they can check the same ticket again to undo a scan. This is useful if the user accidentally scanned a ticket that was not supposed to be scanned.
 
-Tickets numbers can also be manually introduced in the app, in case the QR code is not readable. To do this, click the button with a keyboard. The app will display a keyboard to introduce the ticket number. The app will autocomplete ticket numbers for Volunteers, but Sponsors will need to introduce the full ticket number.
+Tickets can also be manually entered in the app, in case the QR code is not readable. To do this, click the button with a keyboard icon to enter the ticket number. The app autocompletes ticket numbers for volunteers, but sponsors will need to enter the complete ticket number.
 
 ## Download the activity history
 
-To download the list of tickets scanned by the current user or organization, you can select the **Tickets History** menu item. On this screen there is a button in the bottom right corner with two possible actions, **Scan a new ticket** or **Download the activity history**. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by e-mail, WhatsApp, uploaded to Google Drive, etc.
+To download the list of tickets scanned by the current user or organization, you can select the **Tickets History** menu item. On this screen, a button in the bottom right corner provides two options: **Scan a new ticket** or **Download the activity history**. After selecting the later, a CSV file will be generated and directed to the Android share menu, so it can be sent by e-mail, WhatsApp, uploaded to Google Drive, etc.
 
 ![The activity history](/img/screenshots/validation/activity-history.avif)
 
@@ -76,7 +76,7 @@ You can download the list of tickets sold from the web page:
 1. {{< login >}}
 1. {{< open-event-edition >}}
 1. On the sidebar menu, select **Tickets Sold**.
-1. Click the **Download as CSV** button.
+1. Click **Download as CSV**.
 1. Open the file with your preferred spreadsheet application selecting **Format CSV**, **Separator: commas** and **Encoding: UTF-8**.
 
 ![The list of tickets sold](/img/screenshots/tickets/download-tickets.avif)
