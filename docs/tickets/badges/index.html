@@ -381,12 +381,12 @@
 <h2 id="creating-badges">Creating Badges</h2>
 <p>The process for generating badges is the same for both speakers and attendees.</p>
 <p>Speaker badges are generated from <strong>Agenda &gt; Sessions</strong>, where you can select the speakers for whom you want to create badges. For example, to print badges for speakers already included in the agenda, filter for <strong>State: Published</strong> and click on the <strong>Print Badges</strong> button.</p>
-<p><img src="/img/screenshots/tickets/badges-session-filter.avif" alt="A screenshot of the session filter to print badges for published speakers"></p>
-<p>Attendee badges are generated from <strong>Tickets &gt; Tickets Sold</strong>. When you click <strong>Print Badges</strong> all sold tickets will be included in the generated badges. If a ticket purchase includes multiple tickets, you will get one badge for each ticket.</p>
+<p><img src="/img/screenshots/tickets/badges-session-filter.avif" alt="A screenshot of the session filter to print badges for speakers"></p>
+<p>Attendee badges are generated from <strong>Tickets &gt; Tickets Sold</strong>. When you click <strong>Print Badges</strong>, all sold tickets will be included in the generated badges. If a purchase includes multiple tickets, a badge will be generated for each ticket.</p>
 <h2 id="choosing-a-template">Choosing a template</h2>
-<p>When you click the <strong>Print Badges</strong> button, a dialog will appear allowing you to select a predefined badge template or upload your own.</p>
+<p>When you click <strong>Print Badges</strong>, a dialog will appear where you can select a predefined badge template or upload your own.</p>
 <p><img src="/img/screenshots/tickets/badges-print-dialog.avif" alt="A screenshot of the dialog to print badges"></p>
-<p>When you click <strong>Select Template</strong>, you will see a list of templates, each rendering a sample of the first badge. By clicking on one of the templates, you can preview how the badges will look. After reviewing the preview, click <strong>Print Badges</strong> to proceed with the badge generation.</p>
+<p>When you click <strong>Select Template</strong>, you will see a list of templates, each showing a sample of the first badge. Clicking on one of the templates allows you to preview how the badges will look. After reviewing the preview, click <strong>Print Badges</strong> to proceed with the badge generation.</p>
 <p><img src="/img/screenshots/tickets/badges-choose-template.avif" alt="The list of templates"></p>
 <p><img src="/img/screenshots/tickets/badges-print-preview.avif" alt="A screenshot of the badge template preview"></p>
 <p>If you want to make modifications to the template, click <strong>Download Template</strong> and follow the <a href="#designing-your-badge-template">instructions to design your badge template</a> below. Once you have your custom template ready, you can use it by clicking the <strong>Upload Template</strong> button in the dialog.</p>
@@ -396,12 +396,12 @@
 <li><strong>${avatar}</strong>: Profile image of the user.</li>
 <li><strong>${name}</strong>: User name.</li>
 <li><strong>${uuid}</strong>: UUID of the user.</li>
-<li><strong>${twitter}</strong>: User&rsquo;s X (formerly Twitter) account, if available.</li>
+<li><strong>${twitter}</strong>: User&rsquo;s X account (formerly Twitter), if available.</li>
 <li><strong>${session.title}</strong>: Title of the session for speakers, if applicable. If there is more than one session, only the first one will be used.</li>
 <li><strong>${session.qr}</strong>: QR code pointing at the published session in the agenda, if applicable. If there is more than one session, only the first one will be used.</li>
-<li><strong>${data[index]}</strong>: Custom data fields for the user, where <code>index</code> is the index of the field in the list of custom fields. For example, if you have a custom field for &ldquo;Company&rdquo; as the first field, you can use <code>${data[0]}</code> to include that information in the badge.</li>
+<li><strong>${data[index]}</strong>: Custom fields, where <code>index</code> is the index of the field in the list of custom fields. For example, if you have a custom field for &ldquo;Company&rdquo; as the first field, you can use <code>${data[0]}</code> to include that information in the badge.</li>
 </ul>
-<p>Check that your template includes any bleed margins or crop marks required for printing. For more details, consult with your printing partner.</p>
+<p>Ensure that your template includes bleed margins or crop marks required for printing, if applicable. For more details, consult with your printing partner.</p>
 
     </main>
   </div>
