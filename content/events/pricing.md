@@ -14,17 +14,20 @@ Whether you're organizing a small gathering or a large-scale conference, we offe
 
 <div class="scroller scroller-x">
 
-|                          | **Basic** | **Professional** | **Enterprise** | **Premium**                                  |
-| ------------------------ | --------- | ---------------- | -------------- | -------------------------------------------- |
-| Price                    | Free      | €50 per month    | €100 per month | [Get in contact](mailto:billing@koliseo.com) |
-| Active Events            | 1         | 1                | 5              | Unlimited                                    |
-| Max. Attendees per Event | 100       | 400              | 2000           | Unlimited                                    |
-| Max. Tracks per Agenda   | 2         | 5                | 8              | Unlimited                                    |
-| Submissions per C4P      | Unlimited | Unlimited        | Unlimited      | Unlimited                                    |
-| Selection Committee Size | Unlimited | Unlimited        | Unlimited      | Unlimited                                    |
-| Private Corporate Events | No        | Yes              | Yes            | Yes                                          |
-| Badges for Speakers      | No        | Yes              | Yes            | Yes                                          |
-| Badges for Attendees     | No        | No               | Yes            | Yes                                          |
+|                          | **Basic** | **Starter**   | **Professional** | **Enterprise**                               |
+| ------------------------ | --------- | ------------- | ---------------- | -------------------------------------------- |
+| Price                    | Free      | €50 per month | €100 per month   | [Get in contact](mailto:billing@koliseo.com) |
+| Active Events            | 1         | 1             | 5                | Unlimited                                    |
+| Max. Attendees per Event | 100       | 400           | 2000             | Unlimited                                    |
+| Max. Agendas per Event   | 1         | 2             | 5                | 10                                           |
+| Max. Tracks per Agenda   | 2         | 5             | 8                | Unlimited                                    |
+| Submissions per C4P      | 100       | 200           | 500              | 1000                                         |
+| Support                  | Forum     | Forum         | Email            | Email                                        |
+| Badges for Speakers      | No        | Yes           | Yes              | Yes                                          |
+| Badges for Attendees     | No        | No            | Yes              | Yes                                          |
+| Private Corporate Events | No        | No            | Yes              | Yes                                          |
+| Embedded Website         | No        | No            | Yes              | Yes                                          |
+| ML-generated highlights  | No        | No            | By request       | Auto                                         |
 
 </div>
 

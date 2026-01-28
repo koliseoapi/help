@@ -1,6 +1,6 @@
 // images have border by default
 .help-content-main img:not(.illustration) {
-  border: 1px solid #dedede;
+  border: 1px solid $image-border-color;
   background: #fafafa;
   padding: 1.2rem 1.3rem;
   image-rendering: -webkit-optimize-contrast;

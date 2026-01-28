@@ -1,8 +1,8 @@
 .help-content-main {
   & td,
   & th {
-    padding: .5rem .7rem;
-    border: 1px solid $border-color;
+    padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid $table-border-color;
     text-align: left;
     vertical-align: top;
   }
@@ -15,6 +15,4 @@
   & table {
     margin-bottom: 2rem;
   }
-  
 }
-
