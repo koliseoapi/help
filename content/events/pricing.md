@@ -17,8 +17,8 @@ Whether you're organizing a small gathering or a large-scale conference, we offe
 |                          | **Basic** | **Starter**   | **Professional** | **Enterprise**                               |
 | ------------------------ | --------- | ------------- | ---------------- | -------------------------------------------- |
 | Price                    | Free      | €50 per month | €100 per month   | [Get in contact](mailto:billing@koliseo.com) |
-| Active Events            | 1         | 1             | 5                | Unlimited                                    |
-| Max. Attendees per Event | 100       | 400           | 2000             | Unlimited                                    |
+| Active Events            | 1         | 1             | 5                | 15                                           |
+| Max. Attendees per Event | 100       | 400           | 2000             | 4000                                         |
 | Max. Agendas per Event   | 1         | 2             | 5                | 10                                           |
 | Max. Tracks per Agenda   | 2         | 5             | 8                | Unlimited                                    |
 | Submissions per C4P      | 100       | 200           | 500              | 1000                                         |
