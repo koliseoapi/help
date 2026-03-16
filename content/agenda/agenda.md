@@ -90,8 +90,10 @@ Koliseo supports automatic **recording highlights**, which are bookmarks of the 
 
 You can embed the agenda on your own website by using an iframe. To see an example, visit [the web integration demo](https://github.com/koliseoapi/web-integration-demo). Be aware of the following limitations:
 
-- The embedded agenda will not support deep linking (links to specific sessions).
 - The headers of columns and rows will not be sticky.
+- Any features requiring login will not be available, such as bookmarking sessions or leaving feedback.
+
+Deep linking to specific sessions and filtering by session contents are both supported. Keep in mind that both features may change the URL in the containing website, by adding the GET parameters required by these features.
 
 In order to embed the agenda, you must configure your website domain as an **Authorized Domain** in the event settings.
 
