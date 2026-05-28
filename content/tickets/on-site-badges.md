@@ -69,7 +69,7 @@ Prints a line or block of text on the label.
 - **X** / **Y**: The position of the top-left corner of the element, in millimetres from the top-left corner of the label.
 - **Width**: The maximum width of the text block in millimetres.
 - **Font size**: Text height in millimetres.
-- **Line height**: Lines height in millimetres. Is must be a value greater or equal to the font size.
+- **Line height**: Line height in millimetres. Is must be a value greater or equal to the font size.
 - **Font weight**: `Normal` or `Bold`.
 - **Max lines**: The maximum number of lines before the text is truncated.
 - **Horizontal align**: `Left` or `Right`.
