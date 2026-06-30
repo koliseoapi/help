@@ -8,7 +8,7 @@ menu:
     parent: tickets
 ---
 
-On-site badges let you design and print attendee labels directly at your event using any ZPL-compatible thermal label printer (such as Zebra printers). Unlike [pre-print badges]({{< ref "badges.md" >}}), which are HTML-based and intended to be prepared in advance, on-site badges use [ZPL (Zebra Programming Language)](https://www.zebra.com/us/en/support-downloads/knowledge-articles/zpl-zbi2-pm-an-gc-programming-guide.html) and are designed to be printed on demand during the event itself.
+On-site badges let you design and print attendee labels directly at your event using any ZPL-compatible thermal label printer (such as Zebra printers). Unlike [pre-print badges]({{< ref "badges.md" >}}), which are HTML-based and intended to be prepared in advance, on-site badges use [ZPL (Zebra Programming Language)](https://docs.zebra.com/us/en/printers/software/zpl-pg/zpl-ii,-zbi-2,-set-get-do,-mirror,-wml-programming-guide.html) and are designed to be printed on demand during the event itself.
 
 This guide explains how to create and manage label templates and print badges using the [Koliseo Access Control app](https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol).
 
