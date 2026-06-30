@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
-    <title>Discounts - Koliseo Help Center</title>
+    <title>On-Site Badges - Koliseo Help Center</title>
   </head>
   <body>
     <a href="#main" class="screen-reader-only">Skip to content</a>
@@ -202,7 +202,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 " 
+              class="sidebar-nav-a2 selected" 
               href="/tickets/on-site-badges/"
             > 
               On-Site Badges 
@@ -211,7 +211,7 @@
         
           <li class="sidebar-nav-li2">
             <a 
-              class="sidebar-nav-a2 selected" 
+              class="sidebar-nav-a2 " 
               href="/tickets/discounts/"
             > 
               Discounts 
@@ -350,9 +350,18 @@
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#create-discounts">Create discounts</a></li>
-    <li><a href="#use-discount">Use discount</a></li>
-    <li><a href="#send-discount-codes">Send discount codes</a></li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#navigating-to-on-site-badges">Navigating to On-Site Badges</a></li>
+    <li><a href="#creating-a-template">Creating a Template</a></li>
+    <li><a href="#editing-a-template">Editing a Template</a>
+      <ul>
+        <li><a href="#template-settings">Template Settings</a></li>
+        <li><a href="#elements">Elements</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-placeholders">Data Placeholders</a></li>
+    <li><a href="#live-preview">Live Preview</a></li>
+    <li><a href="#printing-from-the-access-control-app">Printing from the Access Control App</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
@@ -369,93 +378,141 @@
     </li>
   </ul>
 </nav>
-      <h1>Discounts</h1>
+      <h1>On-Site Badges</h1>
       <aside class="toc">
   <div class="toc-contents">
     <h4>Page Contents</h4>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#create-discounts">Create discounts</a></li>
-    <li><a href="#use-discount">Use discount</a></li>
-    <li><a href="#send-discount-codes">Send discount codes</a></li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#navigating-to-on-site-badges">Navigating to On-Site Badges</a></li>
+    <li><a href="#creating-a-template">Creating a Template</a></li>
+    <li><a href="#editing-a-template">Editing a Template</a>
+      <ul>
+        <li><a href="#template-settings">Template Settings</a></li>
+        <li><a href="#elements">Elements</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-placeholders">Data Placeholders</a></li>
+    <li><a href="#live-preview">Live Preview</a></li>
+    <li><a href="#printing-from-the-access-control-app">Printing from the Access Control App</a></li>
     <li><a href="#whats-next">What&rsquo;s next</a></li>
   </ul>
 </nav>
   </div>
 </aside>
-      <p>You can use discounts to offer special prices to early birds, sponsors, presenters, or any other group of people. Discounts can be applied to all ticket classes or to a specific ticket class.</p>
-<p>This page explains how to create discount codes that can be applied to ticket purchases.</p>
-<h2 id="create-discounts">Create discounts</h2>
-<p>To create a discount code:</p>
+      <p>On-site badges let you design and print attendee labels directly at your event using any ZPL-compatible thermal label printer (such as Zebra printers). Unlike <a href="/tickets/badges/">pre-print badges</a>, which are HTML-based and intended to be prepared in advance, on-site badges use <a href="https://docs.zebra.com/us/en/printers/software/zpl-pg/zpl-ii,-zbi-2,-set-get-do,-mirror,-wml-programming-guide.html">ZPL (Zebra Programming Language)</a> and are designed to be printed on demand during the event itself.</p>
+<p>This guide explains how to create and manage label templates and print badges using the <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control app</a>.</p>
+<h2 id="requirements">Requirements</h2>
+<p>To use on-site badges, your account must have a subscription that includes this feature. You can review the features of the different subscription plans on the <a href="/events/pricing/">pricing and plans page</a>.</p>
+<p>You can design and preview label templates on any plan, but printing from the Access Control app requires a qualifying subscription.</p>
+<p>You will also need a ZPL-compatible thermal label printer reachable from the Android device running the Access Control app over the local network. The app communicates with the printer via a network socket, so the printer must be connected to the same Wi-Fi or wired LAN as the device — a direct USB connection is not supported.</p>
+<h2 id="navigating-to-on-site-badges">Navigating to On-Site Badges</h2>
+<ol>
+<li><a href="https://koliseo.com/login">Log into the system</a>.</li>
+<li>In the sidebar menu of your event, select <strong>Tickets &gt; Badges</strong>.</li>
+<li>Click the <strong>On-Site Badges</strong> tab (next to <strong>Pre-print Badges</strong>).</li>
+</ol>
+<p><img src="/img/screenshots/tickets/on-site-badges-tabs.avif" alt="The On-Site Badges tab inside the Badges section"></p>
+<h2 id="creating-a-template">Creating a Template</h2>
+<p>On-site badge templates are stored per event. You can create up to 20 templates per event. To create your first template:</p>
 <ol>
 <li>
-<a href="https://koliseo.com/login" target="_blank">Log into the system</a>
-
+<p>Click <strong>Create Label Template</strong>.</p>
 </li>
 <li>
-In the sidebar menu, select <b>Events</b> and click on the name of your event to
-open the event management page.
-
+<p>A dialog will appear with a list of predefined templates to start from. Select one that best matches the label size of your printer.</p>
+<p><img src="/img/screenshots/tickets/on-site-badges-predefined-templates.avif" alt="The predefined template picker dialog"></p>
 </li>
 <li>
-<p>On the sidebar menu, select <strong>Tickets &gt; Discounts</strong> and click <strong>Create Discount</strong>.</p>
+<p>You can adjust the <strong>Width</strong> and <strong>Height</strong> fields to match the exact dimensions of your label stock. Positions and sizes of all elements will be scaled proportionally when you change the dimensions.</p>
+<blockquote>
+<p><strong>Note:</strong> Proportional scaling is a best-effort starting point. After changing dimensions you will likely need to fine-tune individual element values manually. QR code magnification is particularly sensitive to label size — the correct value depends on the printer resolution and the physical space available, so it is worth reviewing it carefully in the <a href="#live-preview">live preview</a> after any resize.</p>
+</blockquote>
 </li>
 <li>
-<p>Fill the fields in the form and click <strong>Save</strong>.</p>
-<p><img src="/img/screenshots/discounts/discount-create.avif" alt="A screenshot of the discount editing page"></p>
+<p>Click <strong>Create</strong> to add the template to your event and open the template editor.</p>
 </li>
 </ol>
-<p>The following fields are available:</p>
+<p>Once a template is created you can clone it using the <strong>Clone</strong> option to create variations without starting from scratch.</p>
+<h2 id="editing-a-template">Editing a Template</h2>
+<p>Selecting a template from the list opens the editor. The editor is split into two areas: the <strong>template settings</strong> and the <strong>elements list</strong>.</p>
+<p><img src="/img/screenshots/tickets/on-site-badges-editor.avif" alt="The label template editor"></p>
+<h3 id="template-settings">Template Settings</h3>
 <ul>
-<li><strong>Name</strong>: The code that must be entered during the ticket purchase to apply the discount.</li>
-<li><strong>Maximum redemptions</strong>: The total number of times that this discount can be used. Set to &ldquo;1&rdquo; for single-use discount codes.</li>
-<li><strong>Type</strong>: The type of discount. You can choose between:
-<ul>
-<li><strong>Percentage</strong>: The discount will be applied as a percentage of the ticket price.</li>
-<li><strong>Per ticket</strong>: The discount will be applied as a fixed amount per ticket.</li>
+<li><strong>Name</strong>: An internal label to identify this template.</li>
+<li><strong>Width</strong> / <strong>Height</strong>: The physical size of the label in millimetres.</li>
+<li><strong>Dots per mm</strong> (dpmm): The resolution of your printer. Common values are <code>8</code> (203 dpi) and <code>12</code> (300 dpi). Check your printer&rsquo;s documentation for the correct value.</li>
 </ul>
+<h3 id="elements">Elements</h3>
+<p>Each template is made up of one or more elements. Three element types are available:</p>
+<h4 id="text">Text</h4>
+<p>Prints a line or block of text on the label.</p>
+<ul>
+<li><strong>Content</strong>: The text to display. You can include <a href="#data-placeholders">data placeholders</a> such as <code>${name}</code>.</li>
+<li><strong>X</strong> / <strong>Y</strong>: The position of the top-left corner of the element, in millimetres from the top-left corner of the label.</li>
+<li><strong>Width</strong>: The maximum width of the text block in millimetres.</li>
+<li><strong>Font size</strong>: Text height in millimetres.</li>
+<li><strong>Line height</strong>: Line height in millimetres. Is must be a value greater or equal to the font size.</li>
+<li><strong>Font weight</strong>: <code>Normal</code> or <code>Bold</code>.</li>
+<li><strong>Max lines</strong>: The maximum number of lines before the text is truncated.</li>
+<li><strong>Horizontal align</strong>: <code>Left</code> or <code>Right</code>.</li>
+</ul>
+<h4 id="qr-code">QR Code</h4>
+<p>Prints a QR code on the label. The QR code can encode any text or URL — it is not limited to ticket validation. If you want the QR to be scannable by the Access Control app, the data key must include <code>${ticket.id}</code>. You may also encode a JSON object.</p>
+<ul>
+<li><strong>Data key</strong>: The content encoded in the QR code. You can include <a href="#data-placeholders">data placeholders</a> or any other value, such as a URL or plain text, if ticket validation is not required.</li>
+<li><strong>X</strong> / <strong>Y</strong>: Position of the QR code in millimetres.</li>
+<li><strong>Width</strong>: Size of the QR code in millimetres.</li>
+<li><strong>Magnification</strong>: The dot scale factor used by the ZPL renderer. Higher values produce a larger QR code for the same width.</li>
+</ul>
+<h4 id="line">Line</h4>
+<p>Prints a horizontal rule to separate sections of the label.</p>
+<ul>
+<li><strong>X</strong> / <strong>Y</strong>: Starting position in millimetres.</li>
+<li><strong>Width</strong>: Length of the line in millimetres.</li>
+<li><strong>Thickness</strong>: Line thickness in millimetres.</li>
+</ul>
+<h2 id="data-placeholders">Data Placeholders</h2>
+<p>Both text and QR code elements support dynamic placeholders that are replaced with attendee data at print time. The following placeholders are available:</p>
+<ul>
+<li>
+<p><strong><code>${name}</code></strong>: The attendee&rsquo;s full name on Koliseo.</p>
 </li>
-<li><strong>Amount per ticket</strong>: If type is &ldquo;Per Ticket&rdquo;, the amount to be discounted per ticket in the currency of the event.</li>
-<li><strong>Percentage</strong>: If type is &ldquo;Percentage&rdquo;, the percentage to be discounted as a number between 0 and 100.</li>
-<li><strong>Available during a date interval</strong>: If set, the discount will be available only during this period of time.</li>
-<li><strong>Available for specific ticket classes</strong>: If set, the discount will be available only for the selected ticket classes.</li>
+<li>
+<p><strong><code>${uuid}</code></strong>: The attendee&rsquo;s username on Koliseo.</p>
+</li>
+<li>
+<p><strong><code>${ticket.id}</code></strong>: The unique identifier of the ticket. Include this in a QR code&rsquo;s data key if you want the Access Control app to be able to scan and validate that badge.</p>
+</li>
+<li>
+<p><strong><code>${twitter}</code></strong>: The attendee&rsquo;s X account (formerly Twitter), if they have provided one.</p>
+</li>
+<li>
+<p><strong><code>${data[index]}</code></strong>: Answers to <a href="/tickets/questions/">event questions</a>, where <code>index</code> corresponds to the order of the question in the event settings. For example, <code>${data[0]}</code> returns the answer to the first custom question.</p>
+<blockquote>
+<p><strong>Note:</strong> The placeholder only renders a value if the Access Control app has permission to see that answer. This is controlled by the answer visibility setting configured on each question.</p>
+</blockquote>
+</li>
 </ul>
-<h2 id="use-discount">Use discount</h2>
-<p>Once the discount has been saved, it can be used during a ticket purchase. To use a discount code:</p>
+<p>Any placeholder that has no data for a given attendee is replaced with an empty string.</p>
+<h2 id="live-preview">Live Preview</h2>
+<p>After saving a template, a live preview is rendered, so you can evaluate the layout without needing a physical printer.</p>
+<p>The preview updates automatically a short time after each save. If the preview is empty, verify that your template settings (especially <strong>Dots per mm</strong>, <strong>Width</strong>, and <strong>Height</strong>) are correct.</p>
+<p><img src="/img/screenshots/tickets/on-site-badges-preview.avif" alt="A live preview of the rendered label"></p>
+<h2 id="printing-from-the-access-control-app">Printing from the Access Control App</h2>
+<p>Once your templates are set up, badges can be printed directly from the <a href="https://play.google.com/store/apps/details?id=com.koliseo.accesscontrol">Koliseo Access Control app for Android</a> during the event:</p>
 <ol>
-<li>
-<p>Navigate to the ticket purchase page.</p>
-</li>
-<li>
-<p>Enter the number of tickets that you want to purchase. The page should display the amount to pay under the <strong>Total</strong> section.</p>
-<p><img src="/img/screenshots/discounts/discounts-use-before.avif" alt="Discount usage screenshot"></p>
-</li>
-<li>
-<p>Click <strong>Enter discount code</strong>.</p>
-</li>
-<li>
-<p>Enter the discount code in the input field that appears. Once introduced, the code is validated automatically.</p>
-</li>
-<li>
-<p>Once the validation passes, the page subtracts the discount from the amount to pay.</p>
-<p><img src="/img/screenshots/discounts/discounts-use-after.avif" alt="The same page after using the discount"></p>
-</li>
-<li>
-<p>To complete the ticket purchase, click <strong>Get tickets</strong>.</p>
-</li>
+<li>Open the Access Control app and select the event.</li>
+<li>When you scan or look up a ticket, an option to <strong>Print Badge</strong> will appear.</li>
+<li>Select the label template to use, and the badge will be sent to the connected ZPL printer.</li>
 </ol>
-<p>The discount is applied before including <a href="/events/pricing/#fee">our service fee</a>. If the total value after using the discount is less or equal to zero then the ticket is considered free, and the service fee is waived.</p>
-<h2 id="send-discount-codes">Send discount codes</h2>
-<p>In the discount list, you can click on the <strong>Send</strong> button next to a discount to send it to a list of e-mail addresses. The discount code will be sent to each e-mail address, along with a link to the ticket purchase page that will automatically apply the discount.</p>
-<p><img src="/img/screenshots/tickets/discount-send.avif" alt="The send discount button"></p>
-<p><img src="/img/screenshots/tickets/discount-send-2.avif" alt="The send discount button"></p>
-<p>You can send the same discount to up to 20 e-mail addresses.</p>
+<p>For information on setting up the app and assigning permissions to volunteers, see the <a href="/tickets/validation/">Ticket validation</a> page.</p>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <ul>
-<li><a href="/tickets/ticket-classes/">Configure ticket classes</a></li>
-<li><a href="/tickets/sales/">Start ticket sales</a></li>
-<li><a href="/tickets/questions/">Collect information with forms</a></li>
-<li><a href="/tickets/invoices/">Configure automatic invoices</a></li>
+<li><a href="/tickets/validation/">Configure ticket validation with the Access Control app</a></li>
+<li><a href="/tickets/badges/">Print pre-designed HTML badges before the event</a></li>
+<li><a href="/tickets/questions/">Ask attendees for additional information with event questions</a></li>
 </ul>
 
     </main>
